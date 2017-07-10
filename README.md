@@ -4,7 +4,7 @@ This repository is a resource to create Google-indexed static web pages for all 
 
 ## Resource: Content.xml
 
-
+This XML file contains the downloaded metadata in ISO 19115 for all records available to McMaster University users, provided by Scholars GeoPortal. [This is the URL to these records.](http://geo2.scholarsportal.info/proxy.html?http:__giseditor.scholarsportal.info/search/index.html?limit=entitled&env=production&q=*&i=830&fm=xml)
 
 ## Tool: Harvester.py
 
