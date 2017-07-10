@@ -14,6 +14,6 @@ Using Python 3.5, content from Scholars GeoPortal in XML file format is parsed a
 
 This CSV file is the output file containing selected metadata for each record in the GeoPortal made available to McMaster users. 
 
-_Find the complete project workflow in the Google Doc [here.](https://docs.google.com/a/mcmaster.ca/document/d/1dbZg2W9OVB27Uw5pu6To6OITzRWoG32yiSrOISzLGlk/edit?usp=sharing)_
+### _Find the complete project workflow in the Google Doc [here.](https://docs.google.com/a/mcmaster.ca/document/d/1dbZg2W9OVB27Uw5pu6To6OITzRWoG32yiSrOISzLGlk/edit?usp=sharing)_
 
 
