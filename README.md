@@ -4,11 +4,11 @@ This repository is a resource to create Google-indexed static web pages for all 
 
 ## Resource: Content.xml
 
-This XML file contains the downloaded metadata in ISO 19115 for all records available to McMaster University users, provided by Scholars GeoPortal. Information from this file is parsed and selected to be included in a condensed file. To view the document tree for this XML file, copy and paste the following link in your browser while connected to a McMaster Wi-Fi network: http://geo2.scholarsportal.info/proxy.html?http:__giseditor.scholarsportal.info/search/index.html?limit=entitled&env=production&q=*&i=830&fm=xml
+This XML file contains the downloaded metadata in ISO 19115 for all records available to McMaster University users, provided by Scholars GeoPortal. Information from this file is parsed and selected to be included in a condensed file. To view the document tree for this XML file, copy and paste the following link in your browser while connected to a McMaster Wi-Fi network: http://geo2.scholarsportal.info/proxy.html?http:__giseditor.scholarsportal.info/search/index.html?limit=entitled&env=production&q=*&i=1000&fm=xml
 
 ## Resource: Content-Public.xml
 
-This XML file contains the downloaded metadata in ISO 19115 for all records available to the public, provided by Scholars GeoPortal. The identifiers of each open item from this file are parsed and used within Harvester.py to distinguish the users with view permission for each item. To view the document tree for this XML file, copy and paste the following link in your browser while connected to a Wi-Fi network off-campus: http://geo2.scholarsportal.info/proxy.html?http:__giseditor.scholarsportal.info/search/index.html?limit=entitled&env=production&q=*&i=83&fm=xml
+This XML file contains the downloaded metadata in ISO 19115 for all records available to the public, provided by Scholars GeoPortal. The identifiers of each open item from this file are parsed and used within Harvester.py to distinguish the users with view permission for each item. To view the document tree for this XML file, copy and paste the following link in your browser while connected to a Wi-Fi network off-campus: http://geo2.scholarsportal.info/proxy.html?http:__giseditor.scholarsportal.info/search/index.html?limit=entitled&env=production&q=*&i=100&fm=xml
 
 ## Tool: Harvester.py
 
