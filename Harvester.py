@@ -1,10 +1,12 @@
 # THIS PYTHON SCRIPT PARSES THROUGH AN XML DOCUMENT INPUT OF ITEMS IN THE SCHOLARS GEOPORTAL AND RETURNS A CSV FILE
 # CONTAINING SELECTED METADATA. THIS CSV FILE IS LATER USED TO POPULATE STATIC WEBPAGES TO BE GOOGLE INDEXED, MAKING
 # THE GEOPORTAL ITEMS MORE DISCOVERABLE. THE SELECTED METADATA INCLUDE THE FIELDS: IDENTIFIER, TITLE, PRODUCER,
-# ABSTRACT, PUBLICATION YEARS, GEOPORTAL PERMALINK, AND LINK TO THE ITEM'S THUMBNAIL IMAGE.
+# ABSTRACT, PUBLICATION YEARS, GEOPORTAL PERMALINK, LINK TO THE ITEM'S THUMBNAIL IMAGE, AVAILABLE FORMATS, AND USERS
+# WITH VIEW PERMISSION TO EACH ITEM.
 
-# Note: - Currently, the script works only with Python 3, due to version-unique libraries and commands.
-#       - The xml.etree.ElementTree module implements an API for parsing XML data.
+# Note: - Currently, the script works only with Python 3.5.2 or newer, due to version-unique libraries and commands.
+#       - The xml.etree.ElementTree module implements an API for parsing XML data. Its documentation may be found at
+#         https://docs.python.org/3/library/xml.etree.elementtree.html.
 
 import sys
 import csv
@@ -16,6 +18,17 @@ import xml.etree.ElementTree as ET
 # the total list of results provided by the XML document.
 xmldata = ET.parse('Content.xml')
 response = xmldata.getroot()
+
+# IMPORTING XML DATA BY READING FROM Content-Public.xml.
+xmldatapublic = ET.parse('Content-Public.xml')
+responsepublic = xmldatapublic.getroot()
+
+# DETERMINING PUBLICLY AVAILABLE ITEMS.
+publicids = []
+
+for result in responsepublic.findall('result'):
+    
+    publicids.append(result.find('id').text)
 
 # WRITING THE DESIRED FIELDS OF METADATA TO Harvested.csv.
 
@@ -62,10 +75,22 @@ for result in response.findall('result'):
 
     # Creating each item's permalink.
     permalink = "http://geo.scholarsportal.info/#r/details/_uri@=" + result.find('id').text
+    formats = "Various geospatial formats available."
 
+    # Obtaining information on users with view permission for each item.
+    if result.find('id').text in publicids:
+
+        permission = "Open to the public."
+
+    else:
+
+        permission = "Available to McMaster Staff, Faculty, and Students. Login required for off-campus access."
+        
     line.append(publicationrange)               # Appending the range of publication years.
     line.append(permalink)                      # Appending the permalink.
     line.append(result.find('thumbnail').text)  # Appending the thumbnail link.
+    line.append(formats)                        # Appending the format information.
+    line.append(permission)                     # Appending the users with view permission.
 
     # Writing the row of metadata for each item into the CSV file.
     writer.writerow(line)
