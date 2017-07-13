@@ -14,28 +14,20 @@ import xml.etree.ElementTree as ET
 
 # IMPORTING THE XML DATA BY READING FROM Content.xml.
 
-# Here, .getroot() obtains the top element of the XML file. In this case, the top element is reponse, which contains
-# the total list of results provided by the XML document.
+# Here, .getroot() obtains the top element of the XML file. In this case, the top element is response, which
+# contains the total list of results provided by the XML document.
 xmldata = ET.parse('Content.xml')
 response = xmldata.getroot()
 
-# IMPORTING XML DATA BY READING FROM Content-Public.xml.
-xmldatapublic = ET.parse('Content-Public.xml')
-responsepublic = xmldatapublic.getroot()
-
 # DETERMINING PUBLICLY AVAILABLE ITEMS.
 publicids = []
-
-for result in responsepublic.findall('result'):
-    
-    publicids.append(result.find('id').text)
 
 # WRITING THE DESIRED FIELDS OF METADATA TO Harvested.csv.
 
 # Opening the output file the condensed metadata will be written and appended to, then defining a writer object
 # responsible for converting the input data into delimited strings for the output file.
-outfile = open('Harvested.csv', 'wt')
-outfile = open('Harvested.csv', 'a')
+outfile = open('Harvest.csv', 'wt')
+outfile = open('Harvest.csv', 'a')
 writer = csv.writer(outfile, dialect = 'excel', lineterminator = '\n')
 
 # Writing desired metadata from the XML file to the output file.
@@ -78,7 +70,12 @@ for result in response.findall('result'):
     formats = "Various geospatial formats available."
 
     # Obtaining information on users with view permission for each item.
-    if result.find('id').text in publicids:
+    # Currently, Scholars GeoPortal has noted that all items within the OpenContent and DLI collections are open.
+    if result.find('collections').text == "OpenContent":
+
+        permission = "Open to the public."
+
+    elif result.find('collections').text == "DLI":
 
         permission = "Open to the public."
 
