@@ -10,7 +10,22 @@
 
 import sys
 import csv
+from urllib import request
 import xml.etree.ElementTree as ET
+
+# DOWNLOADING THE XML FILE FROM SCHOLAR GEOPORTAL'S URL TO USER ACCESSIBLE CONTENT.
+
+# Defining the URL to user accessible content as provided by Scholars GeoPortal.
+URL = "http://geo2.scholarsportal.info/proxy.html?http:__giseditor.scholarsportal.info/search/index.html?limit=entitled&env=production&q=*&i=1000&fm=xml"
+
+# Creating a function that retrieves the content from the URL above.
+def get(URL):
+    with request.urlopen(URL) as content:
+        return content.read()
+
+# Downloading the XML document into C:\Home\GeoPortal.
+with open ('Content.xml', 'wb') as xmlfile:
+    xmlfile.write(get(URL))
 
 # IMPORTING THE XML DATA BY READING FROM Content.xml.
 

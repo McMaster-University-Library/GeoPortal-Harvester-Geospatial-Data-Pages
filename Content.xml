@@ -14,7 +14,7 @@
       </cts:element-range-query>
       <cts:element-range-query operator="&lt;">
 	<cts:element xmlns:_1="http://scholarsportal.info">_1:publish-date</cts:element>
-	<cts:value xsi:type="xs:date" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2017-07-13-04:00</cts:value>
+	<cts:value xsi:type="xs:date" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2017-07-14-04:00</cts:value>
       </cts:element-range-query>
       <cts:collection-query>
 	<cts:uri>PRODUCTION</cts:uri>
