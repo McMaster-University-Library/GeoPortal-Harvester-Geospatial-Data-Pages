@@ -6,6 +6,11 @@ This repository is a resource to create Google-indexed static web pages for all 
 
 This XML file contains the downloaded metadata in ISO 19115 for all records available to McMaster University users, provided by Scholars GeoPortal. Information from this file is parsed and selected to be included in a condensed file. To view the document tree for this XML file, copy and paste the following link in your browser while connected to a McMaster Wi-Fi network: http://geo2.scholarsportal.info/proxy.html?http:__giseditor.scholarsportal.info/search/index.html?limit=entitled&env=production&q=*&i=1000&fm=xml
 
+## Resource: Content-Public.xml
+
+This XML file contains the downloaded metadata in ISO 19115 for all records available to the public, provided by Scholars GeoPortal. This document may serve as a check to view the list of items available to the public. To view the document tree for this XML file, copy and paste the following link in your browser while connected to a Wi-Fi network off-campus: 
+http://geo2.scholarsportal.info/proxy.html?http:__giseditor.scholarsportal.info/search/index.html?limit=entitled&env=production&q=*&i=100&fm=xml
+
 ## Tool: Harvester.py
 
 Using Python 3.5, content from Scholars GeoPortal in XML file format is parsed and selected data fields are written to an output CSV file. These fields currently include for each item in the GeoPortal, its identifier, title, producer, abstract, range of years of available publications, GeoPortal permalink, a link to the item's thumbnail image, available formats, and users with view permission to each item.
