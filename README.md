@@ -14,7 +14,7 @@ http://geo2.scholarsportal.info/proxy.html?http:__giseditor.scholarsportal.info/
 
 ## Tool: Harvester.py
 
-Using Python 3.5, content from Scholars GeoPortal in XML file format is parsed and selected data fields are written to an output CSV file. These fields currently include for each item in the GeoPortal, its identifier, title, producer, abstract, range of years of available publications, GeoPortal permalink, a link to the item's thumbnail image, available formats, and users with view permission to each item.
+Using Python 3.5, content from Scholars GeoPortal in XML file format is parsed and selected data fields are written to an output CSV file. The script automatically downloads this content in XML format using a provided link. These selected data fields currently include for each item in the GeoPortal, its identifier, title, producer, abstract, range of years of available publications, GeoPortal permalink, a link to the item's thumbnail image, available formats, and users with view permission to each item.
 
 ## Resource: Harvest.csv
 

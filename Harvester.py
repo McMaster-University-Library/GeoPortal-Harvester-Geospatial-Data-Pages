@@ -54,11 +54,11 @@ for result in response.findall('result'):
     line.append(result.find('producer').text)   # Appending the producer.
     line.append(result.find('abstract').text)   # Appending the abstract.
 
-    # Obtaining the earliest publication date available.
+    # Obtaining the earliest publication year available.
     earliestdate = result[7][0].text
     earliestyear = earliestdate[:4]
 
-    # Obtaining the most recent publication date available.
+    # Obtaining the most recent publication year available.
     # Capturing the instance where result[8] is 'revision-date'.
     if result[8].text is not None:
         
