@@ -1,6 +1,6 @@
 # Scholars GeoPortal Content Harvesting
 
-This repository is a resource to create Google-indexed static web pages for all data layers that are available to McMaster users in the Scholars GeoPortal, to improve discoverability.
+**This repository is a resource to create Google-indexed static web pages for all data layers that are available to McMaster users in the Scholars GeoPortal, to improve discoverability.**
 
 ## Resource: Content.xml
 
