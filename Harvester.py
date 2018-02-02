@@ -10,8 +10,10 @@
 
 import sys
 import csv
+import shutil
 from urllib import request
 import xml.etree.ElementTree as ET
+import datetime
 
 # DOWNLOADING THE XML FILE FROM SCHOLAR GEOPORTAL'S URL TO USER ACCESSIBLE CONTENT.
 
@@ -41,8 +43,8 @@ publicids = []
 
 # Opening the output file the condensed metadata will be written and appended to, then defining a writer object
 # responsible for converting the input data into delimited strings for the output file.
-outfile = open('Harvest.csv', 'wt')
-outfile = open('Harvest.csv', 'a')
+outfile = open('SGP_Extract.csv', 'wt')
+outfile = open('SGP_Extract.csv', 'a')
 writer = csv.writer(outfile, dialect = 'excel', lineterminator = '\n')
 
 # Writing desired metadata from the XML file to the output file.
@@ -55,23 +57,25 @@ for result in response.findall('result'):
     line.append(result.find('abstract').text)   # Appending the abstract.
 
     # Obtaining the earliest publication year available.
-    earliestdate = result[7][0].text
+    earliestdate = result[10][0].text
     earliestyear = earliestdate[:4]
 
+    print (result[11][0].text)
+
     # Obtaining the most recent publication year available.
-    # Capturing the instance where result[8] is 'revision-date'.
-    if result[8].text is not None:
+    # Capturing the instance where result[11] is 'revision-date'.
+    if result[11].text is not None:
         
-        latestdate = result[8].text
+        latestdate = result[11][0].text
         latestyear = latestdate[:4]
 
-    # Capturing the instance where result[8][0] is 'date', within 'publish-date'.
-    elif len(result[8][0].text) == 10:
+    # Capturing the instance where result[11][0] is 'date', within 'publish-date'.
+    elif len(result[11][0].text) == result[10].text:
         
-        latestdate = result[8][0].text
+        latestdate = result[11][0].text
         latestyear = latestdate[:4]
 
-    # Capturing the instance where result[8][0] is 'boundingbox'.
+    # Capturing the instance where result[11][0] is 'boundingbox'.
     # In this case, there is only one publication, and one publication date.
     else:
         
@@ -110,3 +114,5 @@ for result in response.findall('result'):
 outfile.close()
 
 print ("Success. Your harvested metadata has been written to", outfile.name)
+shutil.copyfile(outfile.name, 'SGP_Extract_' + datetime.datetime.today().strftime('%Y%m%d') + '.csv')
+
