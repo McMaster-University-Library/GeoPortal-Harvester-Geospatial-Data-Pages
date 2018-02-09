@@ -49,9 +49,17 @@ with open(filepath.strip('\\') + '\\' + filename2, 'r') as lookupfile:
     reader2 = csv.reader(lookupfile, delimiter = ",")
     # Placing extracted Scholars Geoportal records as rows in a list.
     for row in reader2:
-        extracted.append(row)
-        # Appending the items' SGP ID to the SGPIDs list.
-        extractedSGPIDs.append(str(row[0]))
+
+        # Skipping the first (header) line.
+        if str(row[0]) == 'SGP_id':
+            pass
+
+        # Placing contents of the SGP_Extract CSV file as rows in a list.
+        else:
+            extracted.append(row)
+            
+            # Appending latest extracted items' SGP ID to the SGPIDs list.
+            extractedSGPIDs.append(str(row[0]))
 
 # UPDATING THE MASTER LIST WITH THE LATEST EXTRACTED SCHOLARS GEOPORTAL DATA.
 
@@ -62,8 +70,8 @@ writer = csv.writer(outfile, dialect = 'excel', lineterminator = '\n')
 
 # Writing the header line of the Master list.
 writer.writerow(['Nid', 'Title', 'Year', 'Author', 'Format', 'Who Can Use This Data', 'URL', 'Abstract', 'Metadata',
-                 'How to Cite This', 'Scholars Geoportal URL', 'Scholars Geoportal URL','To Delete',
-                 'Geospatial Availability', 'Geospatial Subjects New', 'Geospatial Geography', 'Filepath',
+                 'How to Cite This', 'Scholars Geoportal URL','To Delete',
+                 'Geospatial Availability', 'Geospatial Subjects New', 'Geospatial Geography', 'Geospatial Formats', 'Filepath',
                  'field_geospatial_image_alt', 'field_geospatial_image_title', 'SGP_id'])
 
 for item in master:
@@ -81,16 +89,22 @@ for item in master:
 
         # Capturing the instance where an existing SGP IDs is listed within the latest SGP data extract.
         if str(item[19]) == str(extract[0]):
-            
+
+            item = ['', '', '', '', '', '','', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+            item[19] = extract[0]     # Writing the SGP ID.
             item[1] = extract[1]      # Overwriting the title.
-            item[2] = extract[4]      # Overwriting the year.
+            item[2] = extract[7]      # Overwriting the year.
             item[3] = extract[2]      # Overwriting the author.
-            item[4] = extract[7]      # Overwriting the format.
-            item[5] = extract[8]      # Overwriting the data user group.
-            item[6] = extract[5]      # Overwriting the URL.
-            item[7] = extract[3]      # Overwriting the abstract.
-            item[10] = extract[5]     # Overwriting the Scholars Geoportal URL.
-            item[16] = extract[6]     # Overwriting the Scholars Geoportal thumbnail link.
+            item[4] = extract[10]     # Overwriting the format.
+            item[5] = extract[11]     # Overwriting the data user group.
+            item[6] = extract[8]      # Overwriting the URL.
+            item[7] = extract[6]      # Overwriting the abstract.
+            item[10] = extract[8]     # Overwriting the Scholars Geoportal URL.
+            item[12] = 'Internet'     # Overwriting the Geospatial Availability.
+            item[13] = extract[3]     # Overwriting the Geospatial Subject.
+            item[14] = extract[4]     # Overwriting the Geospatial Geography.
+            item[15] = extract[5]     # Overwriting the Geospatial Format.
+            item[16] = extract[9]     # Overwriting the Scholars Geoportal thumbnail link.
     
             writer.writerow(item)
 
@@ -122,14 +136,18 @@ for extract in extracted:
         item = ['', '', '', '', '', '','', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
         item[19] = extract[0]     # Writing the SGP ID.
         item[1] = extract[1]      # Writing the title.
-        item[2] = extract[4]      # Writing the year.
+        item[2] = extract[7]      # Writing the year.
         item[3] = extract[2]      # Writing the author.
-        item[4] = extract[7]      # Writing the format.
-        item[5] = extract[8]      # Writing the data user group.
-        item[6] = extract[5]      # Writing the URL.
-        item[7] = extract[3]      # Writing the abstract.
-        item[10] = extract[5]     # Writing the Scholars Geoportal URL.
-        item[16] = extract[6]     # Writing the Scholars Geoportal thumbnail link.
+        item[4] = extract[10]      # Writing the format.
+        item[5] = extract[11]      # Writing the data user group.
+        item[6] = extract[8]      # Writing the URL.
+        item[7] = extract[6]      # Writing the abstract.
+        item[10] = extract[8]     # Writing the Scholars Geoportal URL.
+        item[12] = 'Internet'     # Overwriting the Geospatial Availability.
+        item[13] = extract[3]     # Overwriting the Geospatial Subject.
+        item[14] = extract[4]     # Overwriting the Geospatial Geography.
+        item[15] = extract[5]     # Overwriting the Geospatial Format.
+        item[16] = extract[9]     # Writing the Scholars Geoportal thumbnail link.
 
         # Writing the row of metadata for each item into the Master csv file.
         writer.writerow(item)
@@ -145,7 +163,7 @@ print ('Number of SGP Items from Latest Extract: ' + str(len(extractedSGPIDs)))
 print ('Number of New SGP Items Added: ' + str(len(SGPstoadd)))
 print ('Number of Obsolete SGP Items Deleted: ' + str(len(SGPstodelete)))
 print (' ')
-print ("The newly updated list of Scholars Geoportal and GIS data pages has been written to", filename1)
+print ('The newly updated list of Scholars Geoportal and GIS data pages has been written to', filename1)
 
 # CREATING A TIMESTAMPED COPY OF THE MASTER LIST AND CLOSING FILES.
 

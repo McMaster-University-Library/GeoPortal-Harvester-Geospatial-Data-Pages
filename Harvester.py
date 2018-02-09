@@ -18,7 +18,7 @@ import datetime
 # DOWNLOADING THE XML FILE FROM SCHOLAR GEOPORTAL'S URL TO USER ACCESSIBLE CONTENT.
 
 # Defining the URL to user accessible content as provided by Scholars GeoPortal.
-URL = "http://geo2.scholarsportal.info/proxy.html?http:__giseditor.scholarsportal.info/search/index.html?limit=entitled&env=production&q=*&i=1000&fm=xml"
+URL = "http://geo2.scholarsportal.info/proxy.html?http:__giseditor.scholarsportal.info/search/index.html?limit=entitled&env=production&q=*&i=2000&fm=xml"
 
 # Creating a function that retrieves the content from the URL above.
 def get(URL):
@@ -36,8 +36,8 @@ with open ('Content.xml', 'wb') as xmlfile:
 xmldata = ET.parse('Content.xml')
 response = xmldata.getroot()
 
-# DETERMINING PUBLICLY AVAILABLE ITEMS.
-publicids = []
+# DETERMINING THE NUMBER OF EXTRACTED ITEMS.
+extractedids = []
 
 # WRITING THE DESIRED FIELDS OF METADATA TO Harvested.csv.
 
@@ -47,38 +47,43 @@ outfile = open('SGP_Extract.csv', 'wt')
 outfile = open('SGP_Extract.csv', 'a')
 writer = csv.writer(outfile, dialect = 'excel', lineterminator = '\n')
 
+# Writing the header line of the SGP Extract.
+writer.writerow(['SGP_id', 'Title', 'Producer', 'Category', 'Place', 'Type', 'Abstract', 'Coverage (Years)', 'layer_url', 'layer_thumb', 'Available Formats', 'Users with View Permissions'])
+
 # Writing desired metadata from the XML file to the output file.
 for result in response.findall('result'):
 
     line = [] # This is the empty list to which information will be appended to within an item's row.
+    extractedids.append(result.find('id').text) # Appending the item identifier.
     line.append(result.find('id').text)         # Appending the item identifier.
     line.append(result.find('title').text)      # Appending the title.
     line.append(result.find('producer').text)   # Appending the producer.
+    line.append(result.find('category').text)   # Appending the category.
+    line.append(result.find('place').text)      # Appending the place.
+    line.append(result.find('type').text)       # Appending the geospatial format.
     line.append(result.find('abstract').text)   # Appending the abstract.
 
     # Obtaining the earliest publication year available.
     earliestdate = result[10][0].text
     earliestyear = earliestdate[:4]
 
-    print (result[11][0].text)
-
-    # Obtaining the most recent publication year available.
-    # Capturing the instance where result[11] is 'revision-date'.
-    if result[11].text is not None:
+    try:
         
-        latestdate = result[11][0].text
-        latestyear = latestdate[:4]
+        # Obtaining the most recent publication year available.
+        # Capturing the instance where result[11] is 'revision-date'.
+        if len(result[11][0].text) == 10:
 
-    # Capturing the instance where result[11][0] is 'date', within 'publish-date'.
-    elif len(result[11][0].text) == result[10].text:
+                latestdate = result[11][0].text
+                latestyear = latestdate[:4]
+                
+        else:
         
-        latestdate = result[11][0].text
-        latestyear = latestdate[:4]
+            pass
 
-    # Capturing the instance where result[11][0] is 'boundingbox'.
+    # Capturing the instance where result[11] is another field.
     # In this case, there is only one publication, and one publication date.
-    else:
-        
+    except:
+
         latestyear = earliestyear
 
     # Obtaining and appending the range of years for available publications.
@@ -91,15 +96,15 @@ for result in response.findall('result'):
     # Obtaining information on users with view permission for each item.
     # Currently, Scholars GeoPortal has noted that all items within the OpenContent and DLI collections are open.
     if result.find('collections').text == "OpenContent":
-
+        
         permission = "Open to the public."
 
     elif result.find('collections').text == "DLI":
-
+        
         permission = "Open to the public."
 
     else:
-
+        
         permission = "Available to McMaster Staff, Faculty, and Students. Login required for off-campus access."
         
     line.append(publicationrange)               # Appending the range of publication years.
@@ -111,8 +116,12 @@ for result in response.findall('result'):
     # Writing the row of metadata for each item into the CSV file.
     writer.writerow(line)
 
+# PROVIDING INTERFACIAL USER INFORMATION ON THE RESULTS OF THIS UPDATE.
+
+print ('Number of Extracted SGP Items: ' + str(len(extractedids)))
+print ('The newly harvested Scholars GeoPortal metadata has been written to', outfile.name)
+
+# CREATING A TIMESTAMPED COPY OF THE SGP EXTRACT AND CLOSING FILES.
+
 outfile.close()
-
-print ("Success. Your harvested metadata has been written to", outfile.name)
 shutil.copyfile(outfile.name, 'SGP_Extract_' + datetime.datetime.today().strftime('%Y%m%d') + '.csv')
-
