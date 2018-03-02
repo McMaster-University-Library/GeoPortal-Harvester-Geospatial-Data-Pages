@@ -43,8 +43,9 @@ extractedids = []
 
 # Opening the output file the condensed metadata will be written and appended to, then defining a writer object
 # responsible for converting the input data into delimited strings for the output file.
-outfile = open('SGP_Extract.csv', 'wt')
-outfile = open('SGP_Extract.csv', 'a')
+SGPPath = 'C:\\Home\\GeoPortal-Harvester\\SGP_Extracts'
+outfile = open(SGPPath.strip('\\')+'\\'+'SGP_Extract.csv', 'wt')
+outfile = open(SGPPath.strip('\\')+'\\'+'SGP_Extract.csv', 'a')
 writer = csv.writer(outfile, dialect = 'excel', lineterminator = '\n')
 
 # Writing the header line of the SGP Extract.
@@ -124,4 +125,4 @@ print ('The newly harvested Scholars GeoPortal metadata has been written to', ou
 # CREATING A TIMESTAMPED COPY OF THE SGP EXTRACT AND CLOSING FILES.
 
 outfile.close()
-shutil.copyfile(outfile.name, 'SGP_Extract_' + datetime.datetime.today().strftime('%Y%m%d') + '.csv')
+shutil.copyfile(outfile.name, 'C:\\Home\\GeoPortal-Harvester\\SGP_Extracts\\SGP_Extract_' + datetime.datetime.today().strftime('%Y%m%d') + '.csv')

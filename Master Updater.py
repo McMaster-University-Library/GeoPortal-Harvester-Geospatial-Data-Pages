@@ -20,10 +20,10 @@ GISData = []            # This holds current GIS Data titles included in the Mas
 # COLLECTING LAST UPDATED MASTER LIST OF COMBINED SCHOLARS GEOPORTAL AND GIS DATA WEBPAGE METADATA.
 
 # Defining variables for the Master CSV file.
-filepath = 'C:\Home\\GeoPortal-Harvester'
-filename1 = 'Master - Working Copy.csv'
+MasterPath = 'C:\\Home\\GeoPortal-Harvester'
+filename1 = 'Master.csv'
 # Opening and reading contents of the Master CSV file.
-with open(filepath.strip('\\') + '\\' + filename1, "r", encoding = "utf8") as lookupfile:
+with open(MasterPath.strip('\\') + '\\' + filename1, "r", encoding = "utf8") as lookupfile:
     reader1 = csv.reader(lookupfile, delimiter = ",")
     
     for row in reader1:
@@ -43,9 +43,10 @@ with open(filepath.strip('\\') + '\\' + filename1, "r", encoding = "utf8") as lo
 # COLLECTING LATEST EXTRACTED LIST OF SCHOLARS GEOPORTAL METADATA.
 
 # Defining the latest Scholars Geoportal extract CSV file.
-filename2 = 'SGP_Extract - Working Copy.csv'
+SGPPath = 'C:\\Home\\GeoPortal-Harvester\\SGP_Extracts'
+filename2 = 'SGP_Extract.csv'
 # Opening and reading contents of the latest Scholars Geoportal extract.
-with open(filepath.strip('\\') + '\\' + filename2, 'r') as lookupfile:
+with open(SGPPath.strip('\\') + '\\' + filename2, 'r') as lookupfile:
     reader2 = csv.reader(lookupfile, delimiter = ",")
     # Placing extracted Scholars Geoportal records as rows in a list.
     for row in reader2:
@@ -105,7 +106,6 @@ for item in master:
             item[14] = extract[4]     # Overwriting the Geospatial Geography.
             item[15] = extract[5]     # Overwriting the Geospatial Format.
             item[16] = extract[9]     # Overwriting the Scholars Geoportal thumbnail link.
-    
             writer.writerow(item)
 
         else:
@@ -138,8 +138,8 @@ for extract in extracted:
         item[1] = extract[1]      # Writing the title.
         item[2] = extract[7]      # Writing the year.
         item[3] = extract[2]      # Writing the author.
-        item[4] = extract[10]      # Writing the format.
-        item[5] = extract[11]      # Writing the data user group.
+        item[4] = extract[10]     # Writing the format.
+        item[5] = extract[11]     # Writing the data user group.
         item[6] = extract[8]      # Writing the URL.
         item[7] = extract[6]      # Writing the abstract.
         item[10] = extract[8]     # Writing the Scholars Geoportal URL.
@@ -168,5 +168,5 @@ print ('The newly updated list of Scholars Geoportal and GIS data pages has been
 # CREATING A TIMESTAMPED COPY OF THE MASTER LIST AND CLOSING FILES.
 
 outfile.close()
-shutil.copyfile(outfile.name, 'Master - Working Copy.csv')
+shutil.copyfile(outfile.name, 'Master.csv')
 shutil.copyfile(outfile.name, 'Master_' + datetime.datetime.today().strftime('%Y%m%d') + '.csv')
