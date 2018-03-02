@@ -1,18 +1,18 @@
 # GIS Data and Scholars GeoPortal Collection
 
-**This repository is a resource to create Google-indexed static web pages for all GIS data and Scholars GeoPortal data layers that are available to McMaster users, to improve discoverability.**
+**This repository is a resource to create Google-indexed static web pages for all GIS data and Scholars GeoPortal data layers that are available to McMaster University users, to improve discoverability.**
 
 ## Resource: GIS_Data_Pages.csv
 
-This CSV file is the latest downloaded file from the [GIS Data Pages Google Sheet](https://docs.google.com/spreadsheets/d/1bJvn9tRgGJrIaJagY_7xdU9-4vx1JpAKaBy4or_pIpo/edit#gid=1710763351) containing selected metadata for each GIS data item provided by the Maps, Data, and GIS Department. 
+This CSV file is the latest downloaded file from the [GIS Data Pages Google Sheet](https://docs.google.com/spreadsheets/d/1bJvn9tRgGJrIaJagY_7xdU9-4vx1JpAKaBy4or_pIpo/edit#gid=1710763351) which contains selected content for each GIS data item provided by McMaster's Maps, Data, and GIS Department. Selected content include the item's Nid, title, year, author, format, URL, abstract, a citation guide, and geospatial availability among other information.
 
 ## Resource: SGP_Extract.csv
 
-This CSV file is the output file for Harvester.py, containing selected metadata for each record in the GeoPortal made available to McMaster users.
+This CSV file is the output file of Harvester.py, containing selected metadata for each record in the GeoPortal made available to McMaster users. Selected metadata include the SGP_id, title, author, format, URL, abstract, and Scholars GeoPortal URL among other information.
 
 ## Resource: Master.csv
 
-This CSV file is the output file for Master Updater.py, containing a combined list of items from both the GIS Data Pages and SGP Extract CSV files. Master.csv is then used to create web pages in bulk within the McMaster University domain.
+This CSV file is the output file of Master Updater.py, containing a combined list of items from both the GIS Data Pages and SGP Extract CSV files. Master.csv is then used to create web pages in bulk within the McMaster University domain.
 
 ## Tool: Harvester.py
 
@@ -21,6 +21,14 @@ Using Python 3.5, content from Scholars GeoPortal in XML file format is parsed a
 ## Tool: Master Updater.py
 
 Using Python 3.5, the latest GIS Data Pages and Scholars GeoPortal content is compiled into Master.csv. An update summary of what's been added and deleted from the previous Master collection is provided when running the script.
+
+MASTER LIST UPDATE SUMMARY (Sample)
+ 
+Number of GIS Data Items: 111
+Number of Previous SGP Items: 1085
+Number of SGP Items from Latest Extract: 1085
+Number of New SGP Items Added: 0
+Number of Obsolete SGP Items Deleted: 0
 
 ## File: Content.xml
 
