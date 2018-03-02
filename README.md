@@ -24,11 +24,11 @@ Using Python 3.5, the latest GIS Data Pages and Scholars GeoPortal content is co
 
 > MASTER LIST UPDATE SUMMARY
 >
-> Number of GIS Data Items: 111
-> Number of Previous SGP Items: 1085
-> Number of SGP Items from Latest Extract: 1085
-> Number of New SGP Items Added: 0
-> Number of Obsolete SGP Items Deleted: 0
+> Number of GIS Data Items: 111 <br />
+> Number of Previous SGP Items: 1085 <br />
+> Number of SGP Items from Latest Extract: 1085 <br />
+> Number of New SGP Items Added: 0 <br />
+> Number of Obsolete SGP Items Deleted: 0 <br />
 
 ## File: Content.xml
 
