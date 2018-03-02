@@ -20,15 +20,15 @@ Using Python 3.5, content from Scholars GeoPortal in XML file format is parsed a
 
 ## Tool: Master Updater.py
 
-Using Python 3.5, the latest GIS Data Pages and Scholars GeoPortal content is compiled into Master.csv. An update summary of what's been added and deleted from the previous Master collection is provided when running the script.
+Using Python 3.5, the latest GIS Data Pages and Scholars GeoPortal content is compiled into Master.csv. An update summary of what's been added and deleted from the previous Master collection is provided when running the script. A sample summary is shown below.
 
-MASTER LIST UPDATE SUMMARY (Sample)
- 
-Number of GIS Data Items: 111
-Number of Previous SGP Items: 1085
-Number of SGP Items from Latest Extract: 1085
-Number of New SGP Items Added: 0
-Number of Obsolete SGP Items Deleted: 0
+> MASTER LIST UPDATE SUMMARY
+>
+> Number of GIS Data Items: 111
+> Number of Previous SGP Items: 1085
+> Number of SGP Items from Latest Extract: 1085
+> Number of New SGP Items Added: 0
+> Number of Obsolete SGP Items Deleted: 0
 
 ## File: Content.xml
 
