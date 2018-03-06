@@ -1,0 +1,843 @@
+Nid,Title,Year,Author,Format,Who can use this data,URL,Abstract,Metadata,How to Cite This,Scholars Geoportal URL,To Delete,Geospatial Availability,Geospatial Subjects New,Geospatial Geography,Geospatial Formats,filepath,field_geospatial_image_alt,field_geospatial_image_title
+5713,Hamilton Digital Orthophotos 2002,2002,"<p>City of Hamilton, Information Technology Services, GIS Services.</p>
+",MrSID,McMaster Students / Staff / Faculty only,"<p>City of Hamilton Digital Orthophotos (2002) - <a href=""http://library.mcmaster.ca/sites/default/files/geospat-hamilton-ortho-index02.pdf"">Index</a></p>
+","<p>Photos taken in the spring of 2002 cover the new City of Hamilton (formerly Regional Municipality of Hamilton-Wentworth).</p>
+","<p>No metadata available</p>
+","<p>City of Hamilton Digital Orthophotos [computer file]. Hamilton, Ontario: The City of Hamilton, 2002.</p>
+",N/A,Delete,Library,Remote Sensing and Air Photos,Hamilton,MrSID,sites/default/files/geospatial/geospat-hamilton-mills-2002.jpg,geospat-hamilton-mills-2002.jpg,geospat-hamilton-mills-2002.jpg
+5714,Hamilton Digital Orthophotos 2005,2005,"<p>City of Hamilton, Information Technology Services, GIS Services.</p>
+",MrSID,McMaster Students / Staff / Faculty only,"<p>City of Hamilton Digital Orthophotos (2005) - <a href=""http://library.mcmaster.ca/maps/airphotos/2005_20cm.htm"">Index</a></p>
+","<p>Digital colour orthophotos covering the City of Hamilton. Coverage shot in spring of 2005.</p>
+<p>Two different resolutions available. 1 m resolution image is a single mosaic of the whole City. 20 cm resolution is three separate mosaics covering North, Central and South portions of the City. Index showing the file divisions appears at <a href=""http://library.mcmaster.ca/maps/airphotos/2005_20cm.htm"">http://library.mcmaster.ca/maps/airphotos/2005_20cm.htm</a></p>
+","<p>No metadata available</p>
+","<p>City of Hamilton Digital Orthophotos [computer file]. Hamilton, Ontario: The City of Hamilton, 2005.</p>
+",N/A,Delete,Library,Remote Sensing and Air Photos,Hamilton,MrSID,sites/default/files/geospatial/geospat-hamortho05.jpg,geospat-hamortho05.jpg,Sample of 2005 orthophoto (Mills Library)
+5716,London Orthophotos 2004,2004,"<p>City of London, Ontario. Environmental and Engineering Services Department. Geomatics Division.</p>
+",MrSID,McMaster Students / Staff / Faculty only,,"<p>Digital grayscale orthophotography coverage of the entire City of London flown in April 2004. The imagery is available as one complete mosaic.</p>
+","<p>A very basic ""readme"" file is delivered with the dataset.</p>
+","<p>City of London, Environmental and Engineering Services Dept., Geomatics Division. <i>London Digital Orthophotos 2004</i> [computer file]. London, Ontario: The City of London, 2004.</p>
+",N/A,Delete,Library,Remote Sensing and Air Photos,Ontario,MrSID,sites/default/files/geospatial/London2004.jpg,London2004.jpg,London2004.jpg
+5717,London Orthophotos 2005,2005,"<p>City of London, Ontario. Environmental and Engineering Services Department. Geomatics Division.</p>
+",MrSID,McMaster Students / Staff / Faculty only,,"<p>Digital grayscale orthophotography coverage of the entire City of London flown in April 2005. The imagery is available as one complete mosaic.</p>
+","<p>A very basic ""readme"" file is delivered with the dataset.</p>
+","<p>City of London, Environmental and Engineering Services Dept., Geomatics Division. <i>London Digital Orthophotos 2005</i> [computer file]. London, Ontario: The City of London, 2005.</p>
+",N/A,Delete,Library,Remote Sensing and Air Photos,Ontario,MrSID,sites/default/files/geospatial/London2005.jpg,London2005.jpg,London2005.jpg
+5718,London Orthophotos 2007,2007,"<p>City of London, Ontario. Environmental and Engineering Services Department. Geomatics Division.</p>
+",MrSID,McMaster Students / Staff / Faculty only,,"<p>Digital colour orthophotography coverage of the entire City of London flown April, 2007. The imagery is available as one complete mosaic.</p>
+","<p>A very basic ""readme"" file is delivered with the dataset.</p>
+","<p>City of London, Environmental and Engineering Services Dept., Geomatics Division. <i>London Digital Orthophotos 2007</i> [computer file]. London, Ontario: The City of London, 2007.</p>
+",N/A,Delete,Library,Remote Sensing and Air Photos,Ontario,MrSID,sites/default/files/geospatial/London2007.jpg,London2007.jpg,London2007.jpg
+5719,London Orthophotos 2008,2008,"<p>City of London, Ontario. Environmental and Engineering Services Department. Geomatics Division.</p>
+",MrSID,McMaster Students / Staff / Faculty only,,"<p>Digital colour orthophotography coverage of the entire City of London flown April, 2008. The imagery is available as one complete mosaic.</p>
+","<p>A very basic ""readme"" file is delivered with the dataset.</p>
+","<p>City of London, Environmental and Engineering Services Dept., Geomatics Division. <i>London Digital Orthophotos 2008</i> [computer file]. London, Ontario: The City of London, 2008.</p>
+",N/A,Delete,Library,Remote Sensing and Air Photos,Ontario,MrSID,sites/default/files/geospatial/London2008.jpg,London2008.jpg,London2008.jpg
+5726,CanMap Parks and Recreation,"Annual, from 2002","<p>DMTI Spatial Inc.</p>
+",Shapefile (.shp),McMaster Students / Staff / Faculty only,"<p>CanMap Parks and Recreation data from DMTI Spatial is available for download through Scholars GeoPortal at the following links:</p>
+2015 and 2016 datasets:
+<ul>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=3294319523"">Park and Sports Field - Region</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=3388502363"">Park and Sports Field - Point</a></li>
+</ul>
+2002 - 2014 datasets:
+<ul>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=3759988180"">Parks and Recreation - Regions</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=1932815402"">Parks and Recreation - Lines</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=1719274822"">Parks and Recreation - Points</a></li>
+</ul>","<p>Attributes associated with this dataset: national, provincial, territorial, municipal, public and private level parks and recreation areas, sports and race tracks, swimming pools, golf courses and driving ranges.</p>
+<p>Available to Canadian universities under <a href=""http://prod.library.utoronto.ca:8090/maplib/DMTI/"">DMTI Spatial SMART Consortium agreement </a>. Annual updates are received in October of each year.</p>
+","<p>A User Manual and Data Dictionary in PDF format are available for each dataset through Scholars GeoPortal.</p>
+","<p>Author. <i>Title</i> [format].  Edition.  Place of publication: Publisher, Date.</p>
+<p>DMTI Spatial Inc. <em>CanMap Parks and Recreation</em>. [computer file]. v2011.3. Markham ON: DMTI Spatial Inc., 2011.</p>
+","<p>CanMap Parks and Recreation data from DMTI Spatial is available for download through Scholars GeoPortal at the following links:</p>
+2015 and 2016 datasets:
+<ul>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=3294319523"">Park and Sports Field - Region</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=3388502363"">Park and Sports Field - Point</a></li>
+</ul>
+2002 - 2014 datasets:
+<ul>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=3759988180"">Parks and Recreation - Regions</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=1932815402"">Parks and Recreation - Lines</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=1719274822"">Parks and Recreation - Points</a></li>
+</ul>",Delete,Library,Physical Environment,Canada||Hamilton||Ontario,Shapefile,sites/default/files/geospatial/CanMapParks.jpg,CanMapParks.jpg,CanMapParks.jpg
+5727,CanMap Rail,"Annual, from 2002","<p>DMTI Spatial Inc.</p>
+",Shapefile (.shp),McMaster Students / Staff / Faculty only,"<p>CanMap Rail data from DMTI Spatial is available for download through Scholars GeoPortal at the following links:</p>
+2015 and 2016 datasets:
+<ul>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=513873247"">Rail and Transit Line</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=2734960544"">Transportation Stops (Point)</a></li>
+</ul>
+2002 - 2014 datasets:
+<ul>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=2680653796&_add:true_nozoom:true"">CanMap Rail</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=2499438351"">Transportation Stops (TRS)</a></li>
+</ul>","<p>CanMap Rail provides a comprehensive description of Canada's railway network.  It contains all railway and transit lines, including abandoned lines.  It also contains all railway stations and transit stops, as well as bus stops for inter-regional bus transit systems.  Owner/operator and route type are included as attributes.  CanMap Rail is a feature of the larger DMTI products CanMap StreetFiles and CanMap RouteLogistics.  </p>
+<p>Attributes associated with this data: GO Transit, OC Transpo Transitway, Toronto Transit Commission, Via Rail, railways and stations, abandoned railways, rapid transit, light rail transit, commuter railway, provincial boundary, bridges, tunnels</p>
+<p>Available to Canadian universities under <a href=""http://prod.library.utoronto.ca:8090/maplib/DMTI/"">DMTI Spatial SMART Consortium agreement</a>.  The earliest version of this data available through McMaster University Library is September 30, 2002. Annual updates are received in October or November of every year, so a version is available for each year after 2002. </p>
+","<p>A User Manual and Data Dictionary in PDF format are available for each dataset through Scholars GeoPortal.</p>
+","<p>Author. <i>Title</i> [format].  Edition.  Place of publication: Publisher, Date.</p>
+<p>Example:  DMTI Spatial Inc. <i>CanMap Rail</i> [computer file].  v2011.3. Markham ON: DMTI Spatial Inc., 2011.</p>
+","<p>CanMap Rail data from DMTI Spatial is available for download through Scholars GeoPortal at the following links:</p>
+2015 and 2016 datasets:
+<ul>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=513873247"">Rail and Transit Line</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=2734960544"">Transportation Stops (Point)</a></li>
+</ul>
+2002 - 2014 datasets:
+<ul>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=2680653796&_add:true_nozoom:true"">CanMap Rail</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=2499438351"">Transportation Stops (TRS)</a></li>
+</ul>",Delete,Library,Human Environment||Transportation,Canada||Hamilton||Ontario,Shapefile,sites/default/files/geospatial/CanMapRail.jpg,CanMapRail.jpg,CanMapRail.jpg
+5733,CanMap Water,"Annual, from 2002",<p>DMTI Spatial Inc.</p>,Shapefile (.shp),McMaster Students / Staff / Faculty only,"<p>Data can be downloaded via <a href=""http://geo1.scholarsportal.info/#r/search/_queries@=DMTI%20CanMap%20Water;&fields@=;&sort=relevance&limit=entitled"">Scholars GeoPortal</a>.</p>","<p>This file represents detailed coverage of water features across Canada. CanMap Water is developed from a combination of National Topographic Data Base (NTDB) 1:50,000 and 1:250,000 scale hydrographic mapping data. Lakes, rivers, streams, ponds are included.</p>
+<p>Attributes associated with this data: flooded area, irrigation canal, water obstacles, disappearing stream, slough.</p>
+<p>Available to Canadian universities under <a class=""ext"" href=""http://prod.library.utoronto.ca:8090/maplib/DMTI/"">DMTI Spatial SMART Consortium agreement</a>.  The earliest version of this data available through McMaster University Library is 2002. Annual updates are received in October or November of every year, so a version is available for each year after 2002.</p>
+","<p>User guide in PDF format supplied with files.</p>
+","<p>Author. <i>Title</i> [format].  Edition.  Place of publication: Publisher, Date.</p>
+<p>DMTI Spatial Inc. <em>CanMap Water</em>. [computer file]. v2011.3. Markham, Ontario: DMTI Spatial Inc., 2011.</p>
+","<p>Several datasets are available at GeoPortal with a search for <a href=""http://geo1.scholarsportal.info/#r/search/_queries@=DMTI%20CanMap%20Water;&fields@=;&sort=relevance&limit=entitled"">""CanMap Water""</a>.</p>",Delete,Library,Water Resources,Canada||Hamilton||Ontario,Shapefile,sites/default/files/geospatial/CanMapWater.jpg,CanMapWater.jpg,CanMapWater.jpg
+5741,Enhanced Points of Interest (EPOI),Annual from 2001 (no data for 2014),"<p>DMTI Spatial Inc.</p>
+","Text, Shapefile (.shp)",McMaster Students / Staff / Faculty only,"<p>Available for download via <a href=""http://geo1.scholarsportal.info/#r/search/_queries@=%22EPOI%22;&fields@=;&sort=relevance&limit=entitled"">Scholars GeoPortal</a>.</p>","<p>This large dataset (the most recent contains over 400,000 points for Ontario alone) includes recreational, institutional and business points of interest.  The points are broadly divided into large categories such as accomodation, aerodromes, border crossings and customs, education, financial institutions, golf courses, health care, police services etc.  Each location is also given a Standard Industrial Classification code (or SIC code) which gives very specific information about the location's business (e.g. the types of crops grown or livestock kept on a farm, the type of ore extracted at a mine, the type of dairy product processed at a factory etc.).  From 2004 onwards, the points are also classified into intermediate categories called ""SIC Division"" and ""SIC Major Group"".  A complete list of the SIC codes is provided in the metadata.</p>
+<p>For <a href=""http://geo.scholarsportal.info/#r/details/_uri@=1434556057"">2015 and 2016</a> the data has been divided into separate files available for individual download. The categories are:</p>
+<ul>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=1168301321"">Police services</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=3785366179"">Ports</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=177244586"">Postal outlets</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=3915221691"">Radio stations</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=4050146209"">Religious buildings</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=693347602"">Retail locations</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=3198074902"">Securities and investments institutions</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=798218826"">Toll booths</a></li>
+</ul>
+
+<p>Older datasets only provide the data in ASCII text format. Instructions for importing the data into ArcMap are provided in the metadata.</p>","<p>Metadata is provided in PDF format with download.</p>
+","<p><em>DMTI Enhanced Points of Interest (EPOI)</em> v2011.3. [computer file].  Markham, ON: DMTI Spatial Inc., 2011.</p>
+","<p>Scholars GeoPortal - <a href=""http://geo2.scholarsportal.info/#r/search/_queries@=%22EPOI%22;&fields@=;&sort=relevance&limit=entitled"">Enhanced Points of Interest (EPOI)</a></p>",Delete,Library,Human Environment,Canada||Hamilton||Ontario,ASCII||Shapefile,sites/default/files/geospatial/HamiltonEPOI.jpg,HamiltonEPOI.jpg,HamiltonEPOI.jpg
+5752,Neighbourhood and Community Boundaries,"Annual, from 2008","<p>DMTI Spatial Inc.</p>
+",Shapefile (.shp),McMaster Students / Staff / Faculty only,"<p>Data is available for download through Scholars GeoPortal:</p>
+<ul>
+<li>Community Boundary File (CBH) - <a href=""http://geo.scholarsportal.info/#r/details/_uri@=1188929167"">2008 - 2014</a> / <a href=""http://geo.scholarsportal.info/#r/details/_uri@=318973410"">2015 - 2016</a></li>
+<li>Neighbourhood Boundary File (NBH) - <a href=""http://geo.scholarsportal.info/#r/details/_uri@=2594161591"">2008 - 2014</a> / <a href=""http://geo.scholarsportal.info/#r/details/_uri@=3882202139"">2015 - 2016</a></li>
+</ul>","<p>Neighbourhood coverage is provided for the top 25 Census Metropolitan Areas (CMA) and most of the highest populated Census Subdivisions (CSD) across Canada.  Community Boundaries are provided for both urban and rural areas.</p>
+<p>Available to Canadian universities under <a class=""ext"" href=""http://prod.library.utoronto.ca:8090/maplib/DMTI/"">DMTI Spatial SMART Consortium agreement</a>.  The earliest version of this data available through McMaster University Library is September 30, 2002. Annual updates are received in October or November of every year, so a version is available for each year after 2002.</p>
+","<p>A user guide and data dictionary are supplied with the files in PDF format.</p>
+","<p>Author. <i>Title</i> [format].  Edition.  Place of publication: Publisher, Date.</p>
+<p>Example:  DMTI Spatial Inc. <i>Neighbourhood and Community Boundaries </i>[computer file].  v2009.3. Markham ON: DMTI Spatial Inc., 2009.</p>
+","<p>Data is available for download through Scholars GeoPortal:</p>
+<ul>
+<li>Community Boundary File (CBH) - <a href=""http://geo.scholarsportal.info/#r/details/_uri@=1188929167"">2008 - 2014</a> / <a href=""http://geo.scholarsportal.info/#r/details/_uri@=318973410"">2015 - 2016</a></li>
+<li>Neighbourhood Boundary File (NBH) - <a href=""http://geo.scholarsportal.info/#r/details/_uri@=2594161591"">2008 - 2014</a> / <a href=""http://geo.scholarsportal.info/#r/details/_uri@=3882202139"">2015 - 2016</a></li>
+</ul>",Delete,Library,Boundaries||Human Environment,Canada||Hamilton||Ontario,Shapefile,sites/default/files/geospatial/Neighbourhoods.jpg,Neighbourhoods.jpg,Neighbourhoods.jpg
+5754,Platinum Postal Suite ,"Annual, from 2006","<p>DMTI Spatial Inc.</p>
+",Shapefile (.shp),McMaster Students / Staff / Faculty only,"<p>Data is available for download through Scholars GeoPortal:</p>
+<ul>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=643323315"">Multiple Enhanced Postal Codes</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=1972675626"">Forward Sortation Area (FSA) Boundaries</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=1293001497"">Local Delivery Unit (LDU) Boundaries</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=2836324810"">Local Delivery Unit (LDU) Boundaries Lookup Table</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=3023771738"">Postal to Census Translation Table</a></li>
+</ul>","<p>The Platinum Postal Suite is comprised of Multiple Enhanced Postal Codes, Local Delivery (LDU) Unit boundaries, and Forward Sortation Area (FSA) boundaries throughout Canada.</p>
+<p>The Multiple Enhanced Postal Codes is precision-based point file representing over 1 million postal codes across Canada. The Multiple Enhanced Postal Code product allows for a one to many relationship. For example, one postal code may represent more than one postal code location. This dataset is provided as one point file covering all of Canada. The FSA boundaries represent the first three characters of a postal code. FSA boundaries are relatively large, so this dataset is provided as one polygon file covering all of Canada. The LDU boundaries represent the geographic location of the 6 digit postal code. LDUs are relatively large and very numerous, so a separate shapefile is provided for each province.</p>
+<p>Other attributes associated with this dataset include: Points of Call (number of points serviced by the postal code) for apartments, businesses, houses, farms, and in total; birth date and (when applicable) date of retirement; and dominant delivery mode (direct, lock box, rural route etc.).</p>
+<p>To complement this dataset, DMTI also provides a ""Postal2Census"" translation table, which can be used to join MEPs to various levels of census geography.  This table is included with the 2006-2008 datasets, but is provided separately (and therefore, but be specifically requested) for the 2009 dataset onwards.  More information about this table can be viewed on the <a href=""http://library.mcmaster.ca/maps/geospatial/postal2census-translation-table"">library's website</a>.</p>
+<p>Available to Canadian universities under <a class=""ext"" href=""http://prod.library.utoronto.ca:8090/maplib/DMTI/"">DMTI Spatial SMART Consortium agreement</a>.  The earliest version of this data available through McMaster University Library is 2006. Annual updates are received in October or November of every year, so a version is available for each year after 2006.</p>
+","<p>A user guide in PDF format is supplied with files.  A paper copy is also available in the Map Collection.</p>
+","<p>Author. <i>Title</i> [format]. Edition. Place of publication: Publisher, Date.</p>
+<p>Example:  DMTI Spatial Inc. <i>Platinum Postal Suite </i>[computer file].  v2010.3. Markham ON: DMTI Spatial Inc., 2010.</p>
+","<p>Data is available for download through Scholars GeoPortal:</p>
+<ul>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=643323315"">Multiple Enhanced Postal Codes</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=1972675626"">Forward Sortation Area (FSA) Boundaries</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=1293001497"">Local Delivery Unit (LDU) Boundaries</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=2836324810"">Local Delivery Unit (LDU) Boundaries Lookup Table</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=3023771738"">Postal to Census Translation Table</a></li>
+</ul>",Delete,Library,Boundaries,Canada||Hamilton||Ontario,Shapefile,sites/default/files/geospatial/PPS_image.JPG,PPS_image.JPG,PPS_image.JPG
+5756,CanMap Route Logistics,"Annual, from 2002","<p>DMTI Spatial Inc.</p>
+","Shapefile (.shp), table",McMaster Students / Staff / Faculty only,"<p>Available for download through <a href=""http://geo1.scholarsportal.info/#r/search/_queries@=DMTI%20Route;&fields@=;&sort=relevance&limit=entitled"">Scholars GeoPortal</a>.</p>","<p>This dataset describes road networks and various topographic features across Canada.  A separate dataset is provided for each province, except for the ""Canada"" directory, which contains Capital Cities, National Water, Time Zones, and Provincial, Regional, and Area Code Boundaries for the whole country. </p>
+<p>The ""Streets"" directory contains separate shapefiles for all roads, just major roads and highways, or just highways, as well as road casement regions at a variety of levels.  The ""Points of Interest"" directory contains point files for locations which are primarily associated with road-based transportation, such as Car Pool Lots, Toll Booths, Transportation Stops etc..  The ""Topo"" directory contains shapefiles which describe various topographic features, such as Rail and Transit Lines, Pipelines and Transmission, Other Transportation, Building Points and Footprints, Hydrography and Hydrographic Structures, Parks and Recreation, Wetlands, Vegetation, and Land Use.</p>
+<p>This product is identical to the DMTI product ""CanMap Streetfiles"", except it contains the following additional features: Airports/Aerodromes, Weigh Stations, Forward Sortation Area (FSA) Boundaries, Turn Restrictions at intersections, Speed Limits, and Bridges and Tunnels.  If you are not interested in any of these features, see the Map Collection's webpage for <a href=""http://library.mcmaster.ca/maps/geospatial/canmap-streetfiles-0"">""CanMap Streetfiles""</a>.</p>
+<p>Available to Canadian universities under <a href=""http://prod.library.utoronto.ca:8090/maplib/DMTI/"" class=""ext"">DMTI Spatial SMART Consortium agreement</a>.  The earliest version of this data available through McMaster University Library is 2002. Annual updates are received in October or November of every year, so a version is available for each year after 2002.</p>
+","<p>A user guide in PDF format is supplied with files.  Paper copy is also available in the Map Collection.</p>
+","<p>Author. <i>Title</i> [format].  Edition.  Place of publication: Publisher, Date.</p>
+<p>DMTI Spatial Inc. <em>CanMap Route Logistics</em> [computer file]. v2008.3. Markham, ON: DMTI Spatial Inc., 2008.</p>
+","<p>Available for download through <a href=""http://geo1.scholarsportal.info/#r/search/_queries@=DMTI%20Route;&fields@=;&sort=relevance&limit=entitled"">Scholars GeoPortal</a>.</p>",Delete,Library,Boundaries||Human Environment||Physical Environment||Transportation||Water Resources,Canada||Hamilton||Ontario,Shapefile,,,
+5768,World Vector Shoreline Plus (WVSPLUS),2005,"<p>LAND INFO Worldwide Mapping LLC</p>
+",,McMaster Students / Staff / Faculty only,"<p><a href=""http://shoreline.noaa.gov/"">http://shoreline.noaa.gov/</a></p>
+","<p>This dataset contains world shorelines and bathymetry. These files were derived from the United States Defense Mapping Agency, Joint Operations Graphic (JOG) charts at 1:250,000.</p>
+","<p><a href=""http://library.mcmaster.ca/sites/default/files/admin/docs/wvs-plus-readme.txt"">http://library.mcmaster.ca/sites/default/files/admin/docs/wvs-plus-readm...</a></p>
+",,N/A,Delete,Library,Physical Environment||Water Resources,World,Shapefile,sites/default/files/geospatial/landinfo_wvsplus.jpg,landinfo_wvsplus.jpg,landinfo_wvsplus.jpg
+5771,Canada Land Inventory (CLI) - Land Capability for Recreation,Various,"<p>Natural Resources Canada</p>
+",Various,Public,"<p><a href=""http://open.canada.ca/data/en/dataset?q=canada+land+inventory+recreation&sort="">http://open.canada.ca/data/en/dataset?q=canada+land+inventory+recreation&sort=</a></p>
+","<p>The inventory for recreational landuse capability has 7 Classes, from Class 1 with high capability to Class 7 with very low capability. The classification also examines the quantity of recreational use that a land unit can attract and withstand without permanent damage to the natural landscape.</p>
+<p>Intensive and dispersed activities are recognized in the classification. Intensive activities are those in which relatively large numbers of people may be accommodated per unit area, such as a beach. Dispersed activities are those which normally require a relatively larger area per person such as backcountry camping.</p>
+<p>The inventory is based on interpretation of aerial photographs, field checks, and available records. Capability maps are displayed with a 1:50,000 or 1:250,000 scale, depending on the dataset.</p>
+<p>These datasets are equivalent to the Canada Land Inventory paper maps series.</p>
+<p>The 1:50,000 dataset is available at the following link: <a href=""http://open.canada.ca/data/en/dataset?q=canada+land+inventory+recreation+50%2C000&sort="">http://open.canada.ca/data/en/dataset?q=canada+land+inventory+recreation+50%2C000&sort=</a></p>
+<p>The 1:250,000 dataset is available at the following link: <a href=""http://open.canada.ca/data/en/dataset?q=canada+land+inventory+recreation+250%2C000&sort="">http://open.canada.ca/data/en/dataset?q=canada+land+inventory+recreation+250%2C000&sort=</a></p>
+","<p>Full metadata are available via links on the dataset webpages.</p>
+","<p>Canada Land Inventory (1:250,000) - Land Capability for Recreation [computer file]. (2002). Sherbrooke, QC: Natural Resources Canada, Centre for Topographic Information.</p>
+
+",N/A,Delete,Internet,Physical Environment,Canada||Ontario,E00,sites/default/files/geospatial/CLIrec.jpg,CLIrec.jpg,CLIrec.jpg
+5777,Canada Land Inventory (CLI) - Land Capability for Agriculture,Various,"<p>Natural Resources Canada</p>
+",Various,Public,"<p><a href=""http://open.canada.ca/data/en/dataset?q=canada+land+inventory+agriculture"">http://open.canada.ca/data/en/dataset?q=canada+land+inventory+agriculture</a></p>
+","<p>Maps showing soil capability for agriculture. Equivalent to the Canada Land Inventory 1:50,000 or 1:250,000 scale paper map series (available in the Map Collection). Digital data is available for all of Canada, in separate files corresponding to the Canada National Topographic System 1:250,000 map grid.</p>
+<p>The 1:50,000 dataset can be accessed at this link: <a href=""http://open.canada.ca/data/en/dataset/ec17a923-e760-49e2-a62e-928e19bb1e33"">http://open.canada.ca/data/en/dataset/ec17a923-e760-49e2-a62e-928e19bb1e33</a></p>
+<p>The 1:250,000 dataset can be accessed at this link: <a href=""http://open.canada.ca/data/en/dataset/abf04733-8225-4d3c-83fa-9a5b60d43f2e"">http://open.canada.ca/data/en/dataset/abf04733-8225-4d3c-83fa-9a5b60d43f2e</a></p>
+","<p>Full metadata for the 1:250,000 dataset is available at the following link: <a href=""http://geogratis.ca/geogratis/en/collection/metadata.do?id=EC4BAE30-5C4A-E940-03BE-2F31E531B6AE"">http://geogratis.ca/geogratis/en/collection/metadata.do?id=EC4BAE30-5C4A-E940-03BE-2F31E531B6AE</a></p>
+<p>Full metadata for the 1:50,000 dataset is available at the following link: <a href=""http://geogratis.ca/geogratis/en/collection/metadata.do?id=7153E6F6-2FE4-CFAB-2798-2A755680E66E"">http://geogratis.ca/geogratis/en/collection/metadata.do?id=7153E6F6-2FE4-CFAB-2798-2A755680E66E</a></p>
+","<p>Canada Land Inventory (1:250,000) - Land Capability for Agriculture [computer file]. (2002). Sherbrooke, QC: Natural Resources Canada, Centre for Topographic Information.</p>
+
+",N/A,Delete,Internet,Human Environment||Physical Environment||Soils,Canada||Hamilton||Ontario,Shapefile,sites/default/files/geospatial/CLIagric.jpg,CLIagric.jpg,CLIagric.jpg
+5779,"Bedrock Geology of Ontario - 1:250,000 Scale",2011,"<p>Ontario Geological Survey</p>
+","Shapefile (.shp), GeoTIFF",Public,"<p>Available for download from the <a href=""http://www.geologyontario.mndmf.gov.on.ca/mndmaccess/mndm_dir.asp?type=pub&id=MRD126-REV1"">Geology Ontario website</a></p>
+","<p>A bedrock geology map of the Province of Ontario, showing the distribution of underlying bedrock units. It illustrates geological rock types, major faults, iron formations, Kimberlite intrusions and dike swarms. The legend is subdivided geochronologically in the Phanerozoic, but geochronometrically in the Proterozoic and Archean. Time period of content varies; see metadata for each theme. This dataset is provided by the Ontario Geological Survey in cooperation with the Ministry of Northern Development and Mines for the purpose of assisting mineral exploration and development in academic, commercial, and government projects.</p>
+<p>This is a revision of the product previously released as MRD 126 in 2003.  A shapefile called ""Rev_edits"" included with the product highlights all features which have been revised.</p>
+<p>Additional keywords associated with this data: Precambrian Geology</p>
+","<p>Metadata document is available for download in PDF format on the <a href=""http://www.geologyontario.mndm.gov.on.ca/mndmaccess/mndm_dir.asp?type=pub&id=MRD126-REV1"">Geology Ontario website</a>. The metadata document is also included with the downloadable file, in addition to an informative ""Readme"" document.</p>
+","<p>Ontario Geological Survey, 2011.<em>1:250 000 Scale Bedrock Geology of Ontario</em>. Ontario Geological Survey, Miscellaneous Release Data 126 Revised. 2011.</p>
+","<p>Bedrock Geology of Ontario, 1:250,000
+<ul>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=257136620"">Bedrock Area (2011)</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=918859877"">Dike Swarm (2003)</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=1157109999"">Kimberlite and Lamprophyre (2003)</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=2536033927"">Fault (2003)</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=1485034336"">Iron Formation (2003)</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=987660129"">Granulite Facies (2003)</a></li>
+</ul>
+</p>",Delete,Internet||Library,Geology,Hamilton||Ontario,TIFF||Shapefile,sites/default/files/geospatial/OntBedrock250k.jpg,,
+5780,Census Boundary Files,2006,"<p>Statistics Canada</p>
+",,,"<p><a href=""http://geodepot.statcan.ca/Diss2006/DataProducts/BoundaryFiles_e.jsp"">http://geodepot.statcan.ca/Diss2006/DataProducts/BoundaryFiles_e.jsp</a></p>
+","<p>This site allows you to download boundaries of provinces/territories, economic regions, census division, census agglomeration, census metropolitan area, census consolidated subdivision and census subdivision.</p>
+","<p><a href=""http://www.statcan.gc.ca/bsolc/olc-cel/olc-cel?catno=92-160-G&lang=eng"">Boundary Files, Reference Guide (92-160-G)</a></p>
+",,"<p><a href=""http://geo.scholarsportal.info/#r/details/_uri@=611955368"">http://geo.scholarsportal.info/#r/details/_uri@=611955368</a></p>",Delete,Internet,Boundaries,Canada,Shapefile,,,
+5781,Health Regions (2007),2007,"<p>Statistics Canada</p>
+",Shapefile (.shp),McMaster Students / Staff / Faculty only,"<p>Scholars GeoPortal - <a href=""http://geo.scholarsportal.info/#r/details/_uri@=3785958055$DLI_2007_HealthRegions_Eng_Nat"">Health Regions (2007)</a>. This does not include public health units or LHINs.</p>","<p>From the StatsCan Health Regions Webpage: <em><br />
+""Health regions are legislated administrative areas defined by  provincial ministries of health. These administrative areas represent geographic areas of responsibility for hospital boards or regional health authorities. Health regions, being provincial administrative areas, are subject to change. </em></p>
+<p>Since the last update of this product in 2005 there have been few changes in the provincial health regions.  Existing changes include a small boundary change in New Brunswick and the abolishment of the health regions in Prince Edward Island. The health region codes for Alberta have been updated to align with codes used by Alberta Health and Wellness. The 2007 Health Regions: Boundaries and Correspondence with Census Geography reflects the boundaries as of December 2007 and provides the geographic linkage to 2001 and 2006 Censuses.""</p>
+<p>This dataset delineates geospatial boundaries for provincial health care delivery regions for all provinces and territories of Canada.  Files for Ontario include both Public Health Units and Local Health Integrated Networks (LHINs).  Files are available in both MapInfo and ArcInfo formats for all provinces. Correspondence files, which link Health Regions to census boundaries (DAs and CSDs) are provided in CSV format and can be downloaded <a href=""http://www.statcan.gc.ca/pub/82-402-x/2007001/4067045-eng.htm"">here</a>.</p>
+<p>Attribute data for these files is limited to region name, UID, and shape length/area.</p>
+","<p>Complete user guide is available for download through <a href=""http://geo1.scholarsportal.info/proxy.html?http:__maps.scholarsportal.info/files/PDFS/public/DLI/2005/Health/4199976-eng.pdf"">Scholars GeoPortal</a>.</p>
+","<p><em>Health Regions of Canada</em> [computer file]. Ottawa, ON: Statistics Canada, 2007.</p>
+","<p>Scholars GeoPortal - <a href=""http://geo.scholarsportal.info/#r/details/_uri@=3785958055$DLI_2007_HealthRegions_Eng_Nat"">Health Regions (2007)</a></p>",Delete,Internet,Boundaries,Canada||Ontario,Shapefile,sites/default/files/geospatial/HealthRegions_0.jpg,,
+5782,Health Regions (2005),2005,"<p>Statistics Canada</p>
+",Shapefile (.shp),McMaster Students / Staff / Faculty only,"<p>Scholars GeoPortal - <a href=""http://geo.scholarsportal.info/#r/details/_uri@=3785958055$DLI_2005_HealthRegions_Eng_Nat"">Health Regions (2005)</a>. This does not include public health units or LHINs.</p>","<p>From the StatsCan Health Regions webpage:<br /><em>""Health regions are legislated administrative areas defined by provincial ministries of health. These administrative areas represent geographic areas of responsibility for hospital boards or regional health authorities. Health regions, being provincial administrative areas, are subject to change.""</em></p>
+<p>This dataset delineates geospatial boundaries for provincial health care delivery regions for all provinces and territories of Canada as of June 2005.  Files for Ontario include both Public Health Units and Local Health Integrated Networks (LHINs).  Files are available in both MapInfo and ArcInfo formats for all provinces.  Correspondence files, which link Health Regions to 2001 and 1996 census boundaries (DAs and CSDs) are provided in CSV format and can be downloaded from <a href=""http://www.statcan.gc.ca/pub/82-402-x/2006001/4152512-eng.htm"">Statistics Canada</a>.</p>
+<p>Attribute data for these files is limited to region name, UID, perimeter, area, and centroid coordinates.</p>
+","<p>Complete user guide is available for download through <a href=""http://geo1.scholarsportal.info/proxy.html?http:__maps.scholarsportal.info/files/PDFS/public/DLI/2005/Health/4199976-eng.pdf"">Scholars GeoPortal</a>.</p>
+","<p><em>Health Regions of Canada</em> [computer file]. Ottawa, ON: Statistics Canada, 2005.</p>
+","<p>Scholars GeoPortal - <a href=""http://geo.scholarsportal.info/#r/details/_uri@=3785958055$DLI_2005_HealthRegions_Eng_Nat"">Health Regions (2005)</a></p>",Delete,Internet,Boundaries,Canada||Ontario,Shapefile,sites/default/files/geospatial/healthregions2005.JPG,,
+5783,Health Regions (2003),2003,"<p>Statistics Canada</p>
+",Shapefile (.shp),McMaster Students / Staff / Faculty only,"<p>Scholars GeoPortal - <a href=""http://geo.scholarsportal.info/#r/details/_uri@=3785958055$DLI_2003_HealthRegions_Eng_Nat"">Health Regions (2003)</a>. This does not include public health units or LHINs.</p>","<p>From the StatsCan Health Regions Webpage: <em><br />
+""Health regions are legislated administrative  areas defined by provincial ministries of health. These administrative areas represent geographic areas of responsibility for hospital boards or regional health authorities. Health regions, being provincial administrative areas, are subject to change.""</em></p>
+<p>This dataset delineates geospatial boundaries for provincial health care delivery regions for all provinces and territories of Canada as of  June 2003.  Files for Ontario include both Public Health Units and  Local Health  Integrated Networks (LHINs).  Files are available in both  MapInfo and ArcInfo formats for all provinces.  Correspondence files, which link  Health Regions to 2001 and 1996 census boundaries (DAs and  CSDs) are provided in CSV format and can be downloaded <a class=""ext"" href=""http://www.statcan.gc.ca/pub/82-402-x/2004001/4067024-eng.htm"">here</a>.</p>
+<p>Attribute data for these files is limited to region name, UID, perimeter, and area.</p>
+","<p>Complete user guide is available for download through <a href=""http://geo1.scholarsportal.info/proxy.html?http:__maps.scholarsportal.info/files/PDFS/public/DLI/2003/Health/4199975-eng.pdf"">Scholars GeoPortal</a>.</p>
+","<p><em>Health Regions of Canada</em> [computer file]. Ottawa, ON: Statistics Canada, 2003.</p>
+","<p>Scholars GeoPortal - <a href=""http://geo.scholarsportal.info/#r/details/_uri@=3785958055$DLI_2003_HealthRegions_Eng_Nat"">Health Regions (2003)</a></p>",Delete,Internet,Boundaries,Canada||Ontario,Shapefile,sites/default/files/geospatial/HealthRegions_1.jpg,,
+5784,Health Regions (2000),2000,"<p>Statistics Canada</p>
+",Shapefile (.shp),McMaster Students / Staff / Faculty only,"<p>Scholars GeoPortal - <a href=""http://geo.scholarsportal.info/#r/details/_uri@=3785958055$DLI_2000_HealthRegions_Eng_Nat"">Health Regions (2000)</a>. This does not include public health units or LHINs.</p>","<p>This dataset delineates geospatial boundaries for provincial health care delivery regions for all provinces and territories of Canada for the year 2000. Files for Ontario include both Public Health Units and Local Health Integrated Networks (LHINs). Also available on the CD are correspondence data which link Health Regions to 1996 census boundaries (census subdivisions and enumeration areas), as well as digital map images in JPG and PDF format, ""Geographic Attributes"", which lists names and descriptions of files containing geographic area and cesus ID information, and population estimates.</p>
+<p>Attribute data directly associated with the boundary files is limited to region name, UID, perimeter and area.</p>
+","<p>The complete user guide for this dataset is available in PDF format <a href=""http://library.mcmaster.ca/maps/HRGUIDE.PDF"">here</a> and with download.  A paper copy of this guide is also available in the Map Collection.</p>
+","<p><em>Health Regions of Canada</em> [computer file]. Ottawa, ON: Statistics Canada, 2000.</p>
+","<p>Scholars GeoPortal - <a href=""http://geo.scholarsportal.info/#r/details/_uri@=3785958055$DLI_2000_HealthRegions_Eng_Nat"">Health Regions (2000)</a></p>",Delete,Library,Boundaries,Canada||Ontario,E00||JPG||PDF||Shapefile,sites/default/files/geospatial/healthregions2000.JPG,healthregions2000.JPG,healthregions2000.JPG
+5786,Forward Sortation Areas,Census years from 1986,"<p>Statistics Canada</p>
+",Shapefile (.shp),McMaster Students / Staff / Faculty only,"<p>Forward Sortation Area boundaries are available for download through Scholars GeoPortal, see the following:</p>
+<ul>
+<li>1986 Census - <a href=""http://geo.scholarsportal.info/#r/details/_uri@=79302640$DLI_1986_Census_CBF_Eng_Nat_fsa"">Cartographic Boundary File</a></li>
+<li>1996 Census - <a href=""http://geo.scholarsportal.info/#r/details/_uri@=3577293255$DLI_1996_Census_CBF_Eng_Nat_fsa"">Cartographic Boundary File</a></li>
+<li>2001 Census - <a href=""http://geo.scholarsportal.info/#r/details/_uri@=1739082337$DLI_2001_Census_CBF_Eng_Nat_fsa"">Cartographic Boundary File</a> / <a href=""http://geo.scholarsportal.info/#r/details/_uri@=621571288$DLI_2001_Census_DBF_Eng_Nat_fsa"">Digital Boundary File</a></li>
+<li>2006 Census - <a href=""http://geo.scholarsportal.info/#r/details/_uri@=429762118$DLI_2006_Census_CBF_Eng_Nat_fsa"">Cartographic Boundary File</a> / <a href=""http://geo.scholarsportal.info/#r/details/_uri@=3607218365$DLI_2006_Census_DBF_Eng_Nat_fsa"">Digital Boundary File</a></li>
+<li>2011 Census - <a href=""http://geo.scholarsportal.info/#r/details/_uri@=611955368$DLI_2011_Census_CBF_Eng_Nat_fsa"">Cartographic Boundary File</a> / <a href=""http://geo.scholarsportal.info/#r/details/_uri@=3789411615$DLI_2011_Census_DBF_Eng_Nat_fsa"">Digital Boundary File</a></li>
+<li>2016 Census - <a href=""http://geo.scholarsportal.info/#r/details/_uri@=749265755"">Cartographic Boundary File</a> / <a href=""http://geo.scholarsportal.info/#r/details/_uri@=1869071820"">Digital Boundary File</a></li>
+</ul>","<p>Areas associated with first 3 digits of a Canadian postal code.</p>
+<p> ""FSAs are associated with a postal facility from which mail delivery originates. The average number of households served by an FSA is approximately 8,000, but the number can range from zero to more than 60,000 households. This wide range of households can occur because some FSAs may serve only businesses (zero households) and some FSAs serve very large geographic areas."" (<a href=""http://www12.statcan.ca/census-recensement/2006/ref/dict/geo035a-eng.cfm"">Census Dictionary</a>)</p>
+","<p>Statistics Canada Reference Guides are available for Forward Sortation Area booundary files at the following links:</p>
+<ul>
+<li>2001 - Forward Sortation Areas Boundary File, Reference Guide <a href=""http://www5.statcan.gc.ca/olc-cel/olc.action?objId=92F0170G&objType=2&lang=en&limit=0"">(92F0170G)</a></li>
+<li>2006 - Census Forward Sortation Area Boundary File, Reference Guide <a href=""http://www5.statcan.gc.ca/olc-cel/olc.action?ObjId=92-170-G&ObjType=2&lang=en&limit=0"">(92-170-G)</a></li>
+<li>2011/2016 - Forward Sortation Area Boundary File, Reference Guide <a href=""http://www5.statcan.gc.ca/olc-cel/olc.action?objId=92-179-G&objType=2&lang=en&limit=0"">(92-179-G)</a></li>
+</ul>","Census Forward Sortation Area Boundary File, 2016 Census. Statistics Canada Catalogue no. 92-179-X.","<p>Forward Sortation Area boundaries are available for download through Scholars GeoPortal, see the following:</p>
+<ul>
+<li>1986 Census - <a href=""http://geo.scholarsportal.info/#r/details/_uri@=79302640$DLI_1986_Census_CBF_Eng_Nat_fsa"">Cartographic Boundary File</a></li>
+<li>1996 Census - <a href=""http://geo.scholarsportal.info/#r/details/_uri@=3577293255$DLI_1996_Census_CBF_Eng_Nat_fsa"">Cartographic Boundary File</a></li>
+<li>2001 Census - <a href=""http://geo.scholarsportal.info/#r/details/_uri@=1739082337$DLI_2001_Census_CBF_Eng_Nat_fsa"">Cartographic Boundary File</a> / <a href=""http://geo.scholarsportal.info/#r/details/_uri@=621571288$DLI_2001_Census_DBF_Eng_Nat_fsa"">Digital Boundary File</a></li>
+<li>2006 Census - <a href=""http://geo.scholarsportal.info/#r/details/_uri@=429762118$DLI_2006_Census_CBF_Eng_Nat_fsa"">Cartographic Boundary File</a> / <a href=""http://geo.scholarsportal.info/#r/details/_uri@=3607218365$DLI_2006_Census_DBF_Eng_Nat_fsa"">Digital Boundary File</a></li>
+<li>2011 Census - <a href=""http://geo.scholarsportal.info/#r/details/_uri@=611955368$DLI_2011_Census_CBF_Eng_Nat_fsa"">Cartographic Boundary File</a> / <a href=""http://geo.scholarsportal.info/#r/details/_uri@=3789411615$DLI_2011_Census_DBF_Eng_Nat_fsa"">Digital Boundary File</a></li>
+<li>2016 Census - <a href=""http://geo.scholarsportal.info/#r/details/_uri@=749265755"">Cartographic Boundary File</a> / <a href=""http://geo.scholarsportal.info/#r/details/_uri@=1869071820"">Digital Boundary File</a></li>
+</ul>",Delete,Library,Boundaries,Canada||Hamilton||Ontario,Shapefile,sites/default/files/geospatial/fsa.gif,fsa.gif,fsa.gif
+5796,Great Lakes Bathymetry,Various,"<p>National Oceanic and Atmospheric Administration (NOAA), National Centers for Environmental Information</p>
+","Shapefile (.shp), ASCII text, GeoTIFF, NetCDF, XYZ",Public,"<p>NOAA National Centers for Environmental Information - <a href=""https://www.ngdc.noaa.gov/mgg/greatlakes/greatlakes.html"">Great Lakes Bathymetry</a></p>
+","<p>This website provides Great Lakes bathymetric data to the public and especially to the communities concerned with Great Lakes science, pollution, coastal erosion, response to climate changes, threats to lake ecosystems, and health of the fishing industry. This program was managed by NGDC and relied on the cooperation of NOAA/Great Lakes Environmental Research Laboratory, NOAA/National Ocean Service, the Canadian Hydrographic Service, other agencies, and academic laboratories.</p>
+<p>Please note that the bathymetric data for Lake Superior is incomplete</p>
+<p>Attributes associated with this data:  Aquatic Environment, Depth, Digital Elevation Model, Erie, Huron, Michigan, Ontario.</p>
+<p>A tutorial explaining how to retrieve data from the website and how to convert it into a usable DEM is available on the <a href=""http://library.mcmaster.ca/maps/Accessing_Great_Lakes_Bathymetry_Data.pdf"">library's website</a>.</p>
+","<p>Full metadata for each dataset is available on the NOAA website, see below:</p>
+<ul>
+<li><a href=""https://www.ngdc.noaa.gov/docucomp/page?xml=NOAA/NESDIS/NGDC/MGG/DEM/iso/xml/312.xml&view=getDataView&header=none"">Lake Erie and Lake St. Clair</a></li>
+<li><a href=""https://www.ngdc.noaa.gov/docucomp/page?xml=NOAA/NESDIS/NGDC/MGG/DEM/iso/xml/284.xml&view=getDataView&header=none"">Lake Huron</a></li>
+<li><a href=""https://www.ngdc.noaa.gov/docucomp/page?xml=NOAA/NESDIS/NGDC/MGG/DEM/iso/xml/264.xml&view=getDataView&header=none"">Lake Michigan</a></li>
+<li><a href=""https://www.ngdc.noaa.gov/docucomp/page?xml=NOAA/NESDIS/NGDC/MGG/DEM/iso/xml/282.xml&view=getDataView&header=none"">Lake Ontario</a></li>
+<li><a href=""https://www.ngdc.noaa.gov/docucomp/page?xml=NOAA/NESDIS/NGDC/MGG/DEM/iso/xml/greatlakes_bathymetry_lake_superior.xml&view=getDataView&header=none"">Lake Superior</a></li>
+</ul>","<p><em>Great Lakes Bathymetry</em> [electronic resource]. Boulder, Colorado: National Geophysical Data Center, Marine Geology & Geophysics Division.  Accessed {date of access}, from http://www.ngdc.noaa.gov/mgg/greatlakes/greatlakes.html</p>
+","<p>Bathymetry datasets are available for download through Scholars GeoPortal in both <a href=""http://geo.scholarsportal.info/#r/details/_uri@=3890357688&_add:true_nozoom:true"">raster</a> and <a href=""http://geo.scholarsportal.info/#r/details/_uri@=1170497541&_add:true_nozoom:true"">vector</a> formats and include coverage of Lake Superior.</p>",Delete,Internet,Topography||Water Resources,Canada||Ontario||USA,ASCII||Interactive Map,sites/default/files/geospatial/lakeontario.JPG,lakeontario.JPG,lakeontario.JPG
+5798,"ArcCanada CD-ROM, Schools and Libraries Edition, Version 1.1",1998,"<p>ESRI Canada Limited</p>
+","Shapefile (.shp), Grid (DEM), dBase (.dbf) tables",McMaster Students / Staff / Faculty only,,"<p>This CD-ROM was created as basic Canadian geographic files for educational use.</p>
+<p>The National Level datasets were created at at scale of 1:5,000,000 and the Provincial Level datasets at 1:1,000,000. Accompanying tabular data (Land Potential Database) includes climate, soil, potential and actual crop data associated with map polygons at the scale of 1:5,000,000.</p>
+<p>The product includes geological fault lines, ecozones, ecoregions, major lakes and rivers, national parks and climate data for entire country of Canada. Monthly mean temperature, rainfall, snowfall, wind speed, vapour pressure, solar radiation, potential evapotranspiration and solar radiation for each month of the year. Also includes data for total rainfall, total snowfall, and annual mean, maximum and minimum temperature. Also includes a sample of more detailed GIS themes for the City of Kingston.</p>
+<p>Included in version 1.1 of this dataset is information regarding geological fault lines and earthquakes. Faults are categorized as rift, step, tectonic contact, tectonic plate, and thrust fault. Earthquakes are categorized by magnitude. The earthquake dataset is provided in tabular dBASE format, with latitudinal and longitudinal coordinates for each point.</p>
+","<p>Description files for each theme available in HTML format on the CD.</p>
+","<p><em>ESRI ArcCanada: Schools and Libraries Version 1.1</em> [CD-ROM]. (1998). Redlands, CA: Environmental Systems Research Institute. [Access Date].</p>
+","<p><a href=""http://geo.scholarsportal.info/#r/details/_uri@=2660963380"">http://geo.scholarsportal.info/#r/details/_uri@=2660963380</a></p>",Delete,Library,Boundaries||Climate||Geology||Physical Environment||Soils||Transportation||Water Resources,Canada||Hamilton||Ontario,Shapefile,sites/default/files/geospatial/arccanada_sample.jpg,,
+5802,"County of Simcoe, Muskoka, and Dufferin Orthophotography Project ",2008,"<p>Ontario Ministry of Natural Resources</p>
+","GeoTIFF, MrSID",McMaster Students / Staff / Faculty only,"<p>Available for download through <a href=""http://geo.scholarsportal.info/#r/details/_uri@=247552604"">Scholars GeoPortal</a>.</p>","<p>This set of colour orthophotos (30cm resolution) taken in the spring of 2008 covers:</p>
+<ul>
+<li>The District of Muskoka (Town of Bracebridege, Hunstville, Gravenhurst, Township of Georgian Bay, Township of Muskoka Lakes and Township of Lake of Bays)</li>
+<li>The County of Dufferin</li>
+<li>County of Simcoe</li>
+</ul>
+","<p>Full metadata record available in the Land Information Ontario <a href=""https://www.javacoeapp.lrc.gov.on.ca/geonetwork?uuid=9498c8e3-bb91-4276-9029-b951b7525fa3"">metadata tool</a>.</p>","<p>Dataset name [format]. Producer location: Producer Name, Year.</br>
+County of Simcoe, Muskoka, and Dufferin Orthophotography Project [computer file]. Peterborough, ON: Ontario Ministry of Natural Resources and Forestry, 2008.</p>
+","<p><a href=""http://geo.scholarsportal.info/#r/details/_uri@=247552604"">County of Simcoe, Muskoka and Dufferin Orthophotography Project, 2008</a></p>",Delete,Library,Remote Sensing and Air Photos,Ontario,MrSID,sites/default/files/geospatial/Muskoka-Simcoe.jpg,Muskoka-Simcoe.jpg,Muskoka-Simcoe.jpg
+5805,Satellite StreetView,2002 to Present,"<p>DMTI Spatial Inc.</p>
+",GeoTIFF,McMaster Students / Staff / Faculty only,"<p>Available for download through Scholars GeoPortal:</p>
+<ul>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=3278347227"">Alberta</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=2719262857"">British Columbia</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=1251739593"">Manitoba</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=3086819388"">New Brunswick</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=1228314246"">Newfoundland
+ and Labrador</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=2614643589"">Northwest Territories</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=3792831213"">Nova Scotia</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=3575496259"">Nunavut</a></li>
+<li>Ontario</li>
+<li>Quebec</li>
+<li>Saskatchewan</li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=2069130656"">Yukon</a></li>
+</ul>","<p>The <em>Satellite Streetview</em> data set produced by DMTI Spatial combines the digital road files with high resolution Quickbird satellite imagery (60 cm). The images are in natural colour and have been pan-sharpened and orthorectified. In addition, each satellite image can be aligned to the accompanying street data.</p>
+<p>For each city, images are arranged either as one mosaic image or in tiles approximately 70 square kilometres. Each individual tile has a vintage date associated with it as part of the filename. To see which cities have coverage, click the links for the corresponding provinces or territory below: </p>
+
+<ul>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=3278347227"">Alberta</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=2719262857"">British Columbia</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=1251739593"">Manitoba</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=3086819388"">New Brunswick</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=1228314246"">Newfoundland and Labrador</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=2614643589"">Northwest Territories</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=3792831213"">Nova Scotia</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=3575496259"">Nunavut</a></li>
+<li>Ontario</li>
+<li>Quebec</li>
+<li>Saskatchewan</li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=2069130656"">Yukon</a></li>
+</ul>
+
+<p>This data is available to Canadian universities under <a href=""http://prod.library.utoronto.ca:8090/maplib/DMTI/"">DMTI Spatial SMART Consortium agreement</a>. Annual updates are recieved in October of each year.</p>
+<p>Please check with map collection staff for an updated list of available cities each year.</p>","<p>A user guide in PDF format is supplied with the files.</p>
+","<p>[City Name] Satellite StreetView [computer file]. Markham ON: DMTI Spatial Inc., [Year].</p>
+","<p>Several datasets are available at GeoPortal with a search for <a href=""http://geo2.scholarsportal.info/#r/search/_queries@=Satellite%20StreetView;&fields@=;&sort=relevance&limit=all"">""Satellie StreetView""</a>.</p>",Delete,Library,Remote Sensing and Air Photos,Canada||Ontario,geoTIFF||Shapefile,sites/default/files/geospatial/satstreetview.jpg,Low resolution sample showing SSV imagery,Low resolution sample showing SSV imagery
+5806,Census Boundary Files,2001 / 2006,"<p>Statistics Canada</p>
+","Esri Interchange file (.e00), MapInfo Interchange Format (.mif), MapInfo Data (.mid)",Public,"<p>Census boundary files can be downloaded through Statistics Canada at the following links:</br>
+<a href=""http://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/bound-limit-2001-eng.cfm"">2001 Census - Boundary Files</a></br>
+<a href=""http://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/bound-limit-2006-eng.cfm"">2006 Census - Boundary Files</a></p>","<p>The boundary files portray the geographic limits used for census dissemination. The boundary files are available in two formats: Digital Boundary Files and Cartographic Boundary Files. Digital Boundary Files depict the full extent of the geographical areas, including the coastal water area. Cartographic Boundary Files depict the geographical areas using only the major land mass of Canada and its coastal islands.</p>
+They are available for the following geographic areas:
+<ul>
+<li>Provinces/Territories</li>
+<li>Federal Electoral Districts</li>
+<li>Economic Regions</li>
+<li>Census Divisions</li>
+<li>Census Agricultural Regions</li>
+<li>Census Consolidated Subdivisions</li>
+<li>Census Subdivisions</li>
+<li>Census Metropolitan Areas and Census Agglomerations</li>
+<li>Census Tracts</li>
+<li>Aggregate Dissemination Areas (2016)</li>
+<li>Dissemination Areas</li>
+<li>Blocks</li>
+<li>Designated Places</li>
+<li>Urban Areas</li>
+<li>Population Ecumene</li>
+<li>Agricultural Ecumene</li>
+<li>Forward Sortation Areas (2011 / 2016)</li>
+</ul>
+","<p>Reference Guide available with download or through the <a href=""http://www5.statcan.gc.ca/olc-cel/olc.action?objId=92F0171G&objType=2&lang=en&limit=0"">Statistics Canada website</a>.</p>","<p>Geography Division, Statistics Canada, 2001 Boundary Files, Catalogue number 92F0171GIE</p>","<p>Cartographic Boundary Files (CBF):</br>
+<ul>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=749265755"">2016 Census</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=611955368"">2011 Census</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=429762118"">2006 Census</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=1739082337"">2001 Census</a></li>
+</ul>
+Digital Boundary Files (DBF):</br>
+<ul>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=1869071820"">2016 Census</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=3789411615"">2011 Census</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=3607218365"">2006 Census</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=621571288"">2001 Census</a></li>
+</ul>
+</p>",Delete,Library,Boundaries,Canada||Hamilton||Ontario,Shapefile,sites/default/files/geospatial/StatsCan.jpg,StatsCan.jpg,StatsCan.jpg
+5807,"Census Boundary Files, 2006 Census",2006,"<p>Statistics Canada</p>
+","Esri Interchange file (.e00), MapInfo Interchange Format (.mif), MapInfo Data (.mid)",Public,"<p><a href=""http://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/bound-limit-2006-eng.cfm"">2006 Census - Boundary Files</a></p>
+","<p>The 2006 boundary files portray the geographic limits used for census data collection and dissemination. The boundary files are available in two formats: Digital Boundary Files and Cartographic Boundary Files. Digital Boundary Files depict the full extent of the geographical areas, including the coastal water area. Cartographic Boundary Files depict the geographical areas using only the major land mass of Canada and its coastal islands.</p>
+
+<p>Boundaries are available for:</p>
+<ul>
+<li>Provinces and Territories</li>
+<li>Federal Electoral Districts</li>
+<li>Economic Regions</li>
+<li>Census Divisions</li>
+<li>Census Agricultural Regions</li>
+<li>Census Consolidated Subdivisions</li>
+<li>Census Subdivisions</li>
+<li>Census Metropolitan Areas and Census Agglomerations</li>
+<li>Census Tracts</li>
+<li>Dissemination Areas</li>
+<li>Dissemination Blocks</li>
+<li>Designated Places</li>
+<li>Urban Areas</li>
+<li>Population Ecumenes</li>
+<li>Agricultural Ecumene</li>
+</ul>
+
+<p>Census data corresponding to census boundaries can be downloaded from <a href=""http://www12.statcan.gc.ca/datasets/Index-eng.cfm"">Statistics Canada</a> or <a href=""http://dc1.chass.utoronto.ca/"">CHASS</a>.  Data for Forward Sortation Areas and Dissemination Areas can be requested from the Library Data Service (<a href=""http://library.mcmaster.ca/data/"">http://library.mcmaster.ca/data/</a>)</p>","<p>Reference Guide available with download or through the <a href=""http://www5.statcan.gc.ca/olc-cel/olc.action?ObjId=92-160-G&ObjType=2&lang=en&limit=0"">Statistics Canada website</a>.</p>","<p>Geography Division, Statistics Canada, 2006 Boundary Files, Catalogue number 92-160-XWE, 92-160-XWF</p>",,Delete,Library,Boundaries,Canada||Hamilton||Ontario,Shapefile,,,
+5809,Hamilton Digital Orthophotos 2007,2007,"<p>City of Hamilton, Information Technology Services, GIS Services.</p>
+",MrSID,McMaster Students / Staff / Faculty only,,"<p>Photos taken in 2007 covering the City of Hamilton.</p>
+<p>1m resolution imagery is provided as a single mosaic of the whole city, whereas the 15cm imagery is provided in 1km tiles.  An index showing the locations and file numbers of the individual tiles is available in the Map Collection (H:\AirPhotos\Hamilton\2007_Orthophotos\2007 Index.pdf).</p>
+","<p>No metadata available</p>
+","<p>City of Hamilton Digital Orthophotos [computer file]. Hamilton, Ontario: The City of Hamilton, 2007.</p>
+",N/A,Delete,Library,Remote Sensing and Air Photos,Hamilton,MrSID,sites/default/files/geospatial/Hamilton2007Airphoto.jpg,Hamilton2007Airphoto.jpg,Hamilton2007Airphoto.jpg
+5810,Hamilton Vector Data Set 2007,2007,"<p>City of Hamilton, Information Technology Services, GIS Services.</p>
+",Shapefile (.shp),McMaster Students / Staff / Faculty only,,"<p>The majority of this vector data of the City of Hamilton was derived from 2007 air photos.</p>
+<p>Vector layers in this dataset include: Buildings, Bus Routes (including Bus Stops), Contours, The Escarpment, Railways, Road Edge, Road Centerline, and Roads by Type (Highway, Major, Minor, Private), Sewer Mains and Manholes, Shoreline, Sidewalks, Trails, Ward Boundaries and Municipal Boundaries, and Water Valves, Nodes, and Mains.</p>
+<p>Informative attribute data is included with each layer.  E.g. roads and trails have names, calculated length etc.</p>
+","<p>No metadata received with this dataset.</p>
+","<p><em>City of Hamilton Vector GIS Data</em> [computer file]. Hamilton, ON: City of Hamilton GIS Services, 2007.</p>
+",N/A,Delete,Library,Boundaries||Human Environment||Physical Environment||Topography||Transportation||Water Resources,Hamilton,Shapefile,sites/default/files/geospatial/HamiltonVector2007.jpg,HamiltonVector2007.jpg,HamiltonVector2007.jpg
+5812,Places to Grow : GIS Files for the Built Boundary for the Growth Plan for the Greater Golden Horseshoe (2006),2006,"<p>Ministry of Public Infrastructure Renewal</p>
+",Shapefile (.shp),Public,"<p>Available for download through <a href=""https://www.javacoeapp.lrc.gov.on.ca/geonetwork?uuid=d1df452d-6006-40bf-b51a-c0509d5b73ef"">Land Information Ontario</a>.</p>","<p>Delineated and Undelineated Built Boundaries for the Greater Golden Horseshoe, Region of Durham, Region of Halton, Region of Niagara, Region of Peel, Region of Waterloo, Region of York, Simcoe County, City of Barrie, City of Brantford, City of Guelph, City of Hamilton, City of Toronto, City of Kawartha Lakes, City of Orillia, City of Peterborough, County of Brant, County of Dufferin, County of Haldimand, County of Northumberland, County of Peterborough, County of Wellington. Issued on April 2, 2008. Supporting documentation available from the  <a href=""http://placestogrow.ca/index.php?option=com_content&task=view&id=66&Itemid=15"">Ontario Ministry of Municipal Affairs</a>.</p>
+","<p>See <a href=""https://www.javacoeapp.lrc.gov.on.ca/geonetwork?uuid=d1df452d-6006-40bf-b51a-c0509d5b73ef"">Land Information Ontario</a> for metadata record.</p>","<p>Built Boundary for the Growth Plan for the Greater Golden Horseshoe, 2006 [computer file]. Toronto, ON: Ministry of Public Infrastructure Renewal, 2008.</p>
+","Built Boundary for the Growth Plan for the Greater Golden Horseshoe, 2006 - <a href=""http://geo.scholarsportal.info/#r/details/_uri@=d1df452d-6006-40bf-b51a-c0509d5b73ef"">Scholars GeoPortal</a>",Delete,Library,Boundaries||Human Environment,Hamilton||Ontario,Shapefile,sites/default/files/geospatial/BuiltBoundary.jpg,BuiltBoundary.jpg,BuiltBoundary.jpg
+5813,Toronto Fire Insurance Plans - 1899,1899,"<p>Charles E. Goad</p>
+",GeoTIFF,McMaster Students / Staff / Faculty only,,"<p>This set of fire insurance plans covers downtown Toronto and the Toronto Islands. These maps were scanned and georeferenced as part of the <a href=""http://mercator.geog.utoronto.ca/georia/menu.htm"">Georia Project</a> at the University of Toronto from an original atlas at Toronto Public Library, Toronto Reference Library (Atlas Collection).</p>
+<p>Fire insurance plans provide detailed information about the history of the buildings and land use. Building outlines are included in the maps. These maps can be used to determine when a building was built or demolished, the details of building materials, the position of a building on a lot, and in some cases the name or function of the business.</p>
+","<p>No metadata available. Some additional information is provided on the <a href=""http://mercator.geog.utoronto.ca/georia/datasum/dataset_GOAD.htm"">Georia website</a>.</p>","<p>Goad, Chas. E. <i>Atlas of the City of Toronto and Suburbs, Founded on Registered Plans and Special Surveys, Showing Plan Numbers, Lots & Buildings.</i> Toronto: Chas. E. Goad, 1899.</p>
+",N/A,Delete,Library,Human Environment,Ontario,MrSID,sites/default/files/geospatial/PLATE03.jpg,PLATE03.jpg,Toronto FIP 1899 PLATE03.jpg
+5817,ArcCanada Land Potential Database,1997,"<p>ESRI Canada</p>
+","Shapefile (.shp), dBase (.dbf) table",McMaster Students / Staff / Faculty only,,"<p>Data provided by Agriculture Canada and supplied by ESRI as part of ArcCanada educational CD-ROM. Contains both spatial data (1:5,000,000) and tabular data, which can be mapped using the associated map unit field.</p>
+<p>Tables included:</p>
+<ul>
+<li>Monthly climate data (based on 1951-1980 climate normals)</li>
+<li>Climate during the growing season (growing season start/end/length, mean daily values, rainfall, etc.)</li>
+<li>Soil climate, inventory, degradation, and suitability</li>
+<li>Agroclimatic resource index</li>
+<li>Capability for agriculture</li>
+<li>Potential and actual crop yields</li>
+</ul>
+","<p>Description files available in HTML format on the CD.</p>
+<p>Additional information is available in The Land Potential Data Base for Canada User's handbook, located online at <a href=""http://sis.agr.gc.ca/cansis/nsdb/lpdb/index.html"">http://sis.agr.gc.ca/cansis/nsdb/lpdb/index.html</a></p>","<p>ArcCanada CD-ROM, Schools and Libraries Edition, Version 1.0, 1997 [computer file]. Environmental Systems Research Institute Canada Inc, 1997.</p>
+",N/A,Delete,Library,Climate||Soils,Canada||Ontario,Shapefile,sites/default/files/geospatial/arccanada_growingseason.jpg,,
+5818,Provincial Topography,1998,"<p>ESRI Canada</p>
+",,McMaster Students / Staff / Faculty only,,"<p>Contour lines for each individual province.  Contour intervals vary for each province. DEM at 1km resolution for individual provinces also available.</p>
+",,"<p>ArcCanada CD-ROM, Schools and Libraries Edition, version 1.1, 1998 [computer file]. Environmental Systems Research Institute Canada Inc, 1998</p>
+",N/A,Delete,Library,Topography,Canada||Hamilton||Ontario,Shapefile,sites/default/files/geospatial/ArcCanadaTopography.jpg,ArcCanadaTopography.jpg,ArcCanadaTopography.jpg
+5820,Emporis Building Data: Commercial Real Estate Information and Construction Data,Various,"<p>Emporis</p>
+",,Public,"<p><a href=""https://www.emporis.com/buildings"">https://www.emporis.com/buildings</a></p>
+","<p>This website offers information about buildings for various cities worldwide.  Details such as construction date/status, building height, and number of floors are included.  Over one hundred buildings for the City of Hamilton are included in this website.  Although Emporis historically focused on high-rise buildings and skyscrapers, the website contains data for many low-rise buildings as well. For each city, buildings can be browsed by name or by geographic region.  Also provided for each city is a list of the city's most famous, most expensive, and tallest buildings.</p>
+","<p>No metadata available.</p>
+",,N/A,Delete,Internet,Human Environment,Canada||Hamilton||Ontario||USA||World,Interactive Map,sites/default/files/geospatial/emporis.jpg,emporis.jpg,emporis.jpg
+5822,Southwestern Ontario Orthophotography Project (SWOOP),2006,"<p>First Base Solutions</p>
+","MrSID, GeoTIFF",McMaster Students / Staff / Faculty only,"<p>Available for download through <a href=""http://geo.scholarsportal.info/#r/details/_uri@=4163035098"">Scholars GeoPortal</a>.</p>","<p>These images were flown in April 2006 by First Base Solutions and provided to the Library by Land Information Ontario through the Ontario Geospatial Data Exchange.</p>
+<p>Coverage for County of Brant, County of Bruce, County of Dufferin, County of Elgin, Essex County, Chatham, County of Grey, County of Haldimand, County of Huron, County of Lambton, County of Middlesex, County of Norfolk, County of Oxford, County of Perth, Waterloo and Wellington.</p>
+<p>Additional keywords: Airphoto, Counties, Orthoimagery, True Colour Imagery.</p>
+<p>Index maps are available courtesy of the University of Western Ontario at <a href=""https://www.lib.uwo.ca/madgic/swoop_orthos.html"">https://www.lib.uwo.ca/madgic/swoop_orthos.html</a></p>
+<p>A map showing the extent of coverage is available at <a href=""http://library.mcmaster.ca/maps/CoverageSWOOP2006.pdf"">http://library.mcmaster.ca/maps/CoverageSWOOP2006.pdf</a></p>
+","<p>A metadata record is available in Land Information Ontario's (LIO) <a href=""https://www.javacoeapp.lrc.gov.on.ca/geonetwork?uuid=e22e19ce-111d-456a-a0a6-632aec647228"">metadata tool</a>.</p>
+","<p>South Western Ontario Orthophotography Project [computer file], tile xx, 2006.</p>
+","<p>Available for download through <a href=""http://geo.scholarsportal.info/#r/details/_uri@=4163035098$OGDE_SWOOP_2006_1km"">Scholars GeoPortal</a> in GeoTIFF and MrSID formats.</p>",Delete,Library,Remote Sensing and Air Photos,Ontario,MrSID,sites/default/files/geospatial/SWOOP_screenshot2.JPG,,
+5823,Provincial Digital Elevation Model (DEM),2013,"<p>Ontario Ministry of Natural Resources and Forestry</p>
+",DEM,Public,"<p>Available for download through <a href=""https://www.javacoeapp.lrc.gov.on.ca/geonetwork?uuid=012e3632-22a2-49d8-bbaf-ad8fbc0d0ceb"">Land Information Ontario</a></p>","<p>This data is available to the library through the Ontario Geospatial Data Exchange (OGDE), a program of the Ontario Ministry of Natural Resources. Files are in ASCII format and can be converted to GIS format.  DEMs are arranged in tiles. </p>
+<p>Consult the <a href=""http://www.lib.uwaterloo.ca/locations/umd/digital/NRVISDEMIndex.html"">index</a>, courtesy of the University of Waterloo, to determine the tiles covering your study area.</p>
+","<p>Metadata available from the <a href=""https://www.javacoeapp.lrc.gov.on.ca/geonetwork?uuid=012e3632-22a2-49d8-bbaf-ad8fbc0d0ceb"">Ministry of Natural Resources</a></p>
+","<p>Ontario Ministry of Natural Resources and Forestry. Provincial Digital Elevation Model - Tiled Dataset, version 2.0.0 [computer file]. Peterborough : Ontario Ministry of Natural Resources and Forestry, 2005-2006.</p>
+","<p><a href=""http://geo.scholarsportal.info/#r/details/_uri@=4215761220"">Provincial Digital Elevation Model - Version 3.0</a></p>",Delete,Library,Topography,Hamilton||Ontario,ASCII,sites/default/files/geospatial/OGDE_DEM.jpg,,Sample DEM tile
+5828,"Bedrock Geology of Ontario, Seamless Coverage",2001,"<p>Ontario Geological Survey</p>
+",Shapefile (.shp),Public,"<p>Available for download from the <a href=""http://www.geologyontario.mndm.gov.on.ca/mndmaccess/mndm_dir.asp?type=pub&id=EDS006-REV"">Geology Ontario website</a></p>
+","<p>A seamless geological map of the province that shows the distribution of bedrock units underlying Ontario. <font color=""#000011""><font color=""#000011"">It illustrates geological rock types, major faults, granulite areas, kimberlite intrusions, subsurface faults, and dike swarms</font></font>. Base information, such as latitude and longitude lines, water bodies and townships, is included.  The legend is subdivided geochronologically in the Phanerozoic, but geochronometrically in the Proterozoic and Archean.  This dataset is provided by the Ontario Geological Survey in cooperation with the Ministry of Northern Development and Mines for the purpose of assisting mineral exploration and development in academic, commercial, and government projects.</p>
+<p>This dataset was originally released on CD-ROM in 1993, and was rereleased for download from the MNDM website in 2000.  The content of the dataset represents data collected from 1950 to 1988.</p>
+<p>Another ERLIS dataset ""Geology of Ontario Base Maps"" is also available, and is intended to be used as a reference map for this dataset.  Information about this complementary dataset is available on the library website at the following link: <a href=""http://library.mcmaster.ca/maps/geospatial/geology-ontario-base-maps"">http://library.mcmaster.ca/maps/geospatial/geology-ontario-base-maps</a></p>
+<p>Additional keywords associated with this data: Precambrian Geology, Ministry of Northern Development and Mines</p>
+","<p>Comprehensive metadata documents ""Explanatory_Notes"", ""legend"", ""metadata-bedrock"" and ""readme"" are included with the downloadable dataset.</p>
+","<p>Ontario Geological Survey, 1993, Revised 2000. <i>Bedrock Geology, Seamless Coverage of the Province of Ontario</i>. Ontario Geological Survey, ERLIS Data Set 6.</p>
+",N/A,Delete,Internet||Library,Geology,Hamilton||Ontario,Shapefile,sites/default/files/geospatial/BedrockGeologyOnt.jpg,BedrockGeologyOnt.jpg,BedrockGeologyOnt.jpg
+5830,Greater Toronto Area (GTA) Orthophotography Project 2005,2005,"<p>First Base Solutions</p>
+",MrSID,McMaster Students / Staff / Faculty only,"<p>Available for download through <a href=""http://geo.scholarsportal.info/#r/details/_uri@=3385600859&_add:true_nozoom:true"">Scholars GeoPortal</a>.</p>","<p>Data provided by Ontario Geospatial Data Exchange (OGDE). Colour aerial photography captured in the Spring of 2005.</p>
+","<p>a brief overview of all the Greater Toronto Digital Orthophotography projects is available through the Land Information Ontario <a href=""https://www.javacoeapp.lrc.gov.on.ca/geonetwork/srv/en/main.home"">Metadata Management Tool</a>.</p>
+","<p>First Base Solutions. <em>Greater Toronto Area (GTA) Orthophotography Project 2005</em>[digital photograph]. Toronto ON: First Base Solution, 2005.</p>
+<p>Copyright statement required on any map or publication produced using this data:<br />
+""Produced by (researcher's name), McMaster University, with Data supplied under Licence by Members of the Ontario Geospatial Data Exchange.""</p>
+","<p>Available for download through <a href=""http://geo.scholarsportal.info/#r/details/_uri@=3385600859"">Scholars GeoPortal.</p>",Delete,Library,Remote Sensing and Air Photos,Ontario,MrSID,sites/default/files/geospatial/Toronto2005.jpg,Toronto2005.jpg,Sample of City of Toronto orthophoto 2005
+5833,Quaternary Geology of Ontario,2000,"<p>Ontario Geological Survey</p>
+","Shapefile (.shp), AutoCAD (.dxf, .dwg)",Public,"<p>Available for download via <a href=""https://www.mndm.gov.on.ca/en/mines-and-minerals/applications/ogsearth/quaternary-geology"">Geology Ontario</a>.</p>
+","<p>A seamless surficial geology cover which illustrates the general distribution of the various types of Quaternary sediments and the major landforms associated with them. Tills, glaciofluvial, glaciolacustrine, glaciomarine, fluvial, lacustrine and organic deposits are represented by 30 distinct geological units illustrating the Quaternary stratigraphy of Ontario. Also shown are landform deposits such as drumlins, moraines, eskers, sand dunes, and glacial-related escarpments. Base information, such as latitude and longitude lines, water bodies and townships, is included. Other layers in this dataset include dunes, hummocky, material geology, geology age and geology type.  This dataset was created using data collected from 1950 to 1988</p>
+<p>Another ERLIS dataset ""Geology of Ontario Base Maps"" is also available, and is intended to be used as a reference map for this dataset.  Information about this complementary dataset is available on the <a href=""http://library.mcmaster.ca/maps/geospatial/geology-ontario-base-maps"">library website</a>.</p>
+<p>Keywords associated with this dataset: glacial deposits, glacial till soils, MNDM, northern Ontario, OGS, physical geography sedimentation, sand dunes, surficial</p>
+","<p>A general metadata record for the product can be found in Land Information Ontario's <a href=""https://www.javacoeapp.lrc.gov.on.ca/geonetwork?uuid=4fdb3b16-3e9a-47d8-bf87-0f714fe76e2f"">metadata tool</a></p>
+<p>A second metadata document, a readme, and a ""legend"" document are included with the downloadable dataset</p>
+","<p>Quaternary Geology, Seamless Coverage of the Province of Ontario [computer file]. Sudbury, ON: Ontario Geological Survey, 2000.</p>
+","<p>Scholars GeoPortal - <a href=""http://geo.scholarsportal.info/#r/details/_uri@=1814496924"">Quaternary Geology of Ontario</a>.</p>",Delete,Library,Geology,Hamilton||Ontario,Shapefile,sites/default/files/geospatial/QuaternaryGeologyOnt.jpg,QuaternaryGeologyOnt.jpg,QuaternaryGeologyOnt.jpg
+5834,Surficial Geology of Southern Ontario,2010,"<p>Ontario Geological Survey</p>
+",Esri interchange file (.e00),Public,"<p>Data and associated documentation can be accessed through the <a href=""http://www.geologyontario.mndm.gov.on.ca/mndmaccess/mndm_dir.asp?type=pub&id=MRD128-REV"">Geology Ontario website</a>.</p>","<p>A surficial geology map of the Province of Ontario, showing the distribution of surface and near-surface geological materials, mapped at a nominal depth of 1 metre. It illustrates surficial deposit types, material types, geological features (e.g. drumlins, eskers) and general bedrock types and outcrops. The data used in generating the map was derived from Quaternary maps, primarily at a scale of 1:50,000, completed by the OGS and Geological Survey of Canada for most of Southern Ontario over the past 40 years. Mappable attributes include but not limited to: permeability, formation, primary surficial material, age, formation, subepisode, phase, moraines, hummocky topography, gravel pits and quarries. <a href=""http://library.mcmaster.ca/maps/images/mrd128_h.jpg"">Raster image</a> of shaded relief is also included.</p>
+","<p>Metadata file included with download and also available through <a href=""https://www.javacoeapp.lrc.gov.on.ca/geonetwork?uuid=cf19e016-766d-4cfb-acf4-9df6523fcd4d"">Land Information Ontario</a>.</p>
+","<p>As recommended by the Ontario Geological Survey:</br>
+Ontario Geological Survey 2010. Surficial geology of Southern Ontario; Ontario Geological Survey, Miscellaneous Release--Data 128-REV</p>
+","<p>Several datasets are available at GeoPortal with a search for <a href=""http://geo1.scholarsportal.info/#r/search/_queries@=surficial;&fields@=;&sort=relevance&limit=all"">""Surficial Geology of Ontario""</a>.</p>",Delete,Library,Geology,Hamilton||Ontario,Shapefile,sites/default/files/geospatial/SurficialGeoOnt.jpg,SurficialGeoOnt.jpg,SurficialGeoOnt.jpg
+5836,"Fisheries and Oceans Canada - Oceans, Habitat and Enhancement",Various,"<p>Fisheries and Oceans Canada</p>
+",,Public,"<p><a href=""http://www-heb.pac.dfo-mpo.gc.ca/maps/maps-data_e.htm"">http://www-heb.pac.dfo-mpo.gc.ca/maps/maps-data_e.htm</a></p>
+","<p>The Oceans, Habitat and Enhancement Spatial Data Holdings webpage provides users with a quick and easy way of scanning the data resources currently held in the GIS Unit's spatial data warehouse. This data has been organized under the following three broad categories: Themes, Images, and Basemaps.</p>
+<p>Coverage is focused on fisheries in British Columbia, Yukon, Alaska and Washington. Some products can be downloaded and others are restricted access.</p>
+<p>Keywords: Department of Fisheries (DFO) boundaries, hatcheries, Coast Guard sites, lightstations, spawning rivers, fish species, salmon, trout.</p>
+<p>Several interactive map tools are available from the same website.</p>
+","<p>Metadata available for each product.</p>
+",,,Delete,Internet,Physical Environment||Water Resources,Canada,Interactive Map||Shapefile,sites/default/files/geospatial/fisheries_webpage.jpg,Fisheries_webpage.jpg,Fisheries and Oceans Canada webpage
+5841,Data Sites for Individual States,Various,"<p>Lucinda Hall, Dartmouth College</p>
+",Web-based data portals,Public,"<p><a href=""http://www.ala.org/ala/mgrps/rts/magert/publicationsab/statedata1.cfm"">Data sites for individual States</a></p>
+","<p>This site is a directory of websites with GIS data for every state in the United States of America.</p>
+",,,N/A,Delete,Internet,Boundaries||Portals,USA,,,,
+5843,ATLAS Ontario Program,2001,"<p>Ontario Ministry of Natural Resources and ESRI Canada</p>
+",,McMaster Students / Staff / Faculty only,"<p>An overview of the ATLAS program from the ESRI Canada Website: <a href=""http://www.esri.ca/english/3772.asp"">http://www.esri.ca/english/3772.asp</a></p>
+","<p>The ATLAS Ontario Program is a joint project between OMNR and ESRI Canada which provides small datasets and ArcView lesson plans, relevant to 14 specific geographical areas in Ontario. This CD-ROM was originally intended to be used as teaching material for high school geography, but the datasets address many GIS applications and cover a variety of regions in Ontario, so it may be useful for undergraduate university students.  The lessons are different for each region, but the datasets are usually the same for each region. Some of the lessons also suggest use of data from the ArcCanada CD-ROM or an atlas.</p>
+<p>Below is a list of the 14 regional datasets and the focus of the accompanying lesson plan</p>
+<table border=""1"" width=""75%"" align=""center""><tbody><tr><td width=""36%"">
+<div align=""center""><b>Geographical Region Represented</b></div>
+</td>
+<td valign=""top"" width=""64%"">
+<div align=""center""><b>Focus of Lesson Plan</b></div>
+</td>
+</tr><tr><td width=""36%"">Holland Marsh</td>
+<td width=""64%"">Sustainable development and urban growth</td>
+</tr><tr><td width=""36%"">Kingston</td>
+<td width=""64%"">Transportation</td>
+</tr><tr><td width=""36%"">Leamington</td>
+<td width=""64%"">High density agriculture</td>
+</tr><tr><td width=""36%"">London</td>
+<td width=""64%"">New subdivision</td>
+</tr><tr><td width=""36%"">Mattawa</td>
+<td width=""64%"">Promotion of Mattawa River Provincial Park</td>
+</tr><tr><td width=""36%"">Niagara</td>
+<td width=""64%"">Niagara Escarpment</td>
+</tr><tr><td width=""36%"">Oak Ridges Moraine</td>
+<td width=""64%"">Deer wintering areas</td>
+</tr><tr><td width=""36%"">Orillia</td>
+<td width=""64%"">Compare two ecozones</td>
+</tr><tr><td width=""36%"">Oshawa</td>
+<td width=""64%"">New recreational trail for tourism</td>
+</tr><tr><td width=""36%"">Sault Ste. Marie</td>
+<td width=""64%"">Cross-country ski trails</td>
+</tr><tr><td width=""36%"">Sudbury</td>
+<td width=""64%"">Evidence of meteor impact</td>
+</tr><tr><td width=""36%"">Temagami</td>
+<td width=""64%"">New provincial park</td>
+</tr><tr><td width=""36%"">Thunder Bay</td>
+<td width=""64%"">New resort</td>
+</tr><tr><td width=""36%"">Tobermory</td>
+<td width=""64%"">Hiking trails in Bruce National Park</td>
+</tr></tbody></table><p>The following layers are included on the CD (please note that not all layers are available for each region): Agreement Forests, Boundaries, Concessions, Conservation Authority Areas, Contours, Deer Wintering Areas, Environmentally Sensitive Areas, National Parks, Nature Reserves, Nature Areas, Provincial Parks, Railways, Rivers, Roads, Significant Ecological Areas, Spot Heights, Trails, Water Barriers, Water Bodies, Wetlands.</p>
+<p>Attribute data is limited.  Polygon shapefiles all have an ""area"" attribute.  Some have a ""name"" attribute"" some have a simple ""type"" attribute (e.g. the ""wetland"" layer contains five different wetland types).  Most line shapefiles have a ""type"" attribute as well (e.g. the ""roads"" layer is divided into primary, secondary, and tertiary road types).</p>
+","<p>A brief metadata document is supplied to accompany the Ministry of Natural Resources datasets. A paper copy of this document is available in the Map Collection. There is a one page lesson plan in pdf format to accompany each regional dataset.</p>
+","<p><em>The ATLAS Ontario Program</em> [CD-ROM]. (2001). Toronto, ON: Ontario Ministry of Natural Resources and ESRI Canada.</p>
+",,Delete,Library,Boundaries||Human Environment||Physical Environment||Topography||Transportation||Water Resources,Ontario,Shapefile,sites/default/files/geospatial/AtlasOntario.jpg,AtlasOntario.jpg,Sample of ATLAS Ontario project data
+5848,Niagara Escarpment Plan (NEP),Various,"<p>Niagara Escarpment Commission</p>
+","Shapefile (.shp), PDF",Public,"Maps (PDF format) can be downloaded through the <a href=""https://www.escarpment.org/LandPlanning/NEP/niagaraEscarpmentMaps"">Niagara Escarpment Commission's website</a>, while the corresponding vector datasets can be downloaded through <a href=""https://www.javacoeapp.lrc.gov.on.ca/geonetwork/srv/en/main.home"">Land Information Ontario</a> by doing a search for ""Niagara Escarpment"".","<p>Vector layers and PDF maps associated with the <a href=""http://www.escarpment.org/landplanning/plan/index.php"">Niagara Escarpment Plan</a>.  Maps (PDF format) can be downloaded through the <a href=""https://www.escarpment.org/LandPlanning/NEP/niagaraEscarpmentMaps"">Niagara Escarpment Commission's website</a>, while the corresponding vector datasets can be downloaded through <a href=""https://www.javacoeapp.lrc.gov.on.ca/geonetwork/srv/en/main.home"">Land Information Ontario</a> by doing a search for ""Niagara Escarpment"". The Niagara Escarpment Plan GIS files includes boundaries for seven land-use designations (Natural, Protection, Rural, Recreation, Urban, Minor Urban and Mineral Resource Extraction).</p>
+","<p>Metadata available for each record in Land Information Ontario.</p>
+","<p>Niagara Escarpment Plan Boundary [computer file]. (2005). Georgetown, ON: Niagara Escarpment Commission.</p>","<p><a href=""http://geo.scholarsportal.info/#r/details/_uri@=1734748516"">Niagara Escarpment Plan Boundary</a></p>",Delete,Library,Boundaries||Physical Environment,Hamilton||Ontario,Shapefile,sites/default/files/geospatial/NEP.jpg,,
+5951,Greater Toronto Area (GTA) Orthophotography Project 2002,2002,"<p>J.D. Barnes First Base Solutions Inc.</p>
+",MrSID,McMaster Students / Staff / Faculty only,,"<p>Data provided by Ontario Geospatial Data Exchange (OGDE).  Data are available in 1 km tiles.</p>
+<p>Coverage for this product includes areas within the Regions of Durham York, Peel & Halton, the City of Toronto, Golden Horseshoe, Niagara Peninsula and the City of Hamilton: This includes Ajax, Aurora, Brampton, Brock, Burlington, Caledon, Clarington, Etobicoke, Georgina, Grimsby, Gwillimbury, Halton Hills, Hamilton, King, Markham, Milton, Mississauga, Newmarket, Niagara Falls, Oakville, Oshawa, Pickering, Richmond Hill, St. Catharines, Scarborough, Scugog, Stouffville, City of Toronto, York, East York, North York, Uxbridge, Vaughan and Whitby.</p>
+<p>An index to images available is provided through <a href=""http://geo1.scholarsportal.info/#r/search/_queries@=Greater%20Toronto%20Area%20coverage;&fields@=;&sort=relevance&limit=entitled"">Scholars GeoPortal</a>. To request these images, please record the numbers of the tiles you need.</p>
+","<p>Metadata is available through <a href=""https://www.javacoeapp.lrc.gov.on.ca/geonetwork?uuid=6c781b9a-274a-4d5a-a404-5c24d4982786"">Land Information Ontario</a>.</p>
+
+","<p>J.D. Barnes Ltd. <em>Greater Toronto Area Digital Orthophotos 2002</em> [digital photograph]. Markham ON: Ontario Ministry of Natural Resources, 2002.</p>
+<p>Copyright statement required on any map or publication produced using this data:<br />
+""Produced by (researcher's name), McMaster University, with Data supplied under Licence by Members of the Ontario Geospatial Data Exchange.""</p>
+","<a href=""http://geo1.scholarsportal.info/#r/search/_queries@=GTA%202002;&fields@=;&sort=relevance&limit=entitled"">Scholars GeoPortal</a>.",Delete,Library,Remote Sensing and Air Photos,Hamilton||Ontario,MrSID,sites/default/files/geospatial/toronto2002.JPG,,Sample of Greater Toronto orthophoto 2002
+5953,Greater Toronto Area (GTA) Orthophotography Project 2007,2007,"<p>J.D. Barnes First Base Solutions Inc.</p>
+",MrSID,McMaster Students / Staff / Faculty only,"<p>Available for download through <a href=""http://geo.scholarsportal.info/#r/details/_uri@=2201565305"">Scholars GeoPortal</a>.</p>","<p>Data provided by Ontario Geospatial Data Exchange (OGDE).  Data are available in 1 km tiles.</p>
+<p>Coverage for this product includes areas within the Regions of York, Peel & Halton, the City of Toronto and the City of Hamilton including Aurora, Brampton, Burlington, Caledon, Georgina, Gwillimbury, Halton Hills, Hamilton, King, Markham, Milton, Mississauga, Newmarket, Oakville, Richmond Hill, Stouffville, City of Toronto, Etobicoke, York, East York, North York, Scarborough, and Vaughan.</p>
+<p>Indexes to these images are available (courtesy of University of Waterloo Map Library):</p>
+<ul><li>Toronto 15 cm <a href=""http://www.lib.uwaterloo.ca/locations/umd/digital/documents/Toronto15.pdf"">http://www.lib.uwaterloo.ca/locations/umd/digital/documents/Toronto15.pdf</a></li>
+<li>Hamilton 15 cm <a href=""http://www.lib.uwaterloo.ca/locations/umd/digital/documents/Hamilton15.pdf"">http://www.lib.uwaterloo.ca/locations/umd/digital/documents/Hamilton15.pdf</a></li>
+<li>Mississauga 15 cm <a href=""http://www.lib.uwaterloo.ca/locations/umd/digital/documents/PeelMississauga15.pdf"">http://www.lib.uwaterloo.ca/locations/umd/digital/documents/PeelMississauga15.pdf</a></li>
+<li>Peel 20 cm <a href=""http://www.lib.uwaterloo.ca/locations/umd/digital/images/Peel.jpg"">http://www.lib.uwaterloo.ca/locations/umd/digital/images/Peel.jpg</a></li>
+<li>Halton 20 cm <a href=""http://www.lib.uwaterloo.ca/locations/umd/digital/documents/Halton20.pdf"">http://www.lib.uwaterloo.ca/locations/umd/digital/documents/Halton20.pdf</a></li>
+<li>Halton 15 cm <a href=""http://www.lib.uwaterloo.ca/locations/umd/digital/documents/Halton15.pdf"">http://www.lib.uwaterloo.ca/locations/umd/digital/documents/Halton15.pdf</a></li>
+<li>York 20 cm <a href=""http://www.lib.uwaterloo.ca/locations/umd/digital/documents/York20.pdf"">http://www.lib.uwaterloo.ca/locations/umd/digital/documents/York20.pdf</a></li>
+</ul><p>To request these files, please provide the tile numbers of the images you need.</p>
+","<p>Metadata is available through <a href=""https://www.javacoeapp.lrc.gov.on.ca/geonetwork?uuid=e8eadf33-baec-4f8e-99e5-87aa910078ff"">Land Information Ontario</a>.</p>
+
+","<p>J.D. Barnes First Base Solutions. <em>City of Toronto Orthophotos 2007 </em>[digital photograph]. Toronto ON: J.D. Barnes First Base Solutions, 2007.</p>
+<p>Copyright statement required on any map or publication produced using this data:<br />
+""Produced by (researcher's name), McMaster University, with Data supplied under Licence by Members of the Ontario Geospatial Data Exchange.""</p>
+","<p>Available for download through <a href=""http://geo.scholarsportal.info/#r/details/_uri@=2201565305"">Scholars GeoPortal</a>.</p>",Delete,Library,Remote Sensing and Air Photos,Hamilton||Ontario,MrSID,sites/default/files/geospatial/toronto_2007.JPG,toronto_2007.JPG,Sample of Greater Toronto orthophoto 2007
+5978,"Canadian Digital Elevation Data (1:250,000)",2012,"<p>Natural Resorces Canada</p>
+",Digital Elevation Model (.dem),Public,"<p>Canadian Digital Elevation Data (CDED) can be downloaded from <a href=""http://www.nrcan.gc.ca/earth-sciences/geography/topographic-information/free-data-geogratis/download-directory-documentation/17215"">Natural Resources Canada</a>.</p>
+","<p>Digital elevation data consists of an ordered array of ground elevations sampled at regular intervals over each grid area.   Aside from estimating point elevations, digital elevation has a variety of applications, including terrain modeling, line of sight analysis, water flow and flooding analysis, and many others.</p>
+<p>In this dataset, spacing between elevation values varies with latitude. The values for East/West range from 3 to 12 arc seconds, or 30 to 70 metres. Spacing is always 3 arc seconds or about 93 metres for North/South.</p>
+<p>The data are provided in separate tiles according to the Canadian National Topographic System (1:250 000) map boundaries. For example, the local area appears as two map sheets: 30M, and 40P, and each sheet is further divided into an Eastern and a Western tile.  Each tile contains 1201 elevation points x 1201 elevation points, for a total of 1,442,401 elevation points.   A higher resolution dataset (1:50,000) is also available, but both datasets provide complete coverage of Canada.</p>
+<p>Other Keywords: DEM, Digital Elevation Model</p>
+","<p>Documentation for the Canadian Digital Elevation Data (CDED) can be viewed and downloaded from <a href=""http://www.nrcan.gc.ca/earth-sciences/geography/topographic-information/free-data-geogratis/download-directory-documentation/17215"">Natural Resources Canada</a>.</p>
+<p>A Metadata file is also included with the download.</p>
+","<p>Canadian Digital Elevation Data [computer file]. Ottawa, ON: Natural Resources Canada  [2000-2009].</p>
+<p>Use of the data is subject to the Open Government Licence – Canada. The License Agreement can be viewed in full at the following link: <a href=""http://open.canada.ca/en/open-government-licence-canada"">http://open.canada.ca/en/open-government-licence-canada</a></p>
+",N/A,Delete,Internet,Topography,Canada||Hamilton||Ontario,ASCII,sites/default/files/geospatial/sample250.JPG,sample250.JPG,sample250.JPG
+6024,Geographic Townships (Improved),2013,"<p>Ministry of Natural Resources</p>
+",Shapefile (.shp),Public,"<p>Available for download through <a href=""https://www.javacoeapp.lrc.gov.on.ca/geonetwork?uuid=f65fad7c-914b-4759-a215-1c18837ac171"">Land Information Ontario</a>.</p>
+","<p>This dataset provides delineation of all Geographic Townships in Ontario.  It was created using Ontario Base Maps (OBM) physical features and survey data, as well as Ontario Ministry of Natural Resources Base Map Areas for ""Unorganized"" areas, and aerial photographs, when necessary.  The purpose of this product is to provide a geographic reference to the fundamental land subdivision of the Province, as it was originally surveyed.  Since it is unedited, it is only intended for administrative and spatial reference purposes, not for survey purposes.</p>
+<p>Additional keywords associated with this dataset: administration, administrative fabric, crown land, educational resources, g-plans, northern ontario, township, unorganized area.</p>
+","<p>Available through Land Information Ontario's <a href=""https://www.javacoeapp.lrc.gov.on.ca/geonetwork?uuid=f65fad7c-914b-4759-a215-1c18837ac171"">Metadata Management Tool</a>.</p>
+<p>A copy of the general metadata document, as well as a brief ""Readme"" document are included with the downloadable dataset</p>
+","<p>Ontario Ministry of Northern Development and Mines 2004. <em>Township and Unorganized Area Fabric for Ontario</em>; Ontario Geological Survey, Data Set 12.</p>
+","<p>Available for download through <a href=""http://geo.scholarsportal.info/#r/details/_uri@=2435576569"">Scholars GeoPortal</a>.</p>",Delete,Internet,Boundaries||Human Environment,Hamilton||Ontario,Shapefile,sites/default/files/geospatial/ERLIS12.jpg,ERLIS12.jpg,ERLIS12.jpg
+6025,Ontario Drill Hole Database,1940 to 2011,"<p>Northern Development and Mines</p>
+",Google Earth (.kml),Public,"<p><a href=""https://www.ontario.ca/data/ontario-drill-hole-database"">https://www.ontario.ca/data/ontario-drill-hole-database</a></p>
+","<p>The Ontario Drill Hole Database contains index information for more than 126,000 percussion, overburden, sonic and diamond drill holes from assessment files on record with the Mines and Minerals Division. Attribute data include location, company name, company hole number, hole orientation, hole depth, and overburden depth if applicable. The presence of assay results within cutoff values for gold, silver, copper, zinc, lead, nickel and platinum group elements is noted.  The purpose of this dataset is to assist exploration companies in their efforts to locate new deposits and allow research within the Province of Ontario through effective access to drill hole records in Ontario.</p>
+<p>Additional keywords associated with this dataset: drills, drilling, geochemical, geochemistry, geophysics, mineral exploration, minerals, Ministry of Northern Development and Mines, MNDM, Northern Ontario.</p>
+","<p>Product metadata can be found on the Land Information Ontario (LIO) <a href=""https://www.javacoeapp.lrc.gov.on.ca/geonetwork?uuid=f5c81bba-a4b1-4cc4-b534-1f2e765e2c26"">metadata tool</a></p>
+","<p>Northern Development and Mines [year database accessed]. <em>Ontario Drill Hole Database</em>; Northern Development and Mines.</p>
+","<p>Scholars GeoPortal - <a href=""http://geo.scholarsportal.info/#r/details/_uri@=3214395241"">Ontario Drill Hole Database</a></p>",Delete,Internet,Geology,Hamilton||Ontario,Shapefile,sites/default/files/geospatial/ERLIS13.jpg,ERLIS13.jpg,ERLIS13.jpg
+6034,Geology of Ontario - Topographic Base Map,1993,"<p>Ontario Geological Survey</p>
+","AutoCAD (.dwg, .dxf)",Public,"<p>Ontario Geological Survey - <a href=""http://www.geologyontario.mndm.gov.on.ca/dtSearch/dtisapi6.dll?cmd=getdoc&DocId=50422&Index=%2a%7baa02399cc101a0e3be8aea412f6a2f9b%7d%20PUB&HitCount=1&hits=24+&SearchForm=%2findex%2ehtml"">Topographic Base Map: Seamless Coverage of the Province of Ontario</a>.</p>
+","<p>This dataset contains a seamless topographic base map for the province of Ontario in digital format which serves as a reference layer for other ERLIS datasets.  It contain items such as hydrology, road and railroad  networks, town and city locations, and political boundaries.</p>
+<p>Additional keywords associated with this file: administration, administrative fabric, highways, lakes, rivers, meridian and base lines MNDM, OGS, townships.</p>
+","<p>Metadata is available through <a href=""https://www.javacoeapp.lrc.gov.on.ca/geonetwork?uuid=e8528890-c23a-4594-92da-ec0cd3b8caf8"">Land Information Ontario</a></p>
+<p>A ""readme"" document, which includes a list of layers, is included with the downloadable dataset.</p>
+","<p>Ontario Geological Survey, 1993.  Topographic Base, Seamless Coverage of the Province of Ontario.  Ontario Geological Survey, Data Set 22.</p>",N/A,Delete,Internet,Boundaries||Geology||Human Environment||Transportation||Water Resources,Hamilton||Ontario,DWF,sites/default/files/geospatial/ERLIS22.jpg,ERLIS22.jpg,ERLIS22.jpg
+6038,GeoConnections Discovery Portal,Various,,,Public,"<p><a href=""http://geodiscover.cgdi.ca/web/guest/home?portalLangID=en_US"">http://geodiscover.cgdi.ca/web/guest/home?portalLangID=en_US</a></p>
+","<p>The GeoConnections Discovery Portal provides an infrastructure through which one can search and access geospatial data from many organizations.  The directory contains over 9000 databases from over 600 organizations.  These databases can be searched by data format , geographic extent, and type of geography.  Not all data sources in the directory can be accessed for free, but the queries can be filtered such that only free sources are shown.  Please be aware that some free resources, such as GeoBase, require you to make an account before you can access data.  Although this directory contains data at a global extent, it is a Canada-centric website, and therefore many databases will portray Canadian information.</p>
+<hr /><p>The following topics and sub-topics are available filters for the geospatial data search:</p>
+<p><strong>Atmosphere/Weather:</strong> Current weather and forecasts, General climate data, Weather disasters, Winds</p>
+<p><strong>Geology:</strong> Earthquakes</p>
+<p><strong>Land Surface:</strong> Agriculture, Forestry, Land use, Snow, Soil, Topography, Vegetation</p>
+<p><strong>Water:</strong> Freshwater, Hydrogeology, Lake ice, Oceans, Sea ice</p>
+<hr /><p> </p>
+","<p>In the search results, each item will have a link on the right that says ""full metadata"", which will take you to a separate metadata webpage.  The search result will also show a checkmark icon next to some items, meaning that the metadata for that item has been verified. Most datasets are for sale - look for an icon indicating those which can be obtained free.</p>
+",,,Delete,Internet,Climate||Geology||Human Environment||Physical Environment||Remote Sensing and Air Photos||Soils||Topography||Water Resources||Portals,Canada||Hamilton||Ontario||USA||World,ASCII,,,
+6039,Hydrometric Database,2013,"<p>Environment Canada, Water Survery of Canada (WSC)</p>
+",Comma-separated values (.csv),Public,"<p>Water Survey of Canada - <a href=""https://www.canada.ca/en/environment-climate-change/services/water-overview/quantity/monitoring/survey/data-products-services.html"">Data products and services</a>.</p>
+","<p>The Water Survey of Canada is a branch of Environment Canada which provides comprehensive flow or surface water level data for rivers across Canada.  For each hydrometric station, one can query daily or monthly flow or water level rates for the years that the station was active.  Some stations only have records for a few years, while others have records for over 80 consecutive years.  Some stations also have records for sediment loads and concentrations.</p>
+<p>The data are provided in tabular (.csv) format. A separate table contains the coordinates of the stations in latitute/longitude and can be plotted on a map and joined with the corresponding hydrometric data or opened in Excel.</p>
+","<p>Database definitions and release notes available through <a href=""http://geo.scholarsportal.info/#r/details/_uri@=135825224"">Scholars GeoPortal</a>.</p>
+","<p>Water Survey of Canada. <em>HYDAT Database</em>. Ottawa, ON: Environment Canada, Water Survey of Canada, 2013.</p>","<p>HYDAT Database is available for download through <a href=""http://geo.scholarsportal.info/#r/details/_uri@=135825224"">Scholars GeoPortal</a>.</p>",Delete,Internet,Water Resources,Canada||Hamilton||Ontario,Interactive Map||Excel,sites/default/files/geospatial/WSC.jpg,WaterSurveyCanada,WaterSurveyCanada
+6058,Waste Management Site,2012,"<p>Ministry of Natural Resources</p>
+",Shapefile (.shp),Public,"<p>Available for download through <a href=""https://www.javacoeapp.lrc.gov.on.ca/geonetwork?uuid=630bb67d-ae0c-4093-b1fd-dc8d27035b01"">Land Information Ontario</a>.</p>","<p>Location of known waste management sites within Ontario. This dataset includes information pertaining to the type of waste management site (compost, hazardous, household, etc.) in addition to its status and location. Additional supplementary tables are available.</p>
+","<p>Metadata is available through the Land Information Ontario link provided. <a href=""http://geo.scholarsportal.info/#r/details/_uri@=1732883957&_add:true_nozoom:true"">Scholars GeoPortal</a> also includes a user guide, data description, and supplementary tables.</p>
+","<p>Waste Management Branch: Ministry of the Environment. <em>Waste Disposal Site Inventory</em> [computer file]. Toronto, ON: GIS Services, University of Toronto Libraries, 2005.</p>
+","<p>Scholars GeoPortal - <a href=""http://geo.scholarsportal.info/#r/details/_uri@=173288395"">Waste Management Site</a></p>",Delete,Library,Human Environment,Hamilton||Ontario,Shapefile,sites/default/files/geospatial/disposal_sites.jpg,disposal_sites.jpg,disposal_sites.jpg
+6059,Postal2Census Translation Table,2007 - 2014,"<p>DMTI Spatial Inc.</p>
+",Table,McMaster Students / Staff / Faculty only,"<p>Available for download from <a href=""http://geo.scholarsportal.info/#r/details/_uri@=3023771738"">Scholars GeoPortal</a>.</p>","<p>This table contains explicit and unilateral relationships of 6-digit postal code point geometry to census geography at the Census Tract (CT), Census Division (CD), and Census Subdivision (CSD) levels, as delineated in the 1996 and 2001 periods.  The purpose of this table is to provide a bridge between current Canadian postal code points and historic geography boundaries.</p>
+<p>This table was specifically created to complement the DMTI product ""Platinum Postal Suite"".  More information about Platinum Postal Suite can be found on the <a href=""http://library.mcmaster.ca/maps/geospatial/platinum-postal-suite-0"">library's website</a> .  This table can be joined to the MEP point file provided in Platinum Postal Suite using the ""MEP_ID"" field.  The point file and the table must be of the same version in order to join correctly.</p>
+<p>Please note that this table is extremely large, containing over 1.3 million records.  It will often cause ArcMap to crash if handled incorrectly.  It is prudent to first determine which MEPs are of interest to you, using the MEP file from Platinum Postal Suite, then selecting those records out of the table and working with the subset.</p>
+<p>Available to Canadian universities under <a href=""http://prod.library.utoronto.ca:8090/maplib/DMTI/"" class=""ext"">DMTI Spatial SMART Consortium agreement</a>.  The earliest version of this data available through McMaster University Library is 2006. Annual updates are received in October or November of every year, so a version is available for each year after 2006.</p>
+","<p>A user guide in PDF format is supplied with the files.  A paper copy is also available in the Map Collection.</p>
+","<p>Author. <i>Title</i> [format].  Edition.  Place of publication: Publisher, Date.</p>
+<p>Example:  DMTI Spatial Inc. <i>Postal2Census Translation Table </i>[computer file].  v2009.3. Markham ON: DMTI Spatial Inc., 2009.</p>
+","<p>Available for download from <a href=""http://geo.scholarsportal.info/#r/details/_uri@=3023771738"">Scholars GeoPortal</a>.</p>",Delete,Library,Boundaries,Canada||Hamilton||Ontario,ASCII,,,
+6070,CanMap StreetFiles,"Annual, from 2001",<p>DMTI Spatial Inc.</p>,Shapefile (.shp),McMaster Students / Staff / Faculty only,"<p>Data can be downloaded via <a href=""http://geo1.scholarsportal.info/#r/search/_queries@=DMTI%20CanMap%20Streetfiles;&fields@=;&sort=relevance&limit=entitled"">Scholars GeoPortal</a>.</p>","<p>This very popular dataset describes road networks and various topographic features across Canada.  A separate dataset is provided for each province, except for the ""Canada"" directory, which contains capital cities, national water, time zones, and provincial, regional, and area code boundaries for the whole country. </p>
+<p>The ""Streets"" directory contains separate shapefiles for all roads, just major roads and highways, or just highways, as well as road casement regions at a variety of levels.  The ""Points of Interest"" directory contains point files for locations which are primarily associated with road-based transportation, such as car pool lots, toll booths, transportation stops etc..  The ""Topo"" directory contains shapefiles which describe various topographic features, such as rail and transit lines, pipelines and transmission, other transportation, building points and footprints, hydrography and hydrographic structures, parks and recreation, wetlands, vegetation, and land use.</p>
+<p>This product is identical to the DMTI product ""RouteLogistics"", except it DOES NOT CONTAIN the following features: airports/aerodromes, weigh stations, forward sortation area (FSA) boundaries, turn restrictions at intersections, speed limits, and bridges and tunnels.  If you are interested in any of these features, the Map Collection's webpage for ""RouteLogistics"" can be found at the following link: <a href=""http://library.mcmaster.ca/maps/geospatial/route-logistics"">http://library.mcmaster.ca/maps/geospatial/route-logistics</a></p>
+<p>Available to Canadian universities under <a class=""ext"" href=""http://prod.library.utoronto.ca:8090/maplib/DMTI/"">DMTI Spatial SMART Consortium agreement</a>.  The earliest version of this data available through McMaster University Library is 2001. Annual updates are received in October or November of every year, so a version is available for each year after 2001.</p>","<p>A User Manual and Data Dictionary in PDF format are available for each dataset through Scholars GeoPortal.</p>
+","<p>Author. <i>Title</i> [format].  Edition.  Place of publication: Publisher, Date.</p>
+<p>DMTI Spatial Inc. <em>CanMap Streetfiles</em> [computer file]. v2011.3. Markham, Ontario: DMTI Spatial Inc., 2011.</p>
+","<p>Several datasets are available at GeoPortal with a search for <a href=""http://geo1.scholarsportal.info/#r/search/_queries@=DMTI%20CanMap%20Streetfiles;&fields@=;&sort=relevance&limit=entitled"">""CanMap StreetFiles""</a>.</p>",Delete,Library,Boundaries||Human Environment||Transportation||Water Resources,Canada||Hamilton||Ontario,Shapefile,sites/default/files/geospatial/canmapstreetfile1.jpg,canmapstreetfile.jpg,canmapstreetfile.jpg
+6129,McMaster University Campus Plan 2009,2009,"<p>McMaster University, Facility Services, Drafting</p>
+","Shapefile (.shp), AutoCAD (.dxf, .dwg)",McMaster Students / Staff / Faculty only,,"<p>A detailed plan of the entire McMaster University Campus, including the western student parking zones.  Each building has a unique ID number, and the legend describing the names of the buildings is superimposed directly on the map.  Also included with the legend is a list of buildings that have been added or removed since the previous plan.</p>
+<p>Plans for 2015, 2013, 2012, 2010, 2006, 2004, 2002, and 1999 are also available through the Map Collection.</p>
+",<p>No metadata available.</p>,"<p><strong>Format:</strong> Producer, <em>Name</em>. City, Province: Publisher (Year).</p>
+<p><strong>Example:</strong> McMaster University Facility Services, Drafting, <em>McMaster University Campus Plan</em>. Hamilton, ON: McMaster University (2009)</p>
+",N/A,Delete,Library,Human Environment,Hamilton,DWF,sites/default/files/geospatial/McMaster2009.JPG,McMaster2009.JPG,McMaster2009.JPG
+6130,McMaster University Campus Plan 2006,2006,"<p>McMaster University, Facility Services, Drafting</p>
+","Shapefile (.shp), AutoCAD (.dxf, .dwg)",McMaster Students / Staff / Faculty only,,"<p>A detailed plan of the entire McMaster University Campus, including the western student parking zones.  Each building has a unique ID number, and the legend describing the names of the buildings is superimposed directly on the map.  Also included with the legend is a list of buildings that have been added or removed since the previous plan.</p>
+<p>Plans for 2015, 2013, 2012, 2010, 2009, 2004, 2002, and 1999 are also available through the Map Collection.</p>
+",<p>No metadata available.</p>,"<p>McMaster University Facility Services, Drafting, <em>McMaster University Campus Plan</em>. Hamilton, ON: McMaster University (2006)</p>
+",N/A,Delete,Library,Human Environment,Hamilton,DWF,sites/default/files/geospatial/McMaster2006.JPG,McMaster2006.JPG,McMaster2006.JPG
+6131,McMaster University Campus Plan 2004,2004,"<p>McMaster University, Facility Services, Drafting</p>
+","Shapefile (.shp), AutoCAD (.dxf, .dwg)",McMaster Students / Staff / Faculty only,,"<p>A detailed plan of the entire McMaster University Campus, including the western student parking zones.  Each building has a unique ID number, and the legend describing the names of the buildings is superimposed directly on the map.</p>
+<p>Plans for 2015, 2013, 2012, 2010, 2009, 2006, 2002, and 1999 are also available through the Map Collection.</p>
+",<p>No metadata available.</p>,"<p>McMaster University Facility Services, Drafting, <em>McMaster University Campus Plan</em>. Hamilton, ON: McMaster University (2004)</p>
+",N/A,Delete,Library,Human Environment,Hamilton,DWF,sites/default/files/geospatial/McMaster2004.JPG,McMaster2004.JPG,McMaster2004.JPG
+6133,McMaster University Campus Plan 2002,2002,"<p>McMaster University, Facility Services, Drafting</p>
+","Shapefile (.shp), AutoCAD (.dxf, .dwg)",McMaster Students / Staff / Faculty only,,"<p>A detailed plan of the entire McMaster University Campus, including the western student parking zones.  Each building has a unique ID number, and the legend describing the names of the buildings is superimposed directly on the map.</p>
+<p>Plans for 2015, 2013, 2012, 2010, 2009, 2006, 2004, and 1999 are also available through the Map Collection.</p>
+",<p>No metadata available.</p>,"<p>McMaster University Facility Services, Drafting, <em>McMaster University Campus Plan</em>. Hamilton, ON: McMaster University (2002)</p>
+",N/A,Delete,Library,Human Environment,Hamilton,DWF,sites/default/files/geospatial/McMaster2002.JPG,McMaster2002.JPG,McMaster2002.JPG
+6167,London Orthophotos 2009,2009,"<p>City of London, Ontario. Environmental and Engineering Services Department.  Geomatics Division.</p>
+",MrSID,McMaster Students / Staff / Faculty only,,"<p>Digital colour orthophotography coverage of the entire City of London flown April, 2009. The imagery is available as one complete mosaic.</p>
+","<p>A very basic ""readme"" file is delivered with the dataset.</p>
+","<p>City of London, Environmental and Engineering Services Dept., Geomatics Division. <i>London Digital Orthophotos 2009</i> [computer file]. London, Ontario: The City of London, 2009.</p>
+",N/A,Delete,Library,Remote Sensing and Air Photos,Ontario,MrSID,sites/default/files/geospatial/london2009.JPG,london2009.JPG,london2009.JPG
+6176,Hamilton Parcel/Land Use Data,2010,"<p>Teranet Inc. and The City of Hamilton, Dept. of Planning and Economic  Development.</p>
+",Shapefile (.shp),McMaster Students / Staff / Faculty only,,"<p>This data was provided by The City of Hamilton, Dept. of Planning and Economic Development, GIS - Planning and Analysis.</p>
+<p>This dataset delineates all land parcels in the City of Hamilton, and provides the street address, as well as the type of land use for each parcel.  Land use is generally classified as: Residential, Institutional, Office, Commercial, Warehousing/Wholesale/Storage, Industrial, Utilities/Transportation, Parks/Open Space, Agriculture, Vacant Lands/Parking, and Miscellaneous.</p>
+<p>Within each of these classes, the parcels are more specifically classified, as described below:</p>
+<ul>
+<li>Residential - subdivided into detached house, semi-detached house, row/townhouse, apartment, mobile home etc.</li>
+<li>Institutional - subdivided into pre-school, elementary/secondary school, post secondary institution, place of worship, galleries, emergency and military services, government, hospital, rooming house, correctional services etc.</li>
+<li>Commercial - subdivided into general retail, recreation and sports clubs, restaurant, auto sales and repairs, auto service station, accomodations etc.</li>
+<li>Industrial - subdivided into light, medium, and heavy industry, as well as mines/quarries/gravel pits.</li>
+<li>Utilities - subdivided into heat/hydro/energy station, waste water, landfill, and transmission.</li>
+<li>Transportation - subdivided into railway yards, public depots, port facilities and airports.</li>
+<li>Parks/Open Space - subdivided into outdoor amusement/exhibition grounds, open space, golf course, burial facilities etc.</li>
+<li>Vacant Lots - subdivided by residential, institutional, industrial etc.</li>
+<li>Parking - subdivided by private and municipal.</li>
+</ul>
+<p>In addition to the above attributes, this dataset and provides some information about legal ownership.  This information is provided in an attribute column called ""Legal Text"".  Other attributes include Municipality, and Parcel Dimensions (Frontage and Depth).</p>
+","<p>No metadata received for this dataset.</p>
+","<p><em>Teranet Inc., Hamilton Parcel/Land Use Data</em> [computer file]. Hamilton, Ontario: City of Hamilton, Dept. of Planning and Economic Development, 2010.</p>
+",N/A,Delete,Library,Boundaries||Human Environment,Hamilton,Shapefile,sites/default/files/geospatial/parcel2010.JPG,parcel2010.JPG,parcel2010.JPG
+6177,Hamilton Vector Data Set 2010,2010,"<p>City of Hamilton, Information Technology Services, GIS Services.</p>
+",Shapefile (.shp),McMaster Students / Staff / Faculty only,,"<p>The majority of this vector data of the City of Hamilton was derived from air photos. This dataset includes sidewalks, all roads, railways, contours, ward boundaries, the escarpment, watermains, sewer, trails, building outlines, shorelines.</p>
+<p>Layers also found in the 2007 dataset include: Buildings, Bus Routes (including Bus Stops), Contours, The Escarpment, Railways, Road Edge, Road Centerline, Sewer Mains and Manholes, Shoreline, Sidewalks, Trails, Ward Boundaries and Municipal Boundaries, and Water Valves, Nodes, and Mains.</p>
+<p>Additional layers included in this dataset (i.e. not available in the 2007 dataset) include: Airports, Bikeways, Conservation Authority Areas, Parks, Parking Lots, and a variety of points of interest, including Arenas, beaches, Cemeraties, Colleges/Universities, Fire Stations, Golf Courses, Hospitals, Libraries, Museums and Galleries, Longterm Care Facilities, Places of Worship, Playlots, Pools, Police Stations, Recreation and Community Centres, Residential Care Facilities, and Schools.</p>
+<p>Informative attribute data is included with each layer.  Roads and trails have names, calculated length etc.  Points of interest have general attributes (name, address, phone number, square footage etc.) as well as specific attributes (e.g. libraries have # of books in circulation, places of worship have denomination, fire hydrants have flow rates etc.).</p>
+","<p>A basic metadata document is provided in Excel format.  For each layer, it has a description of the attributes, the data source, geographic extent, and update frequency/most recent update.  The document is provided upon delivery, or can be viewed in the Map Collection at H:\GIS\Data\Canada\ON\Hamilton\Vector_Data_2010\Hamilton_vector_2010_metadata.xls</p>
+","<p><em>City of Hamilton Vector GIS Data</em> [computer file]. Hamilton, ON: City of Hamilton GIS Services, 2010.</p>
+",N/A,Delete,Library,Boundaries||Human Environment||Physical Environment||Topography||Transportation||Water Resources,Hamilton,Shapefile,sites/default/files/geospatial/vector2010.JPG,vector2010.JPG,vector2010.JPG
+6182,Southern Ontario Land Resource Information System (SOLRIS),"2000 - 2002, published 2008","<p>Ontario Ministry of Natural Resources</p>
+","GRID, Shapefile (.shp)",Public,"<p>Available for download through <a href=""https://www.javacoeapp.lrc.gov.on.ca/geonetwork?uuid=c42f0216-df61-405f-8b99-0e613e1cfc85"">Land Information Ontario</a>.</p>","<p>From the SOLRIS Accuracy Assessment Report: ""Southern Ontario Land Resource Information System (SOLRIS) is a comprehensive landscape scale inventory of southern Ontario's natural, rural and urban areas.  SOLRIS is a response to regional information requirements and the planning level for provincial initiatives such as Source Water Protection and Natural Spaces"". </p>
+<p>SOLRIS was initially developed by the MNR's Science and Information Branch (SIB) in partnership with Ducks Unlimited, but ultimately involved partnership with several other agencies.  The final version of SOLRIS (v1.2) is made available through the Ontario Geographic Data Exchange (OGDE) as part of the Land Information Ontario (LIO) data warehouse.</p>
+<p>SOLRIS was created by intergrating geospatial databases of forests and wetlands with topographic maps, aerial photos and satellite imagery for seamless coverage of Ecoregions 6E and 7E.  The resulting inventory divides the Southern Ontario landscape according to the Ecological Land Classification (ELC) described in Lee et al<em>.</em>, 1998.  These classifications include: Open Cliff and Talus, Alvar, Shoreline, Open Shoreline, Sand Barren and Dune (Open and Treed),  Open Tallgrass Prairie, Tallgrass Savannah, Tallgrass Woodland, Forest, Coniferous Forest, Mixed Forest, Deciduous Forest, Plantations, Hedgerows, Transportation, Extraction, Built-up Area (Pervious and Impervious), Swamp, Fen, Bog, Marsh, and Open Water. Please note that there are large tracts of land which are classified as ""Undifferentiated"".</p>
+<p>Two versions are available.  Version 1.1 covers a smaller geographic extent (primarily the Golden Horsehoe area), but has much less area classified as undifferentiated.  Version 1.2 is the ""final"" version, with full coverage of southern Ontario.  Data are available in ESRI GRID raster format and ESRI shapefile vector format in both versions.</p>
+","<p>Available metadata documents include:</p>
+<ol><li>A brief FAQ which describes the verion history of SOLRIS</li>
+<li>A comprehensive Data Specification sheet, which provides descriptions and data sources for the 25 data classes</li>
+<li>A brief Accuracy Assessment FAQ, as well as the full (44 page) Accuracy Assessment Report</li>
+</ol><p>All documents can be provided upon data delivery.</p>
+","<p><em>Southern Ontario Land Resource Information System (2000-2002)</em> [computer file]. Version 1.2. Peterborough, Ontario: The Ontario Ministry of Natural Resources, 2008.</p>
+","<p>Available for download through <a href=""http://geo.scholarsportal.info/#r/details/_uri@=322849973"">Scholars GeoPortal</a>.</p>",Delete,Library,Physical Environment,Hamilton||Ontario,ASCII||Shapefile,sites/default/files/geospatial/SOLRIS.JPG,SOLRIS.JPG,SOLRIS.JPG
+6204,Toronto Fire Insurance Plans - 1890,1890,"<p>Charles E. Goad</p>
+",MrSID,McMaster Students / Staff / Faculty only,,"<p>This set of fire insurance plans covers downtown Toronto and the Toronto Islands. These maps were scanned and georeferenced by the Georia Project at the University of Toronto (<a href=""http://mercator.geog.utoronto.ca/georia/menu.htm"">http://mercator.geog.utoronto.ca/georia/menu.htm</a>) from an original atlas at Toronto Public Library, Toronto Reference Library (Atlas Collection).</p>
+<p>Fire insurance plans provide detailed information about the history of the buildings and land use. Building outlines are included in the maps. These maps can be used to determine when a building was built or demolished, the details of building materials, the position of a building on a lot, and in some cases the name and function of the business.</p>
+","<p>No metadata available. Some additional information is provided on the <a href=""http://mercator.geog.utoronto.ca/georia/datasum/dataset_GOAD.htm"">Georia website</a>.</p>","<p>Goad, Chas. E. <i>Atlas of the City of Toronto and Suburbs, Founded on Registered Plans and Special Surveys, Showing Plan Numbers, Lots & Buildings.</i> Toronto: Chas. E. Goad, 1890.</p>
+",N/A,Delete,Library,Human Environment,Ontario,MrSID,sites/default/files/geospatial/FIP1890.JPG,FIP1890.JPG,FIP1890.JPG
+6205,Toronto Fire Insurance Plans - 1910,1910,"<p>Charles E. Goad</p>
+",MrSID,McMaster Students / Staff / Faculty only,,"<p>This set of fire insurance plans is provided in three volumes with the following coverage:</p>
+<ul><li>Volume 1: Downtown Toronto and the Toronto Island.</li>
+<li>Volume 2: West and Northwest Toronto</li>
+<li>Volume 3: East and Northeast Toronto</li>
+</ul><p>These maps were scanned and georeferenced by the Georia Project at the University of Toronto (<a href=""http://mercator.geog.utoronto.ca/georia/menu.htm"">http://mercator.geog.utoronto.ca/georia/menu.htm</a>) from an original atlas at Toronto Public Library, Toronto Reference Library (Atlas Collection).</p>
+<p>Fire insurance plans provide detailed information about the history of the buildings and land use. Building outlines are included in the maps. These maps can be used to determine when a building was built or demolished, the details of building materials, the position of a building on a lot, and in some cases the name and function of the business.</p>
+","<p>No metadata available. Some additional information is provided on the <a href=""http://mercator.geog.utoronto.ca/georia/datasum/dataset_GOAD.htm"">Georia website</a>.</p>","<p>Goad, Chas. E. <i>Atlas of the City of Toronto and Suburbs, Founded on Registered Plans and Special Surveys, Showing Plan Numbers, Lots & Buildings.</i> Toronto: Chas. E. Goad, 1910.</p>
+",N/A,Delete,Library,Human Environment,Ontario,MrSID,sites/default/files/geospatial/FIP1910.JPG,FIP1910.JPG,FIP1910.JPG
+6258,Invest in Ontario,Current,"<p>Government of Ontario, Invest in Ontario</p>
+",,Public,"<p><a href=""https://www.investinontario.com/certified-sites"">https://www.investinontario.com/certified-sites</a></p>
+","<p>GIS-based web tool, which allows investors to select real estate sites for development. This website provides information about currently available properties. Also includes statistics about community demographics, labour market and work force skills. Includes real estate values and information on vacant land by municipality.</p>
+<p>No download capability. Can produce on-screen maps and printable reports and tables on properties and statistics.</p>
+","<p>User guide at <a href=""http://www.ontario.ca/siteselection/WebHelp/MEDT/en-CA/StartPage.htm"">http://www.ontario.ca/siteselection/WebHelp/MEDT/en-CA/StartPage.htm</a></p>
+","<p>Ontario Ministry of Economic Development and Trade. <i>Select Ontario: Invest in Ontario</i> [interactive computer map]. https://www.investinontario.com/certified-sites. Accessed on [date].</p>
+",N/A,Delete,Internet,Human Environment,Ontario,Interactive Map,sites/default/files/geospatial/invest_in_ontario.jpg,invest_in_ontario.jpg,Sample webpage from Invest in Ontario
+6552,GeoBase Portal,Various,,,Public,"<p>The GeoBase Portal can be accessed at the following link: <a href=""http://geobase.ca/geobase/en/index.html"">http://geobase.ca/geobase/en/index.html</a></p>
+","<p>GeoBase is a federal, provincial and territorial government initiative that is overseen by the <a href=""http://geobase.ca/geobase/en/about/organization.html;jsessionid=0520FD19BADEC68F58B1A380D14465C9#ccog"">Canadian Council on Geomatics</a> (CCOG). It is undertaken to ensure the provision of, and access to, a common, up-to-date and maintained base of quality geospatial data for all of Canada. Through the GeoBase portal, users with an interest in the field of geomatics have access to quality geospatial information at no cost and with unrestricted use.</p>
+<p>Data are freely available for direct download or viewing online using a web-based spatial data viewer. A username and password are required to access the downloadable content.</p>
+<hr /><p> The various data types provided by GeoBase include:</p>
+<ul id=""product""><li>Administrative Boundaries</li>
+<li>Digital Elevation Data</li>
+<li>Geodetic Network</li>
+<li>Geographical Names</li>
+<li>Land Cover</li>
+<li>National Hydro Network</li>
+<li>National Road Network</li>
+<li>Satellite Imagery</li>
+</ul><p>These are available from the drop-down 'Data' menu in the top-left corner of the GeoBase webpage.</p>
+<hr /><p>The following are links to existing descriptions for selected GeoBase products:</p>
+<p><strong>CanVec</strong> - link: <a href=""http://library.mcmaster.ca/maps/geospatial/national-topographic-database-ntdb"">http://library.mcmaster.ca/maps/geospatial/national-topographic-database-ntdb</a></p>
+<p><strong>National Hydro Network </strong>- link: <a href=""http://library.mcmaster.ca/maps/geospatial/national-hydro-network"">http://library.mcmaster.ca/maps/geospatial/national-hydro-network</a></p>
+<p><strong>Canadian Digital Elevation Data (1:250 000)</strong> - link: <a href=""http://library.mcmaster.ca/maps/geospatial/canadian-digital-elevation-data-1250-000"">http://library.mcmaster.ca/maps/geospatial/canadian-digital-elevation-data-1250-000</a></p>
+<p><strong>Canadian Digital Elevation Data (1:50 000)</strong> - link: <a href=""http://library.mcmaster.ca/maps/geospatial/digital-elevation-data-150000"">http://library.mcmaster.ca/maps/geospatial/digital-elevation-data-150000</a></p>
+","<p>Product specifications and full metadata are available via the ""description"" or ""documentation"" link for each geospatial data product.</p>
+",,"<p><a href=""http://geo.scholarsportal.info/#r/details/_uri@=4201402394"">http://geo.scholarsportal.info/#r/details/_uri@=4201402394</a></p>",Delete,Internet,Boundaries||Climate||Geology||Human Environment||Physical Environment||Remote Sensing and Air Photos||Soils||Topography||Transportation||Water Resources||Portals||Pollution,Canada,,sites/default/files/geospatial/geobase.gif,GeoBase,GeoBase
+6563,Ontario's Forest Resources Inventory (FRI) Digital Aerial Imagery,2006 to 2011,"<p>Ontario Ministry of Natural Resources and Forestry, Land Information Ontario</p>
+",20 cm Panchromatic and 40 cm Multi-Spectral Digital Orthophotography,McMaster Students / Staff / Faculty only,,"<p>The Forest Resource Inventory (FRI) Project is acquiring imagery for over 500,000 square kilometres of Crown land and forest management areas  in Ontario. The imagery products will include 20 cm panchromatic and 40 cm multi-spectral digital orthophotography.<br />
+ <br />
+The FRI Project imagery was taken in the summer months, between June and September, with trees in full leaf as opposed to previous projects which traditionally captured imagery in southern Ontario when trees were without foliage.<br /></p>
+<p>The FRI imagery is available to Ontario Government ministries and members of the Ontario Geospatial Data Exchange (OGDE) at no cost. All other organizations and members of the public must purchase the imagery.</p>
+","<p>Metadata is available through Land Information Ontario's (LIO) <a href=""https://www.javacoeapp.lrc.gov.on.ca/geonetwork?uuid=2ecc3b65-34e5-4404-a718-b9b8e048a9d8"">metadata tool</a>.</p>
+","<p><em>Forest Resource Inventory, Digital Aerial Imagery</em> [computer file]. Peterborough: ON, Ministry of Natural Resources, Year.</p>","<p>Scholars GeoPortal - <a href=""http://geo1.scholarsportal.info/#r/search/_queries@=Forest%20Resource%20Inventory%20(FRI),%20Digital%20Aerial%20Imagery;&fields@=;&sort=relevance&limit=entitled"">Forest Resource Inventory (FRI) - Digital Aerial Imagery</a></p>",Delete,Library,Physical Environment||Remote Sensing and Air Photos||Topography,Ontario,geoTIFF,sites/default/files/geospatial/278304.jpg,,
+6564,Digital Raster Acquisition Project Eastern Ontario 2008,2008 - 2009,"<p>Ontario Ministry of Natural Resources, Land Information Ontario</p>
+","GeoTIFF, MrSID",McMaster Students / Staff / Faculty only,"<p>DRAPE for both 2008 and 2014 is available for download through <a href=""http://geo.scholarsportal.info/#r/details/_uri@=2909045793"">Scholars GeoPortal</a></p>
+","<p>The Digital Raster Acquisition Project Eastern Ontario (DRAPE) imagery covers approximately 54,000 square kilometres in eastern Ontario. The imagery is an RGB orthoimage with a resolution of 20 cm and was flown during the spring of 2008 and 2009. </p>
+<p>Over 50 organizations contributed funding to the project including: Ontario Government ministries, municipalities, Conservation Authorities, private sector organizations, non-government organizations and a few federal  departments.</p>
+
+","<p>Metadata is available through <a href=""https://www.javacoeapp.lrc.gov.on.ca/geonetwork?uuid=9babfcd9-7528-43c9-bce9-f207cb15cb40"">Land Information Ontario</a></p>
+","<p>Digital Raster Acquisition Project Eastern Ontario (DRAPE). [computer file]. Peterborough, ON: Ontario Ministry of Natural Resources and Forestry, Provincial Mapping Unit. [2007]</p>","<p><a href=""http://geo.scholarsportal.info/#r/details/_uri@=2909045793"">Scholars GeoPortal - Digital Raster Acquisition Project Eastern Ontario (DRAPE)</a></p>",Delete,Library,Physical Environment||Remote Sensing and Air Photos,Ontario,geoTIFF,sites/default/files/geospatial/278610.jpg,,
+6565,Ontario SPOT Pansharpened Orthoimagery 2005-2010,2005 - 2010,"<p>Ontario Ministry of Natural Resouces</p>
+","JPG2000 (.jp2), GeoTIFF",McMaster Students / Staff / Faculty only,,"<p>SPOT 4/5 imagery was acquired and orthorectified for the entire country by Natural Resources Canada (NRCAN) within a National SPOT orthoimage project between May 2005 and October 2010. The province of Ontario was a partner in this project.</p>
+<p>The original imagery was acquired and processed to have a ground sample distance (GSD or pixel spacing) of 10 metres for a panchromatic band and 20 metres for three multispectral bands. MNR has pan-sharpened and enhanced the images covering Ontario, to form a set of 10 metre multispectral (infra-red, red and green) images. This set of images is available as geo-referenced TIFF and/or JPEG2000 files.</p>
+<p>Each band has a radiometry of 8 bits (values between 0 and 255). The multispectral image provides four bands. The minimum cloud-free (2% maximum) coverage required for an image (selected zone) is 40 km x 40 km, panchromatic and multispectral taken simultaneously.</p>
+<p>Spatial data is expressed according to Universal Transverse Mercator projection, in reference to the North American Datum 1983 - Canadian Spatial Reference System (NAD83CSRS).</p>
+<p>Note that these are individual, overlapping images and do not form a mosaic. A subset of these images covering the Far North of Ontario have been processed into a mosaic. More information on the mosaic can be found in Land Information Ontario's <a href=""https://www.appliometadata.lrc.gov.on.ca/geonetwork?uuid=bcb6a90d-4547-43e4-9de1-2c8a7e76901d"">Metadata Management Tool</a>.</p>
+","<p>Included on CD, or through <a href=""https://www.javacoeapp.lrc.gov.on.ca/geonetwork?uuid=350fd1be-a98a-4f08-b6ef-d63f2fc407d5"">Land Information Ontario</a>.</p>
+","<p>Ministry of Natural Resources . <em>Ontario SPOT Pansharpened Orthoimagery 2005-2010</em> [computer file]. Peterborough, Ontario: Ministry of Natural Resources, 2010.</p>
+<p><strong>Library Contact</strong></p>
+<p><a href=""mailto:libgis@mcmaster.ca"">libgis@mcmaster.ca</a></p>
+","<p>Available for download through <a href=""http://geo.scholarsportal.info/#r/details/_uri@=2870907016"">Scholars GeoPortal</a>.</p>",Delete,Library,Remote Sensing and Air Photos,Ontario,JPG||TIFF,sites/default/files/geospatial/278303.jpg,SPOT Imagery Sample,SPOT Imagery Sample
+8314,Natural Heritage System Area,2006,"<p>Ontario Ministry of Natural Resources and Forestry</p>
+",Shapefile (.shp),Public,"<p>Available for download through <a href=""https://www.javacoeapp.lrc.gov.on.ca/geonetwork?uuid=bd4d1354-22bf-45ac-a19b-a140e1c906ec"">Land Information Ontario</a>.</p>","<p>The Natural Heritage System Area identifies designated areas such as the Greenbelt, Oak Ridges Moraine, and Niagara Escarpment.</p>
+<p>Related datasets include the <a href=""http://geo.scholarsportal.info/#r/details/_uri@=4268672961"">Urban River Connections</a>. These connections identify linkages beyond the Greenbelt Natural Heritage system through existing or approved urban areas to inland lakes and Lake Ontario</p>
+","<p>The full metadata for these products can be found online: <a href=""https://www.javacoeapp.lrc.gov.on.ca/geonetwork?uuid=bd4d1354-22bf-45ac-a19b-a140e1c906ec"">Natural Heritage System Area</a>, and <a href=""https://www.javacoeapp.lrc.gov.on.ca/geonetwork?uuid=395f99b7-d5e5-4448-89f2-2d1153edd76a"">Urban River Connections</a>.</p>
+","<p><em>Dataset Name</em> [computer file]. Publisher location, Province: Publisher Name, Year.</p>","GeoPortal links are for the <p><a href=""http://geo.scholarsportal.info/#r/details/_uri@=4119566927"">Natural Heritage System Area</a>, and for the <a href=""http://geo2.scholarsportal.info/#r/search/_queries@=%22Greenbelt%22;&fields@=;&sort=relevance&limit=entitled"">Greenbelt</a>.</p>",Delete,Library,Boundaries||Physical Environment,Canada||Ontario,Shapefile,sites/default/files/geospatial/lio_greenbelt.PNG,LIO Greenbelt sample,LIO Greenbelt sample
+8315,Watersheds of Ontario,2010,"<p>Ontario Ministry of Natural Resources</p>
+",Shapefile,Public,"<p>Available for download through Land Information Ontario:</p>
+<ul>
+<li><a href=""https://www.javacoeapp.lrc.gov.on.ca/geonetwork?uuid=a502d750-ed68-4407-be49-88d9cdaae03a"">Primary Watershed</a></li>
+<li><a href=""https://www.javacoeapp.lrc.gov.on.ca/geonetwork?uuid=b1bdccc7-9d15-4010-8271-be7277fff134"">Secondary Watershed</a></li>
+<li><a href=""https://www.javacoeapp.lrc.gov.on.ca/geonetwork?uuid=c445f2d3-f92c-47ec-8f59-9afccf2fdd55"">Tertiary Watershed</a></li>
+<li><a href=""https://www.javacoeapp.lrc.gov.on.ca/geonetwork?uuid=7a99025f-b894-4b8c-97c4-60f830fa1acc"">Quaternary Watershed</a></li>
+</ul>
+","<p>A watershed, also known as a catchment basin or area, includes all of the land that is drained by a watercourse and its tributaries. </p>
+<p>Watersheds are used in many types of landscape analysis. They are the fundamental unit in which we can understand water in our landscape, including water quantity (flows, levels, etc) and quality (contamination, source protection, etc).</p>
+<p>These boundaries have been created based on the recent Version 2 Provincial DEM and Enhanced Flow Direction products released 2006-2008. The generation of the boundaries also involved some enhanced interpolation and smoothing techniques to produce a final product that is consistent with the current regional hydrology available for Ontario. Watershed naming conventions have also been revised to be more closely in line with Federal names where appropriate down to the tertiary watershed level. Names are currently not available at the quaternary level but can be identified by a watershed code.</p>
+","<p>Full metadata and geospatial data files can be obtained through Land Information Ontario's Metadata Management Tool via the links provided.</p>
+
+","<p>Watershed, Quaternary [computer file]. Peterborough, ON: Ontario Ministry of Natural Resources, 2010.</p>","<p>Data is available for download through Scholars GeoPortal at the following links:</p>
+<ul>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=1577032671"">Primary Watershed</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=1589523613"">Secondary Watershed</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=834889117"">Tertiary Watershed</a></li>
+<li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=45500785"">Quaternary Watershed</a></li>
+</ul>",Delete,Library,Physical Environment||Water Resources,Canada||Ontario,Shapefile,sites/default/files/geospatial/watersheds.PNG,watersheds gis demo sample,watersheds gis demo sample
+8351,FAO Map of World Soil Resources,2003,"<p>United Nations. Food and Agriculture Administration (FAO)</p>
+",Shapefile,McMaster Students / Staff / Faculty only,,"<p>This product contains information on world soil resources across all major continents broken down into soil units of various soil classifications. </p>
+<p>From the metadata description:</p>
+<p>In 1990 a Map of World Soil Resources was completed at scale 1:25 000 000, generalized from the FAO/UNESCO Soil Map or the World at scale 1: 5 000 000 (FAO, 1971 – 1981).<br />
+The map was issued on the occasion of the 14th International Congress of Soil Science held in Kyoto, Japan in 1990. Since then new material has become available, the FAO/UNESCO Soil Map of the World has been partly updated under the SOTER Programme and the FAO legend has been replaced by the World Reference Base for Soil Resources (WRB).  In 1998 the latter was adopted by the International Union of Soil Sciences as the standard for soil correlation and nomenclature. In the light of these new developments it was decided to prepare an updated version of the generalized Map of the World Soil Resources at 1: 25 000 000.</p>
+<p>The updating exercise covered:</p>
+<p>-        the switch from the original map projection to a Flat Polar Arctic Quartic projection.<br />
+-        the conversion of the FAO legend into the WRB classification.<br />
+-        the incorporation of additional soil data obtained from new or revised soil map sources.<br />
+-        the matching , when possible of soil unit boundaries with major landforms. <br />
+ </p>
+","<p>A detailed description of the data is available in H:\GIS\Data\World\FAO\FAO01\wrb\wrb.doc</p>
+","<p>United Nations. Food and Agriculture Organization (FAO). FAO Map of World Soil Resources. [CD-ROM]. FAO Land and Water Digital Media Series #01. January 2003.</p>
+",N/A,Delete,Library,Boundaries||Physical Environment||Soils,Canada||World,Shapefile,sites/default/files/geospatial/worldsoil.PNG,World Soil North America Sample,World Soil North America Sample
+8356,Source Protection Area Generalized,2015,"<p>Ontario Ministry of the Environment</p>
+",Shapefile (.shp),Public,"<p>Available for download from <a href=""https://www.ontario.ca/data/source-protection-area-generalized"">Land Information Ontario</a>.</p>","<p>Watersheds in Ontario are important drinking water sources. So as to protect these resources, watersheds have been designated as Source Protection Areas as per the Clean Water Act, 2006. The shapefile available shows the Source Protection Areas within Ontario. The attribute table of this shapefile details the name of the Source Protection Area, the type of water resource, and the Source Protection Committee</p>
+","<p>Metadata available through <a href=""https://www.javacoeapp.lrc.gov.on.ca/geonetwork?uuid=67c0f01f-7a75-4e20-aa5e-ba24a4f4df9c"">Land Information Ontario</a>.</p>
+","<p>Author. <i>Title</i> [format].  Place of publication: Publisher, Date</p>
+<p>Ontario Ministry of the Environment.  <em>Source Protection Areas Generalized</em> [Computer File]. Toronto, Ontario: Ontario Ministry of the Environment, 2015</p>
+","<p>Scholars GeoPortal - <a href=""http://geo.scholarsportal.info/#r/details/_uri@=2509804389"">Source Protection Area Generalized</a></p>",Delete,Library,Boundaries||Human Environment||Physical Environment||Water Resources,Ontario,Shapefile,sites/default/files/geospatial/SPAG_demo_pic.jpg,Source Protection Area,Source Protection Area
+8948,Land and Water Digital Map Series 33: Soil and Terrain database for Central Africa,2006,"<p>United Nations. Food and Agricultural Administration (FAO)</p>
+",Shapefile (.shp),McMaster Students / Staff / Faculty only,,"<p>The FAO-Unesco Soil Map of the World is the only existing globally consistent soil resources information for the Central African region. This Soil Map of the World does not reflect the present state of knowledge as new soil inventories were done after its publication. Therefore, ISRIC was contracted by FAO to create a SOTER database for Central Africa from all existing information. The project includes the compilation of a soil and terrain database for Burundi and Rwanda (1:1 million scale) and the Democratic Republic of the Congo (1:2 million scale).</p>
+<p>The materials and methods that have been used include the Space Shuttle Radar Topographic Mission digital elevation model, generating the physiography of the area, existing geological and soil maps and soil profile information.</p>
+<p>Democratic Republic of the Congo - Detailed Information:</p>
+<p>The database of the DR of Congo is defined by pre-independence soil information at low-resolution, enhanced with landform information derived from DEM data and lithological information derived from the geological map. Reconnaissance, semi-detailed and detailed soil maps, covering about 15% of the country, were consulted to improve the delineation of the SOTER unites and to characterize the soil components. A total of 144 SOTER units have been identified.</p>
+<p>Rwand and Burundi - Detailed Information:</p>
+<p>The SOTER databases of Rwanda and Burundi are based on generalization of relatively recent medium resolution 1:250,000 soil maps. Burundi has 56 SOTER units, Rwanda has 41.</p>
+<p>Folder also includes SOTERCAF Report 2006/7, SOTERCAF Readme File, and SOTERCAF MS Access Database.</p>
+","<p>Descriptive metadata are included in a readme file.</p>
+<h3>Call Number:</h3>
+<p>Maps GB 8631 .J3 2007 .F6</p>
+","<p>United Nations. Food and Agricultural Administration (FAO). <em>Soil and Terrain Databse for Central Africa. </em>[CD-ROM]. FAO Land and Water Digital Series #33, 2006.</p>
+",N/A,Delete,Library,Physical Environment||Soils,World,,sites/default/files/geospatial/FAO33Sample.JPG,FAO33Sample,FAO33Sample
+8957,QuickBird Satellite Imagery - Source Water Protection,2005-2007,"<p>Ministry of Natural Resources</p>
+","GeoTIFF, MrSID",McMaster Students / Staff / Faculty only,"<p>Available for download through <a href=""http://geo1.scholarsportal.info/#r/search/_queries@=quickbird%20source%20water;&fields@=;&sort=relevance&limit=entitled"">Scholars GeoPortal</a>.</p>","<p>The Source Water Protection QuickBird Imagery Project constitutes a high-resolution satellite imagery data set for approximately 120,000 km2 in the Province of Ontario. This data consists of orthorectified image derivatives from the Level Basic-1B bundled imagery provided to the Ontario Ministry of Natural Resources (OMNR) by Digital Globe, Inc. Pansharpened images (60 - 70 cm true colour composites) are required for mapping applications that require high-resolution background imagery. Additional image derivatives, such as enhanced Multispectral and Greyscale (Panchromatic) products (GeoTIFF and MrSID formats) may also be generated depending on requirements. Raw (Basic-1B) imagery was secured from Digital Globe to ensure that the orthorectification process could be conducted under the supervision of OMNR staff, with an adherence to the geospatial standards of the Natural Resources Values Information System (NRVIS).</p>
+","<p>See the <a href=""https://www.javacoeapp.lrc.gov.on.ca/geonetwork?uuid=229290ac-1474-4841-946d-8e94941d9ed7"">Land Information Ontario metadata tool</a> for more information</p>
+","<p>Ministry of Natural Resources. <em>Quickbird Satellite Imagery - Source Water Protection</em>. [computer file]. Peterborough, ON: Ministry of Natural Resources, 2007.</p>
+","<p>Several datasets are available at GeoPortal with a search for <a href=""http://geo1.scholarsportal.info/#r/search/_queries@=quickbird%20source%20water;&fields@=;&sort=relevance&limit=entitled"">""QuickBird Satellite Imagery - Source Water Protection""</a>.</p>",Delete,Library,Remote Sensing and Air Photos||Water Resources,Ontario,JPG||MrSID,sites/default/files/geospatial/Demo_QuickBird_TileIndex.jpg,QuickBirdSample.jpg,QuickBirdSample.jpg
