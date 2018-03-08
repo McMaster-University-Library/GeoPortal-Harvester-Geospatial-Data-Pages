@@ -22,18 +22,6 @@ Using Python 3.5, content from Scholars GeoPortal in XML file format is parsed a
 
 Using Python 3.5, the latest GIS Data Pages and Scholars GeoPortal content is compiled into Master.csv. An update summary of what's been added and deleted from the previous Master collection is provided when running the script. A sample summary is shown below.
 
-## Resource: Collection_Additions.csv
-
-As one of the output files of Collection_Creator.py, this CSV file contains new geospatial and GeoPortal records to be added to McMaster’s web pages. These items do not currently have an Nid number and shall be assigned one in the Drupal uploading process.
-
-## Resource: Collection_Deletions.csv
-
-As the second output file of Collection_Creator.py, this CSV file contains obsolete geospatial and GeoPortal records to be deleted from McMaster’s web pages. These items are previously listed in old versions of the Master collection but are not within the latest geospatial spreadsheet download or the latest Scholars GeoPortal extract.
-
-## Resource: Collection_Updates.csv
-
-As the third output file of Collection_Creator.py, this CSV file contains existing geospatial and GeoPortal records still current for McMaster’s web pages. These items are previously listed in old versions of the Master collection and are within the latest geospatial spreadsheet download or the latest Scholars GeoPortal extract. 
-
 > MASTER LIST UPDATE SUMMARY
 >
 > Number of Previous Geospatial Items: 111 <br />
@@ -46,6 +34,18 @@ As the third output file of Collection_Creator.py, this CSV file contains existi
 > Number of Obsolete Geospatial Records For Deletion: 0 <br />
 > Number of New GeoPortal Items For Addition: 17 <br />
 > Number of Obsolete GeoPortal Items For Deletion: 70 <br />
+
+## Resource: Collection_Additions.csv
+
+As one of the output files of Collection_Creator.py, this CSV file contains new geospatial and GeoPortal records to be added to McMaster’s web pages. These items do not currently have an Nid number and shall be assigned one in the Drupal uploading process.
+
+## Resource: Collection_Deletions.csv
+
+As the second output file of Collection_Creator.py, this CSV file contains obsolete geospatial and GeoPortal records to be deleted from McMaster’s web pages. These items are previously listed in old versions of the Master collection but are not within the latest geospatial spreadsheet download or the latest Scholars GeoPortal extract.
+
+## Resource: Collection_Updates.csv
+
+As the third output file of Collection_Creator.py, this CSV file contains existing geospatial and GeoPortal records still current for McMaster’s web pages. These items are previously listed in old versions of the Master collection and are within the latest geospatial spreadsheet download or the latest Scholars GeoPortal extract. 
 
 ## File: Content.xml
 
