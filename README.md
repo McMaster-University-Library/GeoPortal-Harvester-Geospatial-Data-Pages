@@ -2,6 +2,17 @@
 
 **This repository is a resource to create Google-indexed static web pages for all Scholars GeoPortal and geospatial data layers that are available to McMaster University users, to improve discoverability.**
 
+The following is a quick guide to performing a collection update:
+
+	1. Download the latest version of Geospatial Data Pages from the GIS Data Pages Google Spreadsheet as a CSV file.
+	2. Save the file to the local directory, C:\Home\GeoPortal-Harvester.
+	3. Rename the file as Geospatial_Data.csv.
+	4. Open Harvester.py by right-clicking the file and selecting Edit with IDLE 3.5.
+	5. Run the script by hitting F5. 
+	6. Open Collection_Creator.py by right-clicking the file and selecting Edit with IDLE 3.5.
+	7. Run the script by hitting F5. 
+	8. Send the newly created Collection_Additions.csv, Collections_Deletions.csv, and Collections_Updates.csv files for Drupal processing.
+
 ## Resource: Geospatial_Data.csv
 
 This CSV file is the latest downloaded file from the [GIS Data Pages Google Sheet](https://docs.google.com/spreadsheets/d/1bJvn9tRgGJrIaJagY_7xdU9-4vx1JpAKaBy4or_pIpo/edit#gid=1710763351) which contains selected content for each GIS data item provided by McMaster's Maps, Data, and GIS Department. Selected content include the item's Nid, title, year, author, format, URL, abstract, a citation guide, and geospatial availability, among other information.
