@@ -1,7 +1,7 @@
-# THIS PYTHON SCRIPT UPDATES A MASTER LIST OF COMBINED SCHOLARS GEOPORTAL AND GEOSPATIAL DATA WEBPAGE COMPONENTS WITH THE
+# THIS PYTHON SCRIPT CREATES COLLECTIONS OF COMBINED SCHOLARS GEOPORTAL AND GEOSPATIAL DATA WEBPAGE COMPONENTS WITH THE
 # LATEST CSV DOCUMENT OF EXTRACTED SCHOLARS GEOPORAL METADATA. TAKING THESE TWO CSV DOCUMENTS AS INPUTS, THE SCRIPT
-# RETURNS THREE CSV FILES CONTAINING METADATA THAT IS LATER USED FOR UPDATING, ADDING TO, OR DELETING FROM MCMASTER'S
-# DIGITAL DATA REPOSITORY.
+# RETURNS THREE CSV FILES CONTAINING METADATA THAT IS USED FOR THE THREE DIFFERENT PROCESSES OF UPDATING, ADDING TO,
+# OR DELETING FROM MCMASTER'S DIGITAL DATA REPOSITORY.
 
 # Note: Currently, the script works only with Python 3.5.2 or newer, due to version-unique libraries and commands.
 
@@ -154,8 +154,10 @@ for item in master:
             item[15] = extract[5]     # Overwriting the Geospatial Format.
             item[16] = extract[9]     # Overwriting the Scholars Geoportal thumbnail link.
 
+            # For instances where the item does not have an Nid, writing it to the additions file.
             if item[0] == '':
                 additionswriter.writerow(item)
+                
             else:
                 updateswriter.writerow(item)
 
