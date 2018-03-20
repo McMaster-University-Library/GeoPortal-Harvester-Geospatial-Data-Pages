@@ -98,15 +98,15 @@ for result in response.findall('result'):
     # Currently, Scholars GeoPortal has noted that all items within the OpenContent and DLI collections are open.
     if result.find('collections').text == "OpenContent":
         
-        permission = "Open to the public."
+        permission = "Public"
 
     elif result.find('collections').text == "DLI":
         
-        permission = "Open to the public."
+        permission = "Public"
 
     else:
         
-        permission = "Available to McMaster Staff, Faculty, and Students. Login required for off-campus access."
+        permission = "McMaster Students / Staff / Faculty only. Login required for off-campus access."
         
     line.append(publicationrange)               # Appending the range of publication years.
     line.append(permalink)                      # Appending the permalink.

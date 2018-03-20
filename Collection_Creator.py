@@ -86,7 +86,8 @@ with open(SGPPath.strip('\\') + '\\' + filename3, 'r') as lookupfile:
             # Appending latest extracted items' SGP ID to the SGPIDs list.
             extractedSGPIDs.append(str(row[0]))
 
-# CREATING COLLECTION FILES OF GEOSPATIAL AND GEOPORTAL ITEMS TO BE UPDATED, ADDED, AND DELETED.
+# CREATING COLLECTION FILES OF GEOSPATIAL AND GEOPORTAL ITEMS TO BE UPDATED, ADDED, AND DELETED, AS WELL AS A
+# COLLECTIVE MASTER LIST.
 
 # Opening a new updates list the updated metadata will be written to, then defining a writer object responsible
 # for converting the input data into delimited strings for the output file.
@@ -103,16 +104,22 @@ additionswriter = csv.writer(additionsoutfile, dialect = 'excel', lineterminator
 deletionsoutfile = open('Collection_Deletions.csv', 'wt', encoding = "utf8")
 deletionswriter = csv.writer(deletionsoutfile, dialect = 'excel', lineterminator = '\n')
 
+# Opening a blank master list the updated metadata will be written to, then defining a writer object responsible
+# for converting the input data into delimited strings for the output file.
+masteroutfile = open('Master_Temp.csv', 'wt', encoding = "utf-8")
+masterwriter = csv.writer(masteroutfile, dialect = 'excel', lineterminator = '\n')
+
 # Defining the collections' header line.
 header = ['Nid', 'Title', 'Year', 'Author', 'Format', 'Who Can Use This Data', 'URL', 'Abstract', 'Metadata',
           'How to Cite This', 'Scholars Geoportal URL','To Delete', 'Geospatial Availability', 'Geospatial Subjects New',
           'Geospatial Geography', 'Geospatial Formats', 'Filepath', 'field_geospatial_image_alt',
           'field_geospatial_image_title', 'SGP_id']
 
-# Writing the header line for all three files.
+# Writing the header line for all four files.
 updateswriter.writerow(header)
 additionswriter.writerow(header)
 deletionswriter.writerow(header)
+masterwriter.writerow(header)
 
 # STEP 1:
 # Writing downloaded geospatial data record metadata.
@@ -120,6 +127,9 @@ for record in geospatialdata:
 
     # Appending the item's Nid to the list of latest downloaded geospatial Nids.
     geospatialnids.append(record[0])
+
+    # Writing it to the master file.
+    masterwriter.writerow(record)
 
     # For instances where the geospatial record does not have an Nid, writing it to the additions file.
     if str(record[0]) == '':
@@ -154,6 +164,9 @@ for item in master:
             item[15] = extract[5]     # Overwriting the Geospatial Format.
             item[16] = extract[9]     # Overwriting the Scholars Geoportal thumbnail link.
 
+            # Writing it to the master file.
+            masterwriter.writerow(item)
+
             # For instances where the item does not have an Nid, writing it to the additions file.
             if item[0] == '':
                 additionswriter.writerow(item)
@@ -166,7 +179,8 @@ for item in master:
 
     # STEP 3:
     # Determining the number of now obsolete items within the previous Geospatial and Geoportal collection.
-    # These are thus skipped over and not written to the new Master list. 
+    # These are thus skipped over and not written to the new Master list. Instead, they are written to the
+    # deletions file.
     # Capturing the instance where a previous geospatial item Nid is not listed in the latest download.
     if str(item[0]) in oldgeospatial and str(item[0]) not in geospatialnids:
 
@@ -189,7 +203,7 @@ for item in master:
         pass
 
 # STEP 4:
-# Writing new Scholars Geoportal webpage metadata to the Master CSV file.
+# Writing new Scholars Geoportal webpage metadata to the Master CSV and additions file.
 for extract in extracted:
 
     # Capturing the instance where an extracted SGP ID is not listed as an existing item's SGP ID.
@@ -214,6 +228,9 @@ for extract in extracted:
         item[15] = extract[5]     # Overwriting the Geospatial Format.
         item[16] = extract[9]     # Writing the Scholars Geoportal thumbnail link.
 
+        # Writing it to the master file.
+        masterwriter.writerow(item)
+
         # Writing the row of metadata for each item into the additions file.
         additionswriter.writerow(item)
 
@@ -237,3 +254,6 @@ print (' ')
 updatesoutfile.close()
 additionsoutfile.close()
 deletionsoutfile.close()
+masteroutfile.close()
+shutil.copyfile(masteroutfile.name, 'Master.csv')	
+shutil.copyfile(masteroutfile.name, 'Master_' + datetime.datetime.today().strftime('%Y%m%d') + '.csv')
