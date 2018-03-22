@@ -60,7 +60,18 @@ for result in response.findall('result'):
     line.append(result.find('title').text)      # Appending the title.
     line.append(result.find('producer').text)   # Appending the producer.
     line.append(result.find('category').text)   # Appending the category.
-    line.append(result.find('place').text)      # Appending the place.
+
+    place = str(result.find('place').text)
+    place = place.split()
+    placecategories = ['Canada', 'Hamilton', 'Ontario', 'USA', 'World']
+    if result.find('place').text is None:
+        placecategory = ' '
+    elif place[-1] in placecategories:
+        placecategory = place[-1]
+    elif place[-2] in placecategories:
+        placecategory = place[-2]
+    line.append(placecategory)                  # Appending the place category.
+    
     line.append(result.find('type').text)       # Appending the geospatial format.
     line.append(result.find('abstract').text)   # Appending the abstract.
 
