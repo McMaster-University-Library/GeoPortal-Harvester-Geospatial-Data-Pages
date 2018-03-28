@@ -48,6 +48,15 @@ outfile = open(SGPPath.strip('\\')+'\\'+'SGP_Extract.csv', 'wt')
 outfile = open(SGPPath.strip('\\')+'\\'+'SGP_Extract.csv', 'a')
 writer = csv.writer(outfile, dialect = 'excel', lineterminator = '\n')
 
+# Opening the Geospatial Subjects Mappings file and placing rows as items in a list.
+MappingPath = 'C:\\Home\\GeoPortal-Harvester\\'
+infile = 'Geospatial_Subject_Mappings.csv'
+with open(MappingPath.strip('\\') + '\\' + infile, "r", encoding = "utf8") as lookupfile:
+    reader = csv.reader(lookupfile, delimiter = ",")
+    mappinglist = []
+    for row in reader:
+        mappinglist.append(row)
+
 # Writing the header line of the SGP Extract.
 writer.writerow(['SGP_id', 'Title', 'Producer', 'Category', 'Place', 'Type', 'Abstract', 'Coverage (Years)', 'layer_url', 'layer_thumb', 'Available Formats', 'Users with View Permissions'])
 
@@ -63,42 +72,13 @@ for result in response.findall('result'):
     # Standardizing the subjects category to options available on the library page.
     # This is done according to Geospatial_Subject_Mappings.txt found within the local folder.
     subject = result.find('category').text
-    
-    if subject == 'transportation':
-        subject = 'Transporation'
-    elif subject == 'environment' or 'biota':
-        subject = 'Physical Environment'
-    elif subject == 'boundaries':
-        subject = 'Boundaries'
-    elif subject == 'society' or 'economy' or 'structure':
-        subject = 'Human Environment'
-    elif subject == 'inlandWaters':
-        subject = 'Water Resources'
-    elif subject == 'planningCadastre':
-        subject = 'Planning'
-    elif subject == 'geoscientificInformation':
-        subject = 'Geology'
-    elif subject == 'location':
-        subject = 'Location'
-    elif subject == 'utilitiesCommunication':
-        subject = 'Utilities'  
-    elif subject == 'intelligenceMilitary':
-        subject = 'Indexes and Grids'
-    elif subject == 'imageryBaseMapsEarthCover':
-        subject = 'Remote Sensing and Air Photos'
-    elif subject == 'health':
-        subject = 'Health'
-    elif subject == 'elevation':
-        subject = 'Topography'
-    elif subject == 'farming':
-        subject = 'Farming and Food Production'
-    elif subject == 'climatologyMeteorologyAtmosphere':
-        subject = 'Climate'
-    elif subject == 'historic':
-        subject = 'Historical'
-    else:
-        pass
-
+    print (subject)
+    for row in mappinglist:
+        if subject == str(row[0]):
+            subject = str(row[1])
+        else:
+            pass
+    print (subject)
     line.append(subject)                        # Appending the subject.
 
     # Standardizing the place category to options available on the library page.
