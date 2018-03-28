@@ -1,13 +1,20 @@
 Boundaries
 Climate
+Farming and Food Production
 Geology
+Health
+Historical
 Human Environment
+Indexes and Grids
+Location
 Physical Environment
+Planning
 Pollution
 Portals
 Remote Sensing and Air Photos
+Software
 Soils
 Topography
-Water Resources
-Software
 Transportation
+Utilities
+Water Resources
