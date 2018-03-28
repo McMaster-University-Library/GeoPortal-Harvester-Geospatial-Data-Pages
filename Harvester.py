@@ -59,8 +59,49 @@ for result in response.findall('result'):
     line.append(result.find('id').text)         # Appending the item identifier.
     line.append(result.find('title').text)      # Appending the title.
     line.append(result.find('producer').text)   # Appending the producer.
-    line.append(result.find('category').text)   # Appending the category.
 
+    # Standardizing the subjects category to options available on the library page.
+    # This is done according to Geospatial_Subject_Mappings.txt found within the local folder.
+    subject = result.find('category').text
+    
+    if subject == 'transportation':
+        subject = 'Transporation'
+    elif subject == 'environment' or 'biota':
+        subject = 'Physical Environment'
+    elif subject == 'boundaries':
+        subject = 'Boundaries'
+    elif subject == 'society' or 'economy' or 'structure':
+        subject = 'Human Environment'
+    elif subject == 'inlandWaters':
+        subject = 'Water Resources'
+    elif subject == 'planningCadastre':
+        subject = 'Planning'
+    elif subject == 'geoscientificInformation':
+        subject = 'Geology'
+    elif subject == 'location':
+        subject = 'Location'
+    elif subject == 'utilitiesCommunication':
+        subject = 'Utilities'  
+    elif subject == 'intelligenceMilitary':
+        subject = 'Indexes and Grids'
+    elif subject == 'imageryBaseMapsEarthCover':
+        subject = 'Remote Sensing and Air Photos'
+    elif subject == 'health':
+        subject = 'Health'
+    elif subject == 'elevation':
+        subject = 'Topography'
+    elif subject == 'farming':
+        subject = 'Farming and Food Production'
+    elif subject == 'climatologyMeteorologyAtmosphere':
+        subject = 'Climate'
+    elif subject == 'historic':
+        subject = 'Historical'
+    else:
+        pass
+
+    line.append(subject)                        # Appending the subject.
+
+    # Standardizing the place category to options available on the library page.
     place = str(result.find('place').text)
     place = place.split()
     placecategories = ['Canada', 'Hamilton', 'Ontario', 'USA', 'World']
