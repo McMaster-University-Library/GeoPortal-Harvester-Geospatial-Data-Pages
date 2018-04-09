@@ -113,7 +113,7 @@ masterwriter = csv.writer(masteroutfile, dialect = 'excel', lineterminator = '\n
 header = ['Nid', 'Title', 'Year', 'Author', 'Format', 'Who Can Use This Data', 'URL', 'Abstract', 'Metadata',
           'How to Cite This', 'Scholars Geoportal URL','To Delete', 'Geospatial Availability', 'Geospatial Subjects New',
           'Geospatial Geography', 'Geospatial Formats', 'Filepath', 'field_geospatial_image_alt',
-          'field_geospatial_image_title', 'SGP_id']
+          'field_geospatial_image_title', 'SGP_id', 'Projection', 'Datum', 'Entry Date', 'File Location', 'File Size']
 
 # Writing the header line for all four files.
 updateswriter.writerow(header)
