@@ -1,6 +1,7 @@
 # Scholars GeoPortal and Geospatial Data Pages Collection
 
-**This repository is a resource to create Google-indexed static web pages for all Scholars GeoPortal and geospatial data layers that are available to McMaster University users, to improve discoverability.**
+**This repository is a resource to create Google-indexed static web pages for all Scholars GeoPortal and geospatial data layers that are available to McMaster University users, to improve discoverability. These 
+web pages may be found online within the McMaster library website [here.](https://library.mcmaster.ca/maps/geospatial)**
 
 The following is a quick guide to performing a collection update:
 
@@ -20,6 +21,10 @@ This CSV file is the latest downloaded file from the [GIS Data Pages Google Shee
 ## Resource: SGP_Extract.csv
 
 This CSV file is the output file of Harvester.py, containing selected metadata for each record in the GeoPortal made available to McMaster users. Selected metadata include the SGP_id, title, author, format, URL, abstract, and Scholars GeoPortal URL, among other information.
+
+## Resource: Geospatial_Subject_Mappings.csv
+
+This CSV file contains a lookup table mapping raw subject fields from the Scholars GeoPortal records to the list of current subject fields available on the online repository. 
 
 ## Resource: Master.csv
 
@@ -68,6 +73,6 @@ http://geo2.scholarsportal.info/proxy.html?http:__giseditor.scholarsportal.info/
 This XML file contains the downloaded metadata in ISO 19115 for all records available to the public, provided by Scholars GeoPortal. This document may serve as a check to view the list of items available to the public. To view the document tree for this XML file, copy and paste the following link in your browser while connected to a Wi-Fi network off-campus: 
 http://geo2.scholarsportal.info/proxy.html?http:__giseditor.scholarsportal.info/search/index.html?limit=entitled&env=production&q=*&i=200&fm=xml
 
-### _Find the Scholars Geoportal Content Harvesting project workflow in the Google Doc [here.](https://docs.google.com/a/mcmaster.ca/document/d/1dbZg2W9OVB27Uw5pu6To6OITzRWoG32yiSrOISzLGlk/edit?usp=sharing)_
+### _Find the complete user guide and project documentation in the Google Doc [here.](https://docs.google.com/a/mcmaster.ca/document/d/1dbZg2W9OVB27Uw5pu6To6OITzRWoG32yiSrOISzLGlk/edit?usp=sharing)_
 
 
