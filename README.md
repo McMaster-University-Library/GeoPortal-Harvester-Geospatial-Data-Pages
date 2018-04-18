@@ -24,7 +24,7 @@ This CSV file is the output file of Harvester.py, containing selected metadata f
 
 ## Resource: Geospatial_Subject_Mappings.csv
 
-This CSV file contains a lookup table mapping raw subject fields from the Scholars GeoPortal records to the list of current subject fields available on the online repository. 
+This CSV file contains a lookup table mapping raw subject fields from the Scholars GeoPortal records to the list of current subject fields available on the online repository. This is used when pulling the latest Scholars GeoPortal extract within Harvester.py.
 
 ## Resource: Master.csv
 
