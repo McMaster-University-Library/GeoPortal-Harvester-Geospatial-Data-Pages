@@ -13,6 +13,7 @@ import datetime
 master =  []            # This holds contents of the latest existing Master CSV file.
 oldgeospatial = []      # This holds existing geospatial item Nids included in the Master CSV file.
 oldgeoportal = []       # This holds previous SGP IDs included in the Master CSV file.
+oldgeoportaldata = []   # This holds previous SGP data included in the Master CSV file.
 
 geospatialdata = []     # This holds latest downloaded geospatial data records.
 geospatialnids = []     # This holds latest downloaded geospatial data Nids.
@@ -42,12 +43,13 @@ with open(MasterPath.strip('\\') + '\\' + filename1, "r", encoding = "utf8") as 
             master.append(row)
 
             # Placing previous geospatial data Nids of the Master CSV file in a list.
-            if str(row[19]) == '':
+            if str(row[18]) == '':
                 oldgeospatial.append(str(row[0]))
 
-            # Placing previous SGP IDs of the Master CSV file in a list.
-            elif str(row[19]) != '':
-                oldgeoportal.append(str(row[19]))
+            # Placing previous SGP IDs and SGP Nids of the Master CSV file in a list.
+            elif str(row[18]) != '':
+                oldgeoportal.append(str(row[18]))
+                oldgeoportaldata.append(str(row[0]))
 
 # COLLECTING LATEST DOWNLOADED LIST OF GEOSPATIAL DATA.
 # Defining the latest geospatial data CSV file.
@@ -111,7 +113,7 @@ masterwriter = csv.writer(masteroutfile, dialect = 'excel', lineterminator = '\n
 
 # Defining the collections' header line.
 header = ['Nid', 'Title', 'Year', 'Author', 'Format', 'Who Can Use This Data', 'URL', 'Abstract', 'Metadata',
-          'How to Cite This', 'Scholars Geoportal URL','To Delete', 'Geospatial Availability', 'Geospatial Subjects New',
+          'How to Cite This', 'Scholars Geoportal URL', 'Geospatial Availability', 'Geospatial Subjects New',
           'Geospatial Geography', 'Geospatial Formats', 'Filepath', 'field_geospatial_image_alt',
           'field_geospatial_image_title', 'SGP_id', 'Projection', 'Datum', 'Entry Date', 'File Location', 'File Size']
 
@@ -141,15 +143,18 @@ for record in geospatialdata:
 
 for item in master:
 
+    nid = item[0]
+    
     # STEP 2:
     # Overwriting existing Scholars Geoportal webpage metadata with latest SGP data extract.
     for extract in extracted:
-
+        
         # Capturing the instance where an existing SGP IDs is listed within the latest SGP data extract.
-        if str(item[19]) == str(extract[0]):
+        if str(item[18]) == str(extract[0]):
 
             item = ['', '', '', '', '', '','', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
-            item[19] = extract[0]     # Writing the SGP ID.
+            item[0] = nid             # Writing the Nid.
+            item[18] = extract[0]     # Writing the SGP ID.
             item[1] = extract[1]      # Overwriting the title.
             item[2] = extract[7]      # Overwriting the year.
             item[3] = extract[2]      # Overwriting the author.
@@ -158,11 +163,11 @@ for item in master:
             item[6] = extract[8]      # Overwriting the URL.
             item[7] = extract[6]      # Overwriting the abstract.
             item[10] = extract[8]     # Overwriting the Scholars Geoportal URL.
-            item[12] = 'Internet'     # Overwriting the Geospatial Availability.
-            item[13] = extract[3]     # Overwriting the Geospatial Subject.
-            item[14] = extract[4]     # Overwriting the Geospatial Geography.
-            item[15] = extract[5]     # Overwriting the Geospatial Format.
-            item[16] = extract[9]     # Overwriting the Scholars Geoportal thumbnail link.
+            item[11] = 'Internet'     # Overwriting the Geospatial Availability.
+            item[12] = extract[3]     # Overwriting the Geospatial Subject.
+            item[13] = extract[4]     # Overwriting the Geospatial Geography.
+            item[14] = extract[5]     # Overwriting the Geospatial Format.
+            item[15] = extract[9]     # Overwriting the Scholars Geoportal thumbnail link.
 
             # Writing it to the master file.
             masterwriter.writerow(item)
@@ -191,10 +196,10 @@ for item in master:
         deletionswriter.writerow(item)
         
     # Capturing the instance where a previous SGP ID is not listed as an extracted SGP ID. 
-    if str(item[19]) in oldgeoportal and str(item[19]) not in extractedSGPIDs:
+    if str(item[18]) in oldgeoportal and str(item[18]) not in extractedSGPIDs:
 
         # Appending the items' SGP ID to the SGPstodelete list.
-        SGPstodelete.append(str(item[19]))
+        SGPstodelete.append(str(item[18]))
 
         # Writing the item to the deletions file.
         deletionswriter.writerow(item)
@@ -213,7 +218,7 @@ for extract in extracted:
         SGPstoadd.append(str(extract[0]))       
 
         item = ['', '', '', '', '', '','', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
-        item[19] = extract[0]     # Writing the SGP ID.
+        item[18] = extract[0]     # Writing the SGP ID.
         item[1] = extract[1]      # Writing the title.
         item[2] = extract[7]      # Writing the year.
         item[3] = extract[2]      # Writing the author.
@@ -222,11 +227,11 @@ for extract in extracted:
         item[6] = extract[8]      # Writing the URL.
         item[7] = extract[6]      # Writing the abstract.
         item[10] = extract[8]     # Writing the Scholars Geoportal URL.
-        item[12] = 'Internet'     # Overwriting the Geospatial Availability.
-        item[13] = extract[3]     # Overwriting the Geospatial Subject.
-        item[14] = extract[4]     # Overwriting the Geospatial Geography.
-        item[15] = extract[5]     # Overwriting the Geospatial Format.
-        item[16] = extract[9]     # Writing the Scholars Geoportal thumbnail link.
+        item[11] = 'Internet'     # Overwriting the Geospatial Availability.
+        item[12] = extract[3]     # Overwriting the Geospatial Subject.
+        item[13] = extract[4]     # Overwriting the Geospatial Geography.
+        item[14] = extract[5]     # Overwriting the Geospatial Format.
+        item[15] = extract[9]     # Writing the Scholars Geoportal thumbnail link.
 
         # Writing it to the master file.
         masterwriter.writerow(item)
