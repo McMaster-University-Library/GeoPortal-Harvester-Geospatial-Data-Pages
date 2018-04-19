@@ -28,7 +28,7 @@ This CSV file contains a lookup table mapping raw subject fields from the Schola
 
 ## Resource: Master.csv
 
-[Edit]
+This CSV file is an output file of Collection_Creator.py that contains all current geospatial and GeoPortal records for McMaster’s web pages. These items are listed within the latest version of the geospatial spreadsheet download and the latest Scholars GeoPortal extract. 
 
 ## Tool: Harvester.py
 
