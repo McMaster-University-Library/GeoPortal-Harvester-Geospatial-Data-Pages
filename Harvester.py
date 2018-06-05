@@ -72,13 +72,11 @@ for result in response.findall('result'):
     # Standardizing the subjects category to options available on the library page.
     # This is done according to Geospatial_Subject_Mappings.txt found within the local folder.
     subject = result.find('category').text
-    print (subject)
     for row in mappinglist:
         if subject == str(row[0]):
             subject = str(row[1])
         else:
             pass
-    print (subject)
     line.append(subject)                        # Appending the subject.
 
     # Standardizing the place category to options available on the library page.
@@ -123,21 +121,18 @@ for result in response.findall('result'):
     publicationrange = earliestyear + ' - ' + latestyear
 
     # Creating each item's permalink.
-    permalink = "http://geo.scholarsportal.info/#r/details/_uri@=" + result.find('id').text
+    permalink = '<p><a href="http://geo.scholarsportal.info/#r/details/_uri@="' + result.find('id').text + '">Access this resource</a> on Scholars Geoportal.</p>'
     formats = "Various geospatial formats available."
 
     # Obtaining information on users with view permission for each item.
     # Currently, Scholars GeoPortal has noted that all items within the OpenContent and DLI collections are open.
     if result.find('collections').text == "OpenContent":
-        
         permission = "Public"
 
     elif result.find('collections').text == "DLI":
-        
         permission = "Public"
 
     else:
-        
         permission = "McMaster Students / Staff / Faculty only. Login required for off-campus access."
         
     line.append(publicationrange)               # Appending the range of publication years.
