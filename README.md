@@ -3,7 +3,7 @@
 **This repository is a resource to create Google-indexed static web pages for all Scholars GeoPortal and geospatial data layers that are available to McMaster University users, to improve discoverability. These 
 web pages may be found online within the McMaster library website [here.](https://library.mcmaster.ca/maps/geospatial)**
 
-## Find the complete user guide and project documentation in the Google Doc [here.](https://docs.google.com/document/d/1tUyMj4l-EGIcFsbqmHwR0rY7Ob2luBhv42GQR7E6EZo/edit?usp=sharing)_
+**Find the complete user guide and project documentation in the Google Doc [here.](https://docs.google.com/document/d/1tUyMj4l-EGIcFsbqmHwR0rY7Ob2luBhv42GQR7E6EZo/edit?usp=sharing)**
 
 The following is a quick guide to performing a collection update:
 
