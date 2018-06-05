@@ -73,6 +73,6 @@ http://geo2.scholarsportal.info/proxy.html?http:__giseditor.scholarsportal.info/
 This XML file contains the downloaded metadata in ISO 19115 for all records available to the public, provided by Scholars GeoPortal. This document may serve as a check to view the list of items available to the public. To view the document tree for this XML file, copy and paste the following link in your browser while connected to a Wi-Fi network off-campus: 
 http://geo2.scholarsportal.info/proxy.html?http:__giseditor.scholarsportal.info/search/index.html?limit=entitled&env=production&q=*&i=200&fm=xml
 
-### _Find the complete user guide and project documentation in the Google Doc [here.](https://docs.google.com/a/mcmaster.ca/document/d/1dbZg2W9OVB27Uw5pu6To6OITzRWoG32yiSrOISzLGlk/edit?usp=sharing)_
+### _Find the complete user guide and project documentation in the Google Doc [here.](https://docs.google.com/document/d/1tUyMj4l-EGIcFsbqmHwR0rY7Ob2luBhv42GQR7E6EZo/edit?usp=sharing)_
 
 
