@@ -27,7 +27,7 @@ SGPstodelete = []       # This holds SGP IDs for deletion.
 
 # COLLECTING LAST UPDATED MASTER LIST OF COMBINED SCHOLARS GEOPORTAL AND GEOSPATIAL DATA WEBPAGE METADATA.
 # Defining variables for the latest existing Master CSV file.
-MasterPath = 'C:\\Home\\GeoPortal-Harvester'
+MasterPath = 'C:\\Home\\Geospatial-Collection'
 filename1 = 'Master.csv'
 # Opening and reading contents of the Master CSV file.
 with open(MasterPath.strip('\\') + '\\' + filename1, "r", encoding = "utf8") as lookupfile:
@@ -53,7 +53,7 @@ with open(MasterPath.strip('\\') + '\\' + filename1, "r", encoding = "utf8") as 
 
 # COLLECTING LATEST DOWNLOADED LIST OF GEOSPATIAL DATA.
 # Defining the latest geospatial data CSV file.
-GeospatialPath = 'C:\\Home\\GeoPortal-Harvester'
+GeospatialPath = 'C:\\Home\\Geospatial-Collection'
 filename2 = 'Geospatial_Data.csv'
 # Opening and reading contents of the latest downloaded geospatial data.
 with open(GeospatialPath.strip('\\') + '\\' + filename2, 'r', encoding = "utf8") as lookupfile:
@@ -70,7 +70,7 @@ with open(GeospatialPath.strip('\\') + '\\' + filename2, 'r', encoding = "utf8")
 
 # COLLECTING LATEST EXTRACTED LIST OF SCHOLARS GEOPORTAL METADATA.
 # Defining the latest Scholars Geoportal extract CSV file.
-SGPPath = 'C:\\Home\\GeoPortal-Harvester\\SGP_Extracts'
+SGPPath = 'C:\\Home\\Geospatial-Collection\\SGP_Extracts'
 filename3 = 'SGP_Extract.csv'
 # Opening and reading contents of the latest Scholars Geoportal extract.
 with open(SGPPath.strip('\\') + '\\' + filename3, 'r') as lookupfile:
