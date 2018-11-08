@@ -39,7 +39,7 @@ response = xmldata.getroot()
 # DETERMINING THE NUMBER OF EXTRACTED ITEMS.
 extractedids = []
 
-# WRITING THE DESIRED FIELDS OF METADATA TO Harvested.csv.
+# WRITING THE DESIRED FIELDS OF METADATA TO SGP_Extract.csv and SGP_Extract_Duplicates.csv.
 
 # Opening the output file the condensed metadata will be written and appended to, then defining a writer object
 # responsible for converting the input data into delimited strings for the output file.
@@ -47,6 +47,13 @@ SGPPath = 'C:\\Home\\Geospatial-Collection\\SGP_Extracts'
 outfile = open(SGPPath.strip('\\')+'\\'+'SGP_Extract.csv', 'wt')
 outfile = open(SGPPath.strip('\\')+'\\'+'SGP_Extract.csv', 'a')
 writer = csv.writer(outfile, dialect = 'excel', lineterminator = '\n')
+
+# Opening the output file that metadata with duplicate SGP IDs will be written and appended to, then defining a writer object
+# responsible for converting the input data into delimited strings for the output file.
+SGPPath = 'C:\\Home\\Geospatial-Collection\\SGP_Extracts'
+outfile2 = open(SGPPath.strip('\\')+'\\'+'SGP_Extract_Duplicates.csv', 'wt')
+outfile2 = open(SGPPath.strip('\\')+'\\'+'SGP_Extract_Duplicates.csv', 'a')
+writer2 = csv.writer(outfile2, dialect = 'excel', lineterminator = '\n')
 
 # Opening the Geospatial Subjects Mappings file and placing rows as items in a list.
 MappingPath = 'C:\\Home\\Geospatial-Collection\\'
@@ -57,8 +64,11 @@ with open(MappingPath.strip('\\') + '\\' + infile, "r", encoding = "utf8") as lo
     for row in reader:
         mappinglist.append(row)
 
-# Writing the header line of the SGP Extract.
+# Writing the header line of the SGP Extract and SGP Duplicates files.
 writer.writerow(['SGP_id', 'Title', 'Producer', 'Category', 'Place', 'Type', 'Abstract', 'Coverage (Years)', 'layer_url', 'layer_thumb', 'Available Formats', 'Users with View Permissions'])
+writer2.writerow(['SGP_id', 'Title', 'Producer', 'Category', 'Place', 'Type', 'Abstract', 'Coverage (Years)', 'layer_url', 'layer_thumb', 'Available Formats', 'Users with View Permissions'])
+
+linecollection = [] # This is the empty list to which each row of item information will be temporarily appended to.
 
 # Writing desired metadata from the XML file to the output file.
 for result in response.findall('result'):
@@ -141,15 +151,57 @@ for result in response.findall('result'):
     line.append(formats)                        # Appending the format information.
     line.append(permission)                     # Appending the users with view permission.
 
-    # Writing the row of metadata for each item into the CSV file.
+    # Appending the row of metadata for each item into a temporary list.
+    linecollection.append(line)
+
+uniqueSGPs = [] # This list contains unique SGP IDs in the latest extract.
+duplicatelines = [] # This list contatins SGP items with the same SGP ID as one other item in the extract. 
+
+# Catching items with duplicate SGP IDs and writing or removing them from the appropriate files.
+for line in linecollection:
+    uniqueline = [] # This list contains lines of items with the same SGP ID.
+
+    # Appending an item's SGP ID to the list of unique SGP IDs.
+    if line[0] not in uniqueSGPs:
+        uniqueSGPs.append(line[0])
+
+        # Catching the instance where the SGP ID of each item is equal to itself or that of other items in the list.
+        for duplicateline in linecollection:
+            if duplicateline[0] == line[0]:
+
+                # Appending the lines with the same SGP IDs to a list.
+                uniqueline.append(duplicateline)
+
+                # Catching the instance where the SGP ID of an item is equal to that of one other item in the list.
+                if len(uniqueline) == 2:
+                    # Removing the first item of a duplicate from the master extract list.
+                    linecollection.remove(uniqueline[0])
+                    # Appending duplicate items to a list.
+                    duplicatelines.append(uniqueline[0]) 
+                    duplicatelines.append(uniqueline[1])
+                    
+    else:
+        pass
+
+    # Writing each unique SGP item to SGP_Extract.csv.    
     writer.writerow(line)
 
-# PROVIDING INTERFACIAL USER INFORMATION ON THE RESULTS OF THIS UPDATE.
+# Writing each duplicate item to SGP_Extract_Duplicates.csv.
+for line in duplicatelines:
+    writer2.writerow(line)
 
-print ('Number of Extracted SGP Items: ' + str(len(extractedids)))
+# PROVIDING INTERFACIAL USER INFORMATION ON THE RESULTS OF THIS UPDATE.
+print ('Number of Extracted SGP Items (Excluding Duplicates): ' + str(len(linecollection)))
+if duplicatelines == []:
+    print ('Note: No duplicate SGP IDs were found for GeoPortal items.')
+else:
+    print ('Note: Duplicate SGP IDs were found for ' + str(len(duplicatelines)/2) + ' GeoPortal items.')
+    print (' ')
 print ('The newly harvested Scholars GeoPortal metadata has been written to', outfile.name)
+print ('A list of duplciate metadata has been written to', outfile2.name)
 
 # CREATING A TIMESTAMPED COPY OF THE SGP EXTRACT AND CLOSING FILES.
-
 outfile.close()
+outfile2.close()
 shutil.copyfile(outfile.name, 'C:\\Home\\Geospatial-Collection\\SGP_Extracts\\SGP_Extract_' + datetime.datetime.today().strftime('%Y%m%d') + '.csv')
+shutil.copyfile(outfile2.name, 'C:\\Home\\Geospatial-Collection\\SGP_Extracts\\SGP_Extract_Duplicates' + datetime.datetime.today().strftime('%Y%m%d') + '.csv')

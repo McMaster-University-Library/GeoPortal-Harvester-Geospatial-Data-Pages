@@ -49,7 +49,7 @@ with open(MasterPath.strip('\\') + '\\' + filename1, "r", encoding = "utf8") as 
             # Placing previous SGP IDs and SGP Nids of the Master CSV file in a list.
             elif str(row[18]) != '':
                 oldgeoportal.append(str(row[18]))
-                oldgeoportaldata.append(str(row[0]))
+                oldgeoportaldata.append(row)
 
 # COLLECTING LATEST DOWNLOADED LIST OF GEOSPATIAL DATA.
 # Defining the latest geospatial data CSV file.
@@ -175,7 +175,7 @@ for item in master:
             # For instances where the item does not have an Nid, writing it to the additions file.
             if item[0] == '':
                 additionswriter.writerow(item)
-                
+
             else:
                 updateswriter.writerow(item)
 
@@ -184,7 +184,7 @@ for item in master:
 
     # STEP 3:
     # Determining the number of now obsolete items within the previous Geospatial and Geoportal collection.
-    # These are thus skipped over and not written to the new Master list. Instead, they are written to the
+    # These are skipped over and not written to the new Master list. Instead, they are written to the
     # deletions file.
     # Capturing the instance where a previous geospatial item Nid is not listed in the latest download.
     if str(item[0]) in oldgeospatial and str(item[0]) not in geospatialnids:
@@ -215,7 +215,7 @@ for extract in extracted:
     if str(extract[0]) not in oldgeoportal:
         
         # Appending the items' SGP ID to the SGPstoadd list.
-        SGPstoadd.append(str(extract[0]))       
+        SGPstoadd.append(str(extract[0]))
 
         item = ['', '', '', '', '', '','', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
         item[18] = extract[0]     # Writing the SGP ID.
