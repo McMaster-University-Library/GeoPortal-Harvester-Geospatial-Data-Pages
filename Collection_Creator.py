@@ -136,6 +136,7 @@ for record in geospatialdata:
     # For instances where the geospatial record does not have an Nid, writing it to the additions file.
     if str(record[0]) == '':
         additionswriter.writerow(record)
+        geospatialnonid.append(record)
 
     # For instances where the geospatial record does have an Nid, writing it to the updates file.
     else:
