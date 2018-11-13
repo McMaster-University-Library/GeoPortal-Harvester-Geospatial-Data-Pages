@@ -183,7 +183,8 @@ for line in linecollection:
     else:
         pass
 
-    # Writing each unique SGP item to SGP_Extract.csv.    
+# Writing each unique SGP item to SGP_Extract.csv.    
+for line in linecollection:
     writer.writerow(line)
 
 # Writing each duplicate item to SGP_Extract_Duplicates.csv.

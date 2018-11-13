@@ -617,7 +617,7 @@ For previous years, see Scholars GeoPortal.</p>","<p>Complete user guide is avai
 ","<p><em>Hospital Service Areas of the United States</em>. [computer file]. Hanover, New Hampshire: The Dartmouth Atlas of Health Care, 2006.</p>
 ",N/A,Internet,Boundaries,USA,Vector||Shapefile,sites/default/files/geospatial/HSA.JPG,HSA.JPG,Hospital Service Areas in the U.S.,,"Undefined
 ",,,H:\GIS\Data\USA\Health\Dartmouth Atlas of Health Care\HSA.mxd,
-19092,Japan Tsunami Affected Area - March 2011,2011,"<p>East View Cartographic</p>
+19092,Japan Tsunami Affected Area – March 2011,2011,"<p>East View Cartographic</p>
 ",GeoTIFF,McMaster Students / Staff / Faculty only,,"<p>Immediately following the earthquake and tsunami off the coast of northern Japan (March 2011), East View Cartographic (EVC) was approached by the Japan Map Center in Tokyo to make Japanese-English versions of eighteen 1:25,000 scale topographic maps over the affected area in and around Sendai, Japan. Relief workers from around the world needed print mapping in English. The 1:25,000 series is the largest scale series with full country coverage of Japan in georeferenced raster format (GeoTIFF).</p>
 <p>Index file of areas covered included in PDF format.</p>
 <p>Datum can be changed to Tokyo Datum (add + 12.3 seconds to latitude and add – 10.8 seconds to longitude).</p>
@@ -1128,7 +1128,7 @@ The SEDAC Data Resources webpage includes links to many socioeconomic and enviro
 ","<p>Surficial Materials of Canada [computer file]. Ottawa, Ontario: Natural Resources Canada, 1995.</p>
 ",N/A,Internet||Library,Geology,Canada||Hamilton||Ontario,Vector||E00||Shapefile||Mid/Mif||JPG,sites/default/files/geospatial/surficialgeology.jpg,surficialgeology.jpg,Map showing surficial materials of Canada,,"Lambert Conformal Conic
 ","NAD27
-",3/19/2009,H:\GIS\Data\Canada\Geology,30.1 MB
+",03/19/2009,H:\GIS\Data\Canada\Geology,30.1 MB
 19132,Tactical Pilotage Charts (TPC),1989,"<p>LAND INFO Worldwide Mapping, LLC</p>
 ",GeoTIFF,McMaster Students / Staff / Faculty only,,"<p>Tactical Pilotage Charts (TPCs) were originally created for the use of military air navigation.  The charts depict the types of data that would be useful for pilots, including topography, the locations of major cities, tranportation routes, and other ground features that would be visible from the air.  These charts are provided primarily to be used as low-resolution topographic maps.  The georeferenced maps show relief with contours (250-500ft intervals) and with hypsometric shading.</p>
 <p>World coverage (including most of Canada) is not complete due to certain foreign copyrights - see <a href=""http://library.mcmaster.ca/maps/TPCavailLI.gif"">diagram of completed sheets</a>.  The charts are provided in large tiles.  For example, the local tile  covers an area of 4°Latitude x 8°Longitude.  Indexes of tile numbers are available by continent:</p>
@@ -1340,3 +1340,18 @@ Yukon-wide Digital Elevation Data:
 ",N/A,Library||Internet,Geology,Canada,Vector||E00||Shapefile,,,,,"Albers Equal Area and UTM
 ","NAD83
 ",39986,H:\GIS\Data\Canada\Geology\Yukon,
+,Open Hamilton,Varies by dataset,City of Hamilton,Various,Public,"<p><a href=""http://open.hamilton.ca/"">http://open.hamilton.ca/</a></p>
+","<p>City of Hamilton's open data website includes data available for download, as well as viewing through interactive mapping, and data stories and visualization.</p>
+<p>Categories of datasets, available in a variety of formats (spatial data, table, web mapping application, or document), include:
+<ul>
+<li>Business and Economy</li>
+<li>City Services</li>
+<li>Census and Demographics</li>
+<li>Culture and Tourism</li>
+<li>Environment</li>
+<li>Health and Safety</li>
+<li>Infrastructure</li>
+<li>Parking and Transportation</li>
+<li>Parks and Recreation</li>
+</ul></p>
+<p>For additional Hamilton datasets, see the <a href=""https://library.mcmaster.ca/maps/geospatial/hamilton-vector-data-set-2006"">Hamilton Vector Data Set</a>.</p>","<p>Metadata available for each dataset, on the open data website.</p>","File name [Format]. Hamilton, Ontario: City of Hamilton Department, Year",,Internet,Portals,Hamilton,Vector,,,,,,,,,
