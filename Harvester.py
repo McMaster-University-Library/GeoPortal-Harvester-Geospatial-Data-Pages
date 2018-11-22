@@ -131,7 +131,7 @@ for result in response.findall('result'):
     publicationrange = earliestyear + ' - ' + latestyear
 
     # Creating each item's permalink.
-    permalink = '<p><a href="http://geo.scholarsportal.info/#r/details/_uri@="' + result.find('id').text + '">Access this resource</a> on Scholars Geoportal.</p>'
+    permalink = '<p><a href="http://geo.scholarsportal.info/#r/details/_uri@=' + result.find('id').text + '>Access this resource</a> on Scholars Geoportal.</p>'
     formats = "Various geospatial formats available."
 
     # Obtaining information on users with view permission for each item.
