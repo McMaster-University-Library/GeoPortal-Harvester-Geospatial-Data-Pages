@@ -16,7 +16,7 @@ The following is a quick guide to performing a collection update:
 	10. Run the script by hitting F5. 
 	11. Send the newly created Collection_Additions.csv, Collections_Deletions.csv, and Collections_Updates.csv files for Drupal processing.
 	
-	Note: Once the Drupal process has completed and all data pages are on the McMaster library website, all metadata should be consistent with the Master.csv file created by the script, Collection_Creator.py. In any case necessary (eg. uncertainty in this consistency), follow the steps below to create a valid Master.csv file for which to perform the data update. 
+Note: Once the Drupal process has completed and all data pages are on the McMaster library website, all metadata should be consistent with the Master.csv file created by the script, Collection_Creator.py. In any case necessary (eg. uncertainty in this consistency), follow the steps below to create a valid Master.csv file for which to perform the data update. 
 	
 	5a. Download the latest version of all data pages available at the McMaster library website [here.] (https://library.mcmaster.ca/geospatial-export-records.csv)
 	5b. Save the file to the local directory, C:\Home\GeoPortal-Collection.
