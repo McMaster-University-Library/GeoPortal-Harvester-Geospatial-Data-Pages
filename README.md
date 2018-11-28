@@ -22,7 +22,15 @@ This CSV file is the latest downloaded file from the [GIS Data Pages Google Shee
 
 ## Resource: SGP_Extract.csv
 
-This CSV file is the output file of Harvester.py, containing selected metadata for each record in the GeoPortal made available to McMaster users. Selected metadata include the SGP_id, title, author, format, URL, abstract, and Scholars GeoPortal URL, among other information.
+This CSV file is the output file of Harvester.py, containing selected metadata for each record in the GeoPortal made available to McMaster users. Selected metadata include the SGP_id, title, author, format, URL, abstract, and Scholars GeoPortal URL, among other information. A raw data sample uploaded to McMaster's website is seen below.
+
+| SGP_id | 19886 |
+| Title | Trails Line |
+| Author | DMTI Spatial Inc. |
+| Format | Various geospatial formats available. |
+| URL | <p><a href="http://geo.scholarsportal.info/#r/details/_uri@=2586475870">Access this resource</a> on Scholars Geoportal.</p>   |
+| Abstract | <p>This layer indicates the paths or routes suitable for walking, hiking, bicycling, and other outdoor activities.</p><p> Additional tables and supporting documentation are available in the Data Dictionary and User Manual.</p>  |
+| Scholars GeoPortal URL |  <p><a href="http://geo.scholarsportal.info/#r/details/_uri@=2586475870">Access this resource</a> on Scholars Geoportal.</p> |
 
 ## Resource: Geospatial_Subject_Mappings.csv
 
