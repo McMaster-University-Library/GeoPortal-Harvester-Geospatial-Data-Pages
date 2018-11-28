@@ -13,8 +13,14 @@ The following is a quick guide to performing a collection update:
 	4. Open Harvester.py by right-clicking the file and selecting Edit with IDLE 3.5.
 	5. Run the script by hitting F5. 
 	6. Open Collection_Creator.py by right-clicking the file and selecting Edit with IDLE 3.5.
-	7. Run the script by hitting F5. 
-	8. Send the newly created Collection_Additions.csv, Collections_Deletions.csv, and Collections_Updates.csv files for Drupal processing.
+	10. Run the script by hitting F5. 
+	11. Send the newly created Collection_Additions.csv, Collections_Deletions.csv, and Collections_Updates.csv files for Drupal processing.
+	
+	Note: Once the Drupal process has completed and all data pages are on the McMaster library website, all metadata should be consistent with the Master.csv file created by the script, Collection_Creator.py. In any case necessary (eg. uncertainty in this consistency), follow the steps below to create a valid Master.csv file for which to perform the data update. 
+	
+	5a. Download the latest version of all data pages available at the McMaster library website [here.] (https://library.mcmaster.ca/geospatial-export-records.csv)
+	5b. Save the file to the local directory, C:\Home\GeoPortal-Collection.
+	5c. Rename the file as Master.csv.
 
 ## Resource: Geospatial_Data.csv
 
@@ -22,17 +28,7 @@ This CSV file is the latest downloaded file from the [GIS Data Pages Google Shee
 
 ## Resource: SGP_Extract.csv
 
-This CSV file is the output file of Harvester.py, containing selected metadata for each record in the GeoPortal made available to McMaster users. Selected metadata include the SGP_id, title, author, format, URL, abstract, and Scholars GeoPortal URL, among other information. A raw data sample uploaded to McMaster's website is seen below.
-
-| Raw Data Sample |		|
-|		|		|
-| SGP_id | 19886 |
-| Title | Trails Line |
-| Author | DMTI Spatial Inc. |
-| Format | Various geospatial formats available. |
-| URL | <p><a href="http://geo.scholarsportal.info/#r/details/_uri@=2586475870">Access this resource</a> on Scholars Geoportal.</p>  |
-| Abstract | <p>This layer indicates the paths or routes suitable for walking, hiking, bicycling, and other outdoor activities.</p><p> Additional tables and supporting documentation are available in the Data Dictionary and User Manual.</p>  |
-| Scholars GeoPortal URL |  <p><a href="http://geo.scholarsportal.info/#r/details/_uri@=2586475870">Access this resource</a> on Scholars Geoportal.</p> |
+This CSV file is the output file of Harvester.py, containing selected metadata for each record in the GeoPortal made available to McMaster users. Selected metadata include the SGP_id, title, author, format, URL, abstract, and Scholars GeoPortal URL, among other information.
 
 ## Resource: Geospatial_Subject_Mappings.csv
 
