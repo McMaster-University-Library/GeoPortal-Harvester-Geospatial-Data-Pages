@@ -326,7 +326,8 @@ A full description of the data is also available at H:\GIS\Data\World\FAO\FAO01\
 19070,Enhanced Water and Sewer Data for The City of Hamilton,2008,"<p>City of Hamilton, Department of Planning and Economic Development, GIS-Planning and Analysis</p>
 ",Shapefile (.shp),McMaster Students / Staff / Faculty only,,"<p>Shapefiles for the watermains, valves, hydrants, sewers, manholes for the City of Hamilton are included in this dataset.  Installation date, sewer type, manhole depth, slope of sewer, diameter of watermain, diameter of sewer, length of sewer, length of watermain are all attributes included in these files.</p>
 <p>Additional keywords associated with this dataset: infrastructure, public utilities</p>
-","<p>No metadata available</p>
+<p><h3>Request data</h3>To request this data, please fill out the <a href=""https://docs.google.com/forms/d/e/1FAIpQLSeTbWY6CcyIxhBlNsWoIiJj31cyzRXQY3Jjo27ZST8xRBBa9Q/viewform?c=0&w=1"">Data
+ Use Agreement</a>.</p>","<p>No metadata available</p>
 ","<p><em>Enhanced Water and Sewer Data</em> [computer file]. Hamilton, Ontario: The City of Hamilton, Department of Planning and Economic Development, GIS-Planning and Analysis [2008].</p>
 ",N/A,Library,Human Environment||Water Resources,Hamilton,Vector||Shapefile,sites/default/files/geospatial/HamiltonWaterSewer.jpg,HamiltonWaterSewer.jpg,Hamilton water and sewer,,"UTM Zone 17N
 ","NAD83
@@ -519,7 +520,7 @@ For time-series data at the country level, see the <a href=""http://www.fao.org/
 ",N/A,Library,Remote Sensing and Air Photos,Hamilton||Ontario,Raster||MrSID,sites/default/files/geospatial/1995.JPG,1995.JPG,Toronto Orthophoto 1995,,"UTM Zone 17N
 ","NAD27
 ",,H:\AirPhotos\Toronto\1995demo.mxd,
-19086,Hamilton Digital Orthophotos 1999,Select years between 1999 and 2014,"<p>City of Hamilton, Information Technology Services, GIS Services.</p>
+19086,Hamilton Digital Orthophotos,Select years between 1999 and 2014,"<p>City of Hamilton, Information Technology Services, GIS Services.</p>
 ",MrSID,McMaster Students / Staff / Faculty only,,"<p>Digital Orthophotos are available for the following years:</br>
 <ul>
 <li>1999</li>
@@ -595,7 +596,7 @@ Reference material is available <a href=""https://developers.google.com/transit/
 ",N/A,Library,Physical Environment,Hamilton,PDF||Vector||Shapefile||Excel,sites/default/files/geospatial/Tree_inventory_demo.jpg,Tree Inventory,Tree Inventory,,"NAD 1983 UTM Zone 17N
 ","North American 1983
 ",,H:\GIS\Data\Canada\ON\Hamilton\Tree_Inventory_2009,
-19090,Hamilton Vector Data Set 2006,2003 - 2016,"<p>City of Hamilton, Information Technology Services, GIS Services.</p>
+19090,Hamilton Vector Data Set,2003 - 2016,"<p>City of Hamilton, Information Technology Services, GIS Services.</p>
 ",Shapefile (.shp),McMaster Students / Staff / Faculty only,,"<p>Vector layers for the City of Hamilton include: Airport Runways, Arenas, Beaches, Business Improvement Areas, Buildings, Cemeteries, City Boundary, City Playlots, City Pools, Colleges/Universities, Conservation Authorities, Contours (1m, 10m and 20m intervals), Direction Arrows, Election Poll Boundaries, Escarpment, Fire Stations, Golf Courses, Hospitals, Lakes, Libraries, Long Term Care Facilities, Municipal Boundary, Museums/Galleries, Neighbourhood Boundaries, Parking Lots, Parks, Places of Worship, Planning Units, Police Stations, Railways, Recreation Centres, Residential Care Centres, Rivers, Roads (Highways, Major Roads, Minor Roads, Access Ways, Intersections, Sidewalks), Schools, Settlements, Sewers, Shorelines, Trails, Transmission Lines, Ward Boundaries, Water Hydrants, Water Mains, Water Reservoirs, and Water Storage Tanks.</p>
 <p>Informative attribute data is included with each layer.  Roads and trails have names, calculated length etc.  Points of interest have general attributes (name, address, phone number, square footage etc.) as well as specific attributes (e.g. libraries have # of books in circulation, places of worship have denomination, fire hydrants have flow rates etc.).</p>
 <p><h3>Request data</h3>To request this data, please fill out the <a href=""https://docs.google.com/forms/d/e/1FAIpQLSeTbWY6CcyIxhBlNsWoIiJj31cyzRXQY3Jjo27ZST8xRBBa9Q/viewform?c=0&w=1"">Data Use Agreement</a>.</p>","<p>No metadata available</p>
@@ -756,10 +757,10 @@ Years available: 2002, 2004, 2005, 2007-2010. More recent years are available th
 ",N/A,Internet,Boundaries||Geology||Human Environment||Physical Environment||Remote Sensing and Air Photos||Soils||Topography||Transportation||Water Resources||Portals,Canada,Raster||ASCII||MrSID||TIFF||Vector||Shapefile,sites/default/files/geospatial/MBgeology.jpg,MBgeology.jpg,MBgeology.jpg,,"UTM Zone 14N
 ","NAD83
 ",,H:\GIS\Data\Canada\MB\MLIdemo.mxd,
-19103,McMaster University Campus Plan 1999,1999 - 2015,"<p>McMaster University, Facility Services, Drafting</p>
+19103,McMaster University Campus Plan,1999 - 2015,"<p>McMaster University, Facility Services, Drafting</p>
 ","Shapefile (.shp), AutoCAD (.dxf, .dwg)",McMaster Students / Staff / Faculty only,,"<p>A detailed plan of the entire McMaster University Campus, including the western student parking zones.  Each building has a unique ID number, and the legend describing the names of the buildings is superimposed directly on the map.</br>
 Years available: 1999, 2002, 2004, 2006, 2009, 2010, 2012, 2013, 2015.</p>
-",<p>No metadata available.</p>,"<p>McMaster University Facility Services, Drafting, <em>McMaster University Campus Plan</em>. Hamilton, ON: McMaster University (2002)</p>
+<p><h3>Request data</h3>To request this data, please fill out the <a href=""https://goo.gl/forms/9YQslM5l733TimPl2"">Data Use Agreement</a>.</p>",<p>No metadata available.</p>,"<p>McMaster University Facility Services, Drafting, <em>McMaster University Campus Plan</em>. Hamilton, ON: McMaster University (2002)</p>
 ",N/A,Library,Human Environment,Hamilton,DWF||Shapefile||Vector,sites/default/files/geospatial/McMaster1999.JPG,McMaster1999.JPG,McMaster1999.JPG,,,,,H:\GIS\Data\Canada\ON\Hamilton\McMaster\McMaster.mxd,
 19150,Miscellaneous Release Data (MRD) Sets,Various,Ontario Geological Survey,"Various - Shapefile (.shp), PDF, Microsoft Excel (.xls)",Public,"<p>Search <a href=""http://www.geologyontario.mndm.gov.on.ca/index.html"">Geology Ontario</a> for ""Miscellaneous Release-Data"".</p>
 ","<p>Miscellanous Release Data (MRD) datasets from 1-275, covering Ontario. Topics covered include:</p>
@@ -1234,7 +1235,7 @@ Ontario Geological Survey, 1993.  Tectonic assemblages, seamless coverage of the
 <p>""Produced by (researcher's name), McMaster University, with Data supplied under Licence by Members of the Ontario Geospatial Data Exchange.""</p>
 ",N/A,Library,Remote Sensing and Air Photos,Hamilton||Ontario,Raster||MrSID,sites/default/files/geospatial/toronto2008.JPG,toronto2008.JPG,Toronto Orthophoto 2008,,UTM Zone 17N,"NAD83
 ",,H:\AirPhotos\Toronto\2008_demo,
-19137,Toronto Fire Insurance Plans - 1884,1884 - 1910,"<p>Charles E. Goad</p>
+19137,Toronto Fire Insurance Plans,1884 - 1910,"<p>Charles E. Goad</p>
 ",MrSID,McMaster Students / Staff / Faculty only,,"<p>This set of fire insurance plans covers downtown Toronto and the Toronto Islands. These maps were scanned and georeferenced as part of the Georia Project at the University of Toronto (<a href=""http://mercator.geog.utoronto.ca/georia/menu.htm"">http://mercator.geog.utoronto.ca/georia/menu.htm</a>) from an original atlas at Toronto Public Library, Toronto Reference Library (Atlas Collection).</p>
 <p>The 1910 set of fire insurance plans is provided in three volumes with the following coverage:</p>
 <ul><li>Volume 1: Downtown Toronto and the Toronto Island.</li>
