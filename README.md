@@ -8,7 +8,7 @@ web pages may be found online within the McMaster library website [here.](https:
 The following is a quick guide to performing a collection update:
 
 	1. Download the latest version of Geospatial Data Pages from the GIS Data Pages Google Spreadsheet as a CSV file.
-	2. Save the file to the local directory, C:\Home\GeoPortal-Collection.
+	2. Save the file to the local directory, C:\Home\GeoSpatial-Collection.
 	3. Rename the file as Geospatial_Data.csv.
 	4. Open Harvester.py by right-clicking the file and selecting Edit with IDLE 3.5.
 	5. Run the script by hitting F5. 

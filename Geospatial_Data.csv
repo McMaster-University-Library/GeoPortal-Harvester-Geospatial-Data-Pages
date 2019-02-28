@@ -559,7 +559,7 @@ For time-series data at the country level, see the <a href=""http://www.fao.org/
 ","<p>City of Hamilton Digital Orthophotos [computer file]. Hamilton, Ontario: The City of Hamilton, 1999.</p>
 ",N/A,Library,Remote Sensing and Air Photos,Hamilton,Raster||MrSID,sites/default/files/geospatial/geospat-mills-ortho.jpg,geospat-mills-ortho.jpg,Sample of 1999 orthophoto (Mills Library),,,"NAD83
 ",39825,H:\AirPhotos\Hamilton\1999 Orthophotos,
-19087,Hamilton Parcel/Land Use Data,2009 / 2010,"<p>Teranet Inc. and The City of Hamilton, Dept. of Planning and Economic Development.</p>
+19087,Hamilton Parcel/Land Use Data,Select years between 2009 and 2018,"<p>Teranet Inc. and The City of Hamilton, Dept. of Planning and Economic Development.</p>
 ",Shapefile (.shp),McMaster Students / Staff / Faculty only,,"<p>This data was provided by The City of Hamilton, Dept. of Planning and Economic Development, GIS - Planning and Analysis.</p>
 <p>This dataset delineates all land parcels in the City of Hamilton, and provides the street address, as well as the type of land use for each parcel.  Land use is generally classified as: Residential, Institutional, Office, Commercial, Warehousing/Wholesale/Storage, Industrial, Utilities/Transportation, Parks/Open Space, Agriculture, Vacant Lands/Parking, and Miscellaneous.</p>
 <p>Within each of these classes, the parcels are more specifically classified, as described below:</p>
@@ -589,16 +589,17 @@ Reference material is available <a href=""https://developers.google.com/transit/
 ",N/A,Library||Internet,Human Environment||Transportation,Hamilton,Vector||Shapefile,sites/default/files/geospatial/HSR_bus_routes.JPG,HSR_bus_routes.JPG,HSR Bus Routes,,"UTM Zone 17N
 ","NAD83
 ",,"H:\GIS\Data\Canada\ON\Hamilton\City_of_Hamilton_Data.mxd (""2007 Vector Set"" data frame)",
-19089,Hamilton Tree Inventory,2009,"<p>City of Hamilton, Ontario</p>
+19089,Hamilton Tree Inventory,2009 / 2016,"<p>City of Hamilton, Ontario</p>
 ",Shapefile (.shp),McMaster Students / Staff / Faculty only,,"<p>This data contains information about tree species in Hamilton, Ontario. The attribute table contains information such as the diameter of a tree, the conditon of the tree, and whether the tree is likely to come in contact with a hydro utility line when it reaches its mature height. A boundary shapefile of Hamilton can also be included with the tree inventory shapefile so as to get a sense of the location of the trees.</p>
 <p><h3>Request data</h3>To request this data, please fill out the <a href=""https://docs.google.com/forms/d/e/1FAIpQLSeTbWY6CcyIxhBlNsWoIiJj31cyzRXQY3Jjo27ZST8xRBBa9Q/viewform?c=0&w=1"">Data Use Agreement</a>.</p>","<p>Available in PDF format with a copy of the file.</p>
 ","<p><em>Tree Inventory</em> [Computer File]. Hamilton, Ontario: City of Hamilton, 2009.</p>
 ",N/A,Library,Physical Environment,Hamilton,PDF||Vector||Shapefile||Excel,sites/default/files/geospatial/Tree_inventory_demo.jpg,Tree Inventory,Tree Inventory,,"NAD 1983 UTM Zone 17N
 ","North American 1983
 ",,H:\GIS\Data\Canada\ON\Hamilton\Tree_Inventory_2009,
-19090,Hamilton Vector Data Set,2003 - 2016,"<p>City of Hamilton, Information Technology Services, GIS Services.</p>
-",Shapefile (.shp),McMaster Students / Staff / Faculty only,,"<p>Vector layers for the City of Hamilton include: Airport Runways, Arenas, Beaches, Business Improvement Areas, Buildings, Cemeteries, City Boundary, City Playlots, City Pools, Colleges/Universities, Conservation Authorities, Contours (1m, 10m and 20m intervals), Direction Arrows, Election Poll Boundaries, Escarpment, Fire Stations, Golf Courses, Hospitals, Lakes, Libraries, Long Term Care Facilities, Municipal Boundary, Museums/Galleries, Neighbourhood Boundaries, Parking Lots, Parks, Places of Worship, Planning Units, Police Stations, Railways, Recreation Centres, Residential Care Centres, Rivers, Roads (Highways, Major Roads, Minor Roads, Access Ways, Intersections, Sidewalks), Schools, Settlements, Sewers, Shorelines, Trails, Transmission Lines, Ward Boundaries, Water Hydrants, Water Mains, Water Reservoirs, and Water Storage Tanks.</p>
+19090,Hamilton Vector Data Set,2003 - 2018,"<p>City of Hamilton, Information Technology Services, GIS Services.</p>
+",Shapefile (.shp),McMaster Students / Staff / Faculty only,,"<p>Vector layers for the City of Hamilton include: City Playlots, City Pools, Conservation Authorities, Contours (1m, 10m and 20m intervals), Direction Arrows, Long Term Care Facilities, Roads (Highways, Major Roads, Minor Roads, Access Ways, Intersections, Sidewalks), Sewers, Trails, Ward Boundaries, Water Hydrants, Water Mains, Water Reservoirs, and Water Storage Tanks.</p>
 <p>Informative attribute data is included with each layer.  Roads and trails have names, calculated length etc.  Points of interest have general attributes (name, address, phone number, square footage etc.) as well as specific attributes (e.g. libraries have # of books in circulation, places of worship have denomination, fire hydrants have flow rates etc.).</p>
+<p>Additional data is available through the City of Hamilton's open data website at <a href=""http://open.hamilton.ca/"">http://open.hamilton.ca</a>.</p>
 <p><h3>Request data</h3>To request this data, please fill out the <a href=""https://docs.google.com/forms/d/e/1FAIpQLSeTbWY6CcyIxhBlNsWoIiJj31cyzRXQY3Jjo27ZST8xRBBa9Q/viewform?c=0&w=1"">Data Use Agreement</a>.</p>","<p>No metadata available</p>
 ","<p>City of Hamilton Vector GIS Data [computer file]. Hamilton, ON: City of Hamilton GIS Services, 2006.</p>
 ",N/A,Library,Boundaries||Human Environment||Physical Environment||Topography||Transportation||Water Resources,Hamilton,Vector||Shapefile,sites/default/files/geospatial/HamiltonVector2006.jpg,HamiltonVector2006.jpg,Hamilton Vector data 2006,,"UTM Zone 17N
@@ -888,6 +889,21 @@ Brock University Maps, Data & GIS. 1934 Air Photo Mosaics of Niagara [Google Ear
 Central meridian 114 degrees
 ","NAD83 (Adopted) Datum
 ",,,
+23189,Open Hamilton,Varies by dataset,City of Hamilton,Various,Public,"<p><a href=""http://open.hamilton.ca/"">http://open.hamilton.ca/</a></p>
+","<p>City of Hamilton's open data website includes data available for download, as well as viewing through interactive mapping, and data stories and visualization.</p>
+<p>Categories of datasets, available in a variety of formats (spatial data, table, web mapping application, or document), include:
+<ul>
+<li>Business and Economy</li>
+<li>City Services</li>
+<li>Census and Demographics</li>
+<li>Culture and Tourism</li>
+<li>Environment</li>
+<li>Health and Safety</li>
+<li>Infrastructure</li>
+<li>Parking and Transportation</li>
+<li>Parks and Recreation</li>
+</ul></p>
+<p>For additional Hamilton datasets, see the <a href=""https://library.mcmaster.ca/maps/geospatial/hamilton-vector-data-set"">Hamilton Vector Data Set</a>.</p>","<p>Metadata available for each dataset, on the open data website.</p>","File name [Format]. Hamilton, Ontario: City of Hamilton Department, Year",,Internet,Portals,Hamilton,Vector,,,,,,,,,
 19058,OpenData Ottawa (The City of Ottawa's Open Data Catalogue),Various,"<p>City of Ottawa</p>
 ",Various,Public,"<p>The data are available at the following link: <a href=""http://data.ottawa.ca/dataset"">http://data.ottawa.ca/</a></p>
 ","<p>The <a href=""http://data.ottawa.ca/"">Open Data Ottawa</a> site is a first step in creating a foundation that encourages digital innovation, improved service delivery, stimulation of economic growth, and a better understanding of our city. Entrepreneurs, academics, policy-makers and community organizations are just a few of the groups that will benefit from the available information.</p>
@@ -1341,18 +1357,3 @@ Yukon-wide Digital Elevation Data:
 ",N/A,Library||Internet,Geology,Canada,Vector||E00||Shapefile,,,,,"Albers Equal Area and UTM
 ","NAD83
 ",39986,H:\GIS\Data\Canada\Geology\Yukon,
-,Open Hamilton,Varies by dataset,City of Hamilton,Various,Public,"<p><a href=""http://open.hamilton.ca/"">http://open.hamilton.ca/</a></p>
-","<p>City of Hamilton's open data website includes data available for download, as well as viewing through interactive mapping, and data stories and visualization.</p>
-<p>Categories of datasets, available in a variety of formats (spatial data, table, web mapping application, or document), include:
-<ul>
-<li>Business and Economy</li>
-<li>City Services</li>
-<li>Census and Demographics</li>
-<li>Culture and Tourism</li>
-<li>Environment</li>
-<li>Health and Safety</li>
-<li>Infrastructure</li>
-<li>Parking and Transportation</li>
-<li>Parks and Recreation</li>
-</ul></p>
-<p>For additional Hamilton datasets, see the <a href=""https://library.mcmaster.ca/maps/geospatial/hamilton-vector-data-set-2006"">Hamilton Vector Data Set</a>.</p>","<p>Metadata available for each dataset, on the open data website.</p>","File name [Format]. Hamilton, Ontario: City of Hamilton Department, Year",,Internet,Portals,Hamilton,Vector,,,,,,,,,
