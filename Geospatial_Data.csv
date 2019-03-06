@@ -5,14 +5,14 @@ Nid,Title,Year,Author,Format,Who can use this data,URL,Abstract,Metadata,How to 
 <p>The application will allow you to create PDF-format maps, print them on a local printer or send them via email, and create ""bookmarks"" which will allow you to store map locations and return to them later.</p>
 ","<p>No metadata is available as part of the ""Make a Map"" utility. However, the data used to make these maps is largely from the Ministry of Natural Resources and Forestry, and Natural Resources Canada. Full metadata is available for governmental data at data portals such as <a href=""http://open.canada.ca/en/open-data"">Canada's Open Data Portal</a> or the <a href=""https://www.javacoeapp.lrc.gov.on.ca/geonetwork/srv/en/main.home"">metadata tool</a>.</p>
 ","<p>Land Information Ontario (2016). Make a Topographic Map. [Interactive Map]. Retrieved from https://www.ontario.ca/page/topographic-maps</p>
-",N/A,Internet,Boundaries||Human Environment||Physical Environment||Remote Sensing and Air Photos||Topography||Transportation||Water Resources,Ontario,Interactive Map,sites/default/files/geospatial/LIO_interactive_map.JPG,Make a Map Utility,Make a Map Utility,,"Visible map projection unknown.
+",N/A,Internet,Boundaries||Human Environment||Physical Environment||Remote Sensing and Air Photos||Topography||Transportation||Water Resources,Ontario,Interactive Map,https://library.mcmaster.ca/sites/default/files/geospatial/LIO_interactive_map.JPG,Make a Map Utility,Make a Map Utility,,"Visible map projection unknown.
 Data in unprojected latitude & longitude coordinates.
 ","NAD83
 ",,,
 19044,Agro-MAPS Global,2005,"<p>United Nations. Food and Agriculture Organization (FAO)</p>
 ",,Public,"<p>Can be accessed via the <a href=""http://ref.data.fao.org/map?entryId=5accf340-f18f-11db-9a22-000d939bc5d8&tab=about"">FAO Data Portal</a></p>
 ","<p>This product contains statistics on crop production, area harvested and crop yields, aggregated by subnational administrative districts, for more than 130 countries, in seven geographic regions (Africa, Asia, Near East in Asia, Latin America and the Caribbean, North America and Oceania).The statistics are linked to unique identifier codes of the administrative districts in each country. This allows users to view readily, and subsequently analyse, the statistics for a single country or for an entire region as maps.</p>
-","<p>Metadata is available through the <a href=""http://ref.data.fao.org/map?entryId=5accf340-f18f-11db-9a22-000d939bc5d8&tab=metadata"">FAO Data Portal</a>.</p>",<p>Food and Agriculture Organization of the United Nations. FAO GEONETWORK. Agro-MAPS Global Spatial Database of Agricultural Land-use Statistics Aggregated by Sub-national Administrative Districts (GeoLayer). (Latest update: 04 Jun 2015) Accessed (18 Dec 2017). URI: http://data.fao.org/ref/5accf340-f18f-11db-9a22-000d939bc5d8.html?version=1.0</p>,N/A,Internet||Library,Boundaries||Physical Environment||Soils,World,Interactive Map,sites/default/files/geospatial/fao_32sample.PNG,Agro-MAPS viewer sample,Agro-MAPS viewer sample,,,,,No Data Demo available. One can use data viewer on CD or download tables from http://www.fao.org/landandwater/agll/agromaps/interactive/page.jspx ,
+","<p>Metadata is available through the <a href=""http://ref.data.fao.org/map?entryId=5accf340-f18f-11db-9a22-000d939bc5d8&tab=metadata"">FAO Data Portal</a>.</p>",<p>Food and Agriculture Organization of the United Nations. FAO GEONETWORK. Agro-MAPS Global Spatial Database of Agricultural Land-use Statistics Aggregated by Sub-national Administrative Districts (GeoLayer). (Latest update: 04 Jun 2015) Accessed (18 Dec 2017). URI: http://data.fao.org/ref/5accf340-f18f-11db-9a22-000d939bc5d8.html?version=1.0</p>,N/A,Internet||Library,Boundaries||Physical Environment||Soils,World,Interactive Map,https://library.mcmaster.ca/sites/default/files/geospatial/fao_32sample.PNG,Agro-MAPS viewer sample,Agro-MAPS viewer sample,,,,,No Data Demo available. One can use data viewer on CD or download tables from http://www.fao.org/landandwater/agll/agromaps/interactive/page.jspx ,
 19045,Air Quality Data Sets: Pollutant and Smog Data and Forecasts,"Various, from 2000","<p>Ontario Ministry of the Environment and Climate Change</p>
 ","Comma separated values (.csv), Microsoft Excel (.xls)",Public,"<p>Air Quality of Ontario - <a href=""http://www.airqualityontario.com/science/data_sets.php"">Science Data Sets</a></p>
 ","<p>The Ontario Ministry of the Environment and Climate Change (MOE) has created the user-friendly website <a href=""http://www.airqualityontario.com/"">Air Quality Ontario</a> in order to provide Ontarians with current Air Quality Index (AQI) readings, historical ambient air pollution data, air quality forecasts, and current pollutant concentrations, as well as information on actions that can be taken when a smog alert is issued.</p>
@@ -35,7 +35,7 @@ Data in unprojected latitude & longitude coordinates.
 <h3>Call Number:</h3>
 <p>Maps GB 1030.O5H36 2011</p>
 ","<p>Hamilton, S.M. 2015. Ambient groundwater geochemistry data for southern Ontario, 2007–2014; Ontario Geological Survey, Miscellaneous Release—Data 283–Revised.</p>
-",N/A,Internet||Library,Geology,Ontario,Excel||KML,sites/default/files/geospatial/AmbientGroundwaterSample.JPG,AmbientGroundwaterSample.JPG,Ambient Groundwater Geochemistry Sample Image,,"Transverse Mercator
+",N/A,Internet||Library,Geology,Ontario,Excel||KML,https://library.mcmaster.ca/sites/default/files/geospatial/AmbientGroundwaterSample.JPGsites/default/files/geospatial/AmbientGroundwaterSample.JPG,AmbientGroundwaterSample.JPG,Ambient Groundwater Geochemistry Sample Image,,"Transverse Mercator
 ","North American Datum 1983
 ",,"H:\GIS\Data\Canada\ON\OGS\MRD283, on CD, or available for download from http://www.geologyontario.mndm.gov.on.ca/mndmaccess/mndm_dir.asp?type=pub&id=MRD283",
 19047,ASTER Global Digital Elevation Model (GDEM),2011 (version 2),"<p>Produced jointly by Japan's Ministry of Economy, Trade and Industry (METI) and the U.S. National Aeronautics and Space Administration (NASA).</p>
@@ -52,7 +52,7 @@ Data in unprojected latitude & longitude coordinates.
 <li>Dataset: ASTER Global Digital Elevation Model</li>
 <li>Version: 2</li>
 <li>DOI: 10.5067/ASTER/ASTGTM.002</li>
-</ul>",N/A,Internet,Physical Environment||Remote Sensing and Air Photos||Topography,World,Raster||geoTIFF,sites/default/files/geospatial/aster_dem.jpg,ASTER GDEM sample,ASTER GDEM sample,,"Unprojected Latitude & Longitude
+</ul>",N/A,Internet,Physical Environment||Remote Sensing and Air Photos||Topography,World,Raster||geoTIFF,https://library.mcmaster.ca/sites/default/files/geospatial/aster_dem.jpg,ASTER GDEM sample,ASTER GDEM sample,,"Unprojected Latitude & Longitude
 ","WGS 84
 ",40476,A data demo is available in the map collection at H:\GIS\Data\World\ASTER_DEM\demo.mxd,Each tile is approximately 25 MB
 19048,Atlas of the Biosphere,1998 - 2001,"<p>The Nelson Institute Center for Sustainability and the Global Environment, University of Wisconsin-Madison</p>
@@ -77,7 +77,7 @@ Data in unprojected latitude & longitude coordinates.
 </ul></li>
 </ul><p>You may download maps (at 1600x1200 pixel resolution) and/or data (as an ESRI ArcView grid). The Atlas also includes animated schematics that look at the various resource flows and pools that make up individual Earth systems.</p>
 ","<p>Additional information for each dataset and map can be found on the <a href = ""https://nelson.wisc.edu/sage/data-and-models/atlas/maps.php"">Atlas of the Biosphere website</a>.</p>","<p>A link to a full citation for each dataset is available on the download page for the data.</p>
-",N/A,Internet,Human Environment||Physical Environment||Water Resources,Canada||USA||World,Raster||JPG,sites/default/files/geospatial/sagelogo.PNG,,,,"various
+",N/A,Internet,Human Environment||Physical Environment||Water Resources,Canada||USA||World,Raster||JPG,https://library.mcmaster.ca/sites/default/files/geospatial/sagelogo.PNG,,,,"various
 ","various
 ",,,
 19049,BatchGeo,2017,"<p>BatchGeo LLC</p>
@@ -88,14 +88,14 @@ Data in unprojected latitude & longitude coordinates.
 
 ","<p>BatchGeo geocoding uses Google Geocoding API. A brief description is available at <a href=""https://batchgeo.com/features/terms/"">https://batchgeo.com/features/terms/</a>. For additional information, see the support page at <a href=""http://support.batchgeo.com/"">http://support.batchgeo.com</a>.</p>
 ","<p>BatchGeo LLC. <em>BatchGeo</em> [online software]. 2017</p>
-",N/A,Internet,Human Environment||Software,Canada||Hamilton||Ontario||USA||World,KML||Excel,sites/default/files/geospatial/BatchGeo.jpg,,,,"Output can be generated in unprojected decimal degrees.
+",N/A,Internet,Human Environment||Software,Canada||Hamilton||Ontario||USA||World,KML||Excel,https://library.mcmaster.ca/sites/default/files/geospatial/BatchGeo.jpg,,,,"Output can be generated in unprojected decimal degrees.
 ",,,,
 19050,Canada Land Inventory (CLI) - Land Capability for Agriculture,2013,"<p>Agriculture and Agri-Food Canada</p>
 ","1:50,000 - File Geodatabase (FGDB) / 1:250,000 - Shapefile (.shp)",Public,"<p>The dataset is available in a variety of scales on the <a href=""http://open.canada.ca/data/en/dataset/0c113e2c-e20e-4b64-be6f-496b1be834ee"">Open Government website</a>.</p>
 ","<p>The agriculture map illustrates the varying potential of a specific area for agricultural production. Classes of land capability for agriculture are based on mineral soils grouped according to their potential and limitations for agricultural use. The classes indicate the degree of limitation imposed by the soil in its use for mechanized agriculture. The subclasses indicate the kinds of limitations that individually or in combination with others, are affecting agricultural land use. Characteristics of the soil as determined by soil surveys.</p>
 <p>City Land Capability for Agriculture, Canada Land Inventory 1:50,000 was only produced for a selection of cities.</p>","<p>Data product specification is available through the <a href=""http://open.canada.ca/data/en/dataset/0c113e2c-e20e-4b64-be6f-496b1be834ee"">Open Government portal</a>.</p>
 ","<p>Canada Land Inventory (CLI) [scale] - Land Capability for Agriculture [computer file]. (2013). Ottawa, ON: Agriculture and Agri-Food Canada.</p>
-",N/A,Internet,Physical Environment,Canada||Hamilton||Ontario,Vector||E00||Shapefile,sites/default/files/geospatial/hamcityagri1.PNG,Sample of Land Capability for Agriculture,Sample of Land Capability for Agriculture,,"Unprojected Lat/Long
+",N/A,Internet,Physical Environment,Canada||Hamilton||Ontario,Vector||E00||Shapefile,https://library.mcmaster.ca/sites/default/files/geospatial/hamcityagri1.PNG,Sample of Land Capability for Agriculture,Sample of Land Capability for Agriculture,,"Unprojected Lat/Long
 ","NAD27
 ",,H:\GIS\Data\Canada\CLI\demo.mxd,
 19094,Canada Land Inventory (CLI) - Land Capability for Forestry,Various,"<p>Natural Resources Canada</p>
@@ -108,7 +108,7 @@ Data in unprojected latitude & longitude coordinates.
 ","<p>Comprehensive readme file included with download.</p>
 ","<p>Canada Land Inventory - Land Capability for Forestry[computer file]. (2002). Ottawa, ON: Natural Resources Canada.</p>
 
-",N/A,Internet,Physical Environment||Soils,Canada||Hamilton||Ontario,Vector||E00||Shapefile,sites/default/files/geospatial/CLIforest.jpg,CLIforest.jpg,CLI Forestry,,"Unprojected Lat/Long
+",N/A,Internet,Physical Environment||Soils,Canada||Hamilton||Ontario,Vector||E00||Shapefile,https://library.mcmaster.ca/sites/default/files/geospatial/CLIforest.jpg,CLIforest.jpg,CLI Forestry,,"Unprojected Lat/Long
 ","NAD27
 ",39989,H:\GIS\Data\Canada\CLI\demo.mxd,
 19063,Canadian Climate Normals and Averages,"Various, 1961 - 2010","<p>Environment and Climate Change Canada</p>
@@ -118,7 +118,7 @@ Data in unprojected latitude & longitude coordinates.
 <p>Variables include: temperature, precipitation, snow depth, degree-days, soil temperature, evaporation, and frost and freezing-free periods. Some variables are observed hourly. These elements include: hourly wind speed and direction, bright sunshine, humidex, wind chill, humidity, pressure, radiation, visibility, and cloud cover.</p>
 <p>The tabular data can be downloaded in comma-separated values (.csv) or .xml format.</p>
 ","<p>Metadata for each station and element, in addition to a <i>Calculation Information</i> document, are available on the Canadian Climate Normals website.</p>
-","<p>1961-1990 Climate Normals & Averages. [computer file]. (1994). Ottawa, Ontario: Environment and Climate Change Canada.</p>",N/A,Internet||Library,Climate,Canada||Hamilton||Ontario,ASCII,sites/default/files/geospatial/Climate_data_sample.jpg,Sample of hourly climate data,Sample of hourly climate data; Hamilton Airport,,,,,,
+","<p>1961-1990 Climate Normals & Averages. [computer file]. (1994). Ottawa, Ontario: Environment and Climate Change Canada.</p>",N/A,Internet||Library,Climate,Canada||Hamilton||Ontario,ASCII,https://library.mcmaster.ca/sites/default/files/geospatial/Climate_data_sample.jpg,Sample of hourly climate data,Sample of hourly climate data; Hamilton Airport,,,,,,
 19051,"Canadian Digital Elevation Data (1:50,000)",2006,"<p>Natural Resorces Canada</p>
 ",Digital Elevation Model (.dem),Public,"<p>Canadian Digital Elevation Data (CDED) can be downloaded from <a href=""http://www.nrcan.gc.ca/earth-sciences/geography/topographic-information/free-data-geogratis/download-directory-documentation/17215"">Natural Resources Canada</a>.</p>
 ","<p>Digital elevation data consists of an ordered array of ground elevations sampled at regular intervals over each grid area.   Aside from estimating point elevations, digital elevation has a variety of applications, including terrain modeling, line of sight analysis, water flow and flooding analysis, and many others.</p>
@@ -129,7 +129,7 @@ Data in unprojected latitude & longitude coordinates.
 <p>A Metadata file is also included with the download.</p>
 ","<p>Canadian Digital Elevation Data [computer file]. Ottawa, ON: Natural Resources Canada, 2006.</p>
 <p>Use of the data is subject to the Open Government Licence – Canada. The License Agreement can be viewed in full at the following link: <a href=""http://open.canada.ca/en/open-government-licence-canada"">http://open.canada.ca/en/open-government-licence-canada</a></p>
-",N/A,Internet,Topography,Canada||Hamilton||Ontario,Raster||ASCII,sites/default/files/geospatial/CDED50k.jpg,CDED50k.jpg,Sample of CDED 50K,,"GCS NAD83
+",N/A,Internet,Topography,Canada||Hamilton||Ontario,Raster||ASCII,https://library.mcmaster.ca/sites/default/files/geospatial/CDED50k.jpg,CDED50k.jpg,Sample of CDED 50K,,"GCS NAD83
 ","Horizontal Datum: NAD83
 Vertical Datum: CVGD28
 ",,H:\GIS\Data\Canada\Geobase\Geobase.mxd,
@@ -156,7 +156,7 @@ Data is available for download based on the NTS 1:250,000 map sheets. An index i
 <li><a href=""http://sis.agr.gc.ca/cansis/nsdb/ecostrat/1999report/index.html"">National Ecological Framework - Attribute Data Report</a></li>
 <li><a href="""">Soil Landscapes of Canada - Dataset descriptions</a> (including soil name, soil component, landform definitions, and ecological framework tables</li>
 ","<p>National Soil DataBase [computer file]. Ottawa, ON: Agriculture and Agri-Food Canada, [year of dataset].</p>
-",N/A,Internet,Soils,Canada||Hamilton||Ontario,Vector||E00||Shapefile,sites/default/files/geospatial/CanSISscreenshot.jpg,CanSIS.jpg,CanSIS image,,,,,H:\GIS\Data\Canada\ON\Soils\Soils.mxd,
+",N/A,Internet,Soils,Canada||Hamilton||Ontario,Vector||E00||Shapefile,https://library.mcmaster.ca/sites/default/files/geospatial/CanSISscreenshot.jpg,CanSIS.jpg,CanSIS image,,,,,H:\GIS\Data\Canada\ON\Soils\Soils.mxd,
 19053,Canadian Wind Energy Atlas,2004,"<p>Environment and Climate Change Canada</p>
 ","MapInfo Interchange Format (.mif), MapInfo Data (.mid)",Public,"<p><a href=""http://www.windatlas.ca"">http://www.windatlas.ca</a></p>
 ","<p>The Canadian Wind Energy Atlas was created as a contribution to a project hosted by the Environment Canada RPN (Recherche en Prévision Numérique).  The purpose of the project was to determine the average wind energy potential across the country for the purposes of wind energy development.</p>
@@ -164,7 +164,7 @@ Data is available for download based on the NTS 1:250,000 map sheets. An index i
 <p>Data are also available for download in two formats: MapInfo Interchange Format (MIF) and the proprietary RPN format.  MIF files can be converted to ESRI Shapefile format by using ArcCatalog.  Software is provided on the website for conversion of RPN format files.  Please note that the website requires a username and password to download files, and there is a 160MB/day download limit.</p>
 ","<p>The <a href=""http://www.windatlas.ca/"">Canadian Wind Energy Atlas website</a> contains a Q&A page, description of the methodology used, as well as other useful links.</p>
 ","<p><em>Canadian Wind Energy Atlas</em> [computer file]. Gatineau, QC: Environment Canada, 2004.</p>
-",N/A,Internet,Climate,Canada||Hamilton||Ontario,Interactive Map||Mid/Mif,sites/default/files/geospatial/windenergymap.JPG,windenergymap.JPG,Canadian Wind Energy Atlas,,,,,,
+",N/A,Internet,Climate,Canada||Hamilton||Ontario,Interactive Map||Mid/Mif,https://library.mcmaster.ca/sites/default/files/geospatial/windenergymap.JPG,windenergymap.JPG,Canadian Wind Energy Atlas,,,,,,
 19054,CanVec Series,2016,"<p>Natural Resources Canada</p>
 ","Shapefile (.shp), File Geodatabase (FGDB)",Public,"<p>This data is freely available through the <a href=""http://open.canada.ca/data/en/dataset/8ba2aa2a-7bb9-4448-b4d7-f164409fe056"">Open Government portal</a></p>
 ","<p>CanVec is a digital cartographic reference product produced by Natural Resources Canada. CanVec originates from the best available data sources covering Canadian territory and offers quality topographic information in vector format that complies with international geomatics standards.</p>
@@ -174,7 +174,7 @@ Data is available for download based on the NTS 1:250,000 map sheets. An index i
 <p>CanVec is scheduled to be published by edition (or release) twice a year. The CanVec product is free and is distributed via the Open Government Portal in output file formats File Geodatabase (FGDB) and ESRI Shapefile (.shp).</p>
 <h2>Purpose</h2>
 <p>CanVec aims to have standardized and actualized representation of topographic phenomenon for the entire Canadian landmass. CanVec can be used to produce thematic maps, for web mapping as well as GIS applications. CanVec's many attributes allow for extensive spatial analysis.</p>","<p>A feature catalogue and readme file are included with the download package. General documentation and product specifications are available on the <a href=""http://open.canada.ca/data/en/dataset/8ba2aa2a-7bb9-4448-b4d7-f164409fe056"">Open Government website</a>.</p>
-","<p>CanVec Series - Municipal Boundary [computer file]. Ottawa, ON: Natural Resources Canada. [2017]</p>",N/A,Internet,Boundaries||Human Environment||Physical Environment||Topography||Transportation||Water Resources,Canada||Hamilton||Ontario,Vector||Shapefile,sites/default/files/geospatial/30m5sample.JPG,30M/5 sample of various vector layers in ArcMap,30M/5 sample of various vector layers in ArcMap,,"UTM
+","<p>CanVec Series - Municipal Boundary [computer file]. Ottawa, ON: Natural Resources Canada. [2017]</p>",N/A,Internet,Boundaries||Human Environment||Physical Environment||Topography||Transportation||Water Resources,Canada||Hamilton||Ontario,Vector||Shapefile,https://library.mcmaster.ca/sites/default/files/geospatial/30m5sample.JPG,30M/5 sample of various vector layers in ArcMap,30M/5 sample of various vector layers in ArcMap,,"UTM
 ","NAD 1983
 ",,A demonstration copy of the data is available for viewing in the Map Collection: H:\GIS\H:\GIS\Data\Canada\Geogratis\Geogratis.mxd in the NTDB data frames.,
 19055,China Dimensions Data Collection,"Various, 1949-1996","<p>Socioeconomic Data and Applications Center (SEDAC)</p>
@@ -185,7 +185,7 @@ Data is available for download based on the NTS 1:250,000 map sheets. An index i
 ","<p>Each data listing on the SEDAC website includes a documentation and metadata tab with links to additional documentation. ""Readme.txt"" documents are often provided alongside the datasets via FTP, some of which provide links to websites containing additional information.</p>
 ","<p><em>Database Name</em> [type of medium]. (Year). Producer location, province/state: Producer name. Available FTP: address/path/file [Access date].</p>
 <p>Example: <em>Fundamental GIS: Digital Chart of China</em> [computer file]. (1990). Palisades, NY: SEDAC. Available FTP: http://sedac.ciesin.org/data/set/cddc-china-dcw-gis/data-download [Jan. 13, 2010]</p>
-",N/A,Internet,Boundaries||Human Environment||Portals,World,Vector,sites/default/files/geospatial/hptop.gif,,,,"Lambert Conformal Conic
+",N/A,Internet,Boundaries||Human Environment||Portals,World,Vector,https://library.mcmaster.ca/sites/default/files/geospatial/hptop.gif,,,,"Lambert Conformal Conic
 ",,,,
 19057,City of Montreal Uniform Crime Reporting Data,2001,"<p>Canadian Centre for Justice Statistics</p>
 ","Shapefile (.shp), Comma-separated values (.csv)",McMaster Students / Staff / Faculty only,,"<p>The Canadian Centre for Justice Statistics  (CCJS), in co-operation with the policing community, collects  police-reported crime statistics through the Uniform Crime Reporting  Survey (UCR). The UCR Survey was designed to measure the incidence of  crime in Canadian society and its characteristics.  This dataset  contains specific incident rates for crime in the City of Montreal at the level of Census Tract. </p>
@@ -195,7 +195,7 @@ Data is available for download based on the NTS 1:250,000 map sheets. An index i
 ","<p>Database Name [type of medium]. (Year). Producer location, province/state: Producer name. Available online: address/path/file [Access date].</p>
 <p>e.g.</br>
 City of Montreal Uniform Crime Reporting Data [computer file]. (2001). Ottawa, Ontario: Canadian Centre for Justice Statistics.</p>
-",N/A,Library,Human Environment,Canada,Vector||Shapefile,sites/default/files/geospatial/montrealcrimedemo1.PNG,Montreal crime data sample,Montreal crime data sample,,"Data is in unprojected lat/long coordinates. Recommend projecting using UTM Zone 19N for Montreal.
+",N/A,Library,Human Environment,Canada,Vector||Shapefile,https://library.mcmaster.ca/sites/default/files/geospatial/montrealcrimedemo1.PNG,Montreal crime data sample,Montreal crime data sample,,"Data is in unprojected lat/long coordinates. Recommend projecting using UTM Zone 19N for Montreal.
 ","GCS_NAD_1983
 ",,H:\GIS\Data\Canada\StatsCan\Uniform_crime_reporting\demo.mxd,
 19059,City of Toronto Fire Insurance Plans (1910) - Georeferenced,1910,"<p>Original maps by Goad's Atlas and Plan Co. (Goad, Charles E.)</p>
@@ -207,7 +207,7 @@ City of Montreal Uniform Crime Reporting Data [computer file]. (2001). Ottawa, O
 <p>This georeferencing project was completed at the McMaster University Map Library during the summer of 2009. A group of several individuals completed the georeferencing together over a period of a few days using ArcGIS 9.3 software.</p>
 ","<p>No metadata available.</p>
 ","<p>Goad, Charles E. (1910). Fire Insurance Plans of the City of Toronto. [Digital data]. Digital composite map of georeferenced atlas plates for use in a GIS. Produced by McMaster University Libraries, Lloyd Reeds Map Collection, 2009.</p>
-",N/A,Library,Human Environment,Canada||Ontario,Raster||geoTIFF||JPG,sites/default/files/geospatial/TO_FIP_sample.PNG,Toronto 1910 FIP Sample,Toronto 1910 FIP Sample,,"UTM Zone 17N
+",N/A,Library,Human Environment,Canada||Ontario,Raster||geoTIFF||JPG,https://library.mcmaster.ca/sites/default/files/geospatial/TO_FIP_sample.PNG,Toronto 1910 FIP Sample,Toronto 1910 FIP Sample,,"UTM Zone 17N
 ","NAD_1983
 ",40259,H:\GIS\Data\Canada\ON\Toronto\TO_FIPs\McMaster_1910\TO_FIP_1910.mxd,6.47 GB
 19138,City of Toronto Open Data,Various,"<p>City of Toronto</p>
@@ -232,7 +232,7 @@ City of Montreal Uniform Crime Reporting Data [computer file]. (2001). Ottawa, O
 </ul>","<p>Metadata is provided with the downloaded file.</p>
 ","<p><em>File name </em>[Format]. Toronto, Ontario: City of Toronto Department, Year</p>
 <p>Example: <em>Bikeways</em> [Shapefile]. Toronto, ON: City of Toronto, Transportation Services, Transportation Infrastructure Management, Cycling Infrastructure and Programs, 2010.</p>
-","<p><a href=""http://geo.scholarsportal.info/#r/details/_uri@=2636227147"">Municipal Open Data Portals in Canada</a></p>",Internet,Boundaries||Human Environment||Physical Environment||Topography||Transportation||Portals,Canada,Vector||Shapefile||Excel,sites/default/files/geospatial/demo2_0.jpg,Toronto Open Data Sample,Toronto Open Data,,"NAD 1927 UTM Zone 17N
+","<p><a href=""http://geo.scholarsportal.info/#r/details/_uri@=2636227147"">Municipal Open Data Portals in Canada</a></p>",Internet,Boundaries||Human Environment||Physical Environment||Topography||Transportation||Portals,Canada,Vector||Shapefile||Excel,https://library.mcmaster.ca/sites/default/files/geospatial/demo2_0.jpg,Toronto Open Data Sample,Toronto Open Data,,"NAD 1927 UTM Zone 17N
 ","There are two datums provided
 GCS North American 1927 is associated with the projection provided above.
 GCS WGS 1984 is a second set of data provided by the City of Toronto to show latitude/longitude
@@ -245,7 +245,7 @@ GCS WGS 1984 is a second set of data provided by the City of Toronto to show lat
 <p>A description of the survey appears at the following URL: <a href=""http://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=31102"">Uniform Crime Reporting Survey (UCR) - Detailed Information for 2006</a></p>
 ","<p>Database Name [type of medium]. (Year). Producer location, province/state: Producer name. Available online: address/path/file [Access date].</p>
 <p>e.g.</p>
-<p>City of Toronto Uniform Crime Reporting Data [computer file]. (2006). Ottawa, Ontario: Canadian Centre for Justice Statistics.</p>",N/A,Library,Human Environment,Ontario,Excel,sites/default/files/geospatial/TorontoUCR.JPG,TorontoUCR.jpg,Uniform Crime Reporting data displayed using Toronto census tract boundaries,,"Unprojected lat/long data. Recommend using UTM Zone 17N projection.
+<p>City of Toronto Uniform Crime Reporting Data [computer file]. (2006). Ottawa, Ontario: Canadian Centre for Justice Statistics.</p>",N/A,Library,Human Environment,Ontario,Excel,https://library.mcmaster.ca/sites/default/files/geospatial/TorontoUCR.JPG,TorontoUCR.jpg,Uniform Crime Reporting data displayed using Toronto census tract boundaries,,"Unprojected lat/long data. Recommend using UTM Zone 17N projection.
 ",,,H:\GIS\Data\Canada\StatsCan\Uniform_crime_reporting\demo.mxd,
 19062,Climate Change Map Series,1975 - 2100 (projected),"<p>Natural Resources Canada and Environment and Climate Change Canada</p>
 ",Shapefile (.shp),Public,"<p><a href=""https://www.nrcan.gc.ca/environment/resources/10763"">Natural Resources Canada - Climate Change Resources</a></p>
@@ -253,25 +253,25 @@ GCS WGS 1984 is a second set of data provided by the City of Toronto to show lat
 <p>The maps and geospatial data for some of these topics can be downloaded from the <a href=""http://open.canada.ca/en"">Open Government Portal</a>. Not all themes displayed on the webpages have downloadable files. Some themes cover Canada only (national) and some cover both Canada and the world (global) with files of different scales.</p>
 <p>Data can also be accessed through the Natural Resources Canada <a href=""https://www.nrcan.gc.ca/environment/resources/10763"">Climate Change Resources website</a>.</p>","<p>Metadata available with each map or dataset download.</p>
 ","<p>Dataset name [computer file]. Producer location: Producer Name, Year.</p>
-",N/A,Internet,Climate,Canada||Hamilton||Ontario||World,Vector||Shapefile||PDF,sites/default/files/geospatial/Climate_change_temp_winter.jpg,Map showing temperature,Map showing temperature,,,,,H:\GIS\Data\Canada\Geogratis\Geogratis.mxd,
+",N/A,Internet,Climate,Canada||Hamilton||Ontario||World,Vector||Shapefile||PDF,https://library.mcmaster.ca/sites/default/files/geospatial/Climate_change_temp_winter.jpg,Map showing temperature,Map showing temperature,,,,,H:\GIS\Data\Canada\Geogratis\Geogratis.mxd,
 19064,Daily 10km Gridded Climate Dataset,1961 - 2003,"<p>Agriculture and Agri-Food Canada: National Land and Water Information Service</p>
 ",GeoTIFF,McMaster Students / Staff / Faculty only,,"<p>This dataset contains floating point grids of daily maximum temperature (°C), minimum temperature (°C) and precipitation (mm) for the Canadian landmass south of 60°N. These grids, which are available in two file formats (text and GeoTIFF), were interpolated from daily Environment Canada climate station observations using a thin plate smoothing spline surface fitting method implemented by ANUSPLIN V4.3. There is one image for each day of the year per variable.</p>
 <p>Additional keywords associated with this dataset: continuous data, historical climate data, hydrology, spatial variation, temporal variation</p>
 ","<p>Metadata documents are provided in PDF and HTML format on the DVDs containing the dataset.</p>
 ","<p><em>Daily 10 Km Gridded Climate Dataset: 1961-2003</em>. [computer file]. Version 1.0, [Ottawa]: Agriculture and Agri-Food Canada. National Land and Water Information Service, [2007]</p>
-",N/A,Library,Climate,Canada||Hamilton||Ontario,Raster||ASCII||geoTIFF,sites/default/files/geospatial/GriddedClimate.jpg,GriddedClimate.jpg,Sample image of Daily Gridded Climate Dataset,,"Albers Equal Area Conic
+",N/A,Library,Climate,Canada||Hamilton||Ontario,Raster||ASCII||geoTIFF,https://library.mcmaster.ca/sites/default/files/geospatial/GriddedClimate.jpg,GriddedClimate.jpg,Sample image of Daily Gridded Climate Dataset,,"Albers Equal Area Conic
 ","NAD83
 ",,H:\GIS\Data\Canada\Climate\Daily_10km_gridded_climate.mxd,
 19118,"Digital Aerial Photographs, Toronto and the Golden Horseshoe 2002",2002,"<p>J.D. Barnes First Base Solutions</p>
 ","MrSID (.sid, .sdw)",McMaster Students / Staff / Faculty only,"Available for download through the U of T website - <a href=""http://prod.library.utoronto.ca/maplib/scholarp/orthos/map/m10000.html"">Digital Aerial Photographs</a>",,"<p>No metadata available.</p>
-","<p><em>Digital Aerial Photographs, Toronto and the Golden Horseshoe</em>[digital photograph]. Toronto, ON: First Base Solutions, 2002.</p>",N/A,Library||Internet,Remote Sensing and Air Photos,Ontario,Raster||MrSID,sites/default/files/geospatial/Peterborough.jpg,Peterborough.jpg,Peterborough Air Photo,,"UTM Zone 17
+","<p><em>Digital Aerial Photographs, Toronto and the Golden Horseshoe</em>[digital photograph]. Toronto, ON: First Base Solutions, 2002.</p>",N/A,Library||Internet,Remote Sensing and Air Photos,Ontario,Raster||MrSID,https://library.mcmaster.ca/sites/default/files/geospatial/Peterborough.jpg,Peterborough.jpg,Peterborough Air Photo,,"UTM Zone 17
 ","NAD83
 ",39993,Samples can be found on H:\Airphotos\Peterborough,
 19066,Digital Elevation Model (DEM),"Various, as derived from NTDB","<p>DMTI Spatial Inc.</p>
 ",ASCII text (.txt),McMaster Students / Staff / Faculty only,,"<p>DEM files are created by the interpolation of elevation information from the Canada National Topographic Database in order to create a uniform grid of elevation points. The DEM files are tiled according the Canada National Topographic System (NTS) map boundaries. A 30 metre grid is available, equivalent to the elevation information on NTS 1:50,000 maps. A 90 metre grid is available, equivalent to the elevation information on NTS 1:250,000 maps. Files for all areas of Canada are available.  The files are provided is ASCII .txt format, and must be converted into raster format before they can be viewed in ArcMap.  If you would like to request these files from the Map Collection, please specify the appropriate NTS map sheets (i.e. NTS 1:50,000 for 30m grids, or NTS 1:250,000 for 90m grids)</p>
 <p>Available to Canadian universities under <a class=""ext"" href=""http://prod.library.utoronto.ca:8090/maplib/DMTI/"">DMTI Spatial SMART Consortium agreement</a>.</p>
 ",<p>No metadata available.</p>,"<p>DMTI Spatial Inc. <em>Digital Elevation Model</em> [computer file].Markham ON: DMTI Spatial Inc.</p>
-",N/A,Library,Topography,Canada||Hamilton||Ontario,Raster||ASCII,sites/default/files/geospatial/DMTI_DEM_sample.jpg,DMTI_DEM_sample.jpg,DMTI DEM Sample,,"UTM
+",N/A,Library,Topography,Canada||Hamilton||Ontario,Raster||ASCII,https://library.mcmaster.ca/sites/default/files/geospatial/DMTI_DEM_sample.jpg,DMTI_DEM_sample.jpg,DMTI DEM Sample,,"UTM
 ","NAD83
 ",,H:\GIS\Data\Canada\DMTI\DEMs\demo.mxd,
 19067,Digital Soil Map of the World and Derived Soil Properties,2003,"<p>Food and Agriculture Association (FAO) and United Nations Educational Scientific Cultural Organization (UNESCO)</p>
@@ -295,7 +295,7 @@ GCS WGS 1984 is a second set of data provided by the City of Toronto to show lat
 <p>A readme file is included with the download, containing important information.</p>
 ","<p>Important information available in readme document included with data download on FAO GeoNetwork site.</br>
 A full description of the data is also available at H:\GIS\Data\World\FAO\FAO01\wrb\wsr.doc</p>
-","<p>Digital Soil Map of the World. [computer file]. v3.6. Food and Agricultural Organisation of the United Nations, Land and Water Division, 2003</p>",N/A,Library||Internet,Geology||Physical Environment||Remote Sensing and Air Photos||Soils,World,Raster||ASCII||geoTIFF||TIFF||Vector||Shapefile||Excel,sites/default/files/geospatial/demo1na.jpg,Demo North America,Digital Soil Map North America,,"Flat Polar Quartic Projection
+","<p>Digital Soil Map of the World. [computer file]. v3.6. Food and Agricultural Organisation of the United Nations, Land and Water Division, 2003</p>",N/A,Library||Internet,Geology||Physical Environment||Remote Sensing and Air Photos||Soils,World,Raster||ASCII||geoTIFF||TIFF||Vector||Shapefile||Excel,https://library.mcmaster.ca/sites/default/files/geospatial/demo1na.jpg,Demo North America,Digital Soil Map North America,,"Flat Polar Quartic Projection
 ","WGS84
 ",,CD-ROM available at the Map Office. Demo found at H:\GIS\Data\World\FAO\FAO01,
 19104,Earth Resources and Land Information System (ERLIS) Data Series,"Varies, by dataset","<p>Ontario Geological Survey</p>
@@ -311,7 +311,7 @@ A full description of the data is also available at H:\GIS\Data\World\FAO\FAO01\
 </ul>
 ","<p>Available with the downloaded data. Also available separately in PDF format via the links provided.</p>
 ","<p>Author. <i>Title</i> [format].  Place of publication: Publisher, Date</p>
-",N/A,Internet,Boundaries||Geology||Physical Environment||Topography,Ontario,Vector||Shapefile||PDF,sites/default/files/geospatial/ministry_header_e.gif,MNDMF,MNDMF,,"Geographic
+",N/A,Internet,Boundaries||Geology||Physical Environment||Topography,Ontario,Vector||Shapefile||PDF,https://library.mcmaster.ca/sites/default/files/geospatial/ministry_header_e.gif,MNDMF,MNDMF,,"Geographic
 ","NAD 83
 ",,H:\GIS\Data\Canada\ON\OGS,
 19069,Electoral Districts and Polling Divisions (Ontario),Current,"<p>Elections Ontario</p>
@@ -320,7 +320,7 @@ A full description of the data is also available at H:\GIS\Data\World\FAO\FAO01\
 <p>Please note that as of 2005, Ontario's provincial electoral districts are not necessarily identical to the federal electoral districts.  As of the October 10, 2007 provincial general election, Ontario is divided into 107 electoral districts, consisting of 11 ""northern"" districts and 96 ""southern"" districts.  Also available from this website are detailed maps of each individual electoral district.</p>
 <p>Additional keywords associated with this dataset: poll boundaries, election</p>
 ",<p>No metadata is available.</p>,"<p><em>Electoral Districts and Polling Divisions</em> [computer file]. Toronto, Ontario: Elections Ontario, 2007.</p>
-",N/A,Internet,Boundaries,Hamilton||Ontario,Vector||Shapefile,sites/default/files/geospatial/elections.jpg,elections.jpeg,Map of electoral districts Hamilton,,"Lambert Conformal Conic
+",N/A,Internet,Boundaries,Hamilton||Ontario,Vector||Shapefile,https://library.mcmaster.ca/sites/default/files/geospatial/elections.jpg,elections.jpeg,Map of electoral districts Hamilton,,"Lambert Conformal Conic
 ","NAD83
 ",39825,H:\GIS\Data\Canada\ON\Elections\ElectionsOntario.mxd,
 19070,Enhanced Water and Sewer Data for The City of Hamilton,2008,"<p>City of Hamilton, Department of Planning and Economic Development, GIS-Planning and Analysis</p>
@@ -329,7 +329,7 @@ A full description of the data is also available at H:\GIS\Data\World\FAO\FAO01\
 <p><h3>Request data</h3>To request this data, please fill out the <a href=""https://docs.google.com/forms/d/e/1FAIpQLSeTbWY6CcyIxhBlNsWoIiJj31cyzRXQY3Jjo27ZST8xRBBa9Q/viewform?c=0&w=1"">Data
  Use Agreement</a>.</p>","<p>No metadata available</p>
 ","<p><em>Enhanced Water and Sewer Data</em> [computer file]. Hamilton, Ontario: The City of Hamilton, Department of Planning and Economic Development, GIS-Planning and Analysis [2008].</p>
-",N/A,Library,Human Environment||Water Resources,Hamilton,Vector||Shapefile,sites/default/files/geospatial/HamiltonWaterSewer.jpg,HamiltonWaterSewer.jpg,Hamilton water and sewer,,"UTM Zone 17N
+",N/A,Library,Human Environment||Water Resources,Hamilton,Vector||Shapefile,https://library.mcmaster.ca/sites/default/files/geospatial/HamiltonWaterSewer.jpg,HamiltonWaterSewer.jpg,Hamilton water and sewer,,"UTM Zone 17N
 ","NAD83
 ",,H:\GIS\Data\Canada\ON\Hamilton\City_Hamilton_Data.mxd,
 19073,European Soil Database and Soil Properties,Various,"<p>European Commission, Joint Research Centre, European Soil Data Centre (ESDAC)</p>
@@ -346,7 +346,7 @@ A full description of the data is also available at H:\GIS\Data\World\FAO\FAO01\
 <ul><li>Ouptuts of various projects that can be distributed for free</li>
 </ul><p>In order to obtain access to download the datasets, registration is required.</p>
 ","<p>Documentation for each dataset is available on its respective webpage within the portal.</p>
-","European Soil Data Centre (ESDAC), esdac.jrc.ec.europa.eu, European Commission, Joint Research Centre",N/A,Internet,Soils||Portals,World,ASCII||Vector||KML||Shapefile,sites/default/files/geospatial/jrc_soil.jpg,JRC soil map sample,JRC soil map sample,,"Lambert Azimuthal Equal Area (LAEA) projection of the Eurostat GISCO database
+","European Soil Data Centre (ESDAC), esdac.jrc.ec.europa.eu, European Commission, Joint Research Centre",N/A,Internet,Soils||Portals,World,ASCII||Vector||KML||Shapefile,https://library.mcmaster.ca/sites/default/files/geospatial/jrc_soil.jpg,JRC soil map sample,JRC soil map sample,,"Lambert Azimuthal Equal Area (LAEA) projection of the Eurostat GISCO database
 ","ETRS89
 ",,,
 19065,Federal Electoral Districts and Polling Division Boundaries,"Various, between 2000 and 2015","<p>Elections Canada</p>
@@ -356,7 +356,7 @@ A full description of the data is also available at H:\GIS\Data\World\FAO\FAO01\
 <p>A tutorial describing how to join the political results data to this dataset is available on the <a href=""http://library.mcmaster.ca/maps/Joining_Political_Results_Data_to_Elections_Canada_FEDs.pdf"">library's website</a>.</p>
 ","<p>Author. <i>Title</i> [format]. Place of publication: Publisher, Date.</p>
 <p>Example:  Elections Canada. <em>Electoral Districts and Polling Divisions</em> [computer file]. Ottawa ON: Elections Canada, 2009</p>
-","<p>Federal Electoral Districts are available for download through <a href=""http://geo1.scholarsportal.info/#r/search/_queries@=%22CBF%22;&fields@=;&sort=relevance&limit=entitled"">Scholars GeoPortal</a> as part of the Census geography files. This dataset does not include polling divisions.</p>",Library||Internet,Boundaries,Canada||Hamilton||Ontario,Vector||Shapefile,sites/default/files/geospatial/elections.jpeg,elections.jpeg,Map of electoral districts Hamilton,,"Lambert Conformal Conic
+","<p>Federal Electoral Districts are available for download through <a href=""http://geo1.scholarsportal.info/#r/search/_queries@=%22CBF%22;&fields@=;&sort=relevance&limit=entitled"">Scholars GeoPortal</a> as part of the Census geography files. This dataset does not include polling divisions.</p>",Library||Internet,Boundaries,Canada||Hamilton||Ontario,Vector||Shapefile,https://library.mcmaster.ca/sites/default/files/geospatial/elections.jpeg,elections.jpeg,Map of electoral districts Hamilton,,"Lambert Conformal Conic
 ","NAD83
 ",,H:\GIS\Data\Canada\ElectionsCanada\ElectionsCanada.mxd,
 19074,GeoCover Landsat 4/5,1990,"<p>LandInfo Worldwide Mapping LLC</p>
@@ -369,7 +369,7 @@ Band 2 (visible green light) is displayed in blue</p>
 ","<p>An overview of the entire dataset is available at the following link: <a href=""http://library.mcmaster.ca/maps/GeoCover_circa_1990_Product_Description.pdf"">http://library.mcmaster.ca/maps/GeoCover_circa_1990_Product_Description.pdf</a> .  This overview contains useful information about coverage, image enhancement, andfile naming convention</p>
 <p>Each MrSID tile has a .met metadata document included with the download, which contains specific information about that tile.  The .met file format can be viewed in Notepad.</p>
 ","<p>LandInfo Worldwide Mapping LLC. <i>GeoCover Orthorectified Landsat 4/5 Thematic Mapper Mosaics</i>.  Highland's Ranch, CO: NASA Applied Science & Technology Project Office, 1990.</p>
-",N/A,Library,Remote Sensing and Air Photos,Canada||Hamilton||Ontario||USA||World,Raster||MrSID,sites/default/files/geospatial/landsat5.JPG,landsat5.JPG,landsat5.JPG,,"UTM
+",N/A,Library,Remote Sensing and Air Photos,Canada||Hamilton||Ontario||USA||World,Raster||MrSID,https://library.mcmaster.ca/sites/default/files/geospatial/landsat5.JPG,landsat5.JPG,landsat5.JPG,,"UTM
 ","WGS84
 ",,H:\GIS\Data\World\Landsat5_and_7.mxd,
 19075,GeoCover Landsat 7,2000,"<p>LandInfo Worldwide Mapping LLC</p>
@@ -382,7 +382,7 @@ Band 2 (visible green light) is displayed in blue</p>
 ","<p>An overview of the entire dataset is available at the following link: <a href=""http://library.mcmaster.ca/maps/GeoCover_circa_2000_Product_Description.pdf"">http://library.mcmaster.ca/maps/GeoCover_circa_2000_Product_Description.pdf</a></p>
 <p>Each MrSID tile has a .met metadata document included with the download, which contains specific information about that tile.  The .met file format can be viewed in Notepad.</p>
 ","<p>LandInfo Worldwide Mapping LLC. <i>GeoCover Orthorectified Landsat 7 Thematic Mapper Mosaics</i>.  Highland's Ranch, CO: NASA Applied Science & Technology Project Office, 2000.</p>
-",N/A,Library,Remote Sensing and Air Photos,Canada||Hamilton||Ontario,Raster||MrSID,sites/default/files/geospatial/landsat7.JPG,landsat7.JPG,landsat7.JPG,,"UTM
+",N/A,Library,Remote Sensing and Air Photos,Canada||Hamilton||Ontario,Raster||MrSID,https://library.mcmaster.ca/sites/default/files/geospatial/landsat7.JPG,landsat7.JPG,landsat7.JPG,,"UTM
 ","WGS84
 ",,H:\GIS\Data\World\Landsat5_and_7.mxd,
 19076,Geological Map of Canada,1996,"<p>Geological Survey of Canada</p>
@@ -391,7 +391,7 @@ Band 2 (visible green light) is displayed in blue</p>
 <p>The dataset is only available as one large .zip file through the Geological Survey of Canada's GEOSCAN website.</p>
 ","<p>Metadata document included with the file</p>
 ","<p>Wheeler, J.O., Hoffman, P.F., Card, K.D., Davidson, A., Sanford, B.V., Okulitch, A.V., and Roest, W.R. (comp.) 1997: <em>Geological Map of Canada</em>. Geological Survey of Canada, Map D1860A.</p>
-",N/A,Internet,Geology,Canada,Vector||E00||Shapefile||JPG,sites/default/files/geospatial/Map1860A_GeologicalProvinces.JPG,GeologicalProvinces.JPG,GeologicalProvinces.JPG,,,,,"H:\GIS\Data\Canada\GSC\GeologicalSurveyCanada.mxd (Data Frame ""Geology of Canada Map 1860A)",
+",N/A,Internet,Geology,Canada,Vector||E00||Shapefile||JPG,https://library.mcmaster.ca/sites/default/files/geospatial/Map1860A_GeologicalProvinces.JPG,GeologicalProvinces.JPG,GeologicalProvinces.JPG,,,,,"H:\GIS\Data\Canada\GSC\GeologicalSurveyCanada.mxd (Data Frame ""Geology of Canada Map 1860A)",
 19077,GeoPinpoint Suite,annual from 2001,"<p>DMTI Spatial Inc.</p>
 ",,McMaster Students / Staff / Faculty only,,"<p>The GeoPinpoint Suite software attaches geographic coordinates to records in a client database by means of matching certain database fields against a DMTI proprietary geo-referenced database. The geo-referenced database is comprised of digital street geometry, street address ranges, postal coordinates, point of interest and other reference databases to ensure that data is geocoded as accurately as possible.</p>
 ","<p>Manual Provided in PDF format.  A paper copy is also available for viewing in the Map Collection.</p>
@@ -407,7 +407,7 @@ Band 2 (visible green light) is displayed in blue</p>
 <p>For a complete list of the over 170 datasets, see the website - <a href=""http://geoweb.dnv.org/data/"">http://geoweb.dnv.org/data/</a>.</p>","<p>Metadata is available for each dataset on the GEOWeb website</p>
 ","<p>Author. <i>Title</i> [format].  Edition.  Place of publication: Publisher, Date.</p>
 <p>Example: Corporation of the District of North Vancouver. <em>Biking Routes</em> [computer file/ shape file]. District of North Vancouver: GIS Department District of North Vancouver, 2010</p>
-",N/A,Internet,Boundaries||Geology||Human Environment||Physical Environment||Topography||Transportation||Water Resources||Portals,Canada,Vector||KML||Shapefile,sites/default/files/geospatial/cityfnorthvan2.jpg,District of North Vancouver,District of North Vancouver,,"NAD 1983 UTM Zone 10N
+",N/A,Internet,Boundaries||Geology||Human Environment||Physical Environment||Topography||Transportation||Water Resources||Portals,Canada,Vector||KML||Shapefile,https://library.mcmaster.ca/sites/default/files/geospatial/cityfnorthvan2.jpg,District of North Vancouver,District of North Vancouver,,"NAD 1983 UTM Zone 10N
 ","North American 1983
 ",,H:\GIS\Data\Canada\District_of_North_Vancouver,
 19079,Global Administrative Areas (GADM),2015,"<p>University of California, Berkeley, Museum of Vertebrate Zoology</p>
@@ -419,7 +419,7 @@ Band 2 (visible green light) is displayed in blue</p>
 <p>Notable fields include: NAME (in native language and in English), ALTERNATE NAMES (in native language and in English), TYPE (in native language and in English), VALID FROM and VALID TO dates, and REMARKS.</p>
 ","<p>No metadata is available on the project website.</p>
 ","<p>Global Administrative Areas (year). <em>University of California, Berkely</em>. [digital geospatial data]. Available online: <a href=""http://www.gadm.org"">http://www.gadm.org</a> [dd/mm/yyyy].</p>
-",N/A,Internet||Library,Boundaries,World,Vector||Shapefile||KML,sites/default/files/geospatial/gadm09.gif,gadm09.gif,Global Administrative Areas,,Unprojected data in decimal degrees.,"WGS_1984
+",N/A,Internet||Library,Boundaries,World,Vector||Shapefile||KML,https://library.mcmaster.ca/sites/default/files/geospatial/gadm09.gif,gadm09.gif,Global Administrative Areas,,Unprojected data in decimal degrees.,"WGS_1984
 ",39986,H:\GIS\Data\World\GADM,
 19080,Global Biodiversity Information Facility (GBIF) Data Portal,Various,"<p>Global Biodiversity Information Facility</p>
 ",Various,Public,"<p><a href=""http://www.gbif.org/"">http://www.gbif.org/</a></p>
@@ -428,7 +428,7 @@ Band 2 (visible green light) is displayed in blue</p>
 <p>By viewing the overview page of a species, an interactive map will display the density of species occurence in a 1 degree grid.  please be aware that the maps only depict species occurence data that has been registered and indexed in GBIF, and therefore may not represent the full distribution of that species.</p>
 ","<p>URLs linking to the datasets from which the data were compiled are available from the ""overview page"" of the species selected.</p>
 ","<p>See the <a href=""https://www.gbif.org/citation-guidelines"">Citation Guidelines</a> on the GBIF website.</p>
-",N/A,Internet,Physical Environment||Portals,World,Interactive Map||KML,sites/default/files/geospatial/GBIF.JPG,GBIF.JPG,GBIF.JPG,,,,,,
+",N/A,Internet,Physical Environment||Portals,World,Interactive Map||KML,https://library.mcmaster.ca/sites/default/files/geospatial/GBIF.JPG,GBIF.JPG,GBIF.JPG,,,,,,
 19078,Global Historical Climatology Network (GHCN) Global Daily Climate Data,1763 - 2017,"<p>NOAA National Centers for Environmental Information</p>
 ",,Public,"<p>National Centers for Environmental Information - <a href=""https://www.ncdc.noaa.gov/ghcn-daily-description"">Global Historical Climate Network - Daily</a></p>","<p>Daily climate data for stations worldwide, covering the time period 1763 - 2017.</p>
 <p>Includes information about precipition (in millimetres), snowfall (in millimetres), snow depth (in millimetres), maximum temperature (in degrees C), minimum temperature (in degrees C) and temperature at time of observation (in degrees C).</p>
@@ -437,7 +437,7 @@ Band 2 (visible green light) is displayed in blue</p>
 <p>Tabular data can be extracted from CDs using vendor-supplied access software in ASCII, Binary, DBASE and Lotus formats.</p>
 ","<p>Help file included with the CD ROM product is available at <a href=""http://library.mcmaster.ca/maps/GDWIN.HLP"">http://library.mcmaster.ca/maps/GDWIN.HLP</a>. Documentation is also available through the GHCN website at the link provided. </p>
 ","<p>Menne, M.J., I. Durre, B. Korzeniewski, S. McNeal, K. Thomas, X. Yin, S. Anthony, R. Ray, R.S. Vose, B.E.Gleason, and T.G. Houston, 2012: Global Historical Climatology Network - Daily (GHCN-Daily), Version 3. [indicate subset used following decimal, e.g. Version 3.12]. NOAA National Climatic Data Center. http://doi.org/10.7289/V5D21VHZ [access date].</p>
-",N/A,Internet||Library,Climate,Canada||Hamilton||Ontario||USA||World,ASCII||Excel,sites/default/files/geospatial/florida_TMAX_1apr1974.jpg,florida_TMAX_1apr1974.jpg,Sample of GHCN Daily Climate Data (Florida TMAX 1 April 1974),,,,,Map Collection demo H:\GIS\Data\World\GHCN_global_daily\demo.apr,
+",N/A,Internet||Library,Climate,Canada||Hamilton||Ontario||USA||World,ASCII||Excel,https://library.mcmaster.ca/sites/default/files/geospatial/florida_TMAX_1apr1974.jpg,florida_TMAX_1apr1974.jpg,Sample of GHCN Daily Climate Data (Florida TMAX 1 April 1974),,,,,Map Collection demo H:\GIS\Data\World\GHCN_global_daily\demo.apr,
 19081,Global Land Resources GIS Models and Databases for Poverty and Food Insecurity Mapping,2002,"<p>United Nations. Food and Agriculture Organization (FAO)</p>
 ","Raster GRID format, Shapefile (.shp)",McMaster Students / Staff / Faculty only,,"<p>This product includes two CDs that comprise models produced from TERRASTAT: Global Land Resources GIS Models and Databases (CD #1) and Land Degradation Assessment (CD #2).</p>
 <p>The TERRASTAT Global GIS Models and Databases were created as part of the Poverty and Food Insecurity Mapping Project (GCP/INT/761/NOR) funded by the Government of Norway.</p>
@@ -446,7 +446,7 @@ Band 2 (visible green light) is displayed in blue</p>
 ","<p>A full description of the contents of each CD is available in the documents folder on the CD.</p>
 ","<p>Author. <em>CD ROM Title: Article title</em>. [CD ROM]. Edition. Place of publication. production: Publisher/producer, Date.</p>
 <p>United Nations Food and Agriculture Organization (FAO) and United Nations Educational Scientific and Cultural Organization (UNESCO). <em>Global land resources GIS models and databases for poverty and food insecurity mapping</em>. [CD ROM]. FAO Land and Water Digital Media Series #20. Rome, Italy: FAO/UNESCO, 2002.</p>
-",N/A,Library,Boundaries||Climate||Human Environment||Physical Environment||Soils,World,Raster||Vector||Shapefile,sites/default/files/geospatial/fao20sample.PNG,FAO20 sample,FAO20 sample,,"unprojected Lat/Long
+",N/A,Library,Boundaries||Climate||Human Environment||Physical Environment||Soils,World,Raster||Vector||Shapefile,https://library.mcmaster.ca/sites/default/files/geospatial/fao20sample.PNG,FAO20 sample,FAO20 sample,,"unprojected Lat/Long
 ","WGS84
 ",,The data is available in the Map Collection on CD. A data demo is available at H:\GIS\World\FAO\FAO20\FAO20_demo.mxd,
 19082,Global Map of Irrigation Areas (GMIA),2013,"<p>United Nations. Food and Agriculture Administration (FAO)</p>
@@ -458,7 +458,7 @@ For time-series data at the country level, see the <a href=""http://www.fao.org/
 ","<p>Full data description is available on the website.</p>
 ","<p>Users are requested to refer to the map as follows:</p>
 <pStefan Siebert, Verena Henrich, Karen Frenken and Jacob Burke (2013). <i>Global Map of Irrigation Areas version 5</i>. Rheinische Friedrich-Wilhelms-University, Bonn, Germany / Food and Agriculture Organization of the United Nations, Rome, Italy</p>
-",N/A,Internet||Library,Human Environment||Physical Environment,Canada||USA||World,Vector||Shapefile||Raster||ASCII||Interactive Map,sites/default/files/geospatial/fao34.PNG,Sample map of Irrigation Areas,Sample map of Irrigation Areas,,"Unprojected lat/long
+",N/A,Internet||Library,Human Environment||Physical Environment,Canada||USA||World,Vector||Shapefile||Raster||ASCII||Interactive Map,https://library.mcmaster.ca/sites/default/files/geospatial/fao34.PNG,Sample map of Irrigation Areas,Sample map of Irrigation Areas,,"Unprojected lat/long
 ","WGS84
 ",,A data demo showing the local area is available at H:\GIS\Data\World\FAO\FAO3\FAO34_demo.mxd,
 19083,Grand River Information Network,Various,"<p>Grand River Conservation Authority</p>
@@ -468,7 +468,7 @@ For time-series data at the country level, see the <a href=""http://www.fao.org/
 <p>Examples of available raster layers are: Depth to Bedrock, Depth to First aquifer, Depth to Water Table, Discharge Areas, Ground Surface, Land Cover, Overburden Thickness, Sand and Gravel Thickness, Vulnerable Areas, and Water Table.</p>","<p>Every dataset has an accompanying comprehensive metadata document provided in PDF format with the downloaded dataset.</p>
 ","<p>Format: <em>Name of Dataset</em> [computer file]. Place of Publication: Publisher, Year.</p>
 <p>Example: <em>Watershed Data</em> [computer file].  Cambridge, ON: Grand River Conservation Authority, 2006.</p>
-",N/A,Internet,Boundaries||Human Environment||Physical Environment||Remote Sensing and Air Photos||Soils||Topography||Water Resources||Portals,Ontario,Raster||geoTIFF||JPG||Vector||Shapefile||PDF,sites/default/files/geospatial/GRCA.jpg,GRCA.jpg,GRCA.jpg,,"UTM Zone 17
+",N/A,Internet,Boundaries||Human Environment||Physical Environment||Remote Sensing and Air Photos||Soils||Topography||Water Resources||Portals,Ontario,Raster||geoTIFF||JPG||Vector||Shapefile||PDF,https://library.mcmaster.ca/sites/default/files/geospatial/GRCA.jpg,GRCA.jpg,GRCA.jpg,,"UTM Zone 17
 ","NAD83
 ",,Samples can be found on H:\GIS\Data\Canada\ON\GRCA\GRCA.mxd,
 19084,Great Britain Ordnance Survey (OS) Open Data,Various,"<p>Ordnance Survey</p>
@@ -485,7 +485,7 @@ For time-series data at the country level, see the <a href=""http://www.fao.org/
 <p><strong>Land-form PANORAMA Contours:</strong> A vector representation of topographic contours, provided in AutoCAD DXF format.  Data are provided in small tiles (i.e. one National Grid square is made up of 25 group layer tiles).  Height data are stored within the attributes of each feature.</p>
 ","<p>Additional information and specifications are available for some datasets online. Documents provided with the downloaded dataset are limited to brief descriptions of product changes and the licence agreement.</p>
 ","<p>Dataset name [format]. Producer location: Producer Name, Year.</p>
-",N/A,Internet,Boundaries||Human Environment||Topography||Transportation||Water Resources||Portals,World,Raster||ASCII||TIFF||Vector||Shapefile||GML,sites/default/files/geospatial/Ordnance-survey-logo.png,Ordnance-survey-logo.png,Ordnance Survey logo,,"Transverse Mercator
+",N/A,Internet,Boundaries||Human Environment||Topography||Transportation||Water Resources||Portals,World,Raster||ASCII||TIFF||Vector||Shapefile||GML,https://library.mcmaster.ca/sites/default/files/geospatial/Ordnance-survey-logo.png,Ordnance-survey-logo.png,Ordnance Survey logo,,"Transverse Mercator
 ","OSGB 1936 / British National Grid
 ",,H:\GIS\Data\World\OrdnanceSurvey.mxd,
 19085,"Great Lakes Information Network (GLIN), Great Lakes Mapping & GIS",Various,"<p>Great Lakes Information Network (GLIN)</p>
@@ -511,13 +511,13 @@ For time-series data at the country level, see the <a href=""http://www.fao.org/
 ","<p>The Great Lakes Information Network functions as a Data Portal for a variety of Great Lakes data.  As such, you must cite the actual author of the dataset, which is indicated right next to the dataset titles in the GLIN directory.</p>
 <p><strong>Format:</strong> Author. <i>Title</i> [format].  Place of publication: Publisher, Date.</p>
 <p><strong>Example:</strong> United States Geological Survey. <i>Zebra mussel (Dreissena polymorpha) locations in the Great Lakes region</i> [computer file].   Reston, VA: Great Lakes Information Network, 2008.</p>
-",N/A,Internet,Boundaries||Physical Environment||Remote Sensing and Air Photos||Water Resources||Portals,Ontario||USA,GML||JPG||KML||PDF||Vector||Shapefile,sites/default/files/geospatial/GLIN.JPG,GLIN.JPG,Great Lakes Information Network,,,"Various
+",N/A,Internet,Boundaries||Physical Environment||Remote Sensing and Air Photos||Water Resources||Portals,Ontario||USA,GML||JPG||KML||PDF||Vector||Shapefile,https://library.mcmaster.ca/sites/default/files/geospatial/GLIN.JPG,GLIN.JPG,Great Lakes Information Network,,,"Various
 ",,H:\GIS\Data\Canada\ON\Great Lakes Information Network\GLIN.mxd,
 19135,Greater Toronto Area (GTA) Orthophotography Project 1995,1995,"<p>Triathlon Mapping Corporation</p>
 ",MrSID,McMaster Students / Staff / Faculty only,,"<p>These images were flown in summer 1995 and provided by the Ontario Geographic Data Exchange (OGDE).  Images are available in 3km x 5km tiles.  The index for these images is available on the University of Waterloo Map Library <a href=""http://www.lib.uwaterloo.ca/locations/umd/digital/gta_tiffindex.html "">website</a>. To request these images, please record the ID numbers for the tiles you need.</p>
 ","<p>A basic metadata detail page is provided in HTML format with each tile</p>
 ","<p>Triathlon Mapping Corporation.<em>Greater Toronto Area Digital Orthophotos </em>[digital photograph]. Markham ON: Ontario Ministry of Natural Resources, 1995.</p>
-",N/A,Library,Remote Sensing and Air Photos,Hamilton||Ontario,Raster||MrSID,sites/default/files/geospatial/1995.JPG,1995.JPG,Toronto Orthophoto 1995,,"UTM Zone 17N
+",N/A,Library,Remote Sensing and Air Photos,Hamilton||Ontario,Raster||MrSID,https://library.mcmaster.ca/sites/default/files/geospatial/1995.JPG,1995.JPG,Toronto Orthophoto 1995,,"UTM Zone 17N
 ","NAD27
 ",,H:\AirPhotos\Toronto\1995demo.mxd,
 19086,Hamilton Digital Orthophotos,Select years between 1999 and 2014,"<p>City of Hamilton, Information Technology Services, GIS Services.</p>
@@ -557,7 +557,7 @@ For time-series data at the country level, see the <a href=""http://www.fao.org/
 </ul>
 <p><h3>Request data</h3>To request this data, please fill out the <a href=""https://docs.google.com/forms/d/e/1FAIpQLSeTbWY6CcyIxhBlNsWoIiJj31cyzRXQY3Jjo27ZST8xRBBa9Q/viewform?c=0&w=1"">Data Use Agreement</a>.</p>","<p>No metadata available</p>
 ","<p>City of Hamilton Digital Orthophotos [computer file]. Hamilton, Ontario: The City of Hamilton, 1999.</p>
-",N/A,Library,Remote Sensing and Air Photos,Hamilton,Raster||MrSID,sites/default/files/geospatial/geospat-mills-ortho.jpg,geospat-mills-ortho.jpg,Sample of 1999 orthophoto (Mills Library),,,"NAD83
+",N/A,Library,Remote Sensing and Air Photos,Hamilton,Raster||MrSID,https://library.mcmaster.ca/sites/default/files/geospatial/geospat-mills-ortho.jpg,geospat-mills-ortho.jpg,Sample of 1999 orthophoto (Mills Library),,,"NAD83
 ",39825,H:\AirPhotos\Hamilton\1999 Orthophotos,
 19087,Hamilton Parcel/Land Use Data,Select years between 2009 and 2018,"<p>Teranet Inc. and The City of Hamilton, Dept. of Planning and Economic Development.</p>
 ",Shapefile (.shp),McMaster Students / Staff / Faculty only,,"<p>This data was provided by The City of Hamilton, Dept. of Planning and Economic Development, GIS - Planning and Analysis.</p>
@@ -577,7 +577,7 @@ For time-series data at the country level, see the <a href=""http://www.fao.org/
 <p><h3>Request data</h3>To request this data, please fill out the <a href=""https://docs.google.com/forms/d/e/1FAIpQLSeTbWY6CcyIxhBlNsWoIiJj31cyzRXQY3Jjo27ZST8xRBBa9Q/viewform?c=0&w=1"">Data Use Agreement</a>.</p>
 ","<p>A PDF document describing all the specific land use codes is available through a <a href=""http://library.mcmaster.ca/maps/Land_Use_Codes_2009.pdf"">PDF file</a>.</p>
 ","<p><em>Teranet Inc., Hamilton Parcel/Land Use Data</em> [computer file]. Hamilton, Ontario: City of Hamilton, Dept. of Planning and Economic Development, 2009.</p>
-",N/A,Library,Boundaries||Human Environment,Hamilton,Vector||Shapefile,sites/default/files/geospatial/landuse_screenshot.jpg,landuse_screenshot.jpg,Hamilton Parcel/Land Use Westdale,,"Unprojected Lat-Long
+",N/A,Library,Boundaries||Human Environment,Hamilton,Vector||Shapefile,https://library.mcmaster.ca/sites/default/files/geospatial/landuse_screenshot.jpg,landuse_screenshot.jpg,Hamilton Parcel/Land Use Westdale,,"Unprojected Lat-Long
 ",,,H:\GIS\Data\Canada\ON\Hamilton\City_of_Hamilton_Data.mxd,
 19088,Hamilton Street Railway (HSR) Bus Routes,2007 - ,"<p>City of Hamilton</p>
 ",Shapefile (.shp),McMaster Students / Staff / Faculty only,"<p>Current HSR Transit Feed data in General Transit Feed Specification format (GTFS) is available through the City of Hamilton's <a href=""https://www.hamilton.ca/city-initiatives/strategies-actions/open-data-program"">Open Data Program website</a>.</p>","<p>This dataset describes all bus routes for the Hamilton Street Rail (HSR) public transit system, as well as all the bus stops associated with each route.</p>
@@ -586,14 +586,14 @@ For time-series data at the country level, see the <a href=""http://www.fao.org/
 <p><h3>Request data</h3>To request this data, please fill out the <a href=""https://docs.google.com/forms/d/e/1FAIpQLSeTbWY6CcyIxhBlNsWoIiJj31cyzRXQY3Jjo27ZST8xRBBa9Q/viewform?c=0&w=1"">Data Use Agreement</a>.</p>","<p>No metadata document was provided for this dataset.</br>
 Reference material is available <a href=""https://developers.google.com/transit/gtfs-realtime/reference/"">online</a> for transit feed data.</p>
 ","<p><em>Hamilton Street Railway Bus Routes</em> [computer file]. Hamilton, ON: The City of Hamilton [2008].</p>
-",N/A,Library||Internet,Human Environment||Transportation,Hamilton,Vector||Shapefile,sites/default/files/geospatial/HSR_bus_routes.JPG,HSR_bus_routes.JPG,HSR Bus Routes,,"UTM Zone 17N
+",N/A,Library||Internet,Human Environment||Transportation,Hamilton,Vector||Shapefile,https://library.mcmaster.ca/sites/default/files/geospatial/HSR_bus_routes.JPG,HSR_bus_routes.JPG,HSR Bus Routes,,"UTM Zone 17N
 ","NAD83
 ",,"H:\GIS\Data\Canada\ON\Hamilton\City_of_Hamilton_Data.mxd (""2007 Vector Set"" data frame)",
 19089,Hamilton Tree Inventory,2009 / 2016,"<p>City of Hamilton, Ontario</p>
 ",Shapefile (.shp),McMaster Students / Staff / Faculty only,,"<p>This data contains information about tree species in Hamilton, Ontario. The attribute table contains information such as the diameter of a tree, the conditon of the tree, and whether the tree is likely to come in contact with a hydro utility line when it reaches its mature height. A boundary shapefile of Hamilton can also be included with the tree inventory shapefile so as to get a sense of the location of the trees.</p>
 <p><h3>Request data</h3>To request this data, please fill out the <a href=""https://docs.google.com/forms/d/e/1FAIpQLSeTbWY6CcyIxhBlNsWoIiJj31cyzRXQY3Jjo27ZST8xRBBa9Q/viewform?c=0&w=1"">Data Use Agreement</a>.</p>","<p>Available in PDF format with a copy of the file.</p>
 ","<p><em>Tree Inventory</em> [Computer File]. Hamilton, Ontario: City of Hamilton, 2009.</p>
-",N/A,Library,Physical Environment,Hamilton,PDF||Vector||Shapefile||Excel,sites/default/files/geospatial/Tree_inventory_demo.jpg,Tree Inventory,Tree Inventory,,"NAD 1983 UTM Zone 17N
+",N/A,Library,Physical Environment,Hamilton,PDF||Vector||Shapefile||Excel,https://library.mcmaster.ca/sites/default/files/geospatial/Tree_inventory_demo.jpg,Tree Inventory,Tree Inventory,,"NAD 1983 UTM Zone 17N
 ","North American 1983
 ",,H:\GIS\Data\Canada\ON\Hamilton\Tree_Inventory_2009,
 19090,Hamilton Vector Data Set,2003 - 2018,"<p>City of Hamilton, Information Technology Services, GIS Services.</p>
@@ -602,7 +602,7 @@ Reference material is available <a href=""https://developers.google.com/transit/
 <p>Additional data is available through the City of Hamilton's open data website at <a href=""http://open.hamilton.ca/"">http://open.hamilton.ca</a>.</p>
 <p><h3>Request data</h3>To request this data, please fill out the <a href=""https://docs.google.com/forms/d/e/1FAIpQLSeTbWY6CcyIxhBlNsWoIiJj31cyzRXQY3Jjo27ZST8xRBBa9Q/viewform?c=0&w=1"">Data Use Agreement</a>.</p>","<p>No metadata available</p>
 ","<p>City of Hamilton Vector GIS Data [computer file]. Hamilton, ON: City of Hamilton GIS Services, 2006.</p>
-",N/A,Library,Boundaries||Human Environment||Physical Environment||Topography||Transportation||Water Resources,Hamilton,Vector||Shapefile,sites/default/files/geospatial/HamiltonVector2006.jpg,HamiltonVector2006.jpg,Hamilton Vector data 2006,,"UTM Zone 17N
+",N/A,Library,Boundaries||Human Environment||Physical Environment||Topography||Transportation||Water Resources,Hamilton,Vector||Shapefile,https://library.mcmaster.ca/sites/default/files/geospatial/HamiltonVector2006.jpg,HamiltonVector2006.jpg,Hamilton Vector data 2006,,"UTM Zone 17N
 ","NAD83
 ",,,227 MB
 19149,Health Regions,2015,Statistics Canada,"Shapefile (.shp), MapInfo (.tab)",Public,"<p>Available for download through <a href=""http://www5.statcan.gc.ca/olc-cel/olc?ObjId=82-402-X&ObjType=2&lang=en&Limit=0"">Statistics Canada</a>.</p>","<p>From the StatsCan Health Regions Webpage: <em><br />
@@ -617,7 +617,7 @@ For previous years, see Scholars GeoPortal.</p>","<p>Complete user guide is avai
 <p>More information about HSAs and HRRs can be found on the <a href=""http://www.dartmouthatlas.org/tools/downloads.aspx"">Dartmouth Atlas of Health Care website</a>.</p>
 ","<p>No metadata documentation provided with these files.</p>
 ","<p><em>Hospital Service Areas of the United States</em>. [computer file]. Hanover, New Hampshire: The Dartmouth Atlas of Health Care, 2006.</p>
-",N/A,Internet,Boundaries,USA,Vector||Shapefile,sites/default/files/geospatial/HSA.JPG,HSA.JPG,Hospital Service Areas in the U.S.,,"Undefined
+",N/A,Internet,Boundaries,USA,Vector||Shapefile,https://library.mcmaster.ca/sites/default/files/geospatial/HSA.JPG,HSA.JPG,Hospital Service Areas in the U.S.,,"Undefined
 ",,,H:\GIS\Data\USA\Health\Dartmouth Atlas of Health Care\HSA.mxd,
 19092,Japan Tsunami Affected Area – March 2011,2011,"<p>East View Cartographic</p>
 ",GeoTIFF,McMaster Students / Staff / Faculty only,,"<p>Immediately following the earthquake and tsunami off the coast of northern Japan (March 2011), East View Cartographic (EVC) was approached by the Japan Map Center in Tokyo to make Japanese-English versions of eighteen 1:25,000 scale topographic maps over the affected area in and around Sendai, Japan. Relief workers from around the world needed print mapping in English. The 1:25,000 series is the largest scale series with full country coverage of Japan in georeferenced raster format (GeoTIFF).</p>
@@ -626,7 +626,7 @@ For previous years, see Scholars GeoPortal.</p>","<p>Complete user guide is avai
 <p>Contour lines and bathymetric points interval are 10m.</p>
 ","<p>A user guide in PDF format is supplied with files.</p>
 ","<p>East View Cartographic. <em>Japan Tsunami Affected Area</em> [computer file]. Minneapolis, MN: East View Companies, 2011.</p>
-",N/A,Library,Physical Environment||Topography,World,Raster||geoTIFF,sites/default/files/geospatial/JapanTsunamiSample.JPG,JapanTsunamiSample.jpg,JapanTsunamiSample.jpg,,"Universal Transverse Mercator, UTM Zone: 54N
+",N/A,Library,Physical Environment||Topography,World,Raster||geoTIFF,https://library.mcmaster.ca/sites/default/files/geospatial/JapanTsunamiSample.JPG,JapanTsunamiSample.jpg,JapanTsunamiSample.jpg,,"Universal Transverse Mercator, UTM Zone: 54N
 ","World Geodetic System
 ",,H:\GIS\Data\World\Japan_Tsunami\DEMO.mxd or on CD.,
 19093,Land and Water Digital Map Series 34: Global Map of Irrigation Areas,2013,"<p>United Nations. Food and Agricultural Administration (FAO)</p>
@@ -640,7 +640,7 @@ For previous years, see Scholars GeoPortal.</p>","<p>Complete user guide is avai
 ","<p>United Nations. Food and Agricultural Administration (FAO). <em>Global Map of Irrigation Areas. </em>[computer file]. FAO Land and Water Digital Series #34, 2007.</p>
 <p><strong>Library Contact: </strong></p>
 <p><a href=""mailto:libgis@mcmaster.ca"">libgis@mcmaster.ca</a></p>
-",N/A,Library||Internet,Physical Environment||Water Resources,World,Interactive Map||Vector||Shapefile||Raster||ASCII||PDF,sites/default/files/geospatial/FAO34Sample.JPG,FAO34sample,FAO34Sample,,"Unprojected Latitude and Longitude
+",N/A,Library||Internet,Physical Environment||Water Resources,World,Interactive Map||Vector||Shapefile||Raster||ASCII||PDF,https://library.mcmaster.ca/sites/default/files/geospatial/FAO34Sample.JPG,FAO34sample,FAO34Sample,,"Unprojected Latitude and Longitude
 ","World Geodetic System 1984
 ",,H:\GIS\Data\World\FAO\FAO34\DEMO.mxd or CD.,
 19095,Land Information Ontario (LIO) Data Warehouse,Various,"<p>Ontario Ministry of Natural Resources and Forestry</p>
@@ -685,7 +685,7 @@ For previous years, see Scholars GeoPortal.</p>","<p>Complete user guide is avai
 </p>
 ","<p>The metadata detail pages for all available datasets can be browsed in the <a href=""https://www.javacoeapp.lrc.gov.on.ca/geonetwork/srv/en/main.home"">metadata tool</a>.</p>
 ","<p>Author. <em>Dataset Name</em> [computer file]. Publisher location, Province: Publisher Name, Year.</p>
-","<p>A variety of datasets can be downloaded through <a href=""http://geo1.scholarsportal.info/"">Scholars GeoPortal</a>.</p>",Library||Internet,Boundaries||Climate||Geology||Human Environment||Physical Environment||Remote Sensing and Air Photos||Soils||Topography||Transportation||Water Resources||Portals,Hamilton||Ontario,Raster||MrSID||Vector||Shapefile,sites/default/files/geospatial/LIO.jpg,LIO.jpg,LIO logo,,"Various, primarily unprojected Lat-Long
+","<p>A variety of datasets can be downloaded through <a href=""http://geo1.scholarsportal.info/"">Scholars GeoPortal</a>.</p>",Library||Internet,Boundaries||Climate||Geology||Human Environment||Physical Environment||Remote Sensing and Air Photos||Soils||Topography||Transportation||Water Resources||Portals,Hamilton||Ontario,Raster||MrSID||Vector||Shapefile,https://library.mcmaster.ca/sites/default/files/geospatial/LIO.jpg,LIO.jpg,LIO logo,,"Various, primarily unprojected Lat-Long
 ","Various, primarily NAD83
 ",,H:\GIS\Data\Canada\ON\ (various under OGDE and LIO),
 19111,Land Information Ontario (LIO) Open Data,Varies by dataset,"<p>Ontario Ministry of Natural Resources</p>
@@ -700,7 +700,7 @@ For previous years, see Scholars GeoPortal.</p>","<p>Complete user guide is avai
 <p>To download the data, go to the LIO Metadata Management Tool, choose ""OPEN DATA"" in the menu on the left-hand side of the page, find a dataset of interest and click ""Download"". Please note, users will be required to sign a user agreement and provide an email address to which the download will be sent.</p>
 ","<p>Metadata documents for each of the data classes are available through the Land Information Ontario <a href=""https://www.javacoeapp.lrc.gov.on.ca/geonetwork/srv/en/main.home"">Metadata Management Tool</a>.</p>
 ","<p>Example citation: <em>Ontario Fundamental Dataset</em> [computer file]. Peterborough: Ontario Ministry of Natural Resources, Year.</p>
-",N/A,Internet,Boundaries||Geology||Human Environment||Physical Environment||Portals||Topography||Transportation||Water Resources,Hamilton||Ontario,Vector||Shapefile||Raster,sites/default/files/geospatial/fundamental.JPG,fundamental.JPG,fundamental.JPG,,"UTM
+",N/A,Internet,Boundaries||Geology||Human Environment||Physical Environment||Portals||Topography||Transportation||Water Resources,Hamilton||Ontario,Vector||Shapefile||Raster,https://library.mcmaster.ca/sites/default/files/geospatial/fundamental.JPG,fundamental.JPG,fundamental.JPG,,"UTM
 ","NAD83
 ",,H:\GIS\Data\Canada\ON\OGDE\OGDE.mxd,
 19097,Land Potential Data Base (LPDB) for Canada,1997,"<p>Canadian Soil Information System (CanSIS)</p>
@@ -718,7 +718,7 @@ For previous years, see Scholars GeoPortal.</p>","<p>Complete user guide is avai
 ","<p><strong>Format:<br /></strong>Database Name [type of medium]. (Year). Producer location, province/state: Producer name. Available FTP: address/path/file [Access date]</p>
 <p><strong>Example:</strong><br />
 Landsat 5 TM Over Major Canadian Cities [computer file]. 1982-2011. Ottawa, ON: USGS. Available FTP: https://landsatlook.usgs.gov/viewer.html [January 27, 2017].</p>
-",NA,Internet,Remote Sensing and Air Photos,Canada||Ontario,Raster||geoTIFF,sites/default/files/geospatial/Landsat5.JPG,Landsat5.JPG,Landsat5.JPG,,"UTM
+",NA,Internet,Remote Sensing and Air Photos,Canada||Ontario,Raster||geoTIFF,https://library.mcmaster.ca/sites/default/files/geospatial/Landsat5.JPG,Landsat5.JPG,Landsat5.JPG,,"UTM
 ","NAD83
 ",,H:\GIS\Data\Canada\Geogratis\Landsat_5_and_7.mxd,
 19071,Living Atlas of the World,Various,"<p>Various, listed with each map</p>
@@ -739,13 +739,13 @@ Landsat 5 TM Over Major Canadian Cities [computer file]. 1982-2011. Ottawa, ON:
 <li>Historical Maps</li>
 </ul>
 ","<p>Additional information available with each map.</p>
-","[Author]. [Date]. [Title]. Retrieved [date], from [URL]",N/A,Internet,Boundaries||Climate||Geology||Human Environment||Physical Environment||Remote Sensing and Air Photos||Soils||Topography||Transportation||Water Resources||Portals||Pollution,Canada||USA||World,Interactive Map||Vector||Shapefile,sites/default/files/geospatial/esrionlinemaps.PNG,ESRI ArcGIS Online Map Services Sample,ESRI ArcGIS Online Map Services Sample,,,,,,
+","[Author]. [Date]. [Title]. Retrieved [date], from [URL]",N/A,Internet,Boundaries||Climate||Geology||Human Environment||Physical Environment||Remote Sensing and Air Photos||Soils||Topography||Transportation||Water Resources||Portals||Pollution,Canada||USA||World,Interactive Map||Vector||Shapefile,https://library.mcmaster.ca/sites/default/files/geospatial/esrionlinemaps.PNG,ESRI ArcGIS Online Map Services Sample,ESRI ArcGIS Online Map Services Sample,,,,,,
 19100,London Colour Digital Orthoimagery 2002-2010,2002 - 2010,"<p>City of London, Ontario. Environmental and Engineering Services Department. Geomatics Division.</p>
 ",MrSID,McMaster Students / Staff / Faculty only,,"<p>Digital grayscale orthophotography coverage of the entire City of London flown in April. The imagery is available as one complete mosaic.</br>
 Years available: 2002, 2004, 2005, 2007-2010. More recent years are available through Scholars GeoPortal.</p>
 ","<p>A very basic ""readme"" file is delivered with the dataset.</p>
 ","<p>City of London, Environmental and Engineering Services Dept., Geomatics Division. <i>London Digital Orthophotos 2002</i> [computer file]. London, Ontario: The City of London, 2002.</p>
-",N/A,Library,Remote Sensing and Air Photos,Ontario,Raster||MrSID,sites/default/files/geospatial/London2002.jpg,London2002.jpg,London2002.jpg,,"UTM Zone 17
+",N/A,Library,Remote Sensing and Air Photos,Ontario,Raster||MrSID,https://library.mcmaster.ca/sites/default/files/geospatial/London2002.jpg,London2002.jpg,London2002.jpg,,"UTM Zone 17
 ","NAD83
 ",,H:\AirPhotos\London\London_Orthos.mxd,
 19102,Manitoba Land Initiative - Digital Maps,Various,"<p>Manitoba Land Initiative</p>
@@ -755,14 +755,14 @@ Years available: 2002, 2004, 2005, 2007-2010. More recent years are available th
 ","<p>Metadata documents are provided with the files upon download.  Metadata documents for several datasets are also available for separate download from the website.</p>
 ","<p>Citation should be written in the following format: Author. <i>Title</i> [computer file].  Place of publication: Publisher, Date.</p>
 <p>Please check metadata documents for specific publication information for each dataset.</p>
-",N/A,Internet,Boundaries||Geology||Human Environment||Physical Environment||Remote Sensing and Air Photos||Soils||Topography||Transportation||Water Resources||Portals,Canada,Raster||ASCII||MrSID||TIFF||Vector||Shapefile,sites/default/files/geospatial/MBgeology.jpg,MBgeology.jpg,MBgeology.jpg,,"UTM Zone 14N
+",N/A,Internet,Boundaries||Geology||Human Environment||Physical Environment||Remote Sensing and Air Photos||Soils||Topography||Transportation||Water Resources||Portals,Canada,Raster||ASCII||MrSID||TIFF||Vector||Shapefile,https://library.mcmaster.ca/sites/default/files/geospatial/MBgeology.jpg,MBgeology.jpg,MBgeology.jpg,,"UTM Zone 14N
 ","NAD83
 ",,H:\GIS\Data\Canada\MB\MLIdemo.mxd,
 19103,McMaster University Campus Plan,1999 - 2015,"<p>McMaster University, Facility Services, Drafting</p>
 ","Shapefile (.shp), AutoCAD (.dxf, .dwg)",McMaster Students / Staff / Faculty only,,"<p>A detailed plan of the entire McMaster University Campus, including the western student parking zones.  Each building has a unique ID number, and the legend describing the names of the buildings is superimposed directly on the map.</br>
 Years available: 1999, 2002, 2004, 2006, 2009, 2010, 2012, 2013, 2015.</p>
 <p><h3>Request data</h3>To request this data, please fill out the <a href=""https://goo.gl/forms/9YQslM5l733TimPl2"">Data Use Agreement</a>.</p>",<p>No metadata available.</p>,"<p>McMaster University Facility Services, Drafting, <em>McMaster University Campus Plan</em>. Hamilton, ON: McMaster University (2002)</p>
-",N/A,Library,Human Environment,Hamilton,DWF||Shapefile||Vector,sites/default/files/geospatial/McMaster1999.JPG,McMaster1999.JPG,McMaster1999.JPG,,,,,H:\GIS\Data\Canada\ON\Hamilton\McMaster\McMaster.mxd,
+",N/A,Library,Human Environment,Hamilton,DWF||Shapefile||Vector,https://library.mcmaster.ca/sites/default/files/geospatial/McMaster1999.JPG,McMaster1999.JPG,McMaster1999.JPG,,,,,H:\GIS\Data\Canada\ON\Hamilton\McMaster\McMaster.mxd,
 19150,Miscellaneous Release Data (MRD) Sets,Various,Ontario Geological Survey,"Various - Shapefile (.shp), PDF, Microsoft Excel (.xls)",Public,"<p>Search <a href=""http://www.geologyontario.mndm.gov.on.ca/index.html"">Geology Ontario</a> for ""Miscellaneous Release-Data"".</p>
 ","<p>Miscellanous Release Data (MRD) datasets from 1-275, covering Ontario. Topics covered include:</p>
 <ul>
@@ -780,7 +780,7 @@ Years available: 1999, 2002, 2004, 2006, 2009, 2010, 2012, 2013, 2015.</p>
 ","<p>National Pollutant Release Inventory (NPRI) Facility Data provides information on pollutant releases, disposals and transfers for recycling reported by facilities, and their latitude and longitude coordinates. Downloadable formats include databases, spreadsheets and map layers.</p>
 <p>The data can be viewed in Google Earth with a KMZ file. Time series spatial data can be viewed in chronological order using a slider bar in the Google Earth viewer. Other formats include comma-separated values (.csv).</p>
 ","<p>Details about the data are available through the download link provided.</p>
-","<p>National Pollutant Release Inventory - Geographic Distribution of Reporting Facilities. [computer file]. (2016). Gatineau, QC: Environment and Climate Change Canada.</p>",N/A,Internet,Pollution,Canada,Vector||KML,sites/default/files/geospatial/googear1.PNG,NPRI Industrial Sectors,NPRI Industrial Sectors,,,,,,
+","<p>National Pollutant Release Inventory - Geographic Distribution of Reporting Facilities. [computer file]. (2016). Gatineau, QC: Environment and Climate Change Canada.</p>",N/A,Internet,Pollution,Canada,Vector||KML,https://library.mcmaster.ca/sites/default/files/geospatial/googear1.PNG,NPRI Industrial Sectors,NPRI Industrial Sectors,,,,,,
 19108,"New York City (NYC) Fire Insurance, Topographic and Property Maps","Various, 1815 to 1955",The New York Public Library,Various,Public,"<p>Available for viewing and downloading on the New York Public Library's website - <a href=""https://www.nypl.org/collections/nypl-recommendations/guides/fire-topo-property-maps"">NYC Fire Insurance, Topographic and Property Maps</a>.</p>
 ","<p>The New York Public Library has digitized close to 9,000 pages from 162 historic atlases of the New York City area. The majority of these are fire insurance maps, which are published detailed city maps depicting building structures, lot dimensions, shoreline locations and sometimes, property ownership. This collection of digital images also includes zoning maps, air photos, and detailed topographic surveys.</p>
 ",<p>Additional description for each map sheet available on the NYPL website.</p>,"<p>When vieweing an individual map sheet, see the ""Cite This"" button listed underneath the image.</br>
@@ -831,7 +831,7 @@ Brock University Maps, Data & GIS. 1934 Air Photo Mosaics of Niagara [Google Ear
 <li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=2252350783%20lrcdtovsdvdb001.cihs.ad.gov.on.ca"">Rare Threatened Endangered Species Occurences</a></li>
 <li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=3985012176"">Sandbarrens, Savannahs, Tallgrass Prairies</a></li>
 <li><a href=""http://geo.scholarsportal.info/#r/details/_uri@=2127998790%20lrcdtovsdvdb001.cihs.ad.gov.on.ca"">Subwatersheds</a></li>
-</ul>",Library||Internet,Boundaries||Physical Environment||Soils||Water Resources,Canada,JPG||PDF||Vector||Shapefile,sites/default/files/geospatial/OakRidges_Demo1.jpg,Oak Ridges,Oak Ridges,,"NAD 1983 UTM Zone 17N
+</ul>",Library||Internet,Boundaries||Physical Environment||Soils||Water Resources,Canada,JPG||PDF||Vector||Shapefile,https://library.mcmaster.ca/sites/default/files/geospatial/OakRidges_Demo1.jpg,Oak Ridges,Oak Ridges,,"NAD 1983 UTM Zone 17N
 ","North American 1983
 ",,H:\GIS\Data\Canada\ON\OGDE\OakRidges,
 19112,Ontario Basic Mapping (OBM),2003,"<p>Ontario Ministry of Natural Resources</p>
@@ -840,7 +840,7 @@ Brock University Maps, Data & GIS. 1934 Air Photo Mosaics of Niagara [Google Ear
 <p>This dataset includes municipal boundaries, lots and concessions, polygons for large building outlines, points for houses; contour lines and spot heights; lakes, rivers and streams; streets, highways, railways, pipelines, communications, etc. - no street names.</p>
 <p>Southern Ontario is covered at 1:10,000; Northern Ontario is covered at 1:20,000.</p>
 <p>Registration is required in order to download data.</p>","<p>See the Land Information Ontario (LIO) <a href=""https://www.javacoeapp.lrc.gov.on.ca/geonetwork/srv/en/main.home"">metadata tool</a> for metadata related to each dataset.</p>
-","<p><em>Dataset name</em> [computer file]. Peterborough: ON, Ministry of Natural Resources, Year.</p>",N/A,Internet,Boundaries||Human Environment||Physical Environment||Portals||Topography||Transportation||Water Resources,Canada||Hamilton||Ontario,Vector||Shapefile,sites/default/files/geospatial/OBM_0.jpg,OBM_0.jpg,Ontario Basic Mapping data,,"
+","<p><em>Dataset name</em> [computer file]. Peterborough: ON, Ministry of Natural Resources, Year.</p>",N/A,Internet,Boundaries||Human Environment||Physical Environment||Portals||Topography||Transportation||Water Resources,Canada||Hamilton||Ontario,Vector||Shapefile,https://library.mcmaster.ca/sites/default/files/geospatial/OBM_0.jpg,OBM_0.jpg,Ontario Basic Mapping data,,"
 ","NAD83
 ",,H:/GIS/Data/Canada/ON/OGDE (OBM view),
 19113,Ontario Parcel Boundaries,2009 - 2016,"<p>Teranet Inc.</p>
@@ -849,7 +849,7 @@ Brock University Maps, Data & GIS. 1934 Air Photo Mosaics of Niagara [Google Ear
 <p>Years available: 2009, 2010, 2012, 2014, and 2016.</p>
 <p><h3>Request data</h3>To request this data, please fill out the <a href=""https://docs.google.com/forms/d/e/1FAIpQLSd2Z05NW3IYi0OVao_-p0K1D_u31_Mhf8XPt_b--Ro5PCSUsw/viewform?c=0&w=1"">Data Use Agreement</a>.</p>","<p>No metadata available.</p>
 <p>A description of the Ontario Parcel project appears at <a href=""http://www.ontarioparcel.ca/english/index.htm"">http://www.ontarioparcel.ca/english/index.htm</a>.</p>
-","<p><em>Ontario Parcel Boundaries</em> [computer file]. Toronto: ON, Teranet Enterprises Inc., 2009.</p>",N/A,Library,Boundaries,Hamilton||Ontario,Vector||Shapefile,sites/default/files/geospatial/ontarioparcel.JPG,ontarioparcel.jpg,Parcel Boundaries Hamilton,,"Teranet Lambert Conformal Conic
+","<p><em>Ontario Parcel Boundaries</em> [computer file]. Toronto: ON, Teranet Enterprises Inc., 2009.</p>",N/A,Library,Boundaries,Hamilton||Ontario,Vector||Shapefile,https://library.mcmaster.ca/sites/default/files/geospatial/ontarioparcel.JPG,ontarioparcel.jpg,Parcel Boundaries Hamilton,,"Teranet Lambert Conformal Conic
 ","NAD83
 ",,H:\GIS\Data\Canada\ON\Teranet\demo.mxd,
 19114,Ontario Renewable Energy Atlas,2014,"<p>Ontario Ministry of Natural Resources and Forestry</p>
@@ -862,7 +862,7 @@ Brock University Maps, Data & GIS. 1934 Air Photo Mosaics of Niagara [Google Ear
 ","<p>Metadata can be found in Land Information Ontario's (LIO) <a href=""https://www.javacoeapp.lrc.gov.on.ca/geonetwork?uuid=815beea3-031f-4aee-be6a-dd130d5318fb"">metadata tool</a>.</p>
 ","<p>Ontario Wind Resource Atlas [online map].  Peterborough, ON: The Ontario Ministry of Natural Resources and Forestry, 2007.</p>
 ","N/A
-",Internet,Climate,Hamilton||Ontario,Interactive Map,sites/default/files/geospatial/lio_wind_atlas.JPG,LIO_energy_atlas.jpg,Example of Wind Resource Information,,,,,,
+",Internet,Climate,Hamilton||Ontario,Interactive Map,https://library.mcmaster.ca/sites/default/files/geospatial/lio_wind_atlas.JPG,LIO_energy_atlas.jpg,Example of Wind Resource Information,,,,,,
 19056,Open Calgary (The City of Calgary's Open Data Portal),Current,"<p>The City of Calgary</p>
 ","Shapefile (.shp), Keyhole Markup Language (.kml), Comma-separated values (.csv)",Public,"<p>The City of Calgary public data catalogue is available at the following link: <a href=""https://data.calgary.ca"">https://data.calgary.ca</a></p>
 ","<p>The City of Calgary Public Data Catalogue provides a means of increasing public access to data managed by The City; supporting not only transparency in government, but also innovation and reuse of the data by citizens and community based organizations. This service is provided in the expectation that the data provided will be used in applications that will enhance the public good.</p>
@@ -885,7 +885,7 @@ Brock University Maps, Data & GIS. 1934 Air Photo Mosaics of Niagara [Google Ear
 ","<p>Database Name</em> [type of medium]. (Year). Producer location, province/state: Producer name. Available online: address/path/file [Access date].</p>
 <p>e.g.</p>
 <p>City of Calgary Environment Data: Hydrology [computer file]. (2017). Calgary, Alberta: City of Calgary. Available Online: https://data.calgary.ca/Environment/Hydrology/a2cn-dxht [29/04/2017].</p>
-","<p><a href=""http://geo.scholarsportal.info/#r/details/_uri@=2636227147"">Municipal Open Data Portals in Canada</a></p>",Internet,Boundaries||Human Environment||Physical Environment||Portals||Transportation||Water Resources,Canada,Vector||DWF||KML||Shapefile,sites/default/files/geospatial/city-of-calgary-logo.jpg,Calgary Open Data Land Use example,Calgary Open Data Land Use example,,"3 Degree Transverse Mercator (3TM)
+","<p><a href=""http://geo.scholarsportal.info/#r/details/_uri@=2636227147"">Municipal Open Data Portals in Canada</a></p>",Internet,Boundaries||Human Environment||Physical Environment||Portals||Transportation||Water Resources,Canada,Vector||DWF||KML||Shapefile,https://library.mcmaster.ca/sites/default/files/geospatial/city-of-calgary-logo.jpg,Calgary Open Data Land Use example,Calgary Open Data Land Use example,,"3 Degree Transverse Mercator (3TM)
 Central meridian 114 degrees
 ","NAD83 (Adopted) Datum
 ",,,
@@ -923,7 +923,7 @@ Central meridian 114 degrees
 ","<p>No metadata available.</p>
 ","<p><em>Dataset Name</em> [type of medium]. (Year). Producer location, province/state: Producer name. Available online: address/path/file [Access date].</p>
 <p>Example:</p>
-<p><em>Wards 2014</em> [computer file]. (2014). Ottawa, Ontario: City of Ottawa. Available online: http://data.ottawa.ca/dataset/wards-2014 [29/04/2017].</p>","<p><a href=""http://geo.scholarsportal.info/#r/details/_uri@=2636227147"">Municipal Open Data Portals in Canada</a></p>",Internet,Boundaries||Human Environment||Topography||Transportation||Portals,Canada||Ontario,Vector||KML||Shapefile,sites/default/files/geospatial/Ottawa_Demo1.jpg,Ottawa Open Data demo,Ottawa Open Data demo,,"Custom Ottawa Transverse Mercator Projection
+<p><em>Wards 2014</em> [computer file]. (2014). Ottawa, Ontario: City of Ottawa. Available online: http://data.ottawa.ca/dataset/wards-2014 [29/04/2017].</p>","<p><a href=""http://geo.scholarsportal.info/#r/details/_uri@=2636227147"">Municipal Open Data Portals in Canada</a></p>",Internet,Boundaries||Human Environment||Topography||Transportation||Portals,Canada||Ontario,Vector||KML||Shapefile,https://library.mcmaster.ca/sites/default/files/geospatial/Ottawa_Demo1.jpg,Ottawa Open Data demo,Ottawa Open Data demo,,"Custom Ottawa Transverse Mercator Projection
 ","NAD83
 ",,Demo available at H:\GIS\Data\Canada\ON\Ottawa,
 19099,Orthoimages of Canada 1999-2003,1999 - 2003,"<p>Natural Resources Canada</p>
@@ -934,7 +934,7 @@ Central meridian 114 degrees
 ","<p><strong>Format:<br /></strong>Database Name [type of medium]. (Year). Producer location, province/state: Producer name. Available FTP: address/path/file [Access date]</p>
 <p><strong>Example:</strong><br />
 Orthoimages of Canada [computer file]. 1999-2003. Ottawa, ON: Natural Resources Canada. Available FTP: http://ftp.maps.canada.ca/pub/nrcan_rncan/image/canimage/50k/. [December 12, 2017].</p>
-",N/A,Internet,Remote Sensing and Air Photos,Canada||Hamilton||Ontario,Raster||geoTIFF,sites/default/files/geospatial/CanImage.jpg,CanImage.jpg,CanImage.jpg,,"UTM or Lambert Conformal Conic
+",N/A,Internet,Remote Sensing and Air Photos,Canada||Hamilton||Ontario,Raster||geoTIFF,https://library.mcmaster.ca/sites/default/files/geospatial/CanImage.jpg,CanImage.jpg,CanImage.jpg,,"UTM or Lambert Conformal Conic
 ","NAD83
 ",,H:\GIS\Data\Canada\Geogratis\Landsat_5_and_7.mxd,
 19115,Ottawa Vector Data Set,2007,"<p>City of Ottawa</p>
@@ -942,7 +942,7 @@ Orthoimages of Canada [computer file]. 1999-2003. Ottawa, ON: Natural Resources 
 <p>Vector data files include roads, sidewalks, houses, buildings, vegetation and water.</p>
 ","<p>No metadata available.</p>
 ","<p><em>City of Ottawa Vector Mapping</em> [computer file]. Ottawa, ON: City of Ottawa, Surveys and Mapping Branch, Information Technology Services, 2007.</p>
-",N/A,Library,Boundaries||Human Environment||Physical Environment||Topography||Transportation||Water Resources,Ontario,Vector||JPG||Shapefile||Excel,sites/default/files/geospatial/ottawa2007demo1.jpg,Ottawa 2007,Ottawa 2007,,"Undefined
+",N/A,Library,Boundaries||Human Environment||Physical Environment||Topography||Transportation||Water Resources,Ontario,Vector||JPG||Shapefile||Excel,https://library.mcmaster.ca/sites/default/files/geospatial/ottawa2007demo1.jpg,Ottawa 2007,Ottawa 2007,,"Undefined
 ","Undefined
 ",,H:\GIS\Data\Canada\ON\Ottawa,
 19116,Paleozoic Geology of Southern Ontario,2007,"<p>Ontario Geological Survey</p>
@@ -952,7 +952,7 @@ Orthoimages of Canada [computer file]. 1999-2003. Ottawa, ON: Natural Resources 
 <p>This dataset can be downloaded directly from the <a href=""http://www.geologyontario.mndm.gov.on.ca/mndmaccess/mndm_dir.asp?type=pub&id=MRD219"">Geology Ontario website</a>.</p>
 ","<p>A metadata document is available through the <a href=""http://www.geologyontario.mndm.gov.on.ca/mndmaccess/mndm_dir.asp?type=pub&id=MRD219"">Geology Ontario website</a>.</p>
 ","<p>Armstrong, D.K. and J.E.P. Dodge. <i>Paleozoic Geology of Southern Ontario.</i> Ontario Geological Survey, Miscellaneous Release—Data 219, 2007.</p>
-",N/A,Internet||Library,Geology,Hamilton||Ontario,Vector||Shapefile,sites/default/files/geospatial/PaleozoicGeoSO.jpg,PaleozoicGeoSO.jpg,"Sample, Paleozoic Geology of Southern Ontario",,"Unprojected
+",N/A,Internet||Library,Geology,Hamilton||Ontario,Vector||Shapefile,https://library.mcmaster.ca/sites/default/files/geospatial/PaleozoicGeoSO.jpg,PaleozoicGeoSO.jpg,"Sample, Paleozoic Geology of Southern Ontario",,"Unprojected
 ","NAD83
 ",,H:\GIS\Data\Canada\ON\OGS\OGS.mxd,
 19117,Peatlands of Canada,2011,"<p>Natural Resources Canada</p>
@@ -960,7 +960,7 @@ Orthoimages of Canada [computer file]. 1999-2003. Ottawa, ON: Natural Resources 
 ","<p>The Canadian Peatland Database contains information on the nature and distribution of peatland in Canada.</p>
 ","<p>Complete metadata file available with download and in <a href=""https://geoscan.nrcan.gc.ca/text/geoscan/metadata/of6561-e.pdf"">PDF format</a>.</p>
 ","<p>Tarnocai, C., I.M. Kettles and B. Lacelle. 2011. Peatlands of Canada. Natural Resources Canada, Open File 6561 .</p>
-",N/A,Internet||Library,Geology||Physical Environment,Canada||Hamilton||Ontario,Vector||E00||Shapefile,sites/default/files/geospatial/Peatlands.jpg,Peatlands.jpg,Peatlands.jpg,,"Lambert Conic Conformal
+",N/A,Internet||Library,Geology||Physical Environment,Canada||Hamilton||Ontario,Vector||E00||Shapefile,https://library.mcmaster.ca/sites/default/files/geospatial/Peatlands.jpg,Peatlands.jpg,Peatlands.jpg,,"Lambert Conic Conformal
 ","NAD27
 ",39986,H:\GIS\Data\Canada\Geology\GeologicSurveyCanada.mxd,
 19119,Polar Data Catalogue,Varies by dataset,"<p>Canadian Cyrospheric Information Network (CCIN)</p>
@@ -971,7 +971,7 @@ Orthoimages of Canada [computer file]. 1999-2003. Ottawa, ON: Natural Resources 
 ","<p>Metadata for the different datasets downloaded can be found within the results section under the metadata tab.</p>
 ","<p>The Polar Data Catalogue functions as a data portal for a variety of Canadian polar data.  The actual author of the dataset must be cited. This information can be obtained from the metadata.</p>
 <p>Format: Author. <em>Dataset Name</em> [computer file]. Publisher location, Province: Publisher Name, Year.</p>
-",N/A,Internet,Portals,Canada||World,Raster||Vector||Excel||PDF||TIFF,sites/default/files/geospatial/SDFIG6A.GIF,Snow Depth,Example of a Snow Depth map,,,,,H:\GIS\Data\Canada\Polar Data,
+",N/A,Internet,Portals,Canada||World,Raster||Vector||Excel||PDF||TIFF,https://library.mcmaster.ca/sites/default/files/geospatial/SDFIG6A.GIF,Snow Depth,Example of a Snow Depth map,,,,,H:\GIS\Data\Canada\Polar Data,
 19120,Postal Code Conversion File (PCCF),Various,Statistics Canada,,McMaster Students / Staff / Faculty only,"<p>For more information about the product, see the <a href=""http://www12.statcan.gc.ca/census-recensement/2011/geo/ref/2006/92-153-072305/92-153-0723052009002-eng.htm"">Reference Guide</a>.</p>
 ","<p>The Postal Code Conversion File (PCCF) is a table that can be used to link six-character postal codes to 2006 Census geographic area datasets, including dissemination areas (DAs), Census divisions (CDs), Census subdivisions (CSDs), Census tracts (CTs), and Economic regions (ERs).  It also provides lat-long coordinates for the approximate location of each postal to support mapping. </p>
 <p>To help users deal with the issues of postal codes covering multiple locations, The PCCF makes use of single link indicators (SLIs), which identify the geographic area which contains the largest number of dwellings assigned to that postal code.</p>
@@ -995,7 +995,7 @@ Orthoimages of Canada [computer file]. 1999-2003. Ottawa, ON: Natural Resources 
 <li>Resource Data - A collection of resouce related data.</li>
 <li>Transportation Data - Transportation related data.</li>
 </ul>","<p>Metadata for each dataset is available for each page in the data catalog.</p>
-","<p>Coastline [computer file]. Charlottetown, PEI: Government of Prince Edward Island, 1992.</p>","<p><a href=""http://geo.scholarsportal.info/#r/details/_uri@=2636227147"">Municipal Open Data Portals in Canada</a></p>",Internet,Boundaries||Human Environment||Physical Environment||Remote Sensing and Air Photos||Topography||Transportation||Water Resources||Portals,Canada,Vector||TIFF||Shapefile||Mid/Mif,sites/default/files/geospatial/pei_logo.JPG,,,,"Custom projection, referred to as the PEI Survey Reference System. Details as follows:
+","<p>Coastline [computer file]. Charlottetown, PEI: Government of Prince Edward Island, 1992.</p>","<p><a href=""http://geo.scholarsportal.info/#r/details/_uri@=2636227147"">Municipal Open Data Portals in Canada</a></p>",Internet,Boundaries||Human Environment||Physical Environment||Remote Sensing and Air Photos||Topography||Transportation||Water Resources||Portals,Canada,Vector||TIFF||Shapefile||Mid/Mif,https://library.mcmaster.ca/sites/default/files/geospatial/pei_logo.JPG,,,,"Custom projection, referred to as the PEI Survey Reference System. Details as follows:
 Projection
 Stereographic Double Projection
 Origin
@@ -1022,7 +1022,7 @@ Gaussian Mean Radius at Origin =6,379,782.0995 Metres
 ","<p>The Selected World Mineral Deposits Database is part of a project co-sponsored by the Geological Survey of Canada and ten exploration and mining companies. Additional data was supplied by collaborators in various countries. The database contains records for 1,578 mineral deposits of a variety of commodities in 150 countries of the world. Commodities include precious metals, base metals, ferrous metals, rare earth elements, bauxite, uranium, diamonds, emeralds and industrial minerals. The database also includes information about the geological deposits in which the minerals are found, and an extensive bibliography. File format: The original file is in Microsoft Access database format (.mdb). The library has also converted this format to shapefile and dbf for use in GIS.  A guide to <a href=""https://library.mcmaster.ca/sites/default/files/geospat-mineral-abbrev-1801_abr.pdf"">mineral abbreviations</a> to assist researchers with interpretation of the commodity codes has been created by the library.</p>
 ","<p>A readme file is available with the download. A paper copy is also available in the Map Collection.</p>
 ","<p>R.V. Kirkham and A.B. Rafer, Selected World Mineral Deposits Database. Natural Resources Canada, Geological Survey of Canada, Open File 1801 [CD-ROM]. 2003.</p>
-",N/A,Internet||Library,Geology,Canada||Hamilton||Ontario||USA||World,Vector||Shapefile,sites/default/files/geospatial/SelectedWorldMinDep.jpg,SelectedWorldMinDep.jpg,Map showing selected world mineral deposits,,,,39986,H:\GIS\Data\World\Selected_World_Mineral_Deposits\SelectWorldMinDep.mxd,
+",N/A,Internet||Library,Geology,Canada||Hamilton||Ontario||USA||World,Vector||Shapefile,https://library.mcmaster.ca/sites/default/files/geospatial/SelectedWorldMinDep.jpg,SelectedWorldMinDep.jpg,Map showing selected world mineral deposits,,,,39986,H:\GIS\Data\World\Selected_World_Mineral_Deposits\SelectWorldMinDep.mxd,
 19123,Shuttle Radar Topography Mission (SRTM) Digital Elevation Models (DEMs),2000,"<p>National Aeronautics and Space Administration (NASA)</p>
 ",SRTM (.hgt),Public,"<p>SRTM data is available for download through NASA's <a href=""https://search.earthdata.nasa.gov/search?q=SRTM+DEM&ok=SRTM+DEM"">Earthdata Search</a> tool.</p>
 ","<p>The Shuttle Radar Topography Mission (SRTM) was a collaborative effort between the National Aeronautics and Space Administration (NASA), the National Geospatial-Intelligence Agency (NGA), and the German and Italian space agencies, to generate a near-global digital elevation model (DEM).  The mission homepage is at the NASA website, but the data are publically distributed by the USGS EROS Data Center.</p>
@@ -1032,7 +1032,7 @@ Gaussian Mean Radius at Origin =6,379,782.0995 Metres
 <p>30 arc second: A 30 arc second grid roughly translates to a pixel size of 1km x 1km.  These tiles are much larger than the 3 arc second tiles both in coverage and in pixel number.  For example, the ""local"" tile is 4800 x 6000 pixels in size, covering all of Ontario and Quebec, some of Manitoba and Nunavut, and with North-South coverage from the northeastern United States up to Greenland.  The files are provided in .dem format, which can be immediately displayed in ArcMap.</p>
 ","<p>Metadata is available with accompanying datasets in the Earthdata Search tool at the link provided.</p>
 ","<p><em>Shuttle Radar Topography Mission DEM </em>[computer file]. Pasadena, CA: National Aeronautics and Space Administration, (2000)</p>
-",N/A,Internet||Library,Topography,Canada||USA||World,Raster||geoTIFF,sites/default/files/geospatial/SRTM_3arc.JPG,SRTM_3arc.JPG,SRTM 3 arc second example,,,"WGS84
+",N/A,Internet||Library,Topography,Canada||USA||World,Raster||geoTIFF,https://library.mcmaster.ca/sites/default/files/geospatial/SRTM_3arc.JPG,SRTM_3arc.JPG,SRTM 3 arc second example,,,"WGS84
 ",,H:\GIS\Data\World\Landinfo.mxd,
 19124,Socioeconomic Data and Applications Center (SEDAC) Datasets,"Various, 1970 to Present","<p>NASA Socioeconomic Data and Applications Center (SEDAC)</p>
 ",Various,Public,"<p>The data portal is accessible at the following link: <a href=""http://sedac.ciesin.columbia.edu/data.html"">http://sedac.ciesin.columbia.edu/data.html</a></p>
@@ -1061,7 +1061,7 @@ The SEDAC Data Resources webpage includes links to many socioeconomic and enviro
 <li>Urban Landsat: Cities From Space</li>
 <li>World Data Center for Human Interactions in the Environment (WDC)</li>
 </ul>","<p>A wealth of information is available for each data set on the SEDAC website.</p>
-","Citation guidelines are available at: <p><a href=""http://sedac.ciesin.columbia.edu/citations"">http://sedac.ciesin.columbia.edu/citations</a></p>",N/A,Internet,Boundaries||Climate||Geology||Human Environment||Physical Environment||Remote Sensing and Air Photos||Topography||Water Resources||Portals||Pollution,USA||World,Raster||Vector,sites/default/files/geospatial/title.jpg,SEDAC logo,SEDAC logo,,,,,,
+","Citation guidelines are available at: <p><a href=""http://sedac.ciesin.columbia.edu/citations"">http://sedac.ciesin.columbia.edu/citations</a></p>",N/A,Internet,Boundaries||Climate||Geology||Human Environment||Physical Environment||Remote Sensing and Air Photos||Topography||Water Resources||Portals||Pollution,USA||World,Raster||Vector,https://library.mcmaster.ca/sites/default/files/geospatial/title.jpg,SEDAC logo,SEDAC logo,,,,,,
 19125,Soil and Physiographic Database for Northern and Central Eurasia,1999,"<p>United Nations. Food and Agriculture Organization (FAO)</p>
 ","Shapefile (.shp), KML, MS Access database",Public,"<p>Available through the ISRIC - World Soil Information website in multiple files:</br>
 <ul>
@@ -1073,7 +1073,7 @@ The SEDAC Data Resources webpage includes links to many socioeconomic and enviro
 ","<p>This database contains reports, data, and digital maps for North and Central Eurasia Region (covering CIS and the Baltic State countries, China, Taiwan Province and Mongolia). The files were prepared by the FAO in cooperation with the Dokuchalev Institute for Soil Science, Moscow, Russia, and the Institute of Soil Science, Academia Sinica, Nanjing, China.</p>
 ","<p>Complete metadata available on the <a href=""http://ref.data.fao.org/map?entryId=c31a38f0-88fd-11da-a88f-000d939bc5d8&tab=metadata"">FAO website</a>.</p>","<p>Citation information available on the <a href=""http://ref.data.fao.org/map?entryId=c31a38f0-88fd-11da-a88f-000d939bc5d8&tab=about"">FAO website</a>.</p>
 
-",N/A,Library,Soils||Topography,World,Vector||Shapefile||KML,sites/default/files/geospatial/FAO_07.PNG,Sample showing physiography layer & legend,Sample showing physiography layer & legend,,,,,Data available on CD. Demo is available at H:\GIS\Data\World\FAO\FAO07\FAO_07_demo.mxd,
+",N/A,Library,Soils||Topography,World,Vector||Shapefile||KML,https://library.mcmaster.ca/sites/default/files/geospatial/FAO_07.PNG,Sample showing physiography layer & legend,Sample showing physiography layer & legend,,,,,Data available on CD. Demo is available at H:\GIS\Data\World\FAO\FAO07\FAO_07_demo.mxd,
 19127,Soil and Terrain Database (SOTER) for Latin America and the Caribbean,2006,"<p>United Nations Food and Agriculture Organization (FAO) and International Soil Reference and Information Centre (ISRIC)</p>
 ","Shapefile (.shp), KML, MS Access database",Public,"<p>Soil and Terrain Database (SOTER) for Latin America and the Caribbean (SOTERLAC), version 2.0 via <a href=""http://data.isric.org/geonetwork/srv/eng/catalog.search;jsessionid=CEAF36FC8B9C51EC4BB1F19986823DC4#/metadata/436bd4b0-7ffc-4272-be57-686b7d7eea7d"">ISIRC - World Soil Information</a>.</p>","<p>Contains information on the soil and terrain resources of Latin America and the Caribbean compiled according to the soil and terrain database methodology (SOTER). Information is stored in a relational database and in Arc/Info export format. This dataset contains reports, databases and digital maps for Latin America and the Caribbean (covering Mexico, the Caribbean Islands and all of South America).</p>
 <p>The variables within this database are divided into 5 groups</p>
@@ -1084,7 +1084,7 @@ The SEDAC Data Resources webpage includes links to many socioeconomic and enviro
 <li>Horizons</li>
 </ul>","<p>Full metadata is available with the downloaded data.</p>
 ","<p>United Nations. Food and Agriculture Organization (FAO). <em>Soil and Terrain Database for Latin America and the Caribbean.</em> [computer file]. FAO Land and Water Digital Media Series, 2006.</p>
-",N/A,Library||Internet,Soils,World,Vector||Shapefile||KML,sites/default/files/geospatial/SOTERLAC_ SOIL_UNITS.jpg,Sample illustrating soil units layer,Sample illustrating soil units layer,,"Unprojected data.
+",N/A,Library||Internet,Soils,World,Vector||Shapefile||KML,https://library.mcmaster.ca/sites/default/files/geospatial/SOTERLAC_ SOIL_UNITS.jpg,Sample illustrating soil units layer,Sample illustrating soil units layer,,"Unprojected data.
 ","Unspecified datum - geographic lat/long data
 ",,A data demo available in the Map Collection at H:\GIS\Data\World\FAO\FAO05\FAO_05_demo.mxd,
 19126,Soil and Terrain Database for Central Africa (SOTERCAF),2006,"<p>United Nations Food and Agriculture Organization (FAO) and International Soil Reference and Information Centre (ISRIC)</p>
@@ -1098,7 +1098,7 @@ The SEDAC Data Resources webpage includes links to many socioeconomic and enviro
 <p>The data are available for download from the URL provided, as well as on CD-ROM (FAO CD # 32) from the Map Collection.</p>
 ","<p>Full metadata is available with the downloaded data.</p>
 ","<p>United Nations. Food and Agriculture Organization (FAO). <em>Soil and Terrain Database for Central Africa.</em> [computer file]. FAO Land and Water Digital Media Series, 2006.</p>
-",N/A,Internet||Library,Geology||Human Environment||Physical Environment||Soils||Topography,World,Vector||Shapefile||KML,sites/default/files/geospatial/DR_CONGO_ALL2.jpg,SOTERCAF Congo sample,SOTERCAF Congo sample,,"Unprojected Lat/Long
+",N/A,Internet||Library,Geology||Human Environment||Physical Environment||Soils||Topography,World,Vector||Shapefile||KML,https://library.mcmaster.ca/sites/default/files/geospatial/DR_CONGO_ALL2.jpg,SOTERCAF Congo sample,SOTERCAF Congo sample,,"Unprojected Lat/Long
 ","WGS 84
 ",,A data demo is available at H:\GIS\Data\World\FAO\FAO32\FAO_32_demo.mxd,
 19128,Soil and Terrain Database for Northeastern Africa,1998,"<p>United Nations. Food and Agriculture Organization (FAO)</p>
@@ -1112,7 +1112,7 @@ The SEDAC Data Resources webpage includes links to many socioeconomic and enviro
 <p>Most of the data are stored as qualitative data, where the classes describe the different class captions or where classes represent ranges of quantitative data.</p>
 ","<p>A full description of the data is available with the CD-ROM under the Sea folder\document\sea.</p>
 ","<p>United Nations. Food and Agriculture Organization (FAO). <em>Soil and Terrain Database for Northeastern Africa: Crop Production System Zones of the IGAD Subregion</em>. [CD-ROM]. FAO Land and Water Digital Media Series #02. 1998.</p>
-",N/A,Library,Soils,World,Vector||E00||Shapefile,sites/default/files/geospatial/ne_africa_soil.PNG,Sample showing NE Africa soil unit polygons,Sample showing NE Africa soil unit polygons,,"Unprojected lat/long
+",N/A,Library,Soils,World,Vector||E00||Shapefile,https://library.mcmaster.ca/sites/default/files/geospatial/ne_africa_soil.PNG,Sample showing NE Africa soil unit polygons,Sample showing NE Africa soil unit polygons,,"Unprojected lat/long
 ","Unspecified Geographic Coordinate system.
 ",,The data is available in the Map Collection on CD. A data demo is available at H:\GIS\Data\World\FAO\FAO02\FAO_02_demo.mxd,
 19129,Soil and Terrain Database for Southern Africa (SOTERSAF),2003,"<p>United Nations Food and Agriculture Organization (FAO) and International Soil Reference and Information Centre (ISRIC)</p>
@@ -1124,7 +1124,7 @@ The SEDAC Data Resources webpage includes links to many socioeconomic and enviro
 <li>Individual soil and terrain databases of the seven countries accompanied by technical reports.</li>
 </ul>",<p>A full description of the data is included in H:\GIS\Data\World\FAO\FAO25\Sotersaf\soter\documents\SOTERSAF_TechnicalReport.doc and available with the downloaded data.</p,"<p>Author. <em>CD ROM Title: Article title</em>. [CD ROM]. Edition. Place of publication. production: Publisher/producer, Date.</p>
 <p>Food and Agriculture Organization (FAO) and International Soil Reference and Information Center (ISRIC). <em>Soil and Terrain Database for Southern Africa</em>. [CD ROM]. FAO Land and Water Digital Media Series <em>#</em>25. Rome, Italy: FAO/ISRIC, (2003).</p>
-",N/A,Library||Internet,Geology||Physical Environment||Soils,World,Vector||Shapefile||KML,sites/default/files/geospatial/Demomap1.jpg,Dominant Soils demo,Dominant Soils demo,,"Unprojected lat/long data
+",N/A,Library||Internet,Geology||Physical Environment||Soils,World,Vector||Shapefile||KML,https://library.mcmaster.ca/sites/default/files/geospatial/Demomap1.jpg,Dominant Soils demo,Dominant Soils demo,,"Unprojected lat/long data
 ","GCS CLARKE 1866
 ",,This data is available in the Map Collection on CD. A data demo is available at H:\GIS\Data\World\FAO\FAO25,
 19130,Soil Degradation and Vulnerability Assessment for Central and Eastern Europe (SOVEUR),2000,"<p>United Nations Food and Agriculture Organization (FAO) and International Soil Reference and Information Centre (ISRIC)</p>
@@ -1135,7 +1135,7 @@ The SEDAC Data Resources webpage includes links to many socioeconomic and enviro
 ","<p>Full metadata is available with the downloaded data.</p>
 ","<p>Author. CD ROM Title: Article title. [CD ROM]. Edition. Place of publication. production: Publisher/producer, Date.</p>
 <p>Food and Agricultural Organization (FAO) and United Nations Educational Scientific and Cultural Organization (UNESCO). <em>Soil and Terrain Database Land Degradation Status and Soil Vulnerability Assessment for Central and Eastern Europe. </em>[CD ROM].  FAO Land Water Digital Media Series, #10. Rome, Italy: FAO/UNESCO, 2000.</p>
-",N/A,Library||Internet,Human Environment||Physical Environment||Soils||Topography,World,Vector||Shapefile||KML,sites/default/files/geospatial/fao10sample.PNG,Demo Land Degradation,Demo Land Degradation,,"Unprojected Lat/Long data
+",N/A,Library||Internet,Human Environment||Physical Environment||Soils||Topography,World,Vector||Shapefile||KML,https://library.mcmaster.ca/sites/default/files/geospatial/fao10sample.PNG,Demo Land Degradation,Demo Land Degradation,,"Unprojected Lat/Long data
 ","Unknown
 ",,A data demo is available at H:\GIS\World\FAO\FAO10\FAO10_demo.mxd,
 19131,Surficial Materials of Canada Map - 1880A,1995,"<p>Natural Resources Canada</p>
@@ -1143,9 +1143,9 @@ The SEDAC Data Resources webpage includes links to many socioeconomic and enviro
 ","<p>This data consists of geology, landforms, and hydrography on separate layers in .DXF, .MIF, or .E00 formats. This data corresponds to the published maps that were used in the compilation of Map 1880A. The map shows the distribution of surficial materials in Canada, on land and in extensive offshore areas, at 1 : 5 000 000 scale. It portrays broad genetic categories of surface materials (alluvial, lacustrine, marine, glacial) and bedrock. The map was compiled using information from the Geological Survey of Canada, provincial geological surveys, and other sources. It provides a generalized picture of surface materials for the entire country which serves as base information for a variety of applications.</p>
 ","<p>Metadata document included in file.</p>
 ","<p>Surficial Materials of Canada [computer file]. Ottawa, Ontario: Natural Resources Canada, 1995.</p>
-",N/A,Internet||Library,Geology,Canada||Hamilton||Ontario,Vector||E00||Shapefile||Mid/Mif||JPG,sites/default/files/geospatial/surficialgeology.jpg,surficialgeology.jpg,Map showing surficial materials of Canada,,"Lambert Conformal Conic
+",N/A,Internet||Library,Geology,Canada||Hamilton||Ontario,Vector||E00||Shapefile||Mid/Mif||JPG,https://library.mcmaster.ca/sites/default/files/geospatial/surficialgeology.jpg,surficialgeology.jpg,Map showing surficial materials of Canada,,"Lambert Conformal Conic
 ","NAD27
-",03/19/2009,H:\GIS\Data\Canada\Geology,30.1 MB
+",3/19/2009,H:\GIS\Data\Canada\Geology,30.1 MB
 19132,Tactical Pilotage Charts (TPC),1989,"<p>LAND INFO Worldwide Mapping, LLC</p>
 ",GeoTIFF,McMaster Students / Staff / Faculty only,,"<p>Tactical Pilotage Charts (TPCs) were originally created for the use of military air navigation.  The charts depict the types of data that would be useful for pilots, including topography, the locations of major cities, tranportation routes, and other ground features that would be visible from the air.  These charts are provided primarily to be used as low-resolution topographic maps.  The georeferenced maps show relief with contours (250-500ft intervals) and with hypsometric shading.</p>
 <p>World coverage (including most of Canada) is not complete due to certain foreign copyrights - see <a href=""http://library.mcmaster.ca/maps/TPCavailLI.gif"">diagram of completed sheets</a>.  The charts are provided in large tiles.  For example, the local tile  covers an area of 4°Latitude x 8°Longitude.  Indexes of tile numbers are available by continent:</p>
@@ -1161,7 +1161,7 @@ The SEDAC Data Resources webpage includes links to many socioeconomic and enviro
 </ul><p>The charts were originally produced in 1989. but LandInfo publication dates range from 1989 to 2001.</p>
 ","<p>No metadata associated with these files</p>
 ","<p>United States Defense Mapping Agency. <em>Tactical Pilotage Charts</em> [computer file].  Highlands Ranch, CO: LAND INFO Worldwide Mapping, LLC, 2001.</p>
-",N/A,Library,Boundaries||Human Environment||Topography,Hamilton||Ontario||USA||World,Raster||geoTIFF,sites/default/files/geospatial/TPC_sample_image.JPG,TPC_sample_image.JPG,Tactical Pilotage Chart,,"UTM
+",N/A,Library,Boundaries||Human Environment||Topography,Hamilton||Ontario||USA||World,Raster||geoTIFF,https://library.mcmaster.ca/sites/default/files/geospatial/TPC_sample_image.JPG,TPC_sample_image.JPG,Tactical Pilotage Chart,,"UTM
 ","WGS 1984
 ",,H:\GIS\Data\World\Landinfo.mxd,
 19133,Tectonic Assemblages of Ontario,1993,"<p>Ontario Geological Survey</p>
@@ -1172,7 +1172,7 @@ The SEDAC Data Resources webpage includes links to many socioeconomic and enviro
 <p>Another ERLIS dataset ""Geology of Ontario Base Maps"" is also available, and is intended to be used as a reference map for this dataset.  Information about this complementary dataset is available on the library website at the following link: <a href=""http://library.mcmaster.ca/maps/geospatial/geology-ontario-base-maps"">http://library.mcmaster.ca/maps/geospatial/geology-ontario-base-maps</a></p>","<p>Unlike the other ERLIS datasets, this dataset does not have a metadata detail page available from the website.  However, included with the data download are very informative metadata documents ""README.txt"" and ""TECTONIC.txt""</p>
 ","<p>As per recommendation from the Ontario Geological Survey:</br>
 Ontario Geological Survey, 1993.  Tectonic assemblages, seamless coverage of the province of Ontario; Ontario Geological Survey, Data Set 11.</p>
-",N/A,Internet,Geology||Physical Environment,Hamilton||Ontario,DWF,sites/default/files/geospatial/ERLIS11.jpg,ERLIS11.jpg,Example of an ERLIS dataset,,"Lambert Conformal Conic
+",N/A,Internet,Geology||Physical Environment,Hamilton||Ontario,DWF,https://library.mcmaster.ca/sites/default/files/geospatial/ERLIS11.jpg,ERLIS11.jpg,Example of an ERLIS dataset,,"Lambert Conformal Conic
 ","NAD27
 ",,H:\GIS\Data\Canada\ON\OGS\OGS.mxd,
 19101,The City of London's Open Data Catalogue,2013 to Present,"<p>City of London, Ontario</p>
@@ -1181,7 +1181,7 @@ Ontario Geological Survey, 1993.  Tectonic assemblages, seamless coverage of the
 <p>Examples of the available data includes accessible facilities, arenas, baseball diamonds, basketball courts, community centres, community gardens, community pools, dog off-leash parks, football fields, golf courses, multi-use pads, multi-use pathways, outdoor ice rinks, play structures, skateboard parks, soccer fields, swing sets, tennis courts, wading pools, washrooms, London city boundary and garbage & recycling collection zone boundaries.</p>
 ","<p>No metadata available.</p>
 ","<p><i>Dataset name</i> [Computer file]. London, Ontario: City of London, date.</p>
-","<p><a href=""http://geo.scholarsportal.info/#r/details/_uri@=2636227147"">Municipal Open Data Portals in Canada</a></p>",Internet,Boundaries||Human Environment||Transportation||Portals,Canada,Vector||KML||Shapefile||Excel,sites/default/files/geospatial/demoinprogress1.jpg,Demo 2,London Open Data Catalog,,"NAD 1983 UTM Zone 17N
+","<p><a href=""http://geo.scholarsportal.info/#r/details/_uri@=2636227147"">Municipal Open Data Portals in Canada</a></p>",Internet,Boundaries||Human Environment||Transportation||Portals,Canada,Vector||KML||Shapefile||Excel,https://library.mcmaster.ca/sites/default/files/geospatial/demoinprogress1.jpg,Demo 2,London Open Data Catalog,,"NAD 1983 UTM Zone 17N
 ","North American 1983
 ",,H:\GIS\Data\Canada\ON\London\Open Data Catalog,
 19061,The City of Vancouver's Open Data Catalogue,2009 - Present,"<p>City of Vancouver</p>
@@ -1205,7 +1205,7 @@ Ontario Geological Survey, 1993.  Tectonic assemblages, seamless coverage of the
 <p>Datasets are available in various formats including comma-separated values (.csv), Microsoft Excel worksheet (.xls), Shapefile (.shp), AutoCAD (.dwg), Google Earth (.kml), raster format, and web feed for information that is frequently updated. The datasets are usually accompanied with links to specific websites that will provide more information about the dataset. Data is frequently updated ensuring that a time accuracy is maintained. </p>
 ","<p>Each dataset includes additional information such as a detailed description, accuracy, variable descriptions, coordinate system information, and links to related resources, where applicable.</p>
 ","<p>Dataset name [computer file]. Producer location: Producer Name, Year.</p>
-","<p><a href=""http://geo.scholarsportal.info/#r/details/_uri@=2636227147"">Municipal Open Data Portals in Canada</a></p>",Internet,Boundaries||Human Environment||Remote Sensing and Air Photos||Topography||Transportation||Water Resources||Portals,Canada,Raster||ECW||MrSID||Vector||KML||Shapefile||Excel||Interactive Map,sites/default/files/geospatial/demo2.jpg,Vancouver,City of Vancouver,,"NAD 1983 UTM Zone 10N
+","<p><a href=""http://geo.scholarsportal.info/#r/details/_uri@=2636227147"">Municipal Open Data Portals in Canada</a></p>",Internet,Boundaries||Human Environment||Remote Sensing and Air Photos||Topography||Transportation||Water Resources||Portals,Canada,Raster||ECW||MrSID||Vector||KML||Shapefile||Excel||Interactive Map,https://library.mcmaster.ca/sites/default/files/geospatial/demo2.jpg,Vancouver,City of Vancouver,,"NAD 1983 UTM Zone 10N
 ","North American 1983
 ",,H:\GIS\Data\Canada\City_of_Vancouver,
 19072,The European Forest Fire Information System (EFFIS),Current,"<p>European Commission Joint Research Centre</p>
@@ -1213,7 +1213,7 @@ Ontario Geological Survey, 1993.  Tectonic assemblages, seamless coverage of the
 ","<p class=""text"">The European Forest Fire Information System (EFFIS) provides access to some data involving forest fires in Europe. The data available includes fires, hotspots, and fire news. The hot spot data is updated every 24 hours, 7 days, and 90 days. The burned areas data is updated every 24 hours, every 7 Days and 30 days.
 <p class=""text"">The information given only applies to current data. There appears to be no archive of past dates.</p>
 ",<p>Available via links on the EFFIS website</p>,"<p>Citation should be written in the following format: Author. <i>Title</i> [computer file].  Place of publication: Publisher, Date.</p>
-",N/A,Internet,Human Environment||Physical Environment||Soils,World,Interactive Map||Vector||Shapefile||KML,sites/default/files/geospatial/croppeddemo1.jpg,This sample contains data about forest fire in Europe from 20/09/2010.,European Forest Fires,,"Projection undefined. Units: decimal degrees
+",N/A,Internet,Human Environment||Physical Environment||Soils,World,Interactive Map||Vector||Shapefile||KML,https://library.mcmaster.ca/sites/default/files/geospatial/croppeddemo1.jpg,This sample contains data about forest fire in Europe from 20/09/2010.,European Forest Fires,,"Projection undefined. Units: decimal degrees
 ","WGS 1984
 ",,H:\GIS\Data\World\ForestFires,
 19106,The National Hydro Network (NHN),2016 (Temporal coverage 1944 - ),"<p>Natural Resources Canada</p>
@@ -1221,7 +1221,7 @@ Ontario Geological Survey, 1993.  Tectonic assemblages, seamless coverage of the
 ","<p>The National Hydro Network (NHN), focuses on providing a quality geometric description and a set of basic attributes describing Canada's inland surface waters. It provides geospatial vector data describing hydrographic features such as lakes, reservoirs, rivers, streams, canals, islands, obstacles (e.g. waterfalls, rapids, rocks in water) and constructions (e.g. dams, wharves, dikes), as well as a linear drainage network and the toponymic information (geographical names) associated to hydrography.</p>
 <p>The modeling work of the NHN is based in part on Linear referencing System (LRS) concepts. This approach allows the management of geometric representations separately from attribute information (referred to as events in LRS). Unique identifiers (called National Identifiers - NID), associated to each NHN feature, allow for efficient management of updates. The NHN is a vector, topographic data product primarily designed to allow hydrographic network analysis. It is intented for water flow analysis, water and watershed management, environmental and hydrographical applications, as well as for a multitude of cartographic applications.</p>
 ","<p>For a complete description of NHN product metadata, refer to the record in the <a href=""http://open.canada.ca/data/en/dataset/a4b190fe-e090-4e6d-881e-b87956c07977"">Open Government Portal</a>.</p>
-","<p>National Hydro Network [computer file]. (2016). Ottawa, ON: Natural Resources Canada.</p>",N/A,Internet||Library,Physical Environment||Water Resources,Canada||Hamilton||Ontario,Interactive Map||Vector||KML||Shapefile,sites/default/files/geospatial/NHN_sample.PNG,NHN_DEMO.mxd,National Hydro Network,,"Unprojected data.
+","<p>National Hydro Network [computer file]. (2016). Ottawa, ON: Natural Resources Canada.</p>",N/A,Internet||Library,Physical Environment||Water Resources,Canada||Hamilton||Ontario,Interactive Map||Vector||KML||Shapefile,https://library.mcmaster.ca/sites/default/files/geospatial/NHN_sample.PNG,NHN_DEMO.mxd,National Hydro Network,,"Unprojected data.
 ","GCS_North_American_1983_CSRS
 ",,H:\GIS\Data\Canada\GeoBase\National_Hydro_Network\NHN_DEMO.mxd,
 19105,The National Map,Various,"<p>U.S. Department of the Interior, U.S. Geological Survey (USGS)</p>
@@ -1230,7 +1230,7 @@ Ontario Geological Survey, 1993.  Tectonic assemblages, seamless coverage of the
 <p>Since the retirement of the 1997-2014 Edition of the National Atlas of the United States, The National Map now offers a collection of 197 small-scale datasets that can be downloaded for free. Additionally, the Set of Dynamic Topographic Maps Illustrating Physical Features and hundreds of printable maps are offered by The National Map.</p>
 <p>The National Map Small-Scale Collection website also links to Global Map, an international effort by national mapping organizations to produce consistent and accurate mapping data of the world at a scale of 1:1,000,000.</p>
 <p>The National Map publishes two data collections at one million-scale: one for Global Map users and one for National Map users. In terms of vector geometry, the lines, points, and areas in these data collections are identical. The difference is in the attributes assigned to these features.</p>","<p>A complete metadata file is available to view on The National Map website.</p>
-","U.S. Geological Survey, The National Map, 2017, [dataset], accessed [date] at [URL].",N/A,Internet,Boundaries||Climate||Geology||Human Environment||Remote Sensing and Air Photos||Transportation||Water Resources,USA,Raster||geoTIFF||Interactive Map||Vector||Shapefile,sites/default/files/geospatial/NatAtlas.JPG,NatAtlas.JPG,NatAtlas.JPG,,"Unprojected Latitude-Longitude
+","U.S. Geological Survey, The National Map, 2017, [dataset], accessed [date] at [URL].",N/A,Internet,Boundaries||Climate||Geology||Human Environment||Remote Sensing and Air Photos||Transportation||Water Resources,USA,Raster||geoTIFF||Interactive Map||Vector||Shapefile,https://library.mcmaster.ca/sites/default/files/geospatial/NatAtlas.JPG,NatAtlas.JPG,NatAtlas.JPG,,"Unprojected Latitude-Longitude
 ","NAD83
 ",,H:\GIS\Data\USA\National Atlas\AtlasUSA.mxd,
 19134,Toronto (City of Toronto) Digital Orthophotos - 1999,1999,"<p>Land Information Toronto</p>
@@ -1240,7 +1240,7 @@ Ontario Geological Survey, 1993.  Tectonic assemblages, seamless coverage of the
 ","<p>Land Information Toronto has supplied metadata by email, available at <a href=""http://library.mcmaster.ca/maps/tometa.htm"">http://library.mcmaster.ca/maps/tometa.htm</a></p>
 <p>A paper copy of the metadata document is also available in the Map Collection.</p>
 ","<p><em>City of Toronto Digital Orthophotos</em>[digital photograph]. Toronto ON: Land Information Toronto, 1999.</p>
-",N/A,Library,Remote Sensing and Air Photos,Ontario,Raster||MrSID,sites/default/files/geospatial/cityoftoronto1999.JPG,cityoftoronto1999.JPG,Sample of City of Toronto orthophoto 1999,,UTM Zone 17N,"NAD27
+",N/A,Library,Remote Sensing and Air Photos,Ontario,Raster||MrSID,https://library.mcmaster.ca/sites/default/files/geospatial/cityoftoronto1999.JPG,cityoftoronto1999.JPG,Sample of City of Toronto orthophoto 1999,,UTM Zone 17N,"NAD27
 ",,H:\AirPhotos\Toronto\1999demo.mxd,
 19136,Toronto (Greater Toronto Area) Digital Orthophotos - 2008,2008,"<p>First Base Solutions</p>
 ",MrSID,McMaster Students / Staff / Faculty only,,"<p>Data provided by Ontario Geospatial Data Exchange (OGDE).  Data are available in 1km tiles.</p>
@@ -1249,7 +1249,7 @@ Ontario Geological Survey, 1993.  Tectonic assemblages, seamless coverage of the
 ",<p>No metadata available</p>,"<p>First Base Solutions. <em>City of Toronto Orthophotos 2005 </em>[digital photograph]. Toronto ON: First Base Solutions, 2005.</p>
 <p>Copyright statement required on any map or publication produced using this data:</p>
 <p>""Produced by (researcher's name), McMaster University, with Data supplied under Licence by Members of the Ontario Geospatial Data Exchange.""</p>
-",N/A,Library,Remote Sensing and Air Photos,Hamilton||Ontario,Raster||MrSID,sites/default/files/geospatial/toronto2008.JPG,toronto2008.JPG,Toronto Orthophoto 2008,,UTM Zone 17N,"NAD83
+",N/A,Library,Remote Sensing and Air Photos,Hamilton||Ontario,Raster||MrSID,https://library.mcmaster.ca/sites/default/files/geospatial/toronto2008.JPG,toronto2008.JPG,Toronto Orthophoto 2008,,UTM Zone 17N,"NAD83
 ",,H:\AirPhotos\Toronto\2008_demo,
 19137,Toronto Fire Insurance Plans,1884 - 1910,"<p>Charles E. Goad</p>
 ",MrSID,McMaster Students / Staff / Faculty only,,"<p>This set of fire insurance plans covers downtown Toronto and the Toronto Islands. These maps were scanned and georeferenced as part of the Georia Project at the University of Toronto (<a href=""http://mercator.geog.utoronto.ca/georia/menu.htm"">http://mercator.geog.utoronto.ca/georia/menu.htm</a>) from an original atlas at Toronto Public Library, Toronto Reference Library (Atlas Collection).</p>
@@ -1260,7 +1260,7 @@ Ontario Geological Survey, 1993.  Tectonic assemblages, seamless coverage of the
 </ul>
 <p>Fire insurance plans provide detailed information about the history of the buildings and land use. Building outlines are included in the maps. These maps can be used to determine when a building was built or demolished, the details of building materials, the position of a building on a lot, and in some cases the name or function of the business.</p>
 ","<p>No metadata available. Some additional information is provided on the <a href=""http://mercator.geog.utoronto.ca/georia/datasum/dataset_GOAD.htm"">Georia website</a>.</p>","<p>Goad, Chas. E. <i>Atlas of the City of Toronto and Suburbs, Founded on Registered Plans and Special Surveys, Showing Plan Numbers, Lots & Buildings.</i> Toronto: Chas. E. Goad, 1884.</p>
-",N/A,Library,Human Environment,Ontario,Raster||MrSID,sites/default/files/geospatial/FIP1884.JPG,FIP1884.JPG,Toronto Fire Insurance Plan (1884),,"UTM Zone 17N
+",N/A,Library,Human Environment,Ontario,Raster||MrSID,https://library.mcmaster.ca/sites/default/files/geospatial/FIP1884.JPG,FIP1884.JPG,Toronto Fire Insurance Plan (1884),,"UTM Zone 17N
 ","NAD27
 ",,H:\GIS\Data\Canada\ON\Toronto\TO_FIPs\TO_FIP_1884.mxd,
 19139,United Nations Environment Programme - Environmental Data Explorer,Varies by dataset,<p>United Nations Environment Programme</p>,"Esri Interchange file (.e00), Grid, GeoTIFF, Shapefile (.shp)",Public,"<p><a href=""http://geodata.grid.unep.ch/"">UNEP Environmental Data Explorer</a></p>
@@ -1275,7 +1275,7 @@ Ontario Geological Survey, 1993.  Tectonic assemblages, seamless coverage of the
 ","<p>United States National Imagery and Mapping Agency. <a href=""http://earth-info.nga.mil/publications/vmap0.html""><i>Vector Map Level 0 (Vmap)</i></a>. Unclassified document, Last edited on 9/28/98</p>
 <p>United States National Imagery and Mapping Agency. <a href=""http://earth-info.nga.mil/publications/specs/printed/89039/PRF_8903.PDF""><i>Performance Specification, Vector Smart Map (VMap) Level 0</i></a>.  [Document refers to original tiled versions of files]</p>
 ","<p>United States Defense Mapping Agency. <em>Vector Map Level 0</em>  [computer file].  Highlands Ranch, CO: LANDINFO Worldwide Mapping, LLC, 2000.</p>
-",N/A,Library,Boundaries||Human Environment||Physical Environment||Topography||Transportation||Water Resources,Canada||Ontario||USA||World,Vector||Shapefile,sites/default/files/geospatial/vmap_ontario.JPG,vmap_ontario.JPG,vmap_ontario.JPG,,"Unprojected Latitude-Longitude
+",N/A,Library,Boundaries||Human Environment||Physical Environment||Topography||Transportation||Water Resources,Canada||Ontario||USA||World,Vector||Shapefile,https://library.mcmaster.ca/sites/default/files/geospatial/vmap_ontario.JPG,vmap_ontario.JPG,vmap_ontario.JPG,,"Unprojected Latitude-Longitude
 ","WGS84
 ",,H:\GIS\Data\World\Landinfo.mxd,
 19141,Waterloo Region Historic Air Photo Collection,"1930, 1945-47, 1955, 1963 and 1966",Unknown,"GeoTIFF, JPG, PDF, KMZ",Public,"<p>Geospatial Centre - <a href=""http://www.lib.uwaterloo.ca/locations/umd/project/index.html"">Digital Historical Air Photos of KW and Surrounding Area</a></p>
@@ -1285,7 +1285,7 @@ Ontario Geological Survey, 1993.  Tectonic assemblages, seamless coverage of the
 ","Raster formats - GeoTIFF, MrSID, and ECW",Public,"<p>Available for download through the City of Whitehorse's <a href=""http://data.whitehorse.ca/"">GIS Open Data page</a>.</p>
 ","<p>Imagery was captured in colour in September 2014 and processed at a ground resolution of 20cm. Images are also available for 2011.</p>
 ",<p>No metadata available.</p>,"<p>City of Whitehorse, Aerial Imagery [computer file]. Whitehorse, YK: Land Development Office, 2014.</p>
-",N/A,Internet||Library,Remote Sensing and Air Photos,Canada,Raster||geoTIFF||MrSID||ECW,sites/default/files/geospatial/Whitehorse.jpg,Whitehorse.jpg,Whitehorse.jpg,,"UTM Zone 8 North
+",N/A,Internet||Library,Remote Sensing and Air Photos,Canada,Raster||geoTIFF||MrSID||ECW,https://library.mcmaster.ca/sites/default/files/geospatial/Whitehorse.jpg,Whitehorse.jpg,Whitehorse.jpg,,"UTM Zone 8 North
 ","NAD83
 ",39825,H:\AirPhotos\Whitehorse,212 KB (zipped)
 19144,Wind Resource Information,2005,"<p>Helimax Energy Inc.</p>
@@ -1296,7 +1296,7 @@ Ontario Geological Survey, 1993.  Tectonic assemblages, seamless coverage of the
 <p>Additional information about wind energy is available at the Canadian Wind Energy Atlas at the following link: <a href=http://www.windatlas.ca/index-en.php"">http://www.windatlas.ca/index-en.php</a></p>
 ","<p>Metadata documents included with dataset.</p>
 ","<p>Wind Resource Information [computer file]. Montreal, Ontario: Helimaz Energy Inc., 2005</p>
-",N/A,Library,Climate||Physical Environment,Hamilton||Ontario,Raster||ASCII||Vector||Shapefile,sites/default/files/geospatial/windspeed.JPG,avg_wind_speed.jpg,Average wind speed,,"UTM Zone 16
+",N/A,Library,Climate||Physical Environment,Hamilton||Ontario,Raster||ASCII||Vector||Shapefile,https://library.mcmaster.ca/sites/default/files/geospatial/windspeed.JPG,avg_wind_speed.jpg,Average wind speed,,"UTM Zone 16
 ","WGS 84
 ",,H:\GIS\Data\Canada\ON\OGDE\WindResourceInformation,
 19145,World Vector Shoreline Plus (WVSPLUS),2004,"<p>LAND INFO Worldwide Mapping, LLC</p>
@@ -1313,7 +1313,7 @@ Ontario Geological Survey, 1993.  Tectonic assemblages, seamless coverage of the
 ","<p>A basic metadata document which was provided with the data purchase is available on the <a href=""http://library.mcmaster.ca/maps/WVSplusReadMe.txt"">library's website</a>.</p>
 <p>More information about shorelines can is available at the National Oceanic and Atmospheric Aministration (NOAA) Shoreline website: <a href=""http://shoreline.noaa.gov/"">http://shoreline.noaa.gov/</a></p>
 ","<p>United States Defense Mapping Agency. <em>World Vector Shoreline Plus</em>  [computer file].  Highlands Ranch, CO: LAND INFO  Worldwide Mapping, LLC, 2004.</p>
-",N/A,Library||Internet,Boundaries||Physical Environment||Topography,Canada||USA||World,Vector||Shapefile,sites/default/files/geospatial/WVS.JPG,WVS.JPG,World Vector Shoreline example,,"Unprojected Latitude-Longitude
+",N/A,Library||Internet,Boundaries||Physical Environment||Topography,Canada||USA||World,Vector||Shapefile,https://library.mcmaster.ca/sites/default/files/geospatial/WVS.JPG,WVS.JPG,World Vector Shoreline example,,"Unprojected Latitude-Longitude
 ","WGS84
 ",,H:\GIS\Data\World\Landinfo.mxd,
 19142,Yukon Digital Elevation Data,Varies by dataset,Government of Yukon and Natural Resources Canada,"GRID, GeoTIFF, Shapefile (.shp)",Public,"<p>The data are available for download through <a href=""http://www.geomaticsyukon.ca/data"">Geomatics Yukon</a>.</p>
@@ -1347,7 +1347,7 @@ Yukon-wide Digital Elevation Data:
                 <li>5m resolution for Whitehorse, and 90m resolution for the Western Arctic</li>
         </ul>
 <p>This site also includes a list of problems found and fixed in source National Topographic Database 50k data.</p>","<p>All spatial data downloaded through the Geomatics Yukon website will include a metadata record. Users can also search for metadata through the <a href=""http://geoweb.gov.yk.ca/geoportal/catalog/search/search.page"">Geoportal Metadata Catalog</a>.</p>
-","<p>Contours [computer file]. Whitehorse, YK: Geomatics Yukon, 2006.</p>",N/A,Internet,Physical Environment||Remote Sensing and Air Photos||Topography,Canada,Raster||geoTIFF||Vector||Shapefile,sites/default/files/geospatial/Dem.jpg,Whitehorse DEM,Whitehorse DEM,,"Yukon Albers Projection
+","<p>Contours [computer file]. Whitehorse, YK: Geomatics Yukon, 2006.</p>",N/A,Internet,Physical Environment||Remote Sensing and Air Photos||Topography,Canada,Raster||geoTIFF||Vector||Shapefile,https://library.mcmaster.ca/sites/default/files/geospatial/Dem.jpg,Whitehorse DEM,Whitehorse DEM,,"Yukon Albers Projection
 ","NAD83
 ",,,> 1GB for full dataset
 19146,Yukon Digital Geology,2003,"<p>Geological Survey of Canada</p>
