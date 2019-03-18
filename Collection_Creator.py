@@ -163,13 +163,14 @@ for item in master:
             item[5] = extract[11]     # Overwriting the data user group.
             item[6] = extract[8]      # Overwriting the URL.
             item[7] = extract[6]      # Overwriting the abstract.
+            item[9] = '<p>' + str(extract[2]) + ' (' + str(extract[7])[-4:] + '). ' + str(extract[1]) + '. Retrieved from ' + str(extract[8])[12:-53] + '</p>' # Overwriting the citation.
             item[10] = extract[8]     # Overwriting the Scholars Geoportal URL.
             item[11] = 'Internet'     # Overwriting the Geospatial Availability.
             item[12] = extract[3]     # Overwriting the Geospatial Subject.
             item[13] = extract[4]     # Overwriting the Geospatial Geography.
             item[14] = extract[5]     # Overwriting the Geospatial Format.
             item[15] = extract[9]     # Overwriting the Scholars Geoportal thumbnail link.
-
+            
             # Writing it to the master file.
             masterwriter.writerow(item)
 
@@ -228,6 +229,7 @@ for extract in extracted:
         item[5] = extract[11]     # Writing the data user group.
         item[6] = extract[8]      # Writing the URL.
         item[7] = extract[6]      # Writing the abstract.
+        item[9] = '<p>' + str(extract[2]) + ' (' + str(extract[7])[-4:] + '). ' + str(extract[1]) + '. Retrieved from ' + str(extract[8])[12:-53] + '</p>' # Overwriting the citation.
         item[10] = extract[8]     # Writing the Scholars Geoportal URL.
         item[11] = 'Internet'     # Overwriting the Geospatial Availability.
         item[12] = extract[3]     # Overwriting the Geospatial Subject.
