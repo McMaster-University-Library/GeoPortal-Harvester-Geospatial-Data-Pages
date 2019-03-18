@@ -28,7 +28,7 @@ SGPstodelete = []       # This holds SGP IDs for deletion.
 # COLLECTING LAST UPDATED MASTER LIST OF COMBINED SCHOLARS GEOPORTAL AND GEOSPATIAL DATA WEBPAGE METADATA.
 # Defining variables for the latest existing Master CSV file.
 MasterPath = 'C:\\Home\\Geospatial-Collection'
-filename1 = 'Master.csv'
+filename1 = 'Master_Production_Extract.csv'
 # Opening and reading contents of the Master CSV file.
 with open(MasterPath.strip('\\') + '\\' + filename1, "r", encoding = "utf8") as lookupfile:
     reader1 = csv.reader(lookupfile, delimiter = ",")
@@ -175,7 +175,8 @@ for item in master:
 
             # For instances where the item does not have an Nid, writing it to the additions file.
             if item[0] == '':
-                additionswriter.writerow(item)
+                print ("It seems an error has occured. Please ensure to download the latest Master_Production_Extract.csv file before running the script again.")
+                sys.exit()
 
             else:
                 updateswriter.writerow(item)
