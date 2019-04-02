@@ -163,7 +163,11 @@ for item in master:
             item[5] = extract[11]     # Overwriting the data user group.
             item[6] = extract[8]      # Overwriting the URL.
             item[7] = extract[6]      # Overwriting the abstract.
-            item[9] = '<p>' + str(extract[2]) + ' (' + str(extract[7])[-4:] + '). ' + str(extract[1]) + '. Retrieved from ' + str(extract[8])[12:-53] + '</p>' # Overwriting the citation.
+            # Overwriting the citation if a single year is provided.
+            if len(extract[7]) == 4: 
+                item[9] = '<p>' + str(extract[2]) + '. <em>'+ str(extract[1]) + '</em> [digital resource: ' + str(extract[5]) + ']. ' +  str(extract[2]) + ', ' + str(extract[7]) + '. Retrieved from ' + str(extract[8])[12:-53] + '</p>'
+            else: # Overwriting the citation if a range of years is provided.
+                item[9] = '<p>' + str(extract[2]) + '. <em>'+ str(extract[1]) + '</em> [digital resource: ' + str(extract[5]) + ']. ' +  str(extract[2]) + ', (insert date). Retrieved from ' + str(extract[8])[12:-53] + '</p>'
             item[10] = extract[8]     # Overwriting the Scholars Geoportal URL.
             item[11] = 'Internet'     # Overwriting the Geospatial Availability.
             item[12] = extract[3]     # Overwriting the Geospatial Subject.
