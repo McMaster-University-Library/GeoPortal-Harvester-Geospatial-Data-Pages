@@ -166,14 +166,26 @@ for item in master:
             # Overwriting the citation if a single year is provided.
             if len(extract[7]) == 4:
                 if str(extract[2])[-1] == ".":
-                    item[9] = '<p>' + str(extract[2]) + ' <em>'+ str(extract[1]) + '</em> [digital resource: ' + str(extract[5]) + ']. ' +  str(extract[2]) + ', ' + str(extract[7]) + '. Retrieved from ' + str(extract[8])[12:-53] + '.</p>'
+                    if str(extract[5]) == "":
+                        item[9] = '<p>' + str(extract[2]) + ' <em>'+ str(extract[1]) + '</em> [digital resource]. ' +  str(extract[2]) + ', ' + str(extract[7]) + '. Retrieved from ' + str(extract[8])[12:-53] + '.</p>'
+                    else:
+                        item[9] = '<p>' + str(extract[2]) + ' <em>'+ str(extract[1]) + '</em> [digital resource: ' + str(extract[5]) + ']. ' +  str(extract[2]) + ', ' + str(extract[7]) + '. Retrieved from ' + str(extract[8])[12:-53] + '.</p>'                        
                 else:
-                    item[9] = '<p>' + str(extract[2]) + '. <em>'+ str(extract[1]) + '</em> [digital resource: ' + str(extract[5]) + ']. ' +  str(extract[2]) + ', ' + str(extract[7]) + '. Retrieved from ' + str(extract[8])[12:-53] + '.</p>'
+                    if str(extract[5]) == "":
+                        item[9] = '<p>' + str(extract[2]) + '. <em>'+ str(extract[1]) + '</em> [digital resource]. ' +  str(extract[2]) + ', ' + str(extract[7]) + '. Retrieved from ' + str(extract[8])[12:-53] + '.</p>'
+                    else:
+                        item[9] = '<p>' + str(extract[2]) + '. <em>'+ str(extract[1]) + '</em> [digital resource: ' + str(extract[5]) + ']. ' +  str(extract[2]) + ', ' + str(extract[7]) + '. Retrieved from ' + str(extract[8])[12:-53] + '.</p>'
             else: # Overwriting the citation if a range of years is provided.
                 if str(extract[2])[-1] == ".":
-                    item[9] = '<p>' + str(extract[2]) + ' <em>'+ str(extract[1]) + '</em> [digital resource: ' + str(extract[5]) + ']. ' +  str(extract[2]) + ', (insert date). Retrieved from ' + str(extract[8])[12:-53] + '.</p>'
+                    if str(extract[5]) == "":
+                        item[9] = '<p>' + str(extract[2]) + ' <em>'+ str(extract[1]) + '</em> [digital resource]. ' +  str(extract[2]) + ', (insert date). Retrieved from ' + str(extract[8])[12:-53] + '.</p>'
+                    else:
+                        item[9] = '<p>' + str(extract[2]) + ' <em>'+ str(extract[1]) + '</em> [digital resource: ' + str(extract[5]) + ']. ' +  str(extract[2]) + ', (insert date). Retrieved from ' + str(extract[8])[12:-53] + '.</p>'
                 else:
-                    item[9] = '<p>' + str(extract[2]) + '. <em>'+ str(extract[1]) + '</em> [digital resource: ' + str(extract[5]) + ']. ' +  str(extract[2]) + ', (insert date). Retrieved from ' + str(extract[8])[12:-53] + '.</p>'
+                    if str(extract[5]) == "":
+                        item[9] = '<p>' + str(extract[2]) + '. <em>'+ str(extract[1]) + '</em> [digital resource]. ' +  str(extract[2]) + ', (insert date). Retrieved from ' + str(extract[8])[12:-53] + '.</p>'
+                    else:
+                        item[9] = '<p>' + str(extract[2]) + '. <em>'+ str(extract[1]) + '</em> [digital resource: ' + str(extract[5]) + ']. ' +  str(extract[2]) + ', (insert date). Retrieved from ' + str(extract[8])[12:-53] + '.</p>'
             item[10] = extract[8]     # Overwriting the Scholars Geoportal URL.
             item[11] = 'Internet'     # Overwriting the Geospatial Availability.
             item[12] = extract[3]     # Overwriting the Geospatial Subject.
@@ -242,14 +254,26 @@ for extract in extracted:
         # Overwriting the citation if a single year is provided.
         if len(extract[7]) == 4:
             if str(extract[2])[-1] == ".":
-                item[9] = '<p>' + str(extract[2]) + ' <em>'+ str(extract[1]) + '</em> [digital resource: ' + str(extract[5]) + ']. ' +  str(extract[2]) + ', ' + str(extract[7]) + '. Retrieved from ' + str(extract[8])[12:-53] + '.</p>'
+                if str(extract[5]) == "":
+                    item[9] = '<p>' + str(extract[2]) + ' <em>'+ str(extract[1]) + '</em> [digital resource]. ' +  str(extract[2]) + ', ' + str(extract[7]) + '. Retrieved from ' + str(extract[8])[12:-53] + '.</p>'
+                else:
+                    item[9] = '<p>' + str(extract[2]) + ' <em>'+ str(extract[1]) + '</em> [digital resource: ' + str(extract[5]) + ']. ' +  str(extract[2]) + ', ' + str(extract[7]) + '. Retrieved from ' + str(extract[8])[12:-53] + '.</p>'                        
             else:
-                item[9] = '<p>' + str(extract[2]) + '. <em>'+ str(extract[1]) + '</em> [digital resource: ' + str(extract[5]) + ']. ' +  str(extract[2]) + ', ' + str(extract[7]) + '. Retrieved from ' + str(extract[8])[12:-53] + '.</p>'
+                if str(extract[5]) == "":
+                    item[9] = '<p>' + str(extract[2]) + '. <em>'+ str(extract[1]) + '</em> [digital resource]. ' +  str(extract[2]) + ', ' + str(extract[7]) + '. Retrieved from ' + str(extract[8])[12:-53] + '.</p>'
+                else:
+                    item[9] = '<p>' + str(extract[2]) + '. <em>'+ str(extract[1]) + '</em> [digital resource: ' + str(extract[5]) + ']. ' +  str(extract[2]) + ', ' + str(extract[7]) + '. Retrieved from ' + str(extract[8])[12:-53] + '.</p>'
         else: # Overwriting the citation if a range of years is provided.
             if str(extract[2])[-1] == ".":
-                item[9] = '<p>' + str(extract[2]) + ' <em>'+ str(extract[1]) + '</em> [digital resource: ' + str(extract[5]) + ']. ' +  str(extract[2]) + ', (insert date). Retrieved from ' + str(extract[8])[12:-53] + '.</p>'
+                if str(extract[5]) == "":
+                    item[9] = '<p>' + str(extract[2]) + ' <em>'+ str(extract[1]) + '</em> [digital resource]. ' +  str(extract[2]) + ', (insert date). Retrieved from ' + str(extract[8])[12:-53] + '.</p>'
+                else:
+                    item[9] = '<p>' + str(extract[2]) + ' <em>'+ str(extract[1]) + '</em> [digital resource: ' + str(extract[5]) + ']. ' +  str(extract[2]) + ', (insert date). Retrieved from ' + str(extract[8])[12:-53] + '.</p>'
             else:
-                item[9] = '<p>' + str(extract[2]) + '. <em>'+ str(extract[1]) + '</em> [digital resource: ' + str(extract[5]) + ']. ' +  str(extract[2]) + ', (insert date). Retrieved from ' + str(extract[8])[12:-53] + '.</p>'
+                if str(extract[5]) == "":
+                    item[9] = '<p>' + str(extract[2]) + '. <em>'+ str(extract[1]) + '</em> [digital resource]. ' +  str(extract[2]) + ', (insert date). Retrieved from ' + str(extract[8])[12:-53] + '.</p>'
+                else:
+                    item[9] = '<p>' + str(extract[2]) + '. <em>'+ str(extract[1]) + '</em> [digital resource: ' + str(extract[5]) + ']. ' +  str(extract[2]) + ', (insert date). Retrieved from ' + str(extract[8])[12:-53] + '.</p>'
         item[10] = extract[8]     # Writing the Scholars Geoportal URL.
         item[11] = 'Internet'     # Overwriting the Geospatial Availability.
         item[12] = extract[3]     # Overwriting the Geospatial Subject.
