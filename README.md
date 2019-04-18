@@ -18,7 +18,7 @@ The following is a quick guide to performing a collection update:
 	
 Note: Once the Drupal process has completed and all data pages are on the McMaster library website, all metadata should be consistent with the Master_Collection_Creator_Output.csv file created by the script, Collection_Creator.py, with the exception of new Nids assigned to new items. 
 
-:exclamation: **_As such, it is imperative to download the web production extract file, Master_Production_Extract.csv, as well as to update new Nid numbers for manual records._**
+:boom: :exclamation: **_As such, it is imperative to download the web production extract file, Master_Production_Extract.csv, as well as to update new Nid numbers for manual records._**
 	
 	5a. Download the latest version of all data pages available at the McMaster library website using the URL, https://library.mcmaster.ca/geospatial-export-records.csv.
 	5b. Save the file to the local directory, C:\Home\GeoPortal-Collection.
