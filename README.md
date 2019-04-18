@@ -43,7 +43,7 @@ This CSV file is an output file of Collection_Creator.py that contains all curre
 
 ## Resource: Master_Production_Extract.csv
 
-This CSV file is the latest downloaded extract of the existing web pages available at the McMaster library website [here](https://library.mcmaster.ca/geospatial-export-records.csv)
+This CSV file is the latest downloaded extract of the existing web pages available at the [McMaster library website.](https://library.mcmaster.ca/geospatial-export-records.csv)
 
 ## Tool: Harvester.py
 
