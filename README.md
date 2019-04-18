@@ -51,7 +51,7 @@ Using Python 3.5, content from Scholars GeoPortal in XML file format is parsed a
 
 ## Tool: Collection_Creator.py
 
-Using Python 3.5, the latest GIS Data Pages and Scholars GeoPortal content is compiled into Master.csv. An update summary of what's been added and deleted from the previous Master collection is provided when running the script. A sample summary is shown below.
+Using Python 3.5, the latest GIS Data Pages and Scholars GeoPortal content is compiled into Master_Collection_Creator_Output.csv. An update summary of what's been added and deleted from the previous Master collection is provided when running the script. A sample summary is shown below.
 
 > MASTER LIST UPDATE SUMMARY
 >
