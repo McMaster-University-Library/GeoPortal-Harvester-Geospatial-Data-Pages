@@ -43,22 +43,24 @@ extractedids = []
 
 # Opening the output file the condensed metadata will be written and appended to, then defining a writer object
 # responsible for converting the input data into delimited strings for the output file.
-SGPPath = 'C:\\Home\\Geospatial-Collection\\SGP_Extracts'
+SGPPath = 'SGP_Extracts'
 outfile = open(SGPPath.strip('\\')+'\\'+'SGP_Extract.csv', 'wt')
 outfile = open(SGPPath.strip('\\')+'\\'+'SGP_Extract.csv', 'a')
 writer = csv.writer(outfile, dialect = 'excel', lineterminator = '\n')
 
 # Opening the output file that metadata with duplicate SGP IDs will be written and appended to, then defining a writer object
 # responsible for converting the input data into delimited strings for the output file.
-SGPPath = 'C:\\Home\\Geospatial-Collection\\SGP_Extracts'
+SGPPath = 'SGP_Extracts'
 outfile2 = open(SGPPath.strip('\\')+'\\'+'SGP_Extract_Duplicates.csv', 'wt')
 outfile2 = open(SGPPath.strip('\\')+'\\'+'SGP_Extract_Duplicates.csv', 'a')
 writer2 = csv.writer(outfile2, dialect = 'excel', lineterminator = '\n')
 
 # Opening the Geospatial Subjects Mappings file and placing rows as items in a list.
-MappingPath = 'C:\\Home\\Geospatial-Collection\\'
+#MappingPath = 'C:\\Home\\Geospatial-Collection\\'
 infile = 'Geospatial_Subject_Mappings.csv'
-with open(MappingPath.strip('\\') + '\\' + infile, "r", encoding = "utf8") as lookupfile:
+#with open(MappingPath.strip('\\') + '\\' + infile, "r", encoding = "utf8") as lookupfile:
+with open(infile, "r", encoding = "utf8") as lookupfile:
+
     reader = csv.reader(lookupfile, delimiter = ",")
     mappinglist = []
     for row in reader:
@@ -100,7 +102,7 @@ for result in response.findall('result'):
     elif place[-2] in placecategories:
         placecategory = place[-2]
     line.append(placecategory)                  # Appending the place category.
-    
+
     line.append(result.find('type').text)       # Appending the geospatial format.
     line.append(result.find('abstract').text)   # Appending the abstract.
 
@@ -109,16 +111,16 @@ for result in response.findall('result'):
     earliestyear = earliestdate[:4]
 
     try:
-        
+
         # Obtaining the most recent publication year available.
         # Capturing the instance where result[11] is 'revision-date'.
         if len(result[11][0].text) == 10:
 
                 latestdate = result[11][0].text
                 latestyear = latestdate[:4]
-                
+
         else:
-        
+
             pass
 
     # Capturing the instance where result[11] is another field.
@@ -144,7 +146,7 @@ for result in response.findall('result'):
 
     else:
         permission = "McMaster Students / Staff / Faculty only. Login required for off-campus access."
-        
+
     line.append(publicationrange)               # Appending the range of publication years.
     line.append(permalink)                      # Appending the permalink.
     line.append(result.find('thumbnail').text)  # Appending the thumbnail link.
@@ -155,7 +157,7 @@ for result in response.findall('result'):
     linecollection.append(line)
 
 uniqueSGPs = [] # This list contains unique SGP IDs in the latest extract.
-duplicatelines = [] # This list contatins SGP items with the same SGP ID as one other item in the extract. 
+duplicatelines = [] # This list contatins SGP items with the same SGP ID as one other item in the extract.
 
 # Catching items with duplicate SGP IDs and writing or removing them from the appropriate files.
 for line in linecollection:
@@ -177,13 +179,13 @@ for line in linecollection:
                     # Removing the first item of a duplicate from the master extract list.
                     linecollection.remove(uniqueline[0])
                     # Appending duplicate items to a list.
-                    duplicatelines.append(uniqueline[0]) 
+                    duplicatelines.append(uniqueline[0])
                     duplicatelines.append(uniqueline[1])
-                    
+
     else:
         pass
 
-# Writing each unique SGP item to SGP_Extract.csv.    
+# Writing each unique SGP item to SGP_Extract.csv.
 for line in linecollection:
     writer.writerow(line)
 
@@ -204,5 +206,5 @@ print ('A list of duplciate metadata has been written to', outfile2.name)
 # CREATING A TIMESTAMPED COPY OF THE SGP EXTRACT AND CLOSING FILES.
 outfile.close()
 outfile2.close()
-shutil.copyfile(outfile.name, 'C:\\Home\\Geospatial-Collection\\SGP_Extracts\\SGP_Extract_' + datetime.datetime.today().strftime('%Y%m%d') + '.csv')
-shutil.copyfile(outfile2.name, 'C:\\Home\\Geospatial-Collection\\SGP_Extracts\\SGP_Extract_Duplicates' + datetime.datetime.today().strftime('%Y%m%d') + '.csv')
+shutil.copyfile(outfile.name, 'SGP_Extracts\\SGP_Extract_' + datetime.datetime.today().strftime('%Y%m%d') + '.csv')
+shutil.copyfile(outfile2.name, 'SGP_Extracts\\SGP_Extract_Duplicates' + datetime.datetime.today().strftime('%Y%m%d') + '.csv')
