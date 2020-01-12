@@ -30,7 +30,8 @@ SGPstodelete = []       # This holds SGP IDs for deletion.
 MasterPath = 'C:\\Home\\Geospatial-Collection'
 filename1 = 'Master_Production_Extract.csv'
 # Opening and reading contents of the Master CSV file.
-with open(MasterPath.strip('\\') + '\\' + filename1, "r", encoding = "utf8") as lookupfile:
+# with open(MasterPath.strip('\\') + '\\' + filename1, "r", encoding = "utf8") as lookupfile:
+with open(filename1, "r", encoding = "utf8") as lookupfile:    
     reader1 = csv.reader(lookupfile, delimiter = ",")
     for row in reader1:
 
@@ -56,7 +57,8 @@ with open(MasterPath.strip('\\') + '\\' + filename1, "r", encoding = "utf8") as 
 GeospatialPath = 'C:\\Home\\Geospatial-Collection'
 filename2 = 'Geospatial_Data.csv'
 # Opening and reading contents of the latest downloaded geospatial data.
-with open(GeospatialPath.strip('\\') + '\\' + filename2, 'r', encoding = "utf8") as lookupfile:
+# with open(GeospatialPath.strip('\\') + '\\' + filename2, 'r', encoding = "utf8") as lookupfile:
+with open(filename2, 'r', encoding = "utf8") as lookupfile:    
     reader2 = csv.reader(lookupfile, delimiter = ",")
     for row in reader2:
 
@@ -73,7 +75,8 @@ with open(GeospatialPath.strip('\\') + '\\' + filename2, 'r', encoding = "utf8")
 SGPPath = 'C:\\Home\\Geospatial-Collection\\SGP_Extracts'
 filename3 = 'SGP_Extract.csv'
 # Opening and reading contents of the latest Scholars Geoportal extract.
-with open(SGPPath.strip('\\') + '\\' + filename3, 'r') as lookupfile:
+# with open(SGPPath.strip('\\') + '\\' + filename3, 'r') as lookupfile:
+with open(filename3, 'r') as lookupfile:    
     reader3 = csv.reader(lookupfile, delimiter = ",")
     for row in reader3:
 
