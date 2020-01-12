@@ -10,6 +10,14 @@ import csv
 import shutil
 import datetime
 
+### Change the current working directory to that of this file. This section is optional depending on the IDE and environment.
+import os
+abspath = os.path.abspath('Harvester.py')
+dname = os.path.dirname(abspath)
+os.chdir(dname)
+print(os.getcwd() + "\n")
+###########################################################
+
 master =  []            # This holds contents of the latest existing Master CSV file.
 oldgeospatial = []      # This holds existing geospatial item Nids included in the Master CSV file.
 oldgeoportal = []       # This holds previous SGP IDs included in the Master CSV file.
@@ -72,11 +80,11 @@ with open(filename2, 'r', encoding = "utf8") as lookupfile:
 
 # COLLECTING LATEST EXTRACTED LIST OF SCHOLARS GEOPORTAL METADATA.
 # Defining the latest Scholars Geoportal extract CSV file.
-SGPPath = 'C:\\Home\\Geospatial-Collection\\SGP_Extracts'
+SGPPath = 'SGP_Extracts'
 filename3 = 'SGP_Extract.csv'
 # Opening and reading contents of the latest Scholars Geoportal extract.
-# with open(SGPPath.strip('\\') + '\\' + filename3, 'r') as lookupfile:
-with open(filename3, 'r') as lookupfile:    
+with open(SGPPath.strip('\\') + '\\' + filename3, 'r') as lookupfile:
+# with open(filename3, 'r') as lookupfile:    
     reader3 = csv.reader(lookupfile, delimiter = ",")
     for row in reader3:
 

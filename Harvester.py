@@ -15,7 +15,16 @@ from urllib import request
 import xml.etree.ElementTree as ET
 import datetime
 
-# DOWNLOADING THE XML FILE FROM SCHOLAR GEOPORTAL'S URL TO USER ACCESSIBLE CONTENT.
+### Change the current working directory to that of this file. This section is optional depending on the IDE and environment.
+import os
+abspath = os.path.abspath('Harvester.py')
+dname = os.path.dirname(abspath)
+os.chdir(dname)
+print(os.getcwd() + "\n")
+###########################################################
+
+
+## DOWNLOADING THE XML FILE FROM SCHOLAR GEOPORTAL'S URL TO USER ACCESSIBLE CONTENT.
 
 # Defining the URL to user accessible content as provided by Scholars GeoPortal.
 URL = "http://geo2.scholarsportal.info/proxy.html?http:__giseditor.scholarsportal.info/search/index.html?limit=entitled&env=production&q=*&i=2000&fm=xml"
