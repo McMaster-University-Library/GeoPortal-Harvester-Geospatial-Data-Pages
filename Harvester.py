@@ -127,19 +127,23 @@ for result in response.findall('result'):
 
                 latestdate = result[11][0].text
                 latestyear = latestdate[:4]
+                # publicationrange = earliestyear + ' - ' + latestyear
 
         else:
-
+            # print(result[11][0].text)
+            latestyear = earliestyear
             pass
 
     # Capturing the instance where result[11] is another field.
     # In this case, there is only one publication, and one publication date.
     except:
-
         latestyear = earliestyear
 
     # Obtaining and appending the range of years for available publications.
-    publicationrange = earliestyear + ' - ' + latestyear
+    if earliestyear == latestyear:
+        publicationrange = earliestyear
+    else:
+        publicationrange = earliestyear + ' - ' + latestyear
 
     # Creating each item's permalink.
     permalink = '<p><a href="http://geo.scholarsportal.info/#r/details/_uri@=' + result.find('id').text + '">Access this resource</a> on Scholars Geoportal.</p>'
