@@ -10,6 +10,14 @@ import csv
 import shutil
 import datetime
 
+### Change the current working directory to that of this file. This section is optional depending on the IDE and environment.
+import os
+abspath = os.path.abspath('Harvester.py')
+dname = os.path.dirname(abspath)
+os.chdir(dname)
+print(os.getcwd() + "\n")
+###########################################################
+
 master =  []            # This holds contents of the latest existing Master CSV file.
 oldgeospatial = []      # This holds existing geospatial item Nids included in the Master CSV file.
 oldgeoportal = []       # This holds previous SGP IDs included in the Master CSV file.
@@ -30,7 +38,8 @@ SGPstodelete = []       # This holds SGP IDs for deletion.
 MasterPath = 'C:\\Home\\Geospatial-Collection'
 filename1 = 'Master_Production_Extract.csv'
 # Opening and reading contents of the Master CSV file.
-with open(MasterPath.strip('\\') + '\\' + filename1, "r", encoding = "utf8") as lookupfile:
+# with open(MasterPath.strip('\\') + '\\' + filename1, "r", encoding = "utf8") as lookupfile:
+with open(filename1, "r", encoding = "utf8") as lookupfile:    
     reader1 = csv.reader(lookupfile, delimiter = ",")
     for row in reader1:
 
@@ -56,7 +65,8 @@ with open(MasterPath.strip('\\') + '\\' + filename1, "r", encoding = "utf8") as 
 GeospatialPath = 'C:\\Home\\Geospatial-Collection'
 filename2 = 'Geospatial_Data.csv'
 # Opening and reading contents of the latest downloaded geospatial data.
-with open(GeospatialPath.strip('\\') + '\\' + filename2, 'r', encoding = "utf8") as lookupfile:
+# with open(GeospatialPath.strip('\\') + '\\' + filename2, 'r', encoding = "utf8") as lookupfile:
+with open(filename2, 'r', encoding = "utf8") as lookupfile:    
     reader2 = csv.reader(lookupfile, delimiter = ",")
     for row in reader2:
 
@@ -70,10 +80,11 @@ with open(GeospatialPath.strip('\\') + '\\' + filename2, 'r', encoding = "utf8")
 
 # COLLECTING LATEST EXTRACTED LIST OF SCHOLARS GEOPORTAL METADATA.
 # Defining the latest Scholars Geoportal extract CSV file.
-SGPPath = 'C:\\Home\\Geospatial-Collection\\SGP_Extracts'
+SGPPath = 'SGP_Extracts'
 filename3 = 'SGP_Extract.csv'
 # Opening and reading contents of the latest Scholars Geoportal extract.
 with open(SGPPath.strip('\\') + '\\' + filename3, 'r') as lookupfile:
+# with open(filename3, 'r') as lookupfile:    
     reader3 = csv.reader(lookupfile, delimiter = ",")
     for row in reader3:
 
