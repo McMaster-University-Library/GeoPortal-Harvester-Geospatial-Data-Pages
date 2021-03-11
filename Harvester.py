@@ -221,3 +221,9 @@ outfile.close()
 outfile2.close()
 shutil.copyfile(outfile.name, 'SGP_Extracts\\SGP_Extract_' + datetime.datetime.today().strftime('%Y%m%d') + '.csv')
 shutil.copyfile(outfile2.name, 'SGP_Extracts\\SGP_Extract_Duplicates' + datetime.datetime.today().strftime('%Y%m%d') + '.csv')
+
+## [Added 2021-03-11] Download a copy of the Manually-curated files from the Google sheet as GeoSpatial_Data.csv
+
+URL2 = 'https://docs.google.com/spreadsheets/d/1bJvn9tRgGJrIaJagY_7xdU9-4vx1JpAKaBy4or_pIpo/export?format=csv&gid=1710763351'
+r = requests.get(URL2,allow_redirects=True)
+open('Geospatial_Data.csv','wb').write(r.content)
