@@ -12,6 +12,7 @@ import sys
 import csv
 import shutil
 from urllib import request
+import requests
 import xml.etree.ElementTree as ET
 import datetime
 
@@ -34,7 +35,7 @@ def get(URL):
     with request.urlopen(URL) as content:
         return content.read()
 
-# Downloading the XML document into C:\Home\GeoPortal.
+# Downloading the XML document into \GeoPortal.
 with open ('Content.xml', 'wb') as xmlfile:
     xmlfile.write(get(URL))
 
@@ -225,5 +226,5 @@ shutil.copyfile(outfile2.name, 'SGP_Extracts\\SGP_Extract_Duplicates' + datetime
 ## [Added 2021-03-11] Download a copy of the Manually-curated files from the Google sheet as GeoSpatial_Data.csv
 
 URL2 = 'https://docs.google.com/spreadsheets/d/1bJvn9tRgGJrIaJagY_7xdU9-4vx1JpAKaBy4or_pIpo/export?format=csv&gid=1710763351'
-r = requests.get(URL2,allow_redirects=True)
+r = requests.get(URL2)
 open('Geospatial_Data.csv','wb').write(r.content)

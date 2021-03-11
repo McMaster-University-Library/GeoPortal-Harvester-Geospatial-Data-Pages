@@ -80,7 +80,7 @@ with open(filename2, 'r', encoding = "utf8") as lookupfile:
 
 # COLLECTING LATEST EXTRACTED LIST OF SCHOLARS GEOPORTAL METADATA.
 # Defining the latest Scholars Geoportal extract CSV file.
-# SGPPath = 'SGP_Extracts'
+SGPPath = 'SGP_Extracts'
 filename3 = 'SGP_Extract.csv'
 # Opening and reading contents of the latest Scholars Geoportal extract.
 with open(SGPPath.strip('\\') + '\\' + filename3, 'r') as lookupfile:
