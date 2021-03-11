@@ -11,23 +11,17 @@ web pages may be found online within the McMaster library website [here.](https:
 
 The following is a quick guide to performing a collection update:
 
-	1. Download the latest version of Geospatial Data Pages from the GIS Data Pages Google Spreadsheet as a CSV file.
-	2. Save the file to the local directory, C:\Home\GeoSpatial-Collection.
-	3. Rename the file as Geospatial_Data.csv.
-	4. Open Harvester.py by right-clicking the file and selecting Edit with IDLE 3.5.
-	5. Run the script by hitting F5. 
-	6. Open Collection_Creator.py by right-clicking the file and selecting Edit with IDLE 3.5.
-	10. Run the script by hitting F5. 
-	11. Send the newly created Collection_Additions.csv, Collections_Deletions.csv, and Collections_Updates.csv files for Drupal processing.
+1. Download the latest version of all data pages available at the McMaster library website using the URL https://library.mcmaster.ca/geospatial-export-records.csv.
+2. Save the file to the top-level repository directory with the name ```Master_Production_Extract.csv``` (overwrite previous file)
+3. Go through the manually-curated [GIS Data pages spreadsheet](https://docs.google.com/spreadsheets/d/1bJvn9tRgGJrIaJagY_7xdU9-4vx1JpAKaBy4or_pIpo/edit#gid=1710763351) and fill out the ```NID``` column with the new NIDs in the ```Master_Production_Extract.csv``` file.
+4. Run Harvester.py to download Scholars GeoPortal extract (xml, csv) and a csv file of the manually-curated GIS data pages (available at https://docs.google.com/spreadsheets/d/1bJvn9tRgGJrIaJagY_7xdU9-4vx1JpAKaBy4or_pIpo/edit#gid=1710763351) 
+5. Run Collection_Creator.py
+6. Commit changes and push to the GitHub repository
+7. Send the newly created Collection_Additions.csv, Collections_Deletions.csv, and Collections_Updates.csv files to Debbie for Drupal processing.
 	
 Note: Once the Drupal process has completed and all data pages are on the McMaster library website, all metadata should be consistent with the Master_Collection_Creator_Output.csv file created by the script, Collection_Creator.py, with the exception of new Nids assigned to new items. 
 
 :boom: :exclamation: **_As such, it is imperative to download the web production extract file, Master_Production_Extract.csv, as well as to update new Nid numbers for manual records._**
-	
-	5a. Download the latest version of all data pages available at the McMaster library website using the URL, https://library.mcmaster.ca/geospatial-export-records.csv.
-	5b. Save the file to the local directory, C:\Home\GeoPortal-Collection.
-	5c. Rename the file as Master_Production_Extract.csv.
-	5d. Manually update new Nid numbers for new items within the GIS Data Pages Google Spreadsheet using Master_Production_Extract.csv.
 
 ## Resource: Geospatial_Data.csv
 
