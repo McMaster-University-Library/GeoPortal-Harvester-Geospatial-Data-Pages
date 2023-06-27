@@ -11,7 +11,7 @@ web pages may be found online within the McMaster library website [here.](https:
 
 The following is a quick guide to performing a collection update:
 
-1. Download the latest version of all data pages available at the McMaster library website using the URL https://library.mcmaster.ca/geospatial-export-records.csv.
+1. Download the latest version of all data pages available at the McMaster library website using the URL https://library.mcmaster.ca/geospatial-export-records.csv (NOTE: ensure that you are logged into the Library website before doing so).
 2. Save the file to the top-level repository directory with the name ```Master_Production_Extract.csv``` (overwrite previous file)
 3. Go through the manually-curated [GIS Data pages spreadsheet](https://docs.google.com/spreadsheets/d/1bJvn9tRgGJrIaJagY_7xdU9-4vx1JpAKaBy4or_pIpo/edit#gid=1710763351); for any row without a ```NID```, find it in the ```Master_Production_Extract.csv``` (if it exists) and add that NID into the ```NID``` column.
 4. Run Harvester.py to download Scholars GeoPortal extract (xml, csv) and a csv file of the manually-curated GIS data pages (available at https://docs.google.com/spreadsheets/d/1bJvn9tRgGJrIaJagY_7xdU9-4vx1JpAKaBy4or_pIpo/edit#gid=1710763351) 
