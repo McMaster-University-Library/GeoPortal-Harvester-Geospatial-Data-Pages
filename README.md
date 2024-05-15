@@ -19,7 +19,7 @@ The following is a quick guide to performing a collection update:
 6. Commit changes and push to the GitHub repository
 7. Send the newly created Collection_Additions.csv, Collections_Deletions.csv, and Collections_Updates.csv files to Debbie for Drupal processing.
 	
-Note: Once the Drupal process has completed and all data pages are on the McMaster library website, all metadata should be consistent with the Master_Collection_Creator_Output.csv file created by the script, Collection_Creator.py, with the exception of new Nids assigned to new items. 
+Note: Once the Drupal process has completed and all data pages are on the McMaster library website, all metadata should be consistent with the Master_YYYYMMDD.csv file created by the script, Collection_Creator.py, with the exception of new Nids assigned to new items. 
 
 :boom: :exclamation: **_As such, it is imperative to download the web production extract file, Master_Production_Extract.csv, as well as to update new Nid numbers for manual records._**
 
@@ -35,7 +35,7 @@ This CSV file is the output file of Harvester.py, containing selected metadata f
 
 This CSV file contains a lookup table mapping raw subject fields from the Scholars GeoPortal records to the list of current subject fields available on the online repository. This is used when pulling the latest Scholars GeoPortal extract within Harvester.py.
 
-## Resource: Master_Collection_Creator_Output.csv
+## Resource: Master_YYYYMMDD.csv
 
 This CSV file is an output file of Collection_Creator.py that contains all current geospatial and GeoPortal records for McMaster’s web pages. These items are listed within the latest version of the geospatial spreadsheet download and the latest Scholars GeoPortal extract. 
 
