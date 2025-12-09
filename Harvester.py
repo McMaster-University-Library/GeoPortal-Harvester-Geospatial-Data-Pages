@@ -101,17 +101,22 @@ for result in response.findall('result'):
             pass
     line.append(subject)                        # Appending the subject.
 
-    # Standardizing the place category to options available on the library page.
-    place = str(result.find('place').text)
-    place = place.split()
-    placecategories = ['Canada', 'Hamilton', 'Ontario', 'USA', 'World']
-    if result.find('place').text is None:
+# Standardizing the place category to options available on the library page.
+    place_text = result.find('place').text
+    placecategories = ['Canada', 'Hamilton', 'Ontario', 'USA', 'World', 'Europe']   # Europe category added for WWII topos
+
+    if place_text is None:
         placecategory = ' '
-    elif place[-1] in placecategories:
-        placecategory = place[-1]
-    elif place[-2] in placecategories:
-        placecategory = place[-2]
-    line.append(placecategory)                  # Appending the place category.
+    else:
+        # Split into tokens (whitespace or commas depending on your data)
+        tokens = [p.strip() for p in place_text.replace(',', ' ').split() if p.strip()]
+
+        # Scan from the end to get the deepest match
+        match = next((t for t in reversed(tokens) if t in placecategories), None)
+
+        placecategory = match if match is not None else ' '
+
+    line.append(placecategory)   # Appending the place category
 
     line.append(result.find('type').text)       # Appending the geospatial format.
     line.append(result.find('abstract').text)   # Appending the abstract.
@@ -190,7 +195,7 @@ for line in linecollection:
 
                 # Catching the instance where the SGP ID of an item is equal to that of one other item in the list.
                 if len(uniqueline) == 2:
-                    # Removing the first item of a duplicate from the master extract list.
+                    # Removing the first item of a duplicate from the source extract list.
                     linecollection.remove(uniqueline[0])
                     # Appending duplicate items to a list.
                     duplicatelines.append(uniqueline[0])

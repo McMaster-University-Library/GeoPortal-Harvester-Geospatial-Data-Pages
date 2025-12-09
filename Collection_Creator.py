@@ -18,10 +18,10 @@ os.chdir(dname)
 print(os.getcwd() + "\n")
 ###########################################################
 
-master =  []            # This holds contents of the latest existing Master CSV file.
-oldgeospatial = []      # This holds existing geospatial item Nids included in the Master CSV file.
-oldgeoportal = []       # This holds previous SGP IDs included in the Master CSV file.
-oldgeoportaldata = []   # This holds previous SGP data included in the Master CSV file.
+source =  []            # This holds contents of the latest existing Source file.
+oldgeospatial = []      # This holds existing geospatial item Nids included in the Source file.
+oldgeoportal = []       # This holds previous SGP IDs included in the Source file.
+oldgeoportaldata = []   # This holds previous SGP data included in the Source file.
 
 geospatialdata = []     # This holds latest downloaded geospatial data records.
 geospatialnids = []     # This holds latest downloaded geospatial data Nids.
@@ -33,12 +33,12 @@ extractedSGPIDs = []    # This holds the latest extracted SGP IDs.
 SGPstoadd = []          # This holds SGP IDs for addition.
 SGPstodelete = []       # This holds SGP IDs for deletion.
 
-# COLLECTING LAST UPDATED MASTER LIST OF COMBINED SCHOLARS GEOPORTAL AND GEOSPATIAL DATA WEBPAGE METADATA.
-# Defining variables for the latest existing Master CSV file.
-# MasterPath = 'C:\\Home\\Geospatial-Collection'
-filename1 = 'Master_Production_Extract.csv'
-# Opening and reading contents of the Master CSV file.
-# with open(MasterPath.strip('\\') + '\\' + filename1, "r", encoding = "utf8") as lookupfile:
+# COLLECTING LAST UPDATED LIST OF COMBINED SCHOLARS GEOPORTAL AND GEOSPATIAL DATA WEBPAGE METADATA.
+# Defining variables for the latest existing Source file.
+# SourcePath = 'C:\\Home\\Geospatial-Collection'
+filename1 = 'Current_Production_Extract.csv'
+# Opening and reading contents of the Source file.
+# with open(SourcePath.strip('\\') + '\\' + filename1, "r", encoding = "utf8") as lookupfile:
 with open(filename1, "r", encoding = "utf8") as lookupfile:    
     reader1 = csv.reader(lookupfile, delimiter = ",")
     for row in reader1:
@@ -47,15 +47,15 @@ with open(filename1, "r", encoding = "utf8") as lookupfile:
         if str(row[0]) == 'Nid':
             pass
 
-        # Placing contents of the Master CSV file as rows in a list.
+        # Placing contents of the Source file as rows in a list.
         else:
-            master.append(row)
+            source.append(row)
 
-            # Placing previous geospatial data Nids of the Master CSV file in a list.
+            # Placing previous geospatial data Nids of the Source file in a list.
             if str(row[18]) == '':
                 oldgeospatial.append(str(row[0]))
 
-            # Placing previous SGP IDs and SGP Nids of the Master CSV file in a list.
+            # Placing previous SGP IDs and SGP Nids of the Source file in a list.
             elif str(row[18]) != '':
                 oldgeoportal.append(str(row[18]))
                 oldgeoportaldata.append(row)
@@ -100,7 +100,7 @@ with open(SGPPath.strip('\\') + '\\' + filename3, 'r') as lookupfile:
             extractedSGPIDs.append(str(row[0]))
 
 # CREATING COLLECTION FILES OF GEOSPATIAL AND GEOPORTAL ITEMS TO BE UPDATED, ADDED, AND DELETED, AS WELL AS A
-# COLLECTIVE MASTER LIST.
+# COLLECTIVE LIST.
 
 # Opening a new updates list the updated metadata will be written to, then defining a writer object responsible
 # for converting the input data into delimited strings for the output file.
@@ -117,10 +117,10 @@ additionswriter = csv.writer(additionsoutfile, dialect = 'excel', lineterminator
 deletionsoutfile = open('Collection_Deletions.csv', 'wt', encoding = "utf8")
 deletionswriter = csv.writer(deletionsoutfile, dialect = 'excel', lineterminator = '\n')
 
-# Opening a blank master list the updated metadata will be written to, then defining a writer object responsible
+# Opening a blank main list the updated metadata will be written to, then defining a writer object responsible
 # for converting the input data into delimited strings for the output file.
-masteroutfile = open('Master_Temp.csv', 'wt', encoding = "utf-8")
-masterwriter = csv.writer(masteroutfile, dialect = 'excel', lineterminator = '\n')
+mainoutfile = open('Main_Temp.csv', 'wt', encoding = "utf-8")
+mainwriter = csv.writer(mainoutfile, dialect = 'excel', lineterminator = '\n')
 
 # Defining the collections' header line.
 header = ['Nid', 'Title', 'Year', 'Author', 'Format', 'Who Can Use This Data', 'URL', 'Abstract', 'Metadata',
@@ -132,7 +132,7 @@ header = ['Nid', 'Title', 'Year', 'Author', 'Format', 'Who Can Use This Data', '
 updateswriter.writerow(header)
 additionswriter.writerow(header)
 deletionswriter.writerow(header)
-masterwriter.writerow(header)
+mainwriter.writerow(header)
 
 # STEP 1:
 # Writing downloaded geospatial data record metadata.
@@ -141,8 +141,8 @@ for record in geospatialdata:
     # Appending the item's Nid to the list of latest downloaded geospatial Nids.
     geospatialnids.append(record[0])
 
-    # Writing it to the master file.
-    masterwriter.writerow(record)
+    # Writing it to the main file.
+    mainwriter.writerow(record)
 
     # For instances where the geospatial record does not have an Nid, writing it to the additions file.
     if str(record[0]) == '':
@@ -153,7 +153,7 @@ for record in geospatialdata:
     else:
         updateswriter.writerow(record)
 
-for item in master:
+for item in source:
 
     nid = item[0]
     
@@ -204,12 +204,12 @@ for item in master:
             item[14] = extract[5]     # Overwriting the Geospatial Format.
             item[15] = extract[9]     # Overwriting the Scholars Geoportal thumbnail link.
             
-            # Writing it to the master file.
-            masterwriter.writerow(item)
+            # Writing it to the main file.
+            mainwriter.writerow(item)
 
             # For instances where the item does not have an Nid, writing it to the additions file.
             if item[0] == '':
-                print ("It seems an error has occured. Please ensure to download the latest Master_Production_Extract.csv file before running the script again.")
+                print ("It seems an error has occured. Please ensure to download the latest Current_Production_Extract.csv file before running the script again.")
                 sys.exit()
 
             else:
@@ -220,7 +220,7 @@ for item in master:
 
     # STEP 3:
     # Determining the number of now obsolete items within the previous Geospatial and Geoportal collection.
-    # These are skipped over and not written to the new Master list. Instead, they are written to the
+    # These are skipped over and not written to the new Main list. Instead, they are written to the
     # deletions file.
     # Capturing the instance where a previous geospatial item Nid is not listed in the latest download.
     if str(item[0]) in oldgeospatial and str(item[0]) not in geospatialnids:
@@ -244,7 +244,7 @@ for item in master:
         pass
 
 # STEP 4:
-# Writing new Scholars Geoportal webpage metadata to the Master CSV and additions file.
+# Writing new Scholars Geoportal webpage metadata to the Main CSV and additions file.
 for extract in extracted:
 
     # Capturing the instance where an extracted SGP ID is not listed as an existing item's SGP ID.
@@ -292,15 +292,15 @@ for extract in extracted:
         item[14] = extract[5]     # Overwriting the Geospatial Format.
         item[15] = extract[9]     # Writing the Scholars Geoportal thumbnail link.
 
-        # Writing it to the master file.
-        masterwriter.writerow(item)
+        # Writing it to the main file.
+        mainwriter.writerow(item)
 
         # Writing the row of metadata for each item into the additions file.
         additionswriter.writerow(item)
 
 # PROVIDING INTERFACIAL USER INFORMATION ON THE RESULTS OF THIS UPDATE.
 print (' ')
-print ('MASTER LIST UPDATE SUMMARY')
+print ('MAIN LIST UPDATE SUMMARY')
 print (' ')
 print ('Number of Previous Geospatial Items: ' + str(len(oldgeospatial)))
 print ('Number of Previous Geoportal Items: ' + str(len(oldgeoportal)))
@@ -314,10 +314,10 @@ print ('Number of New Geoportal Items For Addition: ' + str(len(SGPstoadd)))
 print ('Number of Obsolete Geoportal Items For Deletion: ' + str(len(SGPstodelete)))
 print (' ')
 
-# CREATING A TIMESTAMPED COPY OF THE MASTER LIST AND CLOSING FILES.
+# CREATING A TIMESTAMPED COPY OF THE MAIN LIST AND CLOSING FILES.
 updatesoutfile.close()
 additionsoutfile.close()
 deletionsoutfile.close()
-masteroutfile.close()
-# shutil.copyfile(masteroutfile.name, 'Master_Collection_Creator_Output_YYYYMMDD.csv')	
-shutil.copyfile(masteroutfile.name, 'Master_' + datetime.datetime.today().strftime('%Y%m%d') + '.csv')
+mainoutfile.close()
+# shutil.copyfile(mainoutfile.name, 'Main_Collection_Creator_Output_YYYYMMDD.csv')	
+shutil.copyfile(mainoutfile.name, 'Main_' + datetime.datetime.today().strftime('%Y%m%d') + '.csv')
