@@ -12,16 +12,16 @@ web pages may be found online within the McMaster library website [here.](https:
 The following is a quick guide to performing a collection update:
 
 1. Download the latest version of all data pages available at the McMaster library website using the URL https://library.mcmaster.ca/geospatial-export-records.csv (NOTE: ensure that you are logged into the Library website before doing so).
-2. Save the file to the top-level repository directory with the name ```Master_Production_Extract.csv``` (overwrite previous file)
-3. Go through the manually-curated [GIS Data pages spreadsheet](https://docs.google.com/spreadsheets/d/1bJvn9tRgGJrIaJagY_7xdU9-4vx1JpAKaBy4or_pIpo/edit#gid=1710763351); for any row without a ```NID```, find it in the ```Master_Production_Extract.csv``` (if it exists) and add that NID into the ```NID``` column.
+2. Save the file to the top-level repository directory with the name ```Current_Production_Extract.csv``` (overwrite previous file)
+3. Go through the manually-curated [GIS Data pages spreadsheet](https://docs.google.com/spreadsheets/d/1bJvn9tRgGJrIaJagY_7xdU9-4vx1JpAKaBy4or_pIpo/edit#gid=1710763351); for any row without a ```NID```, find it in the ```Current_Production_Extract.csv``` (if it exists) and add that NID into the ```NID``` column.
 4. Run Harvester.py to download Scholars GeoPortal extract (xml, csv) and a csv file of the manually-curated GIS data pages (available at https://docs.google.com/spreadsheets/d/1bJvn9tRgGJrIaJagY_7xdU9-4vx1JpAKaBy4or_pIpo/edit#gid=1710763351) 
 5. Run Collection_Creator.py
 6. Commit changes and push to the GitHub repository
 7. Send the newly created Collection_Additions.csv, Collections_Deletions.csv, and Collections_Updates.csv files to Debbie for Drupal processing.
 	
-Note: Once the Drupal process has completed and all data pages are on the McMaster library website, all metadata should be consistent with the Master_YYYYMMDD.csv file created by the script, Collection_Creator.py, with the exception of new Nids assigned to new items. 
+Note: Once the Drupal process has completed and all data pages are on the McMaster library website, all metadata should be consistent with the Main_YYYYMMDD.csv file created by the script, Collection_Creator.py, with the exception of new Nids assigned to new items. 
 
-:boom: :exclamation: **_As such, it is imperative to download the web production extract file, Master_Production_Extract.csv, as well as to update new Nid numbers for manual records._**
+:boom: :exclamation: **_As such, it is imperative to download the web production extract file, Current_Production_Extract.csv, as well as to update new Nid numbers for manual records._**
 
 ## Resource: Geospatial_Data.csv
 
@@ -35,11 +35,11 @@ This CSV file is the output file of Harvester.py, containing selected metadata f
 
 This CSV file contains a lookup table mapping raw subject fields from the Scholars GeoPortal records to the list of current subject fields available on the online repository. This is used when pulling the latest Scholars GeoPortal extract within Harvester.py.
 
-## Resource: Master_YYYYMMDD.csv
+## Resource: Main_YYYYMMDD.csv
 
 This CSV file is an output file of Collection_Creator.py that contains all current geospatial and GeoPortal records for McMaster’s web pages. These items are listed within the latest version of the geospatial spreadsheet download and the latest Scholars GeoPortal extract. 
 
-## Resource: Master_Production_Extract.csv
+## Resource: Current_Production_Extract.csv
 
 This CSV file is the latest downloaded extract of the existing web pages available at the [McMaster library website.](https://library.mcmaster.ca/geospatial-export-records.csv)
 
@@ -49,9 +49,9 @@ Using Python 3.5, content from Scholars GeoPortal in XML file format is parsed a
 
 ## Tool: Collection_Creator.py
 
-Using Python 3.5, the latest GIS Data Pages and Scholars GeoPortal content is compiled into Master_Collection_Creator_Output.csv. An update summary of what's been added and deleted from the previous Master collection is provided when running the script. A sample summary is shown below.
+Using Python 3.5, the latest GIS Data Pages and Scholars GeoPortal content is compiled into Main_Collection_Creator_Output.csv. An update summary of what's been added and deleted from the previous Main collection is provided when running the script. A sample summary is shown below.
 
-> MASTER LIST UPDATE SUMMARY
+> MAIN LIST UPDATE SUMMARY
 >
 > Number of Previous Geospatial Items: 111 <br />
 > Number of Previous GeoPortal Items: 1085 <br />
@@ -70,11 +70,11 @@ As one of the output files of Collection_Creator.py, this CSV file contains new 
 
 ## Resource: Collection_Deletions.csv
 
-As the second output file of Collection_Creator.py, this CSV file contains obsolete geospatial and GeoPortal records to be deleted from McMaster’s web pages. These items are previously listed in old versions of the Master collection but are not within the latest geospatial spreadsheet download or the latest Scholars GeoPortal extract.
+As the second output file of Collection_Creator.py, this CSV file contains obsolete geospatial and GeoPortal records to be deleted from McMaster’s web pages. These items are previously listed in old versions of the Main collection but are not within the latest geospatial spreadsheet download or the latest Scholars GeoPortal extract.
 
 ## Resource: Collection_Updates.csv
 
-As the third output file of Collection_Creator.py, this CSV file contains existing geospatial and GeoPortal records still current for McMaster’s web pages. These items are previously listed in old versions of the Master collection and are within the latest geospatial spreadsheet download or the latest Scholars GeoPortal extract. 
+As the third output file of Collection_Creator.py, this CSV file contains existing geospatial and GeoPortal records still current for McMaster’s web pages. These items are previously listed in old versions of the Main collection and are within the latest geospatial spreadsheet download or the latest Scholars GeoPortal extract. 
 
 ## File: Content.xml
 
