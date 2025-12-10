@@ -1,23 +1,4 @@
 Nid,Title,Year,Author,Format,Who Can Use This Data,URL,Abstract,Metadata,How to Cite This,Scholars Geoportal URL,Geospatial Availability,Geospatial Subjects New,Geospatial Geography,Geospatial Formats,Filepath,field_geospatial_image_alt,field_geospatial_image_title,SGP_id,Projection,Datum,Entry Date,File Location,File Size
-,Conservation Ontario (CO) Open Data Hub,Various,Conservation Ontario,Various,Public,https://co-opendata-camaps.hub.arcgis.com/,"<p>Data, StoryMaps, and reports from Ontario Conservation Authorities. These include Central Lake Ontario, Halton, Niagara Peninsula, Grand River, Rideau Valley, Lake Simcoe, Toronto and Region, Quinte, Catfish Creek, Credit Valley, and Upper Thames River Conservation Authorities.</p>
-<p>The data hub has been organized into the following categories:</p>
-<ul>
-<li>Aquatics</li>
-<li>Basemaps and imagery</li>
-<li>Boundaries</li>
-<li>Conservation lands</li>
-<li>Elevation</li>
-<li>Flood, forecasting & warning</li>
-<li>Groundwater</li>
-<li>Hydrology</li>
-<li>Infrastructure</li>
-<li>Monitoring and reporting</li>
-<li>Natural hazards</li>
-<li>Natural heritage</li>
-<li>Planning & regulations</li>
-<li>Source water protection</li>
-</ul>
-<p>Additional information and resources are available through the <a href=""https://conservationontario.ca/"">Conservation Ontario website</a>.</p>",<p>Provided with each dataset.</p>,,N/A,Internet,Boundaries|Human Environment|Physical Environment|Planning|Portals|Remote Sensing and Air Photos|Topography|Water Resources,Ontario,Vector|Raster,,,,,,,,,
 ,Hamilton Conservation Authority Open Data Hub,Various,Hamilton Conservation Authority,Various,Public,https://hca-open-data-camaps.hub.arcgis.com/,"<p>Data from Hamilton and other Ontario Conservation Authorities, the City of Hamilton, and the Province of Ontario.</p>
 <ul>
 <li>Boundaries</li>
@@ -31,6 +12,4 @@ Nid,Title,Year,Author,Format,Who Can Use This Data,URL,Abstract,Metadata,How to 
 <li>Natural heritage</li>
 <li>Source water protection</li>
 </ul>
-<p>Additional information and resources are available through the <a href=""https://conservationhamilton.ca/"">Hamilton Conservation Authority website</a>.</p>",<p>Provided with each dataset.</p>,,,,Boundaries|Human Environment|Physical Environment|Portals|Topography|Water Resources,Hamilton,Vector,,,,,,,,,
-,Digital Raster Acquisition Eastern Ontario (DRAPE) 2024 - Imagery [Canada],2025,Ontario Ministry of Natural Resources,Various geospatial formats available.,McMaster Students / Staff / Faculty only. Login required for off-campus access.,"<p><a href=""http://geo.scholarsportal.info/#r/details/_uri@=331671161"">Access this resource</a> on Scholars Geoportal.</p>","<p><big><b>Important Notice</b></big></p> <p><big>The DRAPE 2024 imagery tiles are only available by request to geoportal@scholarsportal.info. Please click on the blue 'Download' button to obtain a PDF that contains the details on how to request data and instructions on how to obtain it. The compressed GeoTIFFs are suitable for analysis in most cases. Should you require the uncompressed GeoTIFF files, please indicate this in your email request.</big></p> <p>The Digital Raster Acquisition Project Eastern Ontario (DRAPE) 2024 is an aerially-acquired imagery data set. It covers approximately 35,993 square kilometres including parts of Eastern Ontario, Peterborough, Kingston, Ottawa, Pembroke and Cornwall. </p> <p>The images were acquired by aerial photography in the spring of 2024 (March 12th - May 31st 2024), under the best conditions possible to achieve cloud free, snow free, ice free, smoke free and leaf off/low leaf captures. </p> <p>This product is 4 band RGBN orthophotography at 8-bit depth, with a pixel resolution of 16 cm and it is accurate to within 45 cm on the ground at 95% confidence. It was later orthorectified using an elevation dataset generated through image correlation.</p> <p>To view the entire acquisition area, please visit the Ontario Geospatial Hub (see Related Links) or download the Index shapefile (zip) under Additional Documentation.</p>",,"<p>Ontario Ministry of Natural Resources. <em>Digital Raster Acquisition Eastern Ontario (DRAPE) 2024 - Imagery [Canada]</em> [digital resource: grid]. Ontario Ministry of Natural Resources, 2025. Retrieved from http://geo.scholarsportal.info/#r/details/_uri@=331671161.</p>","<p><a href=""http://geo.scholarsportal.info/#r/details/_uri@=331671161"">Access this resource</a> on Scholars Geoportal.</p>",Internet,Remote Sensing and Air Photos,Ontario,grid,,,,331671161,,,,,
-,City of Guelph Colour Digital Orthoimagery,2012 - 2016,City of Guelph,Various geospatial formats available.,Public,"<p><a href=""http://geo.scholarsportal.info/#r/details/_uri@=1350866736"">Access this resource</a> on Scholars Geoportal.</p>",<p>The City of Guelph Digital Mapping Data Distribution raster GIS dataset contains very detailed 12cm pixel resolution orthoimages (.sid) clipped to the city boundary.</p>,,"<p>City of Guelph. <em>City of Guelph Colour Digital Orthoimagery</em> [digital resource: grid]. City of Guelph, (insert date). Retrieved from http://geo.scholarsportal.info/#r/details/_uri@=1350866736.</p>","<p><a href=""http://geo.scholarsportal.info/#r/details/_uri@=1350866736"">Access this resource</a> on Scholars Geoportal.</p>",Internet,Remote Sensing and Air Photos,Ontario,grid,http://images.scholarsportal.info/gis/thumbnails/Guelph/Guelph_CityOfGuelph_2016_OrthoMrSID.png,,,1350866736,,,,,
+<p>Additional information and resources are available through the <a href=""https://conservationhamilton.ca/"">Hamilton Conservation Authority website</a>.</p>",<p>Provided with each dataset.</p>,,,Internet,Boundaries||Human Environment||Physical Environment||Portals||Topography||Water Resources,Hamilton,Vector,,,,,,,,,
