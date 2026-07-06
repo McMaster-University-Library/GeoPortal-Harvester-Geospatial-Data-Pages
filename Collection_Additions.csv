@@ -1,15 +1,14 @@
 Nid,Title,Year,Author,Format,Who Can Use This Data,URL,Abstract,Metadata,How to Cite This,Scholars Geoportal URL,Geospatial Availability,Geospatial Subjects New,Geospatial Geography,Geospatial Formats,Filepath,field_geospatial_image_alt,field_geospatial_image_title,SGP_id,Projection,Datum,Entry Date,File Location,File Size
-,Hamilton Conservation Authority Open Data Hub,Various,Hamilton Conservation Authority,Various,Public,https://hca-open-data-camaps.hub.arcgis.com/,"<p>Data from Hamilton and other Ontario Conservation Authorities, the City of Hamilton, and the Province of Ontario.</p>
+,Great Lakes Aquatic Habitat Framework (GLAHF),Various,"Department of Fisheries and Wildlife, Michigan State University, Institute for Fisheries Research","Shapefile (.shp), GeoJSON, Comma Separated Values (.csv), Keyhole Markup Language (KML), File Geodatabase (.gdb), Image Service",Public,https://hub.glahf.org/,"<p>Ecological data for the Great Lakes.</p>
+<p>Data themes include:</p>
 <ul>
-<li>Boundaries</li>
-<li>Conservation lands</li>
-<li>Elevation</li>
-<li>Flood, forecasting & warning</li>
-<li>Groundwater</li>
+<li>Administrative</li>
+<li>Biological</li>
+<li>Environmental and Chemical</li>
+<li>Geomorphology</li>
 <li>Hydrology</li>
-<li>Infrastructure</li>
-<li>Monitoring and reporting</li>
-<li>Natural heritage</li>
-<li>Source water protection</li>
-</ul>
-<p>Additional information and resources are available through the <a href=""https://conservationhamilton.ca/"">Hamilton Conservation Authority website</a>.</p>",<p>Provided with each dataset.</p>,,,Internet,Boundaries||Human Environment||Physical Environment||Portals||Topography||Water Resources,Hamilton,Vector,,,,,,,,,
+<li>Landscape</li>
+<li>Mechanical Energy</li>
+<li>Temperature Energy</li>
+</ul>",<p>Provided with each dataset.</p>,,,Internet,Boundaries||Climate||Portals||Topography||Water Resources,Ontario||USA,Vector|Raster,,,,,,,,,
+,DMTI CanMaps Content and Postal Content Suite 2025 - full series,2025,DMTI Spatial Inc.,Various geospatial formats available.,McMaster Students / Staff / Faculty only. Login required for off-campus access.,"<p><a href=""http://geo.scholarsportal.info/#r/details/_uri@=1677704031"">Access this resource</a> on Scholars Geoportal.</p>","<p><b>--------------------------------------------------------------------</b></p> <p><big><b>Important Notice</b></big></p><p>The DMTI CMCS and CMPCS 2025.3 datasets are only available by request from students, staff, and faculty of subscribing institutions. Please email <b>geoportal@scholarsportal.info</b> to request access to the latest data.</p> <p><b>--------------------------------------------------------------------</b></p> <p>The DMTI CanMap Content Suite (CMCS) and CanMap Postal Content Suite (CMPCS) 2025.3 is a comprehensive geospatial dataset designed to support a wide range of applications in geographic information systems (GIS). This dataset includes over 300 layers of detailed mapping information, making it a valuable resource for urban planning, infrastructure management, environmental monitoring, and emergency response.</p> <p>The current version of the CMCS and the CMPCS include updates to road networks, address points, and postal code boundaries, reflecting new developments and changes in infrastructure.</p> <p>Key components:</p> <ul> <li><b>CanMap Streetfiles</b>: Detailed street-level data, including road networks, transportation routes, and address ranges. Useful in navigation, route optimization, and logistics planning.</li> <li><b>Postal Code Suite OM</b>: Postal code information, including six-digit postal code boundaries, delivery mode types, and point of call (POC) data. Useful for precise location-based analysis.</li> <li><b>Address Points</b>: Geocoded address information.</li> <li><b>Natural Features Data</b>: Includes information on rivers, lakes, parks, and other natural landmarks. Useful in environmental studies and land use planning.</li> <li><b>Emergency Services Locations</b>: Data includes the locations of hospitals, fire stations, police stations, and other critical services.</li> <li><b>Political and Census Boundaries</b>: Provides detailed information on electoral districts, municipal boundaries, and census divisions. Supports demographic analysis and policy development.</li> </ul> <p>The following postal code data (down to the neighborhood level) is included in this dataset as part of the DMTI CMPCS collection:</p> <ul> <li><b>Urban and Rural Six-Digit (FSA LDU) Boundaries</b>: Precise delineation of postal code areas.</li> <li><b>Full Point of Call (POC) Information</b>: Includes detailed delivery mode types, such as residential, business, and community mailboxes.</li> <li><b>Forward Sortation Areas (FSAs)</b>: Larger postal code areas useful for regional analysis.</li> </ul>",,"<p>DMTI Spatial Inc. <em>DMTI CanMaps Content and Postal Content Suite 2025 - full series</em> [digital resource: vector]. DMTI Spatial Inc., 2025. Retrieved from http://geo.scholarsportal.info/#r/details/_uri@=1677704031.</p>","<p><a href=""http://geo.scholarsportal.info/#r/details/_uri@=1677704031"">Access this resource</a> on Scholars Geoportal.</p>",Internet,Human Environment,Canada,vector,,,,1677704031,,,,,,,
